@@ -1,4 +1,5 @@
 "use client";
+// Force Vercel Rebuild - Feb 11 v2
 import dailyIntel from "@/data/daily-intel.json";
 import LivePriceTicker from "@/components/LivePriceTicker";
 import AssetSelector from "@/components/AssetSelector";
