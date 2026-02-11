@@ -13,6 +13,7 @@ export const translations = {
     predictionTitle: "Prediction Markets",
     sentimentTitle: "Sentiment Radar",
     calendarTitle: "Economic Calendar",
+    socialIntelTitle: "Social Intelligence Stream",
     logicTitle: "Zed's Logic Briefing",
     openReport: "Open Full Report",
     verifiedSource: "Verified Source",
@@ -25,6 +26,7 @@ export const translations = {
     poweredBy: "Engineered by",
     footerText: "Confidential Intelligence Summary",
     trapPhase: "Dumb Money Trap Phase",
+    confidence: "Confidence",
     nominalSuffix: "",
     dir: "ltr"
   },
@@ -42,6 +44,7 @@ export const translations = {
     predictionTitle: "預測市場",
     sentimentTitle: "情緒雷達",
     calendarTitle: "經濟日曆",
+    socialIntelTitle: "社交情報流",
     logicTitle: "Zed 邏輯簡報",
     openReport: "閱讀完整報告",
     verifiedSource: "來源驗證",
@@ -54,6 +57,7 @@ export const translations = {
     poweredBy: "技術開發：",
     footerText: "機密情報摘要",
     trapPhase: "散戶陷阱階段",
+    confidence: "置信度",
     nominalSuffix: "",
     dir: "ltr"
   },
@@ -71,6 +75,7 @@ export const translations = {
     predictionTitle: "أسواق التوقعات",
     sentimentTitle: "رادار المشاعر",
     calendarTitle: "المفكرة الاقتصادية",
+    socialIntelTitle: "تدفق الاستخبارات الاجتماعية",
     logicTitle: "إيجاز منطق زيد",
     openReport: "فتح التقرير الكامل",
     verifiedSource: "مصدر موثق",
@@ -83,6 +88,7 @@ export const translations = {
     poweredBy: "تم التطوير بواسطة",
     footerText: "ملخص الاستخبارات السرية",
     trapPhase: "مرحلة فخ الأموال الغبية",
+    confidence: "الثقة",
     nominalSuffix: "",
     dir: "rtl"
   }

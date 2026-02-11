@@ -1,5 +1,4 @@
 "use client";
-// Force Vercel Rebuild - Feb 11 v2
 import dailyIntel from "@/data/daily-intel.json";
 import LivePriceTicker from "@/components/LivePriceTicker";
 import AssetSelector from "@/components/AssetSelector";
@@ -53,6 +52,27 @@ export default function Home() {
                   <h3 className="font-bold mb-1 text-sm group-hover:text-yellow-500 transition uppercase tracking-tight">{item.title}</h3>
                   <p className="text-xs text-gray-400 leading-tight">{item.summary}</p>
                 </a>
+              ))}
+            </div>
+          </section>
+
+          {/* Social Intelligence Stream (The Squad Output) */}
+          <section>
+            <h2 className="text-xl font-bold mb-6 flex items-center uppercase tracking-widest text-white">
+              <i className={`fas fa-project-diagram ${language === 'ar' ? 'ml-3' : 'mr-3'} text-purple-500`}></i> {t.socialIntelTitle}
+            </h2>
+            <div className="space-y-4">
+              {dailyIntel.social_intelligence.map((item, idx) => (
+                <div key={idx} className="bg-[#161b22] border border-[#30363d] p-5 rounded-lg border-l-4 border-purple-500/50">
+                  <div className="flex justify-between items-start mb-2">
+                    <div>
+                      <span className="text-[9px] font-black bg-purple-900/30 text-purple-400 px-1.5 py-0.5 rounded uppercase tracking-widest border border-purple-800 mr-2">{item.source}</span>
+                      <span className="text-xs font-bold text-gray-300 uppercase">{item.asset} Signal: {item.signal}</span>
+                    </div>
+                    <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{t.confidence}: <span className="text-green-400">{item.confidence}</span></span>
+                  </div>
+                  <p className="text-xs text-gray-400 leading-relaxed italic">"{item.insight}"</p>
+                </div>
               ))}
             </div>
           </section>
