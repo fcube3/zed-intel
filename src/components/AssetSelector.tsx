@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "./LanguageContext";
 
 declare global {
   interface Window {
@@ -8,6 +9,7 @@ declare global {
 }
 
 export default function AssetSelector() {
+  const { t } = useTranslation();
   const [selected, setSelected] = useState("OANDA:XAUUSD");
 
   useEffect(() => {
@@ -48,7 +50,7 @@ export default function AssetSelector() {
     <section>
       <div className="flex justify-between items-center mb-6 border-b border-gray-800 pb-2">
         <h2 className="text-xl font-bold flex items-center uppercase tracking-widest text-white">
-          <i className="fas fa-chart-line mr-3 text-blue-500"></i> Market Pulse
+          <i className="fas fa-chart-line mr-3 text-blue-500"></i> {t.chartTitle}
         </h2>
         <div className="flex space-x-6 text-[10px] font-black tracking-widest">
           {assets.map((asset) => (
@@ -65,7 +67,7 @@ export default function AssetSelector() {
           ))}
         </div>
       </div>
-      <div className="bg-[#161b22] border border-[#30363d] overflow-hidden h-[550px] shadow-2xl rounded-lg">
+      <div className="bg-[#161b22] border border-[#30363d] overflow-hidden h-[550px] shadow-2xl rounded-lg text-white">
         <div id="tv_chart_container" className="h-full w-full"></div>
       </div>
     </section>
