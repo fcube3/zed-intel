@@ -12,7 +12,6 @@ export default function ArchivePage() {
 
   React.useEffect(() => {
     if (date) {
-      // Use a more robust way to load the JSON
       fetch(`/data/archive/${date}.json`)
         .then(res => res.json())
         .then(json => setData(json))
@@ -42,29 +41,66 @@ export default function ArchivePage() {
         </div>
       </header>
 
+      {/* Snapshot Prices */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 opacity-75">
+        {data.prices && Object.entries(data.prices).map(([symbol, price]: any) => (
+          <div key={symbol} className="bg-[#161b22] border border-[#30363d] p-4 rounded-lg">
+            <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">{symbol} / USD</p>
+            <p className="text-xl font-bold text-gray-300">${price.toLocaleString()}</p>
+          </div>
+        ))}
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
         <div className="lg:col-span-3 space-y-12">
-          <section>
-            <h2 className="text-xl font-bold mb-6 flex items-center uppercase tracking-widest">
-              <i className="fas fa-history mr-3 text-yellow-500"></i> Archived News
-            </h2>
-            <div className="grid md:grid-cols-2 gap-4">
-              {data.news?.map((item: any, idx: number) => (
-                <div key={idx} className="bg-[#161b22] border border-[#30363d] p-4 border-l-4 border-gray-600 rounded-r-lg">
-                  <h3 className="font-bold mb-1 text-sm uppercase tracking-tight">{item.title}</h3>
-                  <p className="text-xs text-gray-400 leading-tight">{item.summary}</p>
-                </div>
-              ))}
-            </div>
-          </section>
+          
+          {/* Social Intel (The Squad) */}
+          {data.social_intelligence && (
+            <section>
+              <h2 className="text-xl font-bold mb-6 flex items-center uppercase tracking-widest">
+                <i className="fas fa-project-diagram mr-3 text-purple-500"></i> Social Intelligence
+              </h2>
+              <div className="space-y-4">
+                {data.social_intelligence.map((item: any, idx: number) => (
+                  <div key={idx} className="bg-[#161b22] border border-[#30363d] p-5 rounded-lg border-l-4 border-purple-500/50">
+                    <div className="flex justify-between items-start mb-2">
+                      <div>
+                        <span className="text-[9px] font-black bg-purple-900/30 text-purple-400 px-1.5 py-0.5 rounded uppercase tracking-widest border border-purple-800 mr-2">{item.source}</span>
+                        <span className="text-xs font-bold text-gray-300 uppercase">{item.asset} Signal: {item.signal}</span>
+                      </div>
+                      <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Confidence: <span className="text-green-400">{item.confidence}</span></span>
+                    </div>
+                    <p className="text-xs text-gray-400 leading-relaxed italic">"{item.insight}"</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
+          {/* Institutional */}
           <section className="space-y-10">
             <h2 className="text-xl font-bold mb-8 flex items-center border-b border-gray-800 pb-2 uppercase tracking-widest">
               Institutional Intelligence
             </h2>
-            <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-blue-500/30 rounded-lg">
-               <h4 className="font-bold mb-2 text-[#d4af37]">{data.institutional?.macro?.firm}</h4>
-               <p className="text-sm text-gray-300 leading-relaxed italic">“{data.institutional?.macro?.insight}”</p>
+            <div className="grid grid-cols-1 gap-8">
+              {/* Macro */}
+              {data.institutional?.macro && (
+                <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-blue-500/30 rounded-lg">
+                   <h4 className="font-bold mb-2 text-[#d4af37]">{data.institutional.macro.firm} | {data.institutional.macro.analyst}</h4>
+                   <p className="text-sm text-gray-300 leading-relaxed italic">“{data.institutional.macro.insight}”</p>
+                </div>
+              )}
+              {/* Metals Loop */}
+              {data.institutional?.metals && (
+                <div className="grid md:grid-cols-2 gap-6">
+                  {data.institutional.metals.map((item: any, idx: number) => (
+                    <div key={idx} className="bg-[#161b22] border border-[#30363d] p-5 border-t-2 border-yellow-700/50 rounded-b-lg">
+                      <h4 className="font-bold mb-2 text-[#a6a6a6] text-sm uppercase">{item.firm} | {item.analyst}</h4>
+                      <p className="text-[11px] text-gray-400 leading-relaxed">{item.insight}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           </section>
         </div>

@@ -11,6 +11,11 @@
       "title": "Bullion Hegemony: Gold @ $5,045",
       "summary": "Prices stabilized above $5k as U.S. Inflation Expectations (3.1%) fell short of consensus.",
       "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "title": "BoE x Chainlink RWA Pilot",
+      "summary": "Bank of England confirms RWA tokenization testing on public-adjacent rails.",
+      "url": "https://app.rwa.xyz/news/bank-of-england-pioneers-future-finance-with-chainlink-for-groundbreaking-tokenized-asset-tests"
     }
   ],
   "institutional": {
@@ -19,6 +24,47 @@
       "analyst": "Jan Hatzius",
       "insight": "Maintaining a robust 2.8% Global GDP forecast for 2026. AI-led productivity is raising the growth floor.",
       "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-forecast-to-post-sturdy-growth-in-2026"
+    },
+    "metals": [
+      {
+        "firm": "BofA",
+        "analyst": "Francisco Blanch",
+        "insight": "Revised terminal target for Gold to $6,000 citing 'Fiscal Shock' scenario.",
+        "url": "https://www.moneymetals.com/news/2026/01/25/bank-of-america-calls-for-6000-gold-in-2026-004638"
+      },
+      {
+        "firm": "Citi",
+        "analyst": "Aakash Doshi",
+        "insight": "Gold's risk premium is currently 50% overextended. Mean-reversion risk toward $4,800.",
+        "url": "https://www.reuters.com/business/finance/citi-sees-gold-supported-by-risks-with-some-fading-expected-later-2026-2026-01-30/"
+      }
+    ],
+    "crypto": {
+      "firm": "Bernstein",
+      "analyst": "Gautam Chhugani",
+      "insight": "Maintains $150,000 BTC price target for 2026 citing institutional ETF absorption floor.",
+      "url": "https://www.investing.com/news/analyst-ratings/bernstein-sees-150k-bitcoin-in-2026-names-top-tokenization-stocks-93CH-4432662"
     }
-  }
+  },
+  "social_intelligence": [
+    {
+      "source": "Gotei-Scout (FinTwit-Bot)",
+      "asset": "Gold",
+      "signal": "High Volatility Warning",
+      "insight": "Social volume for '$XAU' reached a 30-day peak as price crossed $5,000. Sentiment is heavily skewed long, historically preceding a liquidity sweep.",
+      "confidence": "85%"
+    },
+    {
+      "source": "Gotei-Vibe (Crypto-Sentiment-MCP)",
+      "asset": "BTC",
+      "signal": "Fear Reset",
+      "insight": "Mention of 'Flash Crash' has declined by 40% in the last 24h. Community focus shifting toward 'Warsh Nomination' as a positive catalyst.",
+      "confidence": "92%"
+    }
+  ],
+  "predictions": [
+    { "label": "BTC (2026)", "title": "BTC hit $75k before 2027?", "odds": "89%", "nominal": "$16,000,000", "color": "purple" },
+    { "label": "ETH (FEB)", "title": "Floor of $1,600 holds?", "odds": "78%", "nominal": "$12,000,000", "color": "blue" },
+    { "label": "MACRO PROXY", "title": "Warsh to be Fed Chair?", "odds": "96%", "nominal": "$157,000,000", "color": "gray" }
+  ]
 }
