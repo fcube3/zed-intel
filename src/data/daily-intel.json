@@ -63,8 +63,8 @@
     }
   ],
   "predictions": [
-    { "label": "BTC (2026)", "title": "BTC hit $75k before 2027?", "odds": "89%", "nominal": "$16,000,000", "color": "purple" },
-    { "label": "ETH (FEB)", "title": "Floor of $1,600 holds?", "odds": "78%", "nominal": "$12,000,000", "color": "blue" },
-    { "label": "MACRO PROXY", "title": "Warsh to be Fed Chair?", "odds": "96%", "nominal": "$157,000,000", "color": "gray" }
+    { "label": "GEOPOLITICS", "title": "US strikes Iran by Feb 28?", "odds": "17%", "nominal": "$236,000,000", "color": "red" },
+    { "label": "BTC (FEB)", "title": "BTC hit $75k in Feb?", "odds": "35%", "nominal": "$51,000,000", "color": "purple" },
+    { "label": "MACRO", "title": "Gov shutdown by Feb 14?", "odds": "83%", "nominal": "$2,000,000", "color": "gray" }
   ]
 }
