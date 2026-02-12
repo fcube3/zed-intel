@@ -48,18 +48,32 @@
   },
   "social_intelligence": [
     {
-      "source": "Gotei-Scout (Metals-Hunter)",
-      "asset": "Silver",
-      "signal": "Parabolic Alert",
-      "insight": "Silver's recent rally described as a 'seven sigma event'. YOLO traders and speculative flows are driving extreme volatility.",
-      "confidence": "88%"
+      "source": "X (Twitter)",
+      "asset": "BTC",
+      "signal": "Neutral",
+      "insight": "Traders are closely watching the $70,000 resistance as whales continue aggressive accumulation despite the price stall.",
+      "confidence": "75%"
     },
     {
-      "source": "Gotei-Vibe (Crypto-Sentiment)",
-      "asset": "BTC",
-      "signal": "Resistance Struggle",
-      "insight": "Social discourse is dominated by the $70k resistance level. Sentiment is cautiously optimistic but wary of rejection.",
-      "confidence": "82%"
+      "source": "Reddit",
+      "asset": "ETH",
+      "signal": "Neutral",
+      "insight": "Ethereum sentiment remains tied to Bitcoin's performance, with focus on the $2,000 psychological support level.",
+      "confidence": "70%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Gold",
+      "signal": "Bullish",
+      "insight": "Gold maintains strong institutional backing above the $5,000 level, with retail narrative focused on macro hedging.",
+      "confidence": "85%"
+    },
+    {
+      "source": "Reddit",
+      "asset": "Silver",
+      "signal": "Euphoria",
+      "insight": "Silver discourse is shifting from panic to euphoria as it recovers from the 18% plunge, with 'meme-trade' momentum returning.",
+      "confidence": "65%"
     }
   ],
   "predictions": [
