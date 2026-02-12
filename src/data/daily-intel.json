@@ -50,30 +50,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "Retail sentiment remains deeply skeptical and bearish despite the recent price recovery toward $67k.",
-      "confidence": "75%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Bullish social chatter is rising alongside signs of institutional accumulation and staking protocol growth.",
+      "signal": "Neutral",
+      "insight": "Retail sentiment is shifting toward caution as $70k resistance holds; focus is on defending the $60k support level.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
-      "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "The narrative remains firmly bullish with a focus on structural support from miners and central banks.",
+      "asset": "Ethereum",
+      "signal": "Bearish",
+      "insight": "Sentiment has turned bearish as ETH struggles with support; discourse is focused on a potential dump toward $1,700.",
       "confidence": "85%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Gold",
+      "signal": "Euphoria",
+      "insight": "Social sentiment is at extreme highs following record rallies; targets of $5k-$7k are now mainstream narrative.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Sentiment is recovering as traders treat recent dips as a 'reset' and look for a rebound following gold's lead.",
-      "confidence": "70%"
+      "insight": "Traders are celebrating a massive 30% YTD surge, though some warn of short-term volatility from index rebalancing.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
