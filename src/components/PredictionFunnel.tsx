@@ -13,7 +13,7 @@ export default function PredictionFunnel() {
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xs font-black uppercase tracking-[0.3em] text-gray-500 text-white">{t.predictionTitle}</h2>
       </div>
-      <div className="space-y-3 max-h-[650px] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-transparent">
+      <div className="space-y-3 max-h-[650px] overflow-y-auto pr-1 scrollbar-custom">
         {events.map((event: any, idx: number) => (
           <div key={idx} className="bg-[#161b22] border border-[#30363d] p-3 rounded-lg group hover:border-[#58a6ff] transition-colors duration-300">
             {/* Header: Label + Volume */}

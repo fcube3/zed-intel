@@ -16,7 +16,7 @@ export default function StaticPredictionFunnel({ predictions }: Props) {
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-xs font-black uppercase tracking-[0.3em] text-gray-500 text-white">{t.predictionTitle}</h2>
       </div>
-      <div className="space-y-4 opacity-90">
+      <div className="space-y-3 max-h-[650px] overflow-y-auto pr-1 scrollbar-custom opacity-90">
         {predictions.map((event, idx) => (
           <div key={idx} className="bg-[#161b22] border border-[#30363d] p-4 rounded-lg group hover:border-[#58a6ff] transition-colors duration-300">
             {/* Header: Label + Volume */}
