@@ -5,10 +5,8 @@ import { useTranslation } from "@/components/LanguageContext";
 export default function ArchiveList() {
   const { t } = useTranslation();
   
-  // This would ideally fetch from a list of files in /data/archive/
-  // For now, we'll placeholder a few and allow the automation to populate it.
+  // Feb 12 is currently LIVE. It should only appear here after the 11:59 PM fix.
   const archives = [
-    { date: "2026-02-12", label: "Feb 12, 2026" },
     { date: "2026-02-11", label: "Feb 11, 2026" },
   ];
 
