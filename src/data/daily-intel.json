@@ -51,29 +51,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Sentiment has collapsed into extreme panic as BTC tests the critical $65k support floor following a sharp hourly drop.",
-      "confidence": "98%"
+      "insight": "Fear & Greed Index hit a floor of 5 (Extreme Fear) as BTC struggles to hold macro support amid a broader tech/risk-off rout.",
+      "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Social narrative is turning bearish as ETH loses the $1,950 level, with traders focusing on the $1,900 macro support.",
-      "confidence": "85%"
+      "insight": "Social discourse is dominated by concern over ETH's inability to decouple from BTC's weakness, with eyes on the $1,900 floor.",
+      "confidence": "88%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "insight": "Bullish rumors of COMEX default are being tempered by a sharp price pullback toward $4,950, causing a reset in retail expectations.",
-      "confidence": "80%"
+      "signal": "Bearish",
+      "insight": "The safe-haven narrative is stuttering as gold sinks alongside equities, triggering retail liquidations and a shift toward defensive cash.",
+      "confidence": "82%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Silver continues to lead the metals sell-off; social volume is peaking as 'WallStreetSilver' calls for a defense of the $80 level.",
-      "confidence": "90%"
+      "insight": "Silver retail sentiment has reached a fever pitch as the metal dips below $80, with 'dip-buyers' facing exhaustion.",
+      "confidence": "92%"
     }
   ],
   "predictions": [
