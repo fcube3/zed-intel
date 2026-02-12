@@ -51,29 +51,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Retail sentiment hit a multi-year floor as the Fear & Greed Index plunged to 5, signaling extreme capitulation despite price stability near $67k.",
+      "insight": "Retail sentiment remains at extreme lows (Fear & Greed: 5) as traders brace for a potential breach of the $65k support floor.",
       "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Panic",
-      "insight": "Narrative remains focused on the $1,900 support defense, with social volume dominated by 'death cross' fears and liquidations.",
-      "confidence": "90%"
+      "signal": "Neutral",
+      "insight": "Social narrative is shifting from price defense to tech optimism following Vitalik's ZK-AI infrastructure proposals.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Safe-haven rotation is accelerating as crypto volatility drives retail and institutional interest back to physical gold.",
+      "insight": "Retail sentiment is peaking on rumors of a physical COMEX default, driving a massive rotation from 'paper gold' to physical bullion.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Silver is drafting behind Gold's rally, with 'Silver Squeeze' narratives resurfacing as a hedge against fiat uncertainty.",
-      "confidence": "75%"
+      "signal": "Panic",
+      "insight": "Extreme social engagement following a 9% flash crash; 'WallStreetSilver' is aggressively pivoting to a 'Drain the Comex' discount narrative.",
+      "confidence": "90%"
     }
   ],
   "predictions": [
