@@ -33,10 +33,10 @@ export default function Home() {
         {/* Live Ticker (New Minimal Style) */}
         <LivePriceTicker />
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-16">
             
             {/* Main Content */}
-            <div className="md:col-span-7 space-y-20">
+            <div className="lg:col-span-3 space-y-20">
                 
                 {/* Major News */}
                 <section>
@@ -115,7 +115,7 @@ export default function Home() {
             </div>
 
             {/* Sidebar */}
-            <div className="md:col-span-5 md:border-l border-[#27272a] md:pl-10 space-y-16">
+            <div className="lg:col-span-1 lg:border-l border-[#27272a] lg:pl-10 space-y-16">
                 
                 {/* Prediction Funnel (New Minimal) */}
                 <PredictionFunnel />
