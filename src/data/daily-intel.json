@@ -51,29 +51,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "CT is focused on the $65k support defense as BTC holds just below $66k; liquidation fears are high.",
-      "confidence": "95%"
+      "insight": "Extreme fear dominates as BTC sinks below $66k; retail is bracing for a potential $50k capitulation event.",
+      "confidence": "92%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Narrative shift towards 'ETH/BTC capitulation' as Ethereum struggles to bounce despite holding $1,900.",
-      "confidence": "88%"
+      "insight": "Narrative has shifted to 'near-term capitulation' with analysts targeting $1,400 as ETH follows macro headwinds lower.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Panic",
-      "insight": "Panic intensified as Gold broke $4,950; retail is questioning the 'safe haven' status in the short term.",
+      "insight": "Rapid sell-off below $5,000 has retail questioning safe-haven status as gold enters a high-volatility speculative regime.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Extreme fear prevails after the 10% flash crash; retail sentiment is dominated by 'falling knife' warnings.",
-      "confidence": "96%"
+      "insight": "Fear remains high after rapid price downdrafts; focus is on plunging inventories vs physical demand disconnect.",
+      "confidence": "94%"
     }
   ],
   "predictions": [
