@@ -27,6 +27,7 @@ export const translations = {
     footerText: "Confidential Intelligence Summary",
     trapPhase: "Dumb Money Trap Phase",
     confidence: "Confidence",
+    archiveTitle: "Intelligence Archive",
     nominalSuffix: "",
     dir: "ltr"
   },
@@ -58,6 +59,7 @@ export const translations = {
     footerText: "機密情報摘要",
     trapPhase: "散戶陷阱階段",
     confidence: "置信度",
+    archiveTitle: "情報存檔",
     nominalSuffix: "",
     dir: "ltr"
   },
@@ -89,6 +91,7 @@ export const translations = {
     footerText: "ملخص الاستخبارات السرية",
     trapPhase: "مرحلة فخ الأموال الغبية",
     confidence: "الثقة",
+    archiveTitle: "أرشيف الاستخبارات",
     nominalSuffix: "",
     dir: "rtl"
   }

@@ -6,6 +6,8 @@ import PredictionFunnel from "@/components/PredictionFunnel";
 import LanguageSelector from "@/components/LanguageSelector";
 import { useTranslation } from "@/components/LanguageContext";
 
+import ArchiveList from "@/components/ArchiveList";
+
 export default function Home() {
   const { t, language } = useTranslation();
 
@@ -153,6 +155,9 @@ export default function Home() {
               <p className="text-[9px] text-gray-600 leading-tight italic uppercase">{t.trapPhase}</p>
             </div>
           </section>
+
+          {/* Archive */}
+          <ArchiveList />
 
           {/* Logic */}
           <section>
