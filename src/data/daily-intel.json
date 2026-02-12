@@ -51,29 +51,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "insight": "Traders are closely watching the $70,000 resistance as whales continue aggressive accumulation despite the price stall.",
-      "confidence": "75%"
+      "insight": "Retail is fixated on the 'Oct 6 prediction' cycle while long-term narrative focuses on 'everything priced in BTC trending to zero.'",
+      "confidence": "70%"
     },
     {
-      "source": "Reddit",
+      "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Ethereum sentiment remains tied to Bitcoin's performance, with focus on the $2,000 psychological support level.",
-      "confidence": "70%"
+      "signal": "Bullish",
+      "insight": "Wall Street staking and potential 'flippening' narrative gaining traction as TVL in staking protocols like ether.fi surges.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold maintains strong institutional backing above the $5,000 level, with retail narrative focused on macro hedging.",
-      "confidence": "85%"
+      "insight": "Massive price targets from major banks ($6k+) after a recent 'positioning reset' provide a strong floor for the structural bull run.",
+      "confidence": "90%"
     },
     {
-      "source": "Reddit",
+      "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "insight": "Silver discourse is shifting from panic to euphoria as it recovers from the 18% plunge, with 'meme-trade' momentum returning.",
-      "confidence": "65%"
+      "signal": "Bullish",
+      "insight": "Silver is following gold's lead in a 'reset not reversal' pattern, with traders looking for a rebound after the early February wipeout.",
+      "confidence": "80%"
     }
   ],
   "predictions": [
