@@ -67,7 +67,7 @@
       "label": "POLYMARKET",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$458,456,847",
+      "nominal": "$458,459,841",
       "outcomes": [
         {
           "name": "Kevin Warsh",
@@ -91,7 +91,7 @@
       "label": "POLYMARKET",
       "title": "US strikes Iran by...?",
       "url": "https://polymarket.com/event/us-strikes-iran-by",
-      "nominal": "$237,368,099",
+      "nominal": "$237,379,091",
       "outcomes": [
         {
           "name": "June 30",
@@ -115,7 +115,7 @@
       "label": "POLYMARKET",
       "title": "Fed decision in March?",
       "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": "$94,272,794",
+      "nominal": "$94,497,455",
       "outcomes": [
         {
           "name": "No change",
@@ -134,7 +134,7 @@
       "label": "POLYMARKET",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$51,220,923",
+      "nominal": "$51,223,804",
       "outcomes": [
         {
           "name": "\u2193 60,000",
@@ -150,7 +150,7 @@
           "name": "\u2193 80,000",
           "prob": 1.0,
           "prob_pct": "100%"
-        },
+"        },
         {
           "name": "\u2193 75,000",
           "prob": 1.0,
@@ -163,7 +163,7 @@
         },
         {
           "name": "\u2193 60,000",
-          "prob": 0.375,
+          "prob": 0.37,
           "prob_pct": "37%"
         }
       ],
@@ -173,7 +173,7 @@
       "label": "POLYMARKET",
       "title": "US next strikes Iran on...?",
       "url": "https://polymarket.com/event/us-next-strikes-iran-on-843",
-      "nominal": "$23,337,049",
+      "nominal": "$23,340,346",
       "outcomes": [
         {
           "name": "No strike by February 28",
@@ -181,13 +181,13 @@
           "prob_pct": "94%"
         },
         {
-          "name": "February 20",
-          "prob": 0.0225,
+          "name": "February 21",
+          "prob": 0.022,
           "prob_pct": "2%"
         },
         {
-          "name": "February 21",
-          "prob": 0.0225,
+          "name": "February 20",
+          "prob": 0.0215,
           "prob_pct": "2%"
         }
       ],
