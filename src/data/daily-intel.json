@@ -50,30 +50,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Retail sentiment is shifting toward caution as $70k resistance holds; focus is on defending the $60k support level.",
-      "confidence": "80%"
+      "signal": "Bearish",
+      "insight": "Retail sentiment is defensive, eyeing the $60k-$68k support zone amid ETF outflows and technical breakdowns.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "Sentiment has turned bearish as ETH struggles with support; discourse is focused on a potential dump toward $1,700.",
+      "signal": "Panic",
+      "insight": "Sentiment is at extreme fear levels as ETH clings to $1,900 support following significant ETF outflows.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "Social sentiment is at extreme highs following record rallies; targets of $5k-$7k are now mainstream narrative.",
+      "signal": "Bullish",
+      "insight": "Steady demand for safe-haven assets keeps sentiment high as prices hold near record levels above $5,000.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Traders are celebrating a massive 30% YTD surge, though some warn of short-term volatility from index rebalancing.",
-      "confidence": "75%"
+      "insight": "Traders expect continued extreme volatility after a 30% YTD surge, focused on technical support levels.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
