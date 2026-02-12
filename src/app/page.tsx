@@ -1,4 +1,4 @@
-// Trigger Rebuild: Dynamic Date Logic Fix [2026-02-12]
+// Dynamic Archive and 5-Slot Funnel Fix [Force Rebuild 2026-02-12]
 "use client";
 import dailyIntel from "@/data/daily-intel.json";
 import LivePriceTicker from "@/components/LivePriceTicker";
