@@ -51,29 +51,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Sentiment has collapsed to a multi-year low of 5 (Extreme Fear) as traders brace for further downside amid heavy liquidations.",
+      "insight": "Retail sentiment hit a multi-year floor as the Fear & Greed Index plunged to 5, signaling extreme capitulation despite price stability near $67k.",
       "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "insight": "Narrative has shifted from support defense to pure capitulation as BTC weakness drags ETH into a deeper selloff.",
+      "insight": "Narrative remains focused on the $1,900 support defense, with social volume dominated by 'death cross' fears and liquidations.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Investors are rotating into physical gold as a safe haven amid crypto volatility and macro uncertainty.",
-      "confidence": "80%"
+      "insight": "Safe-haven rotation is accelerating as crypto volatility drives retail and institutional interest back to physical gold.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Retail interest is growing as a secondary safe haven, though it remains more volatile than gold in the short term.",
-      "confidence": "70%"
+      "insight": "Silver is drafting behind Gold's rally, with 'Silver Squeeze' narratives resurfacing as a hedge against fiat uncertainty.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
