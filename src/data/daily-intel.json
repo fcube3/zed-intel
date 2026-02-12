@@ -65,38 +65,38 @@
   "predictions": [
     {
       "label": "POLYMARKET",
-      "title": "Will Ethereum reach $2,800 in February?",
-      "odds": "4%",
-      "nominal": "$981,435",
-      "color": "purple"
-    },
-    {
-      "label": "POLYMARKET",
-      "title": "Will Bitcoin reach $74,000 February 9-15?",
-      "odds": "10%",
-      "nominal": "$98,946",
-      "color": "purple"
-    },
-    {
-      "label": "POLYMARKET",
-      "title": "Will Japan\u2019s January 2026 unemployment rate be \u22642.1%?",
-      "odds": "9%",
-      "nominal": "$97,622",
+      "title": "Trump nominate Kevin Warsh as the next Fed chair?",
+      "odds": "95%",
+      "nominal": "$458,188,772",
       "color": "blue"
     },
     {
       "label": "POLYMARKET",
-      "title": "Will the Fed Cut\u2013Pause\u2013Cut in the next three decisions (Dec\u2013...",
-      "odds": "6%",
-      "nominal": "$93,168",
+      "title": "US strikes Iran by...?: US strikes Iran by June 30, 2026?",
+      "odds": "52%",
+      "nominal": "$237,157,813",
       "color": "blue"
     },
     {
       "label": "POLYMARKET",
-      "title": "Will the price of Ethereum be above $1,900 on February 14?",
-      "odds": "75%",
-      "nominal": "$9,896",
+      "title": "Fed decision in March?: there be no change in Fed interest rates after the March 2026 meeting?",
+      "odds": "91%",
+      "nominal": "$93,951,181",
+      "color": "blue"
+    },
+    {
+      "label": "POLYMARKET",
+      "title": "Bitcoin dip to $60,000 in February?",
+      "odds": "100%",
+      "nominal": "$51,125,720",
       "color": "purple"
+    },
+    {
+      "label": "POLYMARKET",
+      "title": "US next strikes Iran on...?: the US not strike Iran by February 28, 2026?",
+      "odds": "82%",
+      "nominal": "$23,301,969",
+      "color": "blue"
     }
   ]
 }
