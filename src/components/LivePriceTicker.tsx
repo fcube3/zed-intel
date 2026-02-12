@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "./LanguageContext";
-import dailyIntel from "@/data/daily-intel.json";
 
 export default function LivePriceTicker() {
   const { t } = useTranslation();
@@ -13,38 +12,38 @@ export default function LivePriceTicker() {
   });
 
   useEffect(() => {
-    // Fetch function decoupled to prevent one failure blocking all
     const fetchMarkets = async () => {
-      // 1. Fetch Metals
+      // 1. Fetch Metals via our own Proxy to bypass CORS/Browser blocks
       try {
-        const metalsRes = await fetch("https://data-asg.goldprice.org/dbXRates/USD");
+        const metalsRes = await fetch("/api/prices");
         if (metalsRes.ok) {
           const metalsData = await metalsRes.json();
-          const item = metalsData.items[0];
-          
-          // Use live change provided by API if available, else calc
-          const goldChange = item.pcXau; // API provides percent change
-          const silverChange = item.pcXag;
+          // Verify structure: goldprice.org usually returns { items: [...] }
+          if (metalsData.items && metalsData.items.length > 0) {
+            const item = metalsData.items[0];
+            const goldChange = item.pcXau;
+            const silverChange = item.pcXag;
 
-          setPrices(prev => ({
-            ...prev,
-            XAU: {
-              ...prev.XAU,
-              price: item.xauPrice.toLocaleString(undefined, { minimumFractionDigits: 2 }),
-              change: (goldChange >= 0 ? "+" : "") + goldChange.toFixed(2) + "%"
-            },
-            XAG: {
-              ...prev.XAG,
-              price: item.xagPrice.toLocaleString(undefined, { minimumFractionDigits: 2 }),
-              change: (silverChange >= 0 ? "+" : "") + silverChange.toFixed(2) + "%"
-            }
-          }));
+            setPrices(prev => ({
+              ...prev,
+              XAU: {
+                ...prev.XAU,
+                price: item.xauPrice.toLocaleString(undefined, { minimumFractionDigits: 2 }),
+                change: (goldChange >= 0 ? "+" : "") + goldChange.toFixed(2) + "%"
+              },
+              XAG: {
+                ...prev.XAG,
+                price: item.xagPrice.toLocaleString(undefined, { minimumFractionDigits: 2 }),
+                change: (silverChange >= 0 ? "+" : "") + silverChange.toFixed(2) + "%"
+              }
+            }));
+          }
         }
       } catch (e) {
-        console.error("Metals fetch failed", e);
+        console.error("Metals proxy fetch failed", e);
       }
 
-      // 2. Fetch Crypto (Binance)
+      // 2. Fetch Crypto (Binance is usually CORS-friendly, but we keep it decoupled)
       try {
         const [btcRes, ethRes] = await Promise.all([
           fetch("https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT"),
