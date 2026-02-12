@@ -6,9 +6,6 @@ import dailyIntel from "@/data/daily-intel.json";
 export default function PredictionFunnel() {
   const { t } = useTranslation();
   
-  // Use the new predictions structure from daily-intel.json
-  // If the new 'outcomes' field exists, render multi-choice style.
-  // Fallback to old style if 'outcomes' is missing (backward compatibility).
   const events = dailyIntel.predictions;
 
   return (
@@ -40,8 +37,16 @@ export default function PredictionFunnel() {
               <div className="space-y-2">
                 {event.outcomes.map((outcome: any, oIdx: number) => (
                   <div key={oIdx} className="relative">
-                    <div className="flex justify-between items-center text-[10px] uppercase font-bold relative z-10">
-                      <span className="text-gray-400">{outcome.name}</span>
+                    <div className="flex justify-between items-center text-[10px] uppercase font-bold relative z-10 py-1">
+                      <div className="flex items-center space-x-2">
+                        <span className="text-gray-400">{outcome.name}</span>
+                        {/* Per-Outcome Volume Badge */}
+                        {outcome.vol_fmt && (
+                          <span className="text-[9px] text-gray-600 font-mono tracking-tighter bg-gray-900/50 px-1 rounded">
+                            {outcome.vol_fmt}
+                          </span>
+                        )}
+                      </div>
                       <span className={idx === 0 && oIdx === 0 ? "text-green-400" : "text-gray-300"}>{outcome.prob_pct}</span>
                     </div>
                     {/* Mini Bar Background */}
@@ -51,7 +56,6 @@ export default function PredictionFunnel() {
                 ))}
               </div>
             ) : (
-              // Fallback for old single-outcome structure
               <div className="flex items-center justify-between">
                 <span className="text-xl font-black text-white">{event.odds}</span>
                 <span className="text-[9px] text-green-400 font-bold uppercase tracking-widest">{t.consensus}</span>

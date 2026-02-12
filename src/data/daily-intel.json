@@ -67,21 +67,30 @@
       "label": "POLYMARKET",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$458,600,736",
+      "nominal": "$458,602,179",
       "outcomes": [
         {
           "name": "Kevin Warsh",
           "prob": 0.9515,
+          "vol": 37140558.292615,
+          "vol_fmt": "$37,140,558",
+          "price_val": 0,
           "prob_pct": "89%"
         },
         {
           "name": "Rick Rieder",
           "prob": 0.075,
+          "vol": 0.0,
+          "vol_fmt": "$0",
+          "price_val": 0,
           "prob_pct": "7%"
         },
         {
           "name": "Judy Shelton",
-          "prob": 0.0385,
+          "prob": 0.039,
+          "vol": 73895829.088478,
+          "vol_fmt": "$73,895,829",
+          "price_val": 0,
           "prob_pct": "3%"
         }
       ],
@@ -91,21 +100,30 @@
       "label": "POLYMARKET",
       "title": "US strikes Iran by...?",
       "url": "https://polymarket.com/event/us-strikes-iran-by",
-      "nominal": "$237,686,913",
+      "nominal": "$237,690,373",
       "outcomes": [
         {
           "name": "June 30",
           "prob": 0.525,
+          "vol": 4386039.768649,
+          "vol_fmt": "$4,386,039",
+          "price_val": 0,
           "prob_pct": "45%"
         },
         {
           "name": "March 31",
           "prob": 0.375,
+          "vol": 7786413.592969,
+          "vol_fmt": "$7,786,413",
+          "price_val": 0,
           "prob_pct": "32%"
         },
         {
           "name": "March 15",
           "prob": 0.265,
+          "vol": 5861.990501,
+          "vol_fmt": "$5,861",
+          "price_val": 0,
           "prob_pct": "22%"
         }
       ],
@@ -115,21 +133,30 @@
       "label": "POLYMARKET",
       "title": "Fed decision in March?",
       "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": "$94,616,448",
+      "nominal": "$94,617,533",
       "outcomes": [
         {
           "name": "No change",
           "prob": 0.925,
+          "vol": 12348457.830444,
+          "vol_fmt": "$12,348,457",
+          "price_val": 0,
           "prob_pct": "93%"
         },
         {
           "name": "25 bps decrease",
           "prob": 0.055,
+          "vol": 12498232.231549,
+          "vol_fmt": "$12,498,232",
+          "price_val": 0,
           "prob_pct": "5%"
         },
         {
           "name": "25+ bps increase",
           "prob": 0.0075,
+          "vol": 32521256.777965,
+          "vol_fmt": "$32,521,256",
+          "price_val": 0,
           "prob_pct": "0%"
         }
       ],
@@ -139,36 +166,54 @@
       "label": "POLYMARKET",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$51,391,409",
+      "nominal": "$51,392,533",
       "outcomes": [
         {
-          "name": "\u2191 95,000",
-          "prob": 0.0105,
+          "name": "↑ 95,000",
+          "prob": 0.011,
+          "vol": 2196931.430642,
+          "vol_fmt": "$2,196,931",
+          "price_val": 95000.0,
           "prob_pct": "1%"
         },
         {
-          "name": "\u2191 90,000",
-          "prob": 0.023,
+          "name": "↑ 90,000",
+          "prob": 0.0205,
+          "vol": 2918434.933049,
+          "vol_fmt": "$2,918,434",
+          "price_val": 90000.0,
           "prob_pct": "2%"
         },
         {
-          "name": "\u2191 85,000",
+          "name": "↑ 85,000",
           "prob": 0.055,
+          "vol": 3649277.545271,
+          "vol_fmt": "$3,649,277",
+          "price_val": 85000.0,
           "prob_pct": "5%"
         },
         {
-          "name": "\u2191 80,000",
+          "name": "↑ 80,000",
           "prob": 0.13,
+          "vol": 803497.330183,
+          "vol_fmt": "$803,497",
+          "price_val": 80000.0,
           "prob_pct": "13%"
         },
         {
-          "name": "\u2191 75,000",
-          "prob": 0.315,
+          "name": "↑ 75,000",
+          "prob": 0.31,
+          "vol": 870876.559794,
+          "vol_fmt": "$870,876",
+          "price_val": 75000.0,
           "prob_pct": "31%"
         },
         {
-          "name": "\u2193 60,000",
+          "name": "↓ 60,000",
           "prob": 0.375,
+          "vol": 836108.140606,
+          "vol_fmt": "$836,108",
+          "price_val": 60000.0,
           "prob_pct": "37%"
         }
       ],
@@ -178,21 +223,30 @@
       "label": "POLYMARKET",
       "title": "US next strikes Iran on...?",
       "url": "https://polymarket.com/event/us-next-strikes-iran-on-843",
-      "nominal": "$23,402,867",
+      "nominal": "$23,404,718",
       "outcomes": [
         {
           "name": "No strike by February 28",
           "prob": 0.83,
-          "prob_pct": "94%"
+          "vol": 608641.037616,
+          "vol_fmt": "$608,641",
+          "price_val": 0,
+          "prob_pct": "95%"
         },
         {
           "name": "February 21",
-          "prob": 0.0245,
+          "prob": 0.023,
+          "vol": 428785.53014,
+          "vol_fmt": "$428,785",
+          "price_val": 0,
           "prob_pct": "2%"
         },
         {
           "name": "February 20",
           "prob": 0.0195,
+          "vol": 400788.572539,
+          "vol_fmt": "$400,788",
+          "price_val": 0,
           "prob_pct": "2%"
         }
       ],
@@ -207,16 +261,25 @@
         {
           "name": "December 31, 2026",
           "prob": 0.15,
+          "vol": 245267.942912,
+          "vol_fmt": "$245,267",
+          "price_val": 31.0,
           "prob_pct": "64%"
         },
         {
           "name": "June 30, 2026",
           "prob": 0.065,
+          "vol": 565252.881849,
+          "vol_fmt": "$565,252",
+          "price_val": 30.0,
           "prob_pct": "28%"
         },
         {
           "name": "March 31, 2026",
           "prob": 0.017,
+          "vol": 1599933.644826,
+          "vol_fmt": "$1,599,933",
+          "price_val": 31.0,
           "prob_pct": "7%"
         }
       ],
