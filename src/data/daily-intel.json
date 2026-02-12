@@ -65,37 +65,37 @@
   "predictions": [
     {
       "label": "POLYMARKET",
-      "title": "Trump nominate Kevin Warsh as the next Fed chair?",
+      "title": "Who will Trump nominate as Fed Chair?",
       "odds": "95%",
-      "nominal": ",231,414",
+      "nominal": ",245,910",
       "color": "blue"
     },
     {
       "label": "POLYMARKET",
-      "title": "US strikes Iran by...?: US strikes Iran by June 30, 2026?",
+      "title": "US strikes Iran by...?",
       "odds": "52%",
-      "nominal": ",191,578",
+      "nominal": ",237,975",
       "color": "blue"
     },
     {
       "label": "POLYMARKET",
-      "title": "Fed decision in March?: there be no change in Fed interest rates after the March 2026 meeting?",
+      "title": "Fed decision in March?",
       "odds": "91%",
-      "nominal": ",020,355",
+      "nominal": ",039,922",
       "color": "blue"
     },
     {
       "label": "POLYMARKET",
-      "title": "Bitcoin dip to ,000 in February?",
+      "title": "What price will Bitcoin hit in February?",
       "odds": "100%",
-      "nominal": ",142,130",
+      "nominal": ",156,565",
       "color": "purple"
     },
     {
       "label": "POLYMARKET",
-      "title": "US next strikes Iran on...?: the US not strike Iran by February 28, 2026?",
+      "title": "US next strikes Iran on...?",
       "odds": "82%",
-      "nominal": ",305,041",
+      "nominal": ",321,683",
       "color": "blue"
     }
   ]
