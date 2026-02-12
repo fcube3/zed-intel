@@ -63,10 +63,40 @@
     }
   ],
   "predictions": [
-    { "label": "GEOPOLITICS", "title": "US strikes Iran by Feb 28?", "odds": "17%", "nominal": "$236,000,000", "color": "red" },
-    { "label": "MACRO", "title": "Fed cut 25bps in March?", "odds": "6%", "nominal": "$94,000,000", "color": "gray" },
-    { "label": "BTC (FEB)", "title": "BTC hit $75k in Feb?", "odds": "34%", "nominal": "$51,000,000", "color": "purple" },
-    { "label": "RWA", "title": "Tokenized Gold exceeds $5B?", "odds": "62%", "nominal": "$45,000,000", "color": "yellow" },
-    { "label": "MACRO", "title": "Gov shutdown by Feb 14?", "odds": "82%", "nominal": "$2,000,000", "color": "gray" }
+    {
+      "label": "POLYMARKET",
+      "title": "Will tariffs generate >$250b in 2025?",
+      "odds": "2%",
+      "nominal": "$1,255,905",
+      "color": "blue"
+    },
+    {
+      "label": "POLYMARKET",
+      "title": "Will Elon and DOGE cut more than $250b in federal spending i...",
+      "odds": "1%",
+      "nominal": "$719,106",
+      "color": "blue"
+    },
+    {
+      "label": "POLYMARKET",
+      "title": "Will Elon and DOGE cut between $200-250b in federal spending...",
+      "odds": "0%",
+      "nominal": "$443,861",
+      "color": "blue"
+    },
+    {
+      "label": "POLYMARKET",
+      "title": "Will Elon and DOGE cut between $50-100b in federal spending ...",
+      "odds": "0%",
+      "nominal": "$378,340",
+      "color": "blue"
+    },
+    {
+      "label": "POLYMARKET",
+      "title": "Will Elon and DOGE cut less than $50b in federal spending in...",
+      "odds": "98%",
+      "nominal": "$352,432",
+      "color": "blue"
+    }
   ]
 }
