@@ -67,22 +67,32 @@
       "label": "POLYMARKET",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$458,459,841",
+      "nominal": "$458,463,187",
       "outcomes": [
         {
+          "name": "Judy Shelton",
+          "prob": 0.0375,
+          "prob_pct": "16%"
+        },
+        {
           "name": "Kevin Warsh",
-          "prob": 0.9525,
-          "prob_pct": "89%"
+          "prob": 0.9515,
+          "prob_pct": "8%"
         },
         {
-          "name": "Rick Rieder",
-          "prob": 0.075,
-          "prob_pct": "7%"
+          "name": "Jerome Powell",
+          "prob": 0.0015,
+          "prob_pct": "5%"
         },
         {
-          "name": "James Bullard",
-          "prob": 0.038,
-          "prob_pct": "3%"
+          "name": "Kevin Hassett",
+          "prob": 0.0025,
+          "prob_pct": "5%"
+        },
+        {
+          "name": "Bill Pulte",
+          "prob": 0.0005,
+          "prob_pct": "5%"
         }
       ],
       "color": "blue"
@@ -91,22 +101,32 @@
       "label": "POLYMARKET",
       "title": "US strikes Iran by...?",
       "url": "https://polymarket.com/event/us-strikes-iran-by",
-      "nominal": "$237,379,091",
+      "nominal": "$44,112,655",
       "outcomes": [
         {
-          "name": "June 30",
-          "prob": 0.525,
-          "prob_pct": "45%"
+          "name": "February 28",
+          "prob": 0.165,
+          "prob_pct": "28%"
+        },
+        {
+          "name": "February 13",
+          "prob": 0.0135,
+          "prob_pct": "23%"
         },
         {
           "name": "March 31",
           "prob": 0.375,
-          "prob_pct": "32%"
+          "prob_pct": "17%"
         },
         {
-          "name": "March 15",
-          "prob": 0.265,
-          "prob_pct": "22%"
+          "name": "February 11",
+          "prob": 0.0005,
+          "prob_pct": "10%"
+        },
+        {
+          "name": "June 30",
+          "prob": 0.525,
+          "prob_pct": "9%"
         }
       ],
       "color": "blue"
@@ -115,80 +135,27 @@
       "label": "POLYMARKET",
       "title": "Fed decision in March?",
       "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": "$94,497,455",
+      "nominal": "$94,500,093",
       "outcomes": [
         {
-          "name": "No change",
-          "prob": 0.925,
-          "prob_pct": "93%"
+          "name": "50+ bps decrease",
+          "prob": 0.0065,
+          "prob_pct": "39%"
+        },
+        {
+          "name": "25+ bps increase",
+          "prob": 0.0075,
+          "prob_pct": "34%"
         },
         {
           "name": "25 bps decrease",
           "prob": 0.065,
-          "prob_pct": "6%"
-        }
-      ],
-      "color": "blue"
-    },
-    {
-      "label": "POLYMARKET",
-      "title": "What price will Bitcoin hit in February?",
-      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$51,223,804",
-      "outcomes": [
-        {
-          "name": "\u2193 60,000",
-          "prob": 1.0,
-          "prob_pct": "100%"
+          "prob_pct": "13%"
         },
         {
-          "name": "\u2193 70,000",
-          "prob": 1.0,
-          "prob_pct": "100%"
-        },
-        {
-          "name": "\u2193 80,000",
-          "prob": 1.0,
-          "prob_pct": "100%"
-"        },
-        {
-          "name": "\u2193 75,000",
-          "prob": 1.0,
-          "prob_pct": "100%"
-        },
-        {
-          "name": "\u2193 65,000",
-          "prob": 1.0,
-          "prob_pct": "100%"
-        },
-        {
-          "name": "\u2193 60,000",
-          "prob": 0.37,
-          "prob_pct": "37%"
-        }
-      ],
-      "color": "purple"
-    },
-    {
-      "label": "POLYMARKET",
-      "title": "US next strikes Iran on...?",
-      "url": "https://polymarket.com/event/us-next-strikes-iran-on-843",
-      "nominal": "$23,340,346",
-      "outcomes": [
-        {
-          "name": "No strike by February 28",
-          "prob": 0.825,
-          "prob_pct": "94%"
-        },
-        {
-          "name": "February 21",
-          "prob": 0.022,
-          "prob_pct": "2%"
-        },
-        {
-          "name": "February 20",
-          "prob": 0.0215,
-          "prob_pct": "2%"
+          "name": "No change",
+          "prob": 0.925,
+          "prob_pct": "13%"
         }
       ],
       "color": "blue"
