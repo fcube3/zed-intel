@@ -1,10 +1,10 @@
 {
   "date": "February 13, 2026",
   "prices": {
-    "gold": 4951.86,
-    "silver": 81.45,
-    "btc": 65986.01,
-    "eth": 1938.4
+    "gold": 4937.60,
+    "silver": 74.99,
+    "btc": 65487.62,
+    "eth": 1918.43
   },
   "news": [
     {
@@ -51,29 +51,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Fear & Greed Index hit a floor of 5 (Extreme Fear) as BTC struggles to hold macro support amid a broader tech/risk-off rout.",
-      "confidence": "95%"
+      "insight": "Retail is fleeing as BTC breaks key $66k support, with social sentiment dominated by talk of a 'black swan' event.",
+      "confidence": "96%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Social discourse is dominated by concern over ETH's inability to decouple from BTC's weakness, with eyes on the $1,900 floor.",
-      "confidence": "88%"
+      "insight": "ETH continues to bleed against BTC; social volume is high around the $1,900 support test.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
-      "insight": "The safe-haven narrative is stuttering as gold sinks alongside equities, triggering retail liquidations and a shift toward defensive cash.",
-      "confidence": "82%"
+      "signal": "Panic",
+      "insight": "Sentiment has shifted from bearish to panic as gold fails to act as a hedge during the equity rout.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Silver retail sentiment has reached a fever pitch as the metal dips below $80, with 'dip-buyers' facing exhaustion.",
-      "confidence": "92%"
+      "insight": "Silver retail sentiment is in total meltdown following a 10% daily crash, with 'capitulation' trending.",
+      "confidence": "98%"
     }
   ],
   "predictions": [
