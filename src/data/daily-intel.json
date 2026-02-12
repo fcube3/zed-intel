@@ -1,7 +1,7 @@
 {
   "date": "February 12, 2026",
   "prices": {
-    "gold": 5088.60,
+    "gold": 5088.6,
     "silver": 83.03,
     "btc": 67493.83,
     "eth": 1959.52
@@ -73,7 +73,7 @@
     {
       "label": "POLYMARKET",
       "title": "Will Elon and DOGE cut more than $250b in federal spending i...",
-      "odds": "1%",
+      "odds": "0%",
       "nominal": "$719,106",
       "color": "blue"
     },
@@ -94,7 +94,7 @@
     {
       "label": "POLYMARKET",
       "title": "Will Elon and DOGE cut less than $50b in federal spending in...",
-      "odds": "98%",
+      "odds": "99%",
       "nominal": "$352,432",
       "color": "blue"
     }
