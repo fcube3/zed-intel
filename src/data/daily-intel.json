@@ -51,29 +51,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Retail is fleeing as BTC breaks key $66k support, with social sentiment dominated by talk of a 'black swan' event.",
-      "confidence": "96%"
+      "insight": "CT is focused on the $65k support defense as BTC holds just below $66k; liquidation fears are high.",
+      "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "ETH continues to bleed against BTC; social volume is high around the $1,900 support test.",
-      "confidence": "90%"
+      "insight": "Narrative shift towards 'ETH/BTC capitulation' as Ethereum struggles to bounce despite holding $1,900.",
+      "confidence": "88%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Panic",
-      "insight": "Sentiment has shifted from bearish to panic as gold fails to act as a hedge during the equity rout.",
-      "confidence": "85%"
+      "insight": "Panic intensified as Gold broke $4,950; retail is questioning the 'safe haven' status in the short term.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Silver retail sentiment is in total meltdown following a 10% daily crash, with 'capitulation' trending.",
-      "confidence": "98%"
+      "insight": "Extreme fear prevails after the 10% flash crash; retail sentiment is dominated by 'falling knife' warnings.",
+      "confidence": "96%"
     }
   ],
   "predictions": [
