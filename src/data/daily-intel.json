@@ -1,10 +1,10 @@
 {
   "date": "February 13, 2026",
   "prices": {
-    "gold": 5088.6,
-    "silver": 83.03,
-    "btc": 67493.83,
-    "eth": 1959.52
+    "gold": 4951.86,
+    "silver": 81.45,
+    "btc": 65986.01,
+    "eth": 1938.4
   },
   "news": [
     {
@@ -51,28 +51,28 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Retail sentiment remains at extreme lows (Fear & Greed: 5) as traders brace for a potential breach of the $65k support floor.",
-      "confidence": "95%"
+      "insight": "Sentiment has collapsed into extreme panic as BTC tests the critical $65k support floor following a sharp hourly drop.",
+      "confidence": "98%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Social narrative is shifting from price defense to tech optimism following Vitalik's ZK-AI infrastructure proposals.",
-      "confidence": "80%"
+      "signal": "Bearish",
+      "insight": "Social narrative is turning bearish as ETH loses the $1,950 level, with traders focusing on the $1,900 macro support.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Retail sentiment is peaking on rumors of a physical COMEX default, driving a massive rotation from 'paper gold' to physical bullion.",
-      "confidence": "85%"
+      "signal": "Neutral",
+      "insight": "Bullish rumors of COMEX default are being tempered by a sharp price pullback toward $4,950, causing a reset in retail expectations.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Extreme social engagement following a 9% flash crash; 'WallStreetSilver' is aggressively pivoting to a 'Drain the Comex' discount narrative.",
+      "insight": "Silver continues to lead the metals sell-off; social volume is peaking as 'WallStreetSilver' calls for a defense of the $80 level.",
       "confidence": "90%"
     }
   ],
