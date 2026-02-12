@@ -2,14 +2,12 @@
 import React from "react";
 import { useTranslation } from "./LanguageContext";
 
+import dailyIntel from "@/data/daily-intel.json";
+
 export default function PredictionFunnel() {
   const { t } = useTranslation();
   
-  const events = [
-    { label: "BTC (2026)", title: "BTC hit $75k before 2027?", odds: "89%", nominal: "$16,000,000", color: "purple" },
-    { label: "ETH (FEB)", title: "Floor of $1,600 holds?", odds: "78%", nominal: "$12,000,000", color: "blue" },
-    { label: "MACRO PROXY", title: "Warsh to be Fed Chair?", odds: "96%", nominal: "$157,000,000", color: "gray" }
-  ];
+  const events = dailyIntel.predictions;
 
   return (
     <section>
