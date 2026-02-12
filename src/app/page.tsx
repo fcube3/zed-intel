@@ -1,3 +1,4 @@
+// Trigger Rebuild: Dynamic Date Logic Fix [2026-02-12]
 "use client";
 import dailyIntel from "@/data/daily-intel.json";
 import LivePriceTicker from "@/components/LivePriceTicker";
@@ -28,7 +29,7 @@ export default function Home() {
           <div className="hidden md:block mb-4">
             <LanguageSelector />
           </div>
-          <p className="text-lg font-bold text-white">{t.date}</p>
+          <p className="text-lg font-bold text-white">{dailyIntel.date}</p>
           <div className="flex items-center justify-end space-x-2">
             <span className="px-2 py-0.5 bg-green-900/30 text-green-400 text-[10px] rounded border border-green-700 uppercase font-black">{t.liveFeed}</span>
             <span className="text-[10px] text-gray-500 font-bold uppercase tracking-widest">DXY: 104.5 | US10Y: 4.2%</span>
