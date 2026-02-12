@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "./LanguageContext";
-import dailyIntel from "@/data/daily-intel.json";
 
 export default function LivePriceTicker() {
   const { t } = useTranslation();
@@ -14,11 +13,12 @@ export default function LivePriceTicker() {
 
   useEffect(() => {
     const fetchMarkets = async () => {
-      // 1. Fetch Metals via Proxy
+      // 1. Fetch Metals via our own Proxy to bypass CORS/Browser blocks
       try {
         const metalsRes = await fetch("/api/prices");
         if (metalsRes.ok) {
           const metalsData = await metalsRes.json();
+          // Verify structure: goldprice.org usually returns { items: [...] }
           if (metalsData.items && metalsData.items.length > 0) {
             const item = metalsData.items[0];
             const goldChange = item.pcXau;
@@ -43,7 +43,7 @@ export default function LivePriceTicker() {
         console.error("Metals proxy fetch failed", e);
       }
 
-      // 2. Fetch Crypto (Binance)
+      // 2. Fetch Crypto (Binance is usually CORS-friendly, but we keep it decoupled)
       try {
         const [btcRes, ethRes] = await Promise.all([
           fetch("https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT"),
@@ -79,18 +79,16 @@ export default function LivePriceTicker() {
   }, []);
 
   return (
-    <div className="grid grid-cols-4 gap-8 mb-20 border-t border-b border-[#27272a] py-8">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
       {Object.entries(prices).map(([symbol, data]) => (
-        <div key={symbol} className="flex flex-col pl-4 border-l border-[#27272a] first:border-l-0">
-          <span className="text-[10px] font-bold uppercase tracking-widest text-[#52525b] mb-2">{data.name} / USD</span>
-          <div className="flex items-baseline space-x-3">
-             <span className="text-3xl font-medium tracking-tight text-white">
-                {data.price === "loading..." ? <span className="animate-pulse text-[#27272a]">...</span> : `$${data.price}`}
-             </span>
-             <span className={`text-xs font-mono font-bold ${data.change.startsWith('+') ? 'text-emerald-500' : 'text-rose-500'}`}>
-                {data.change}
-             </span>
-          </div>
+        <div key={symbol} className="bg-[#161b22] border border-[#30363d] p-4 rounded-lg hover:bg-gray-800/30 transition">
+          <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">{data.name} / USD</p>
+          <p className={`text-2xl font-bold ${data.color}`}>
+            {data.price === "loading..." ? <span className="animate-pulse text-gray-600">...</span> : `$${data.price}`}
+          </p>
+          <p className={`text-sm font-bold ${data.change.startsWith('+') ? 'text-green-400' : data.change === '...' ? 'text-gray-500' : 'text-red-400'}`}>
+            {data.change} <i className={`fas fa-arrow-${data.change.startsWith('+') ? 'up' : 'down'} text-[10px] ${data.change === '...' ? 'hidden' : ''}`}></i>
+          </p>
         </div>
       ))}
     </div>
