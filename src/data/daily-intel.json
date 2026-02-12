@@ -1,5 +1,5 @@
 {
-  "date": "February 12, 2026",
+  "date": "February 13, 2026",
   "prices": {
     "gold": 5088.6,
     "silver": 83.03,
@@ -50,30 +50,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Retail is gripped by 'extreme fear' while Binance signals a floor by converting $1B SAFU to BTC.",
-      "confidence": "70%"
+      "signal": "Panic",
+      "insight": "Sentiment has collapsed to a multi-year low of 5 (Extreme Fear) as traders brace for further downside amid heavy liquidations.",
+      "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "insight": "Narrative shifts to capitulation as major banks cut price targets to $1,400 amid persistent ETF outflows.",
-      "confidence": "85%"
+      "insight": "Narrative has shifted from support defense to pure capitulation as BTC weakness drags ETH into a deeper selloff.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Sentiment remains resilient as UBS forecasts $5,900/oz and central bank demand offsets short-term volatility.",
-      "confidence": "85%"
+      "insight": "Investors are rotating into physical gold as a safe haven amid crypto volatility and macro uncertainty.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Narrative focuses on a rising price floor as institutional analysts project a higher 2026 average price.",
-      "confidence": "75%"
+      "insight": "Retail interest is growing as a secondary safe haven, though it remains more volatile than gold in the short term.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
