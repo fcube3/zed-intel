@@ -50,30 +50,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "Retail sentiment is defensive, eyeing the $60k-$68k support zone amid ETF outflows and technical breakdowns.",
-      "confidence": "75%"
+      "signal": "Neutral",
+      "insight": "Retail is gripped by 'extreme fear' while Binance signals a floor by converting $1B SAFU to BTC.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "insight": "Sentiment is at extreme fear levels as ETH clings to $1,900 support following significant ETF outflows.",
+      "insight": "Narrative shifts to capitulation as major banks cut price targets to $1,400 amid persistent ETF outflows.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Steady demand for safe-haven assets keeps sentiment high as prices hold near record levels above $5,000.",
-      "confidence": "90%"
+      "insight": "Sentiment remains resilient as UBS forecasts $5,900/oz and central bank demand offsets short-term volatility.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Traders expect continued extreme volatility after a 30% YTD surge, focused on technical support levels.",
-      "confidence": "70%"
+      "insight": "Narrative focuses on a rising price floor as institutional analysts project a higher 2026 average price.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
