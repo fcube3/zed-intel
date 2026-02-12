@@ -50,30 +50,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Retail is fixated on the 'Oct 6 prediction' cycle while long-term narrative focuses on 'everything priced in BTC trending to zero.'",
-      "confidence": "70%"
+      "signal": "Bearish",
+      "insight": "Retail sentiment remains deeply skeptical and bearish despite the recent price recovery toward $67k.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Wall Street staking and potential 'flippening' narrative gaining traction as TVL in staking protocols like ether.fi surges.",
-      "confidence": "75%"
+      "insight": "Bullish social chatter is rising alongside signs of institutional accumulation and staking protocol growth.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Massive price targets from major banks ($6k+) after a recent 'positioning reset' provide a strong floor for the structural bull run.",
-      "confidence": "90%"
+      "insight": "The narrative remains firmly bullish with a focus on structural support from miners and central banks.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Silver is following gold's lead in a 'reset not reversal' pattern, with traders looking for a rebound after the early February wipeout.",
-      "confidence": "80%"
+      "insight": "Sentiment is recovering as traders treat recent dips as a 'reset' and look for a rebound following gold's lead.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
