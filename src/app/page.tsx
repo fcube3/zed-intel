@@ -9,6 +9,14 @@ import { useTranslation } from "@/components/LanguageContext";
 
 import ArchiveList from "@/components/ArchiveList";
 
+const getAssetColor = (asset: string) => {
+    const a = asset.toUpperCase();
+    if (a.includes('GOLD') || a.includes('SILVER') || a.includes('XAU') || a.includes('XAG') || a.includes('METAL')) return { border: 'border-yellow-500/30', text: 'text-yellow-400', bg: 'bg-yellow-500/10' };
+    if (a.includes('BTC') || a.includes('ETH') || a.includes('CRYPTO') || a.includes('BITCOIN')) return { border: 'border-purple-500/30', text: 'text-purple-400', bg: 'bg-purple-500/10' };
+    if (a.includes('MACRO') || a.includes('FED') || a.includes('DOLLAR')) return { border: 'border-blue-500/30', text: 'text-blue-400', bg: 'bg-blue-500/10' };
+    return { border: 'border-gray-500/30', text: 'text-gray-400', bg: 'bg-gray-500/10' };
+};
+
 export default function Home() {
   const { t, language } = useTranslation();
 
@@ -47,43 +55,46 @@ export default function Home() {
           {/* Major News */}
           <section>
             <h2 className="text-xl font-bold mb-6 flex items-center uppercase tracking-widest text-white">
-              <i className={`fas fa-bolt ${language === 'ar' ? 'ml-3' : 'mr-3'} text-yellow-500`}></i> {t.newsTitle}
+              <i className={`fas fa-bolt ${language === 'ar' ? 'ml-3' : 'mr-3'} text-blue-500`}></i> {t.newsTitle}
             </h2>
             <div className="grid md:grid-cols-2 gap-4">
               {dailyIntel.news.map((item, idx) => (
-                <a key={idx} href={item.url} target="_blank" className="bg-[#161b22] border border-[#30363d] p-4 border-l-4 border-yellow-600 hover:bg-gray-800/30 block group rounded-r-lg transition">
-                  <h3 className="font-bold mb-1 text-sm group-hover:text-yellow-500 transition uppercase tracking-tight">{item.title}</h3>
+                <a key={idx} href={item.url} target="_blank" className="bg-[#161b22] border border-[#30363d] p-4 border-l-4 border-blue-600 hover:bg-gray-800/30 block group rounded-r-lg transition">
+                  <h3 className="font-bold mb-1 text-sm group-hover:text-blue-500 transition uppercase tracking-tight">{item.title}</h3>
                   <p className="text-xs text-gray-400 leading-tight">{item.summary}</p>
                 </a>
               ))}
             </div>
           </section>
 
-          {/* Social Intelligence Stream (The Squad Output) */}
+          {/* Social Intelligence Stream (Dynamic Colors) */}
           <section>
             <h2 className="text-xl font-bold mb-6 flex items-center uppercase tracking-widest text-white">
               <i className={`fas fa-project-diagram ${language === 'ar' ? 'ml-3' : 'mr-3'} text-purple-500`}></i> {t.socialIntelTitle}
             </h2>
             <div className="space-y-4">
-              {dailyIntel.social_intelligence.map((item, idx) => (
-                <div key={idx} className="bg-[#161b22] border border-[#30363d] p-5 rounded-lg border-l-4 border-purple-500/50">
-                  <div className="flex justify-between items-start mb-2">
-                    <div>
-                      <span className="text-[9px] font-black bg-purple-900/30 text-purple-400 px-1.5 py-0.5 rounded uppercase tracking-widest border border-purple-800 mr-2">{item.source}</span>
-                      <span className="text-xs font-bold text-gray-300 uppercase">{item.asset} Signal: {item.signal}</span>
+              {dailyIntel.social_intelligence.map((item, idx) => {
+                const colors = getAssetColor(item.asset);
+                return (
+                  <div key={idx} className={`bg-[#161b22] border border-[#30363d] p-5 rounded-lg border-l-4 ${colors.border.replace('/30', '')}`}>
+                    <div className="flex justify-between items-start mb-2">
+                      <div>
+                        <span className={`text-[9px] font-black px-1.5 py-0.5 rounded uppercase tracking-widest border mr-2 ${colors.bg} ${colors.text} ${colors.border}`}>{item.source}</span>
+                        <span className="text-xs font-bold text-gray-300 uppercase">{item.asset} Signal: {item.signal}</span>
+                      </div>
+                      <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{t.confidence}: <span className="text-green-400">{item.confidence}</span></span>
                     </div>
-                    <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{t.confidence}: <span className="text-green-400">{item.confidence}</span></span>
+                    <p className="text-xs text-gray-400 leading-relaxed italic">"{item.insight}"</p>
                   </div>
-                  <p className="text-xs text-gray-400 leading-relaxed italic">"{item.insight}"</p>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
 
           {/* Institutional Intelligence */}
           <section className="space-y-10">
             <h2 className="text-xl font-bold mb-8 flex items-center border-b border-gray-800 pb-2 uppercase tracking-widest text-white">
-              <i className={`fas fa-university ${language === 'ar' ? 'ml-3' : 'mr-3'} text-blue-500`}></i> {t.intelTitle}
+              <i className={`fas fa-university ${language === 'ar' ? 'ml-3' : 'mr-3'} text-gray-500`}></i> {t.intelTitle}
             </h2>
             
             <div className="grid grid-cols-1 gap-8">
@@ -106,11 +117,11 @@ export default function Home() {
               <div className="grid md:grid-cols-2 gap-6">
                  <div className="space-y-4 text-white">
                     <div className="flex items-center space-x-2 mb-4">
-                      <span className="h-1 w-8 bg-yellow-600 rounded-full"></span>
+                      <span className="h-1 w-8 bg-yellow-500 rounded-full"></span>
                       <h3 className="text-[10px] font-black uppercase text-gray-500 tracking-[0.2em]">{t.metalsTitle}</h3>
                     </div>
                     {dailyIntel.institutional.metals.map((item, idx) => (
-                      <div key={idx} className="bg-[#161b22] border border-[#30363d] p-5 border-t-2 border-yellow-700/50 rounded-b-lg">
+                      <div key={idx} className="bg-[#161b22] border border-[#30363d] p-5 border-t-2 border-yellow-500/50 rounded-b-lg">
                         <h4 className="font-bold mb-2 text-[#a6a6a6] text-sm uppercase">{item.firm} | {item.analyst}</h4>
                         <p className="text-[11px] text-gray-400 mb-4 leading-relaxed">{item.insight}</p>
                         <a href={item.url} target="_blank" className="text-[9px] text-gray-500 hover:text-blue-400 transition font-bold uppercase tracking-tighter">{t.verifiedSource}</a>
@@ -119,10 +130,10 @@ export default function Home() {
                  </div>
                  <div className="space-y-4 text-white">
                     <div className="flex items-center space-x-2 mb-4">
-                      <span className="h-1 w-8 bg-orange-500 rounded-full"></span>
+                      <span className="h-1 w-8 bg-purple-500 rounded-full"></span>
                       <h3 className="text-[10px] font-black uppercase text-gray-500 tracking-[0.2em]">{t.cryptoTitle}</h3>
                     </div>
-                    <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-orange-500/30 rounded-lg">
+                    <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-purple-500/30 rounded-lg">
                       <h4 className="font-bold mb-2 text-[#f7931a] uppercase">{dailyIntel.institutional.crypto.firm} | {dailyIntel.institutional.crypto.analyst}</h4>
                       <p className="text-sm text-gray-300 leading-relaxed italic mb-3">“{dailyIntel.institutional.crypto.insight}”</p>
                       <a href={dailyIntel.institutional.crypto.url} target="_blank" className="text-[10px] text-blue-400 hover:text-white transition uppercase font-black tracking-widest">
