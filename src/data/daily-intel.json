@@ -49,14 +49,14 @@
   "social_intelligence": [
     {
       "source": "X (Twitter)",
-      "asset": "BTC",
+      "asset": "Bitcoin",
       "signal": "Neutral",
       "insight": "Traders are closely watching the $70,000 resistance as whales continue aggressive accumulation despite the price stall.",
       "confidence": "75%"
     },
     {
       "source": "Reddit",
-      "asset": "ETH",
+      "asset": "Ethereum",
       "signal": "Neutral",
       "insight": "Ethereum sentiment remains tied to Bitcoin's performance, with focus on the $2,000 psychological support level.",
       "confidence": "70%"
