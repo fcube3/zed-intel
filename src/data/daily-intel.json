@@ -67,7 +67,7 @@
       "label": "POLYMARKET",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$458,576,655",
+      "nominal": "$458,588,021",
       "outcomes": [
         {
           "name": "Kevin Warsh",
@@ -91,7 +91,7 @@
       "label": "POLYMARKET",
       "title": "US strikes Iran by...?",
       "url": "https://polymarket.com/event/us-strikes-iran-by",
-      "nominal": "$237,597,844",
+      "nominal": "$237,624,408",
       "outcomes": [
         {
           "name": "June 30",
@@ -115,7 +115,7 @@
       "label": "POLYMARKET",
       "title": "Fed decision in March?",
       "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": "$94,591,489",
+      "nominal": "$94,592,435",
       "outcomes": [
         {
           "name": "No change",
@@ -139,37 +139,37 @@
       "label": "POLYMARKET",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$51,354,049",
+      "nominal": "$51,358,157",
       "outcomes": [
         {
-          "name": "\u2191 150,000",
-          "prob": 0.0025,
-          "prob_pct": "0%"
+          "name": "\u2193 60,000",
+          "prob": 0.37,
+          "prob_pct": "37%"
         },
         {
-          "name": "\u2191 125,000",
-          "prob": 0.0035,
-          "prob_pct": "0%"
+          "name": "\u2191 75,000",
+          "prob": 0.315,
+          "prob_pct": "31%"
         },
         {
-          "name": "\u2191 120,000",
-          "prob": 0.0035,
-          "prob_pct": "0%"
+          "name": "\u2193 55,000",
+          "prob": 0.186,
+          "prob_pct": "18%"
         },
         {
-          "name": "\u2191 115,000",
-          "prob": 0.0045,
-          "prob_pct": "0%"
+          "name": "\u2191 80,000",
+          "prob": 0.135,
+          "prob_pct": "13%"
         },
         {
-          "name": "\u2191 110,000",
-          "prob": 0.0035,
-          "prob_pct": "0%"
+          "name": "\u2193 50,000",
+          "prob": 0.077,
+          "prob_pct": "7%"
         },
         {
-          "name": "\u2191 105,000",
-          "prob": 0.0055,
-          "prob_pct": "0%"
+          "name": "\u2191 85,000",
+          "prob": 0.055,
+          "prob_pct": "5%"
         }
       ],
       "color": "purple"
@@ -178,7 +178,7 @@
       "label": "POLYMARKET",
       "title": "US next strikes Iran on...?",
       "url": "https://polymarket.com/event/us-next-strikes-iran-on-843",
-      "nominal": "$23,394,400",
+      "nominal": "$23,394,846",
       "outcomes": [
         {
           "name": "No strike by February 28",
