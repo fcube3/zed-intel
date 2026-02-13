@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Traders are focused on historical cycle peak predictions and potential long-term lows, maintaining a HODL stance despite local volatility.",
-      "confidence": "75%"
+      "signal": "Panic",
+      "insight": "Sentiment has collapsed to 'Extreme Fear' (Index: 9) after BTC failed to hold the $67k level, with social chatter turning sharply defensive.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Narrative is dominated by the loss of the $2,500 support level and fears of a deeper dump toward $1,700-$1,800.",
-      "confidence": "80%"
+      "insight": "Narrative is dominated by the 'ETH is lagging' meme as it struggles below $2,000, with traders bracing for a retest of cycle lows.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "Gold continues to hit record highs above $4,700, driven by institutional demand and whales buying tokenized gold (XAUT).",
-      "confidence": "85%"
+      "signal": "Bearish",
+      "insight": "Euphoria has evaporated as Gold broke below $5,000; X is rife with 'top is in' calls following the strong USD data.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Extreme focus on physical shortages and the decoupling between record Shanghai premiums (>$120/oz) and Western paper benchmarks.",
-      "confidence": "90%"
+      "insight": "Extreme volatility and margin-call liquidations are the primary focus as retail traders reel from a 10% single-day dump.",
+      "confidence": "95%"
     }
   ],
   "predictions": [
