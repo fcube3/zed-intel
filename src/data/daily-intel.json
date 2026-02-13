@@ -1,10 +1,10 @@
 {
-  "date": "February 13, 2026",
+  "date": "February 14, 2026",
   "prices": {
-    "gold": 4966.0,
-    "silver": 75.78,
-    "btc": 65487.62,
-    "eth": 1918.43
+    "gold": 5034.20,
+    "silver": 78.59,
+    "btc": 69000.00,
+    "eth": 2057.70
   },
   "news": [
     {
@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Sentiment has collapsed to 'Extreme Fear' (Index: 9) after BTC failed to hold the $67k level, with social chatter turning sharply defensive.",
-      "confidence": "90%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "Narrative is dominated by the 'ETH is lagging' meme as it struggles below $2,000, with traders bracing for a retest of cycle lows.",
+      "signal": "Euphoria",
+      "insight": "Social sentiment has pivoted sharply to relief as BTC defends support and rebounds above $69k.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
+      "asset": "Ethereum",
+      "signal": "Euphoria",
+      "insight": "ETH is leading the relief rally with high-engagement posts focusing on the reclaim of $2,000.",
+      "confidence": "90%"
+    },
+    {
+      "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
-      "insight": "Euphoria has evaporated as Gold broke below $5,000; X is rife with 'top is in' calls following the strong USD data.",
-      "confidence": "80%"
+      "signal": "Bullish",
+      "insight": "Narrative has shifted from 'the top is in' to 'healthy correction' as Gold bounces back above $5,000.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "insight": "Extreme volatility and margin-call liquidations are the primary focus as retail traders reel from a 10% single-day dump.",
-      "confidence": "95%"
+      "signal": "Bullish",
+      "insight": "Retail 'buy the dip' sentiment is surging following the flash crash, targeting a return to $80.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
