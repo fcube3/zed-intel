@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Retail frustration is peaking as BTC breaks $66k; CT narrative is focused on 'capitulation' and a potential retest of 2024 lows.",
-      "confidence": "85%"
+      "signal": "Bearish/Neutral",
+      "insight": "CT is grappling with a potential drop to $50k while monitoring institutional accumulation during the dip.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "Sentiment remains heavy following the 'crypto exodus' narrative; focus is on structural support breakdown amid broader market jitters.",
-      "confidence": "80%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Social sentiment has pivoted to 'bargain-hunting' after the flash crash; bulls are defending the rebound from one-week lows.",
+      "signal": "Bearish/Neutral",
+      "insight": "The narrative centers on price weakness and declining TVL, though long-term holders continue to stake supply at record levels.",
       "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
+      "asset": "Gold",
+      "signal": "Bearish",
+      "insight": "The narrative is dominated by a sharp plunge below $5,000 following strong US labor data, with traders watching for a bottom in the 4,900 range.",
+      "confidence": "85%"
+    },
+    {
+      "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Tracking Gold's recovery; retail narrative is shifting from fear to 'buying the dip' as prices stabilize above key support.",
-      "confidence": "65%"
+      "signal": "Panic",
+      "insight": "The narrative is one of a 'long squeeze' and speculative washout as price crashed over 10% in a single day, testing fundamental supports.",
+      "confidence": "90%"
     }
   ],
   "predictions": [
