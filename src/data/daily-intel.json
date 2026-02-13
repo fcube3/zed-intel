@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "Sentiment remains heavy as StanChart slashes BTC targets to $50k; CT narrative shifted from 'buy the dip' to 'expecting more pain'.",
-      "confidence": "80%"
+      "signal": "Panic",
+      "insight": "Retail frustration is peaking as BTC breaks $66k; CT narrative is focused on 'capitulation' and a potential retest of 2024 lows.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Fear persists with analysts targeting $1.4k; narrative is dominated by the 'slow death' of altcoin strength relative to BTC.",
-      "confidence": "75%"
+      "insight": "Sentiment remains heavy following the 'crypto exodus' narrative; focus is on structural support breakdown amid broader market jitters.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "insight": "Consolidation after the $60 intraday drop; social narrative is divided between 'structural breakdown' and 'healthy reset'.",
-      "confidence": "65%"
+      "signal": "Bullish",
+      "insight": "Social sentiment has pivoted to 'bargain-hunting' after the flash crash; bulls are defending the rebound from one-week lows.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Silver tracking Gold's consolidation; retail traders are sidelined waiting for a clear reversal or further breakdown below $75.",
-      "confidence": "60%"
+      "signal": "Bullish",
+      "insight": "Tracking Gold's recovery; retail narrative is shifting from fear to 'buying the dip' as prices stabilize above key support.",
+      "confidence": "65%"
     }
   ],
   "predictions": [
