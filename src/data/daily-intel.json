@@ -45,29 +45,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bearish",
-      "insight": "Whale cost basis at $68.7k has turned into resistance as price dips toward $66k on heavy exchange inflows.",
-      "confidence": "70%"
+      "insight": "Retail traders are increasingly fearful as BTC fails to reclaim $70k, with focus shifting to the critical $66k support defense.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "insight": "Standard Chartered slashing target to $4k sparked panic as price flushed into the $2.15k demand zone.",
-      "confidence": "80%"
+      "insight": "Standard Chartered's target cut to $4k has triggered liquidations and a sharp flush into the $2.15k demand zone.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold has stabilized near $4,980-$5,000, with traders seeing it as a safe haven amid crypto volatility.",
-      "confidence": "75%"
+      "insight": "Gold has staged a strong rebound above $5,030 as 'buy the dip' sentiment takes hold after the brief sub-$5,000 flush.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral-to-Bearish",
-      "insight": "Silver is struggling at a crossroads after an 11% drop, with sentiment split between $70 support and $80 resistance.",
-      "confidence": "65%"
+      "insight": "Silver is struggling to regain momentum after its recent 11% drawdown, with technical resistance firming in the $84-$86 zone.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
