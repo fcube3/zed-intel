@@ -13,24 +13,36 @@ export default function LivePriceTicker() {
 
   useEffect(() => {
     const fetchMarkets = async () => {
-      // 1. Fetch Metals via our own Proxy to bypass CORS/Browser blocks
+      // 1. Fetch Gold via Binance PAXG (Reliable Proxy) + Silver via Proxy
       try {
-        const metalsRes = await fetch("/api/prices");
+        const [paxgRes, metalsRes] = await Promise.all([
+             fetch("https://api.binance.com/api/v3/ticker/24hr?symbol=PAXGUSDT"),
+             fetch("/api/prices")
+        ]);
+        
+        // Gold (PAXG)
+        if (paxgRes.ok) {
+            const paxgData = await paxgRes.json();
+            setPrices(prev => ({
+                ...prev,
+                XAU: {
+                  ...prev.XAU,
+                  price: parseFloat(paxgData.lastPrice).toLocaleString(undefined, { minimumFractionDigits: 2 }),
+                  change: (parseFloat(paxgData.priceChangePercent) >= 0 ? "+" : "") + paxgData.priceChangePercent + "%"
+                }
+            }));
+        }
+
+        // Silver (GoldPrice.org Proxy)
         if (metalsRes.ok) {
           const metalsData = await metalsRes.json();
           // Verify structure: goldprice.org usually returns { items: [...] }
           if (metalsData.items && metalsData.items.length > 0) {
             const item = metalsData.items[0];
-            const goldChange = item.pcXau;
             const silverChange = item.pcXag;
 
             setPrices(prev => ({
               ...prev,
-              XAU: {
-                ...prev.XAU,
-                price: item.xauPrice.toLocaleString(undefined, { minimumFractionDigits: 2 }),
-                change: (goldChange >= 0 ? "+" : "") + goldChange.toFixed(2) + "%"
-              },
               XAG: {
                 ...prev.XAG,
                 price: item.xagPrice.toLocaleString(undefined, { minimumFractionDigits: 2 }),
@@ -40,10 +52,10 @@ export default function LivePriceTicker() {
           }
         }
       } catch (e) {
-        console.error("Metals proxy fetch failed", e);
+        console.error("Metals fetch failed", e);
       }
 
-      // 2. Fetch Crypto (Binance is usually CORS-friendly, but we keep it decoupled)
+      // 2. Fetch Crypto (Binance)
       try {
         const [btcRes, ethRes] = await Promise.all([
           fetch("https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT"),
