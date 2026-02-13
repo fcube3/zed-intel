@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Fear & Greed index at 9 (Extreme Fear) dominates the CT narrative; retail is bracing for further liquidation cascades.",
-      "confidence": "95%"
+      "signal": "Bearish",
+      "insight": "Sentiment remains heavy as StanChart slashes BTC targets to $50k; CT narrative shifted from 'buy the dip' to 'expecting more pain'.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Panic",
-      "insight": "Narrative is focused on the $1,900 floor; sentiment has collapsed alongside the broader crypto market correction.",
-      "confidence": "90%"
+      "signal": "Bearish",
+      "insight": "Fear persists with analysts targeting $1.4k; narrative is dominated by the 'slow death' of altcoin strength relative to BTC.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
-      "insight": "Narrative shift on social: Gold is being treated as a speculative risk asset rather than a safe haven after the $5,000 rejection.",
-      "confidence": "85%"
+      "signal": "Neutral",
+      "insight": "Consolidation after the $60 intraday drop; social narrative is divided between 'structural breakdown' and 'healthy reset'.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "insight": "The recent 10% 'seven sigma' plunge has wiped out retail long positions; sentiment remains at record lows.",
-      "confidence": "92%"
+      "signal": "Neutral",
+      "insight": "Silver tracking Gold's consolidation; retail traders are sidelined waiting for a clear reversal or further breakdown below $75.",
+      "confidence": "60%"
     }
   ],
   "predictions": [
