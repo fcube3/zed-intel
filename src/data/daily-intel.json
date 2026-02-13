@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Retail is panicking as BTC struggles to hold support amid the lowest Fear & Greed levels (Index: 9) since late 2022.",
-      "confidence": "90%"
+      "signal": "Bearish",
+      "insight": "Traders are eyeing the $66k level as bears regain control and whale deposits to exchanges increase sell pressure.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Panic",
-      "insight": "ETH sentiment is mirroring Bitcoin's collapse, with social volume spiked around liquidation heatmaps.",
-      "confidence": "85%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Gold bugs are citing the recent dip as a 'gift' for a safe-haven rotation amid mounting geopolitical tension.",
+      "signal": "Bearish",
+      "insight": "Retail sentiment is shaken by institutional price target cuts and a flush to the $2,150 demand zone.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
-      "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Traders are aggressively debating if the 10% plunge is a 'shakeout' before the JPM-projected move to $81.",
+      "asset": "Gold",
+      "signal": "Neutral",
+      "insight": "Gold traders are focused on the $5,000 psychological level as the asset rebounds from a recent dip ahead of US CPI data.",
       "confidence": "70%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Neutral",
+      "insight": "Traders are cautious as Silver attempts to stabilize after an 11% drop, with a significant premium emerging in Chinese markets.",
+      "confidence": "65%"
     }
   ],
   "predictions": [
