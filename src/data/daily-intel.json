@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Euphoria",
-      "insight": "Social sentiment has pivoted sharply to relief as BTC defends support and rebounds above $69k.",
-      "confidence": "85%"
+      "signal": "Bearish",
+      "insight": "CT sentiment has turned cautious with the 'long-term rally' narrative seen as broken unless $85k is reclaimed.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Euphoria",
-      "insight": "ETH is leading the relief rally with high-engagement posts focusing on the reclaim of $2,000.",
-      "confidence": "90%"
+      "signal": "Neutral",
+      "insight": "Discussion is fragmented between EF leadership shakeups and the institutional case for digital asset treasuries.",
+      "confidence": "60%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Narrative has shifted from 'the top is in' to 'healthy correction' as Gold bounces back above $5,000.",
-      "confidence": "75%"
+      "insight": "Gold bugs remain optimistic with $5,900 year-end targets despite the recent 'AI-fear' driven tech correlation.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Retail 'buy the dip' sentiment is surging following the flash crash, targeting a return to $80.",
-      "confidence": "70%"
+      "signal": "Bearish",
+      "insight": "Sentiment is struggling to recover as silver remains tethered to the broader precious metals selloff.",
+      "confidence": "60%"
     }
   ],
   "predictions": [
