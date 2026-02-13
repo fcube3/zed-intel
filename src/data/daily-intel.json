@@ -44,29 +44,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish/Neutral",
-      "insight": "CT is grappling with a potential drop to $50k while monitoring institutional accumulation during the dip.",
+      "signal": "Bearish",
+      "insight": "CT is bracing for a potential slide to $50k as 'cycle reset' narrative takes hold following the drop below $66k.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish/Neutral",
-      "insight": "The narrative centers on price weakness and declining TVL, though long-term holders continue to stake supply at record levels.",
-      "confidence": "70%"
+      "signal": "Bearish",
+      "insight": "Persistent price weakness despite record staking supply has shifted the narrative toward institutional rotation into alternative L1s.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
-      "insight": "The narrative is dominated by a sharp plunge below $5,000 following strong US labor data, with traders watching for a bottom in the 4,900 range.",
+      "signal": "Panic",
+      "insight": "A sharp plunge below the $5,000 psychological level after strong US labor data has triggered widespread retail liquidation.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "The narrative is one of a 'long squeeze' and speculative washout as price crashed over 10% in a single day, testing fundamental supports.",
+      "insight": "A massive 10% daily crash to $75 support has liquidated speculative leverage as the 'long squeeze' narrative dominates.",
       "confidence": "90%"
     }
   ],
