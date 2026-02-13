@@ -44,29 +44,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "The 'Fear Index' at 9 reflects extreme retail panic as Bitcoin struggles to maintain the $69k psychological level.",
-      "confidence": "85%"
+      "signal": "Bearish",
+      "insight": "Whale cost basis at $68.7k has turned into resistance as price dips toward $66k on heavy exchange inflows.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "ETH sentiment is weighed down by a 'fear spike' in altcoins and concerns over support at $2,050.",
+      "signal": "Panic",
+      "insight": "Standard Chartered slashing target to $4k sparked panic as price flushed into the $2.15k demand zone.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Precious metals are seen as a hedge against current crypto volatility, with Gold holding firm above the $5,000 mark.",
+      "insight": "Gold has stabilized near $4,980-$5,000, with traders seeing it as a safe haven amid crypto volatility.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Silver traders are cautious, watching for a decisive break above $80 as the metal tracks Gold's resilience.",
+      "signal": "Neutral-to-Bearish",
+      "insight": "Silver is struggling at a crossroads after an 11% drop, with sentiment split between $70 support and $80 resistance.",
       "confidence": "65%"
     }
   ],
