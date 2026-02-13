@@ -1,10 +1,10 @@
 {
   "date": "February 14, 2026",
   "prices": {
-    "gold": 5034.20,
+    "gold": 5034.2,
     "silver": 78.59,
-    "btc": 69000.00,
-    "eth": 2057.70
+    "btc": 69000.0,
+    "eth": 2057.7
   },
   "news": [
     {
@@ -75,54 +75,54 @@
       "label": "GOLD PRICE",
       "title": "What will Gold (GC) hit__ by end of February?",
       "url": "https://polymarket.com/event/what-will-gold-gc-hit-by-end-of-february",
-      "nominal": "$5,658,350",
+      "nominal": "$5,670,885",
       "outcomes": [
         {
-          "name": "↑ $6,200",
-          "prob": 0.0145,
-          "vol": 168762.135431,
-          "vol_fmt": "$168,762",
-          "price_val": 6200,
+          "name": "\u2191 $6,200",
+          "prob": 0.015,
+          "vol": 168771.925431,
+          "vol_fmt": "$168,771",
+          "price_val": 6200.0,
           "prob_pct": "1%"
         },
         {
-          "name": "↑ $6,000",
-          "prob": 0.019,
-          "vol": 522449.10002,
-          "vol_fmt": "$522,449",
-          "price_val": 6000,
+          "name": "\u2191 $6,000",
+          "prob": 0.0165,
+          "vol": 522489.10002,
+          "vol_fmt": "$522,489",
+          "price_val": 6000.0,
           "prob_pct": "1%"
         },
         {
-          "name": "↑ $5,800",
-          "prob": 0.0395,
-          "vol": 300613.853841,
-          "vol_fmt": "$300,613",
-          "price_val": 5800,
+          "name": "\u2191 $5,800",
+          "prob": 0.039,
+          "vol": 300974.84756,
+          "vol_fmt": "$300,974",
+          "price_val": 5800.0,
           "prob_pct": "3%"
         },
         {
-          "name": "↑ $5,500",
-          "prob": 0.1345,
-          "vol": 725552.225616,
-          "vol_fmt": "$725,552",
-          "price_val": 5500,
-          "prob_pct": "13%"
+          "name": "\u2191 $5,500",
+          "prob": 0.159,
+          "vol": 736966.190397,
+          "vol_fmt": "$736,966",
+          "price_val": 5500.0,
+          "prob_pct": "15%"
         },
         {
-          "name": "↓ $4,600",
-          "prob": 0.212,
-          "vol": 209571.988504,
-          "vol_fmt": "$209,571",
-          "price_val": 4600,
+          "name": "\u2193 $4,600",
+          "prob": 0.213,
+          "vol": 209706.31583,
+          "vol_fmt": "$209,706",
+          "price_val": 4600.0,
           "prob_pct": "21%"
         },
         {
-          "name": "↓ $4,450",
+          "name": "\u2193 $4,450",
           "prob": 0.11,
           "vol": 131141.619432,
           "vol_fmt": "$131,141",
-          "price_val": 4450,
+          "price_val": 4450.0,
           "prob_pct": "11%"
         }
       ],
@@ -132,55 +132,55 @@
       "label": "SILVER PRICE",
       "title": "Will Silver (SI) hit__ by end of February?",
       "url": "https://polymarket.com/event/will-silver-si-hit-by-end-of-february",
-      "nominal": "$3,656,235",
+      "nominal": "$3,660,103",
       "outcomes": [
         {
-          "name": "↑ $150",
+          "name": "\u2191 $150",
           "prob": 0.0135,
           "vol": 185853.44429,
           "vol_fmt": "$185,853",
-          "price_val": 150,
+          "price_val": 150.0,
           "prob_pct": "1%"
         },
         {
-          "name": "↑ $140",
+          "name": "\u2191 $140",
           "prob": 0.0175,
           "vol": 217906.564197,
           "vol_fmt": "$217,906",
-          "price_val": 140,
+          "price_val": 140.0,
           "prob_pct": "1%"
         },
         {
-          "name": "↑ $130",
+          "name": "\u2191 $130",
           "prob": 0.0245,
           "vol": 256987.984522,
           "vol_fmt": "$256,987",
-          "price_val": 130,
+          "price_val": 130.0,
           "prob_pct": "2%"
         },
         {
-          "name": "↑ $120",
-          "prob": 0.048,
-          "vol": 443924.745093,
-          "vol_fmt": "$443,924",
-          "price_val": 120,
-          "prob_pct": "4%"
+          "name": "\u2191 $120",
+          "prob": 0.0585,
+          "vol": 446022.205093,
+          "vol_fmt": "$446,022",
+          "price_val": 120.0,
+          "prob_pct": "5%"
         },
         {
-          "name": "↓ $75",
-          "prob": 0.696,
-          "vol": 368728.004524,
-          "vol_fmt": "$368,728",
-          "price_val": 75,
-          "prob_pct": "69%"
+          "name": "\u2193 $75",
+          "prob": 0.7055,
+          "vol": 368923.297468,
+          "vol_fmt": "$368,923",
+          "price_val": 75.0,
+          "prob_pct": "70%"
         },
         {
-          "name": "↓ $70",
-          "prob": 0.425,
-          "vol": 126688.785577,
-          "vol_fmt": "$126,688",
-          "price_val": 70,
-          "prob_pct": "42%"
+          "name": "\u2193 $70",
+          "prob": 0.355,
+          "vol": 126736.475577,
+          "vol_fmt": "$126,736",
+          "price_val": 70.0,
+          "prob_pct": "35%"
         }
       ],
       "color": "gray"
@@ -189,54 +189,54 @@
       "label": "BTC PRICE",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$56,916,339",
+      "nominal": "$57,096,234",
       "outcomes": [
         {
-          "name": "↑ 90,000",
-          "prob": 0.0215,
-          "vol": 3157676.242627,
-          "vol_fmt": "$3,157,676",
-          "price_val": 90000,
+          "name": "\u2191 90,000",
+          "prob": 0.0205,
+          "vol": 3159496.463442,
+          "vol_fmt": "$3,159,496",
+          "price_val": 90000.0,
           "prob_pct": "2%"
         },
         {
-          "name": "↑ 85,000",
-          "prob": 0.0545,
-          "vol": 3878093.730166,
-          "vol_fmt": "$3,878,093",
-          "price_val": 85000,
+          "name": "\u2191 85,000",
+          "prob": 0.05,
+          "vol": 3928523.373575,
+          "vol_fmt": "$3,928,523",
+          "price_val": 85000.0,
           "prob_pct": "5%"
         },
         {
-          "name": "↑ 80,000",
-          "prob": 0.14,
-          "vol": 981942.575482,
-          "vol_fmt": "$981,942",
-          "price_val": 80000,
-          "prob_pct": "14%"
+          "name": "\u2191 80,000",
+          "prob": 0.15,
+          "vol": 999998.934381,
+          "vol_fmt": "$999,998",
+          "price_val": 80000.0,
+          "prob_pct": "15%"
         },
         {
-          "name": "↑ 75,000",
-          "prob": 0.405,
-          "vol": 1360033.039142,
-          "vol_fmt": "$1,360,033",
-          "price_val": 75000,
-          "prob_pct": "40%"
+          "name": "\u2191 75,000",
+          "prob": 0.415,
+          "vol": 1363925.747692,
+          "vol_fmt": "$1,363,925",
+          "price_val": 75000.0,
+          "prob_pct": "41%"
         },
         {
-          "name": "↓ 60,000",
-          "prob": 0.265,
-          "vol": 1010195.809559,
-          "vol_fmt": "$1,010,195",
-          "price_val": 60000,
+          "name": "\u2193 60,000",
+          "prob": 0.26,
+          "vol": 1032120.987939,
+          "vol_fmt": "$1,032,120",
+          "price_val": 60000.0,
           "prob_pct": "26%"
         },
         {
-          "name": "↓ 55,000",
-          "prob": 0.1035,
-          "vol": 2654241.597381,
-          "vol_fmt": "$2,654,241",
-          "price_val": 55000,
+          "name": "\u2193 55,000",
+          "prob": 0.1015,
+          "vol": 2685690.942158,
+          "vol_fmt": "$2,685,690",
+          "price_val": 55000.0,
           "prob_pct": "10%"
         }
       ],
@@ -246,54 +246,54 @@
       "label": "ETH PRICE",
       "title": "What price will Ethereum hit in February?",
       "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-      "nominal": "$19,406,873",
+      "nominal": "$19,414,956",
       "outcomes": [
         {
-          "name": "↑ 3,400",
-          "prob": 0.014,
-          "vol": 551465.169161,
-          "vol_fmt": "$551,465",
-          "price_val": 3400,
+          "name": "\u2191 3,400",
+          "prob": 0.0145,
+          "vol": 551703.739161,
+          "vol_fmt": "$551,703",
+          "price_val": 3400.0,
           "prob_pct": "1%"
         },
         {
-          "name": "↑ 3,200",
+          "name": "\u2191 3,200",
           "prob": 0.015,
-          "vol": 422832.356741,
-          "vol_fmt": "$422,832",
-          "price_val": 3200,
+          "vol": 422956.756741,
+          "vol_fmt": "$422,956",
+          "price_val": 3200.0,
           "prob_pct": "1%"
         },
         {
-          "name": "↑ 3,000",
-          "prob": 0.0215,
-          "vol": 515845.828686,
-          "vol_fmt": "$515,845",
-          "price_val": 3000,
+          "name": "\u2191 3,000",
+          "prob": 0.022,
+          "vol": 518470.998686,
+          "vol_fmt": "$518,470",
+          "price_val": 3000.0,
           "prob_pct": "2%"
         },
         {
-          "name": "↑ 2,800",
-          "prob": 0.0455,
-          "vol": 1064982.093692,
-          "vol_fmt": "$1,064,982",
-          "price_val": 2800,
+          "name": "\u2191 2,800",
+          "prob": 0.0435,
+          "vol": 1066322.734394,
+          "vol_fmt": "$1,066,322",
+          "price_val": 2800.0,
           "prob_pct": "4%"
         },
         {
-          "name": "↓ 1,600",
-          "prob": 0.125,
-          "vol": 980961.456904,
-          "vol_fmt": "$980,961",
-          "price_val": 1600,
+          "name": "\u2193 1,600",
+          "prob": 0.122,
+          "vol": 982298.726703,
+          "vol_fmt": "$982,298",
+          "price_val": 1600.0,
           "prob_pct": "12%"
         },
         {
-          "name": "↓ 1,400",
-          "prob": 0.057,
-          "vol": 653216.50955,
-          "vol_fmt": "$653,216",
-          "price_val": 1400,
+          "name": "\u2193 1,400",
+          "prob": 0.0565,
+          "vol": 653736.49955,
+          "vol_fmt": "$653,736",
+          "price_val": 1400.0,
           "prob_pct": "5%"
         }
       ],
@@ -303,23 +303,23 @@
       "label": "MACRO / FED",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$468,555,455",
+      "nominal": "$471,194,141",
       "outcomes": [
         {
           "name": "Kevin Warsh",
-          "prob": 0.9545,
-          "vol": 38084750.101826,
-          "vol_fmt": "$38,084,750",
+          "prob": 0.9635,
+          "vol": 38362585.013788,
+          "vol_fmt": "$38,362,585",
           "price_val": 0,
           "prob_pct": "89%"
         },
         {
           "name": "Rick Rieder",
           "prob": 0.075,
-          "vol": 0,
+          "vol": 0.0,
           "vol_fmt": "$0",
           "price_val": 0,
-          "prob_pct": "7%"
+          "prob_pct": "6%"
         },
         {
           "name": "James Bullard",
@@ -336,29 +336,29 @@
       "label": "GEOPOLITICS",
       "title": "US strikes Iran by...?",
       "url": "https://polymarket.com/event/us-strikes-iran-by",
-      "nominal": "$246,831,573",
+      "nominal": "$247,033,778",
       "outcomes": [
         {
           "name": "June 30",
           "prob": 0.425,
-          "vol": 4924534.104432,
-          "vol_fmt": "$4,924,534",
+          "vol": 4925128.471564,
+          "vol_fmt": "$4,925,128",
           "price_val": 0,
           "prob_pct": "45%"
         },
         {
           "name": "March 31",
           "prob": 0.295,
-          "vol": 8498464.600835,
-          "vol_fmt": "$8,498,464",
+          "vol": 8505537.379035,
+          "vol_fmt": "$8,505,537",
           "price_val": 0,
           "prob_pct": "31%"
         },
         {
           "name": "March 15",
           "prob": 0.215,
-          "vol": 59763.055455,
-          "vol_fmt": "$59,763",
+          "vol": 59862.79208,
+          "vol_fmt": "$59,862",
           "price_val": 0,
           "prob_pct": "22%"
         }
@@ -369,29 +369,29 @@
       "label": "WILDCARD",
       "title": "Fed decision in March?",
       "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": "$100,899,337",
+      "nominal": "$101,110,747",
       "outcomes": [
         {
           "name": "No change",
           "prob": 0.925,
-          "vol": 14172129.002847,
-          "vol_fmt": "$14,172,129",
+          "vol": 14188523.570655,
+          "vol_fmt": "$14,188,523",
           "price_val": 0,
           "prob_pct": "93%"
         },
         {
           "name": "25 bps decrease",
           "prob": 0.055,
-          "vol": 13857202.261267,
-          "vol_fmt": "$13,857,202",
+          "vol": 13915460.29792,
+          "vol_fmt": "$13,915,460",
           "price_val": 0,
           "prob_pct": "5%"
         },
         {
           "name": "50+ bps decrease",
           "prob": 0.0065,
-          "vol": 39317083.976301,
-          "vol_fmt": "$39,317,083",
+          "vol": 39416404.214824,
+          "vol_fmt": "$39,416,404",
           "price_val": 0,
           "prob_pct": "0%"
         }
