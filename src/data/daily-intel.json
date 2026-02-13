@@ -44,29 +44,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "CT is bracing for a potential slide to $50k as 'cycle reset' narrative takes hold following the drop below $66k.",
+      "signal": "Neutral",
+      "insight": "CT is debating if the $66k level will hold or if a deeper drop to $55k realized price is incoming.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Persistent price weakness despite record staking supply has shifted the narrative toward institutional rotation into alternative L1s.",
+      "insight": "Traders are frustrated by ETH's persistent underperformance relative to inflows, focusing on the $2,400 recovery target.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Panic",
-      "insight": "A sharp plunge below the $5,000 psychological level after strong US labor data has triggered widespread retail liquidation.",
+      "signal": "Neutral",
+      "insight": "Gold markets were hit by a 'flash crash' under $5k on jobs data but are now debating a recovery to the $5,100 level.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "A massive 10% daily crash to $75 support has liquidated speculative leverage as the 'long squeeze' narrative dominates.",
+      "insight": "Retail traders are reeling from a 10% daily crash in silver, while bulls point to long-term industrial demand and $100 targets.",
       "confidence": "90%"
     }
   ],
