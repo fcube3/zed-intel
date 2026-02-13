@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "CT sentiment has turned cautious with the 'long-term rally' narrative seen as broken unless $85k is reclaimed.",
-      "confidence": "75%"
+      "signal": "Panic",
+      "insight": "Retail is panicking as BTC struggles to hold support amid the lowest Fear & Greed levels (Index: 9) since late 2022.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Discussion is fragmented between EF leadership shakeups and the institutional case for digital asset treasuries.",
-      "confidence": "60%"
+      "signal": "Panic",
+      "insight": "ETH sentiment is mirroring Bitcoin's collapse, with social volume spiked around liquidation heatmaps.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold bugs remain optimistic with $5,900 year-end targets despite the recent 'AI-fear' driven tech correlation.",
-      "confidence": "65%"
+      "insight": "Gold bugs are citing the recent dip as a 'gift' for a safe-haven rotation amid mounting geopolitical tension.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bearish",
-      "insight": "Sentiment is struggling to recover as silver remains tethered to the broader precious metals selloff.",
-      "confidence": "60%"
+      "signal": "Bullish",
+      "insight": "Traders are aggressively debating if the 10% plunge is a 'shakeout' before the JPM-projected move to $81.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
