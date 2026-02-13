@@ -45,29 +45,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bearish",
-      "insight": "Traders are spooked by massive whale deposits on Binance and evaporating institutional demand as BTC struggles to hold $66k.",
+      "insight": "Retail sentiment remains predominantly bearish despite recent price stability, with analysts looking for a definitive bottom.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "A massive $17B TVL drawdown and institutional 'tactical pause' are weighing on ETH, though some traders are bottom-fishing for a $2,400 recovery.",
-      "confidence": "75%"
+      "signal": "Bearish",
+      "insight": "Deep pessimism persists as ETH tests the $1,900 support level, though record staking levels suggest long-term resilience.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
-      "insight": "Retail sentiment is divided after the sub-$5,000 plunge; while some see a 'strong rebound,' others are pivoting to a 'sell on rallies' stance as technicals weaken.",
+      "signal": "Panic",
+      "insight": "Gold experienced a sharp 'flash crash' below $5,000 triggered by de-dollarisation narrative shifts, with dip-buyers now fighting for support.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "A violent 10% liquidation in 30 minutes has triggered absolute panic, with silver crashing from $119 highs to $75 as speculative fever breaks.",
-      "confidence": "95%"
+      "insight": "Extreme volatility dominates Silver as it crashes 10-17% on tariff fears, though some traders see the $75-80 range as a definitive bottom.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
