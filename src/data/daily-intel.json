@@ -44,29 +44,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish (Buying the dip)",
-      "insight": "Retail is shifting from panic to 'buy the dip' sentiment as $65k support holds; CT narrative focuses on bottom-timing.",
-      "confidence": "85%"
+      "signal": "Panic",
+      "insight": "Fear & Greed index at 9 (Extreme Fear) dominates the CT narrative; retail is bracing for further liquidation cascades.",
+      "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Narrative split between concern over $2,000 floor and excitement for AI/tokenization integrations (Ethzilla, Vitalik AI post).",
-      "confidence": "75%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Gold",
       "signal": "Panic",
-      "insight": "Sharp intraday sell-off has triggered retail panic; narrative is searching for a catalyst for the sudden $5,000 rejection.",
+      "insight": "Narrative is focused on the $1,900 floor; sentiment has collapsed alongside the broader crypto market correction.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
-      "asset": "Silver",
+      "asset": "Gold",
       "signal": "Bearish",
-      "insight": "High volatility regime continues to punish YOLO traders as price struggles to stabilize above $75 following the 'seven sigma' volatility.",
+      "insight": "Narrative shift on social: Gold is being treated as a speculative risk asset rather than a safe haven after the $5,000 rejection.",
+      "confidence": "85%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Panic",
+      "insight": "The recent 10% 'seven sigma' plunge has wiped out retail long positions; sentiment remains at record lows.",
       "confidence": "92%"
     }
   ],
