@@ -42,18 +42,32 @@
   },
   "social_intelligence": [
     {
-      "source": "Alternative.me",
+      "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Extreme Fear",
-      "insight": "Fear & Greed Index at 9. Market is pricing in extreme volatility and potential further drawdowns as social interactions signal peak panic.",
-      "confidence": "95%"
+      "signal": "Bullish (Buying the dip)",
+      "insight": "Retail is shifting from panic to 'buy the dip' sentiment as $65k support holds; CT narrative focuses on bottom-timing.",
+      "confidence": "85%"
     },
     {
-      "source": "Social Sentiment",
+      "source": "X (Twitter)",
+      "asset": "Ethereum",
+      "signal": "Neutral",
+      "insight": "Narrative split between concern over $2,000 floor and excitement for AI/tokenization integrations (Ethzilla, Vitalik AI post).",
+      "confidence": "75%"
+    },
+    {
+      "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Panic Sell-off",
-      "insight": "Retail sentiment has flipped bearish following the break below the $5,000 psychological support; technical liquidations are likely driving the momentum.",
+      "signal": "Panic",
+      "insight": "Sharp intraday sell-off has triggered retail panic; narrative is searching for a catalyst for the sudden $5,000 rejection.",
       "confidence": "90%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Bearish",
+      "insight": "High volatility regime continues to punish YOLO traders as price struggles to stabilize above $75 following the 'seven sigma' volatility.",
+      "confidence": "92%"
     }
   ],
   "predictions": [
