@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "CT is debating if the $66k level will hold or if a deeper drop to $55k realized price is incoming.",
-      "confidence": "75%"
+      "signal": "Panic",
+      "insight": "Retail sentiment has collapsed into Extreme Fear (9) as rumors of a Russia-US pivot shake the core de-dollarization narrative.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Traders are frustrated by ETH's persistent underperformance relative to inflows, focusing on the $2,400 recovery target.",
-      "confidence": "80%"
+      "insight": "ETH traders are focused on the $1,900 defense as the asset continues to follow BTC's downward momentum.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "insight": "Gold markets were hit by a 'flash crash' under $5k on jobs data but are now debating a recovery to the $5,100 level.",
-      "confidence": "85%"
+      "insight": "The narrative is split between 'buy the dip' at $4,900 and fears of further liquidation if Fed rate cut expectations continue to recede.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Retail traders are reeling from a 10% daily crash in silver, while bulls point to long-term industrial demand and $100 targets.",
-      "confidence": "90%"
+      "insight": "Social volume remains high for silver as retail bulls struggle to digest the 10% flash crash and test of $75 support.",
+      "confidence": "95%"
     }
   ],
   "predictions": [
