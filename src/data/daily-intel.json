@@ -1,42 +1,42 @@
 {
   "date": "February 14, 2026",
   "prices": {
-    "gold": 5034.2,
+    "gold": 5035.5,
     "silver": 78.59,
-    "btc": 69000.0,
-    "eth": 2057.7
+    "btc": 68896.0,
+    "eth": 2051.7
   },
   "news": [
     {
-      "title": "Gold and Silver Plunge Amid Sudden Precious Metals Sell-Off",
-      "summary": "Gold and silver prices posted sharp losses Thursday, with gold falling 2.59% to $4966 and silver plunging 9.71% to $75.78. Analysts cite a sudden sell-off amid falling tech stocks and dampened hopes for near-term Fed rate cuts following strong U.S. labor data.",
-      "url": "https://www.forbes.com/sites/conormurray/2026/02/12/silver-price-suddenly-plunges-10-heres-why/"
+      "title": "Bitcoin briefly reclaims $69K after cool US CPI print",
+      "summary": "Bitcoin price briefly touched $69,000 following a cooler-than-expected US CPI report, though broader market sentiment remains jittery with a spike in 'Fear' across altcoins like Cardano and XRP.",
+      "url": "https://news.google.com/search?q=Bitcoin"
     },
     {
-      "title": "Russia-US Dollar Pivot Rumors Rattle De-dollarisation Bets",
-      "summary": "Reports of a potential Russia-US dollar pivot have rattled global markets and de-dollarisation bets, contributing to the rapid downward pressure on precious metals.",
-      "url": "https://www.fool.com.au/2026/02/13/why-did-the-silver-and-gold-price-just-fall-so-sharply/"
+      "title": "Crypto Fear Index Plummets to 'Extreme Fear' (9)",
+      "summary": "Market sentiment has collapsed as the Fear & Greed Index hits 9, indicating high retail panic despite Bitcoin's attempts to hold technical support levels.",
+      "url": "https://alternative.me/crypto/fear-and-greed-index/"
     }
   ],
   "institutional": {
     "macro": {
-      "firm": "Forbes / Market Analysis",
+      "firm": "TradingView / Market Analysis",
       "analyst": "Market Desk",
-      "insight": "The precious metals slump is driven by strong U.S. labor data which has pushed back expectations for Federal Reserve rate cuts, strengthening the USD relative to metals.",
-      "url": "https://www.forbes.com/sites/conormurray/2026/02/12/silver-price-suddenly-plunges-10-heres-why/"
+      "insight": "Cool US CPI data provided a brief relief rally for BTC, but macro headwinds and de-risking in altcoins suggest a fragile recovery.",
+      "url": "https://news.google.com/search?q=Bitcoin"
     },
     "metals": [
       {
         "firm": "Kitco News",
         "analyst": "Market Consensus",
-        "insight": "The rapid 'downdrafts' in gold and silver prices are described as sudden and extreme, with technical support levels being tested after record highs.",
-        "url": "https://www.kitco.com/news/article/2026-02-12/gold-silver-sell-rapidly-reasons-are-unknown"
+        "insight": "Gold is stabilizing above the $5,000 level, acting as a preferred safe haven as digital asset volatility spikes.",
+        "url": "https://www.kitco.com/news/"
       }
     ],
     "crypto": {
       "firm": "Alternative.me",
       "analyst": "Sentiment Index",
-      "insight": "Crypto sentiment has collapsed into 'Extreme Fear' (Index: 9), a massive drop from neutral levels last month, indicating high panic in digital assets.",
+      "insight": "Crypto sentiment has collapsed into 'Extreme Fear' (Index: 9), indicating massive capitulation risk and retail panic.",
       "url": "https://alternative.me/crypto/fear-and-greed-index/"
     }
   },
@@ -44,29 +44,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "Traders are eyeing the $66k level as bears regain control and whale deposits to exchanges increase sell pressure.",
-      "confidence": "80%"
+      "signal": "Panic",
+      "insight": "The 'Fear Index' at 9 reflects extreme retail panic as Bitcoin struggles to maintain the $69k psychological level.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Retail sentiment is shaken by institutional price target cuts and a flush to the $2,150 demand zone.",
-      "confidence": "75%"
+      "insight": "ETH sentiment is weighed down by a 'fear spike' in altcoins and concerns over support at $2,050.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "insight": "Gold traders are focused on the $5,000 psychological level as the asset rebounds from a recent dip ahead of US CPI data.",
-      "confidence": "70%"
+      "signal": "Bullish",
+      "insight": "Precious metals are seen as a hedge against current crypto volatility, with Gold holding firm above the $5,000 mark.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "insight": "Traders are cautious as Silver attempts to stabilize after an 11% drop, with a significant premium emerging in Chinese markets.",
+      "insight": "Silver traders are cautious, watching for a decisive break above $80 as the metal tracks Gold's resilience.",
       "confidence": "65%"
     }
   ],
