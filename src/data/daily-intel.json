@@ -44,29 +44,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Whale dumps and reduced Fed rate cut hopes have pushed BTC below $66k, with traders eyeing $55k realized price support.",
-      "confidence": "90%"
+      "signal": "Bearish",
+      "insight": "Traders are spooked by massive whale deposits on Binance and evaporating institutional demand as BTC struggles to hold $66k.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "insight": "Institutional interest in ETH has hit a 'tactical pause' while DeFi TVL sees a significant drawdown, keeping price action stagnant.",
-      "confidence": "70%"
+      "insight": "A massive $17B TVL drawdown and institutional 'tactical pause' are weighing on ETH, though some traders are bottom-fishing for a $2,400 recovery.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bearish",
-      "insight": "Gold has broken below the key $5,000 level following strong US jobs data, with technical analysts watching for a hold in the $4,900 range.",
+      "insight": "Retail sentiment is divided after the sub-$5,000 plunge; while some see a 'strong rebound,' others are pivoting to a 'sell on rallies' stance as technicals weaken.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Silver is in a freefall after its parabolic run, with a 'long squeeze' liquidation driving prices down to $75 as speculative fever evaporates.",
+      "insight": "A violent 10% liquidation in 30 minutes has triggered absolute panic, with silver crashing from $119 highs to $75 as speculative fever breaks.",
       "confidence": "95%"
     }
   ],
