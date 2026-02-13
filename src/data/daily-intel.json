@@ -44,30 +44,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "Retail sentiment remains predominantly bearish despite recent price stability, with analysts looking for a definitive bottom.",
-      "confidence": "85%"
+      "signal": "Neutral",
+      "insight": "Traders are focused on historical cycle peak predictions and potential long-term lows, maintaining a HODL stance despite local volatility.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Deep pessimism persists as ETH tests the $1,900 support level, though record staking levels suggest long-term resilience.",
-      "confidence": "90%"
+      "insight": "Narrative is dominated by the loss of the $2,500 support level and fears of a deeper dump toward $1,700-$1,800.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Panic",
-      "insight": "Gold experienced a sharp 'flash crash' below $5,000 triggered by de-dollarisation narrative shifts, with dip-buyers now fighting for support.",
-      "confidence": "80%"
+      "signal": "Euphoria",
+      "insight": "Gold continues to hit record highs above $4,700, driven by institutional demand and whales buying tokenized gold (XAUT).",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Extreme volatility dominates Silver as it crashes 10-17% on tariff fears, though some traders see the $75-80 range as a definitive bottom.",
-      "confidence": "75%"
+      "insight": "Extreme focus on physical shortages and the decoupling between record Shanghai premiums (>$120/oz) and Western paper benchmarks.",
+      "confidence": "90%"
     }
   ],
   "predictions": [
@@ -361,6 +361,7 @@
           "vol_fmt": "$48,765",
           "price_val": 0,
           "prob_pct": "22%"
+"
         }
       ],
       "color": "red"
