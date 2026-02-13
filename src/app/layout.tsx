@@ -5,6 +5,10 @@ import { LanguageProvider } from "@/components/LanguageContext";
 export const metadata: Metadata = {
   title: "Zed Intelligence Dashboard",
   description: "Strategic briefing for hard assets",
+  icons: {
+    icon: '/favicon.ico?v=2',
+    apple: '/apple-icon.png?v=2',
+  },
 };
 
 export default function RootLayout({
