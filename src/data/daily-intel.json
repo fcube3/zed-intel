@@ -45,29 +45,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Retail sentiment has collapsed into Extreme Fear (9) as rumors of a Russia-US pivot shake the core de-dollarization narrative.",
+      "insight": "Retail panic is peaking as BTC drops to $65k with the Fear & Greed Index hitting historic lows (5-8).",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "ETH traders are focused on the $1,900 defense as the asset continues to follow BTC's downward momentum.",
-      "confidence": "85%"
+      "signal": "Neutral",
+      "insight": "ETH is showing relative resilience compared to BTC but remains cautious as traders eye the $1,900 support.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "insight": "The narrative is split between 'buy the dip' at $4,900 and fears of further liquidation if Fed rate cut expectations continue to recede.",
-      "confidence": "80%"
+      "signal": "Bearish",
+      "insight": "Gold suffered a sharp 3.5% sell-off on Thursday but is staging a partial comeback toward $5,000 early Friday.",
+      "confidence": "60%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "insight": "Social volume remains high for silver as retail bulls struggle to digest the 10% flash crash and test of $75 support.",
-      "confidence": "95%"
+      "insight": "Silver plunged over 11% late Thursday to $76.60 but saw a minor 2.2% rebound on Friday as dip buyers entered.",
+      "confidence": "85%"
     }
   ],
   "predictions": [
