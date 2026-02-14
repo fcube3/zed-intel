@@ -47,32 +47,32 @@
   },
   "social_intelligence": [
     {
-      "source": "X (Twitter)",
+      "source": "Reddit (r/CryptoCurrency)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Market is consolidating in the $65k-$73k range, with analysts eyeing an 'undervaluation zone' after recent volatility.",
-      "confidence": "75%"
+      "signal": "Panic",
+      "insight": "Retail sentiment is collapsing with 'Extreme Fear (9)' and warnings of a brutal 2026 crash led by MSTR leverage concerns.",
+      "confidence": "85%"
     },
     {
-      "source": "X (Twitter)",
+      "source": "Reddit (r/ethereum)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Despite price target cuts from major banks, on-chain data shows buyers are stepping in as ETH trades below key accumulation levels.",
-      "confidence": "65%"
+      "signal": "Bearish",
+      "insight": "Ethereum is lagging Bitcoin and facing staking regulatory delays, with sentiment described as 'gloomy' despite records potentially being broken later.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold has reclaimed the $5,000 level with a strong 2.2% rebound, as traders anticipate a 'shockwave' from upcoming US inflation data.",
-      "confidence": "85%"
+      "insight": "Gold has reclaimed the $5,000 psychological floor with technical energy building for a further surge toward $8,000.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Silver is attempting a recovery after a brutal 11% liquidation, with traders watching the $80 resistance amid significant volatility on the Shanghai Exchange.",
-      "confidence": "60%"
+      "signal": "Euphoria",
+      "insight": "Silver is predicted to outperform gold in 2026, with some traders calling for a move toward $150-$250/oz.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
