@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Fear & Greed Index remains at 9 (Extreme Fear); retail remains in capitulation mode despite price hovering near $69k.",
-      "confidence": "95%"
+      "insight": "Fear & Greed Index remains pinned at 9; retail remains paralyzed by choppy action following the $3B options expiry.",
+      "confidence": "96%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Narrative dominated by 'altcoin bleed' concerns; community focus is on maintaining the critical $2,000 support level.",
-      "confidence": "85%"
+      "insight": "Sentiment weighed down by falling institutional interest and the critical $2,000 support retest.",
+      "confidence": "88%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Social sentiment consolidated around the $5,000 floor as a 'safe haven' rotation continues from risk assets.",
-      "confidence": "92%"
+      "signal": "Neutral",
+      "insight": "Retail sentiment cooled as price dipped from recent highs; focus shifting to upcoming US CPI data.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "insight": "Persistent 'Silver Squeeze' narrative on Reddit/X fueled by reports of physical delivery delays at major bullion dealers.",
-      "confidence": "82%"
+      "signal": "Neutral",
+      "insight": "Narrative pivot as recent 'squeeze' euphoria faces reality check from broader market volatility.",
+      "confidence": "80%"
     }
   ],
   "predictions": [
