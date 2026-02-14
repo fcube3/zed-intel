@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral/Bearish",
-      "insight": "Market remains in 'Extreme Fear' (9) despite price consolidation near $68k, with traders eyeing the $65k support floor.",
-      "confidence": "80%"
+      "signal": "Bullish",
+      "insight": "CT is focused on the $65k support and MVRV reset while debating the cause of recent 'crash' volatility.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Ethereum sentiment is turning bullish as technicals improve and buyers target a recovery to the $2,300-$2,400 range by March.",
-      "confidence": "70%"
+      "signal": "Neutral",
+      "insight": "Retail is looking for stability and demand zone defense around $2k while processing the 'ETF double-edged sword' narrative.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold maintains its bullish momentum, surging on Feb 14 as traders position ahead of CPI, with physical demand remaining a core driver.",
-      "confidence": "90%"
+      "insight": "Sentiment is high as gold reclaimed the $5,000 level, with traders focusing on US CPI and speculative demand from China.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral/Bullish",
-      "insight": "Silver remains in a tight consolidation range between $75 and $86, with tightening futures markets suggesting a potential upward breakout.",
-      "confidence": "75%"
+      "insight": "Sentiment is mixed but cautiously optimistic as silver attempts to regain footing above $70, with eyes on Shanghai Exchange interventions.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
