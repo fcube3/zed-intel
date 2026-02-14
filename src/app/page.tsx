@@ -153,21 +153,6 @@ export default function Home() {
         <div className="space-y-12">
           <PredictionFunnel />
           
-          {/* Sentiment */}
-          <section>
-            <h2 className="text-xs font-black mb-6 flex items-center uppercase tracking-[0.3em] text-gray-500 text-white">
-              <i className={`fas fa-brain ${language === 'ar' ? 'ml-2' : 'mr-2'} text-orange-500`}></i> {t.sentimentTitle}
-            </h2>
-            <div className="bg-[#161b22] border border-[#30363d] p-4 rounded-lg text-white">
-              <p className="text-[10px] text-gray-400 font-bold uppercase tracking-tighter mb-2">{t.retailPositioning}</p>
-              <p className="text-[11px] font-black text-red-400 mb-2 uppercase">Extreme Long: 76%</p>
-              <div className="w-full bg-gray-800 h-1 rounded-full overflow-hidden mb-2">
-                <div className="bg-red-500 h-full" style={{ width: "76%" }}></div>
-              </div>
-              <p className="text-[9px] text-gray-600 leading-tight italic uppercase">{t.trapPhase}</p>
-            </div>
-          </section>
-
           {/* Archive */}
           <ArchiveList />
 
