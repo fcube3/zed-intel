@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "insight": "BTC is consolidating between $65k and $73k after recent volatility, with whales remaining cautious.",
-      "confidence": "80%"
+      "insight": "Market is consolidating in the $65k-$73k range, with analysts eyeing an 'undervaluation zone' after recent volatility.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "ETH is seeing renewed buying interest after a flush to $2.15k, with whales showing steady conviction despite lowered targets.",
-      "confidence": "75%"
+      "insight": "Despite price target cuts from major banks, on-chain data shows buyers are stepping in as ETH trades below key accumulation levels.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold has rebounded above $5,030 after testing $4,967 support; traders focused on CPI for a potential breakout.",
+      "insight": "Gold has reclaimed the $5,000 level with a strong 2.2% rebound, as traders anticipate a 'shockwave' from upcoming US inflation data.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "insight": "Silver is struggling to regain $80 after an 11% drop, with key support at $75 holding as market awaits CPI.",
-      "confidence": "80%"
+      "insight": "Silver is attempting a recovery after a brutal 11% liquidation, with traders watching the $80 resistance amid significant volatility on the Shanghai Exchange.",
+      "confidence": "60%"
     }
   ],
   "predictions": [
