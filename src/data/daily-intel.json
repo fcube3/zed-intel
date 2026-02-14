@@ -1,5 +1,5 @@
 {
-  "date": "February 14, 2026",
+  "date": "February 15, 2026",
   "prices": {
     "gold": 5041.2,
     "silver": 77.32,
@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "insight": "CT is focused on the $65k support and MVRV reset while debating the cause of recent 'crash' volatility.",
+      "signal": "Bearish",
+      "insight": "Traders are bracing for a potential capitulation to the $55k psychological floor.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "insight": "Retail is looking for stability and demand zone defense around $2k while processing the 'ETF double-edged sword' narrative.",
-      "confidence": "80%"
+      "insight": "Consolidation around $2k continues with a focus on a $2.3k recovery target.",
+      "confidence": "60%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Sentiment is high as gold reclaimed the $5,000 level, with traders focusing on US CPI and speculative demand from China.",
+      "insight": "Buyers are aggressively defending the Fibonacci support levels after a strong rebound.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral/Bullish",
-      "insight": "Sentiment is mixed but cautiously optimistic as silver attempts to regain footing above $70, with eyes on Shanghai Exchange interventions.",
-      "confidence": "70%"
+      "signal": "Panic",
+      "insight": "Retail sentiment is split between technical bearish patterns and fundamental supply tightening.",
+      "confidence": "65%"
     }
   ],
   "predictions": [
