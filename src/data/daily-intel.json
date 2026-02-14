@@ -50,28 +50,28 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "insight": "Consolidation in the $65k-$73k range as technicals reset; MVRV reset to 0.38 suggests local bottoming.",
+      "insight": "Consolidation in the $65k-$73k range as technicals reset; focus remains on CPI and MVRV signals.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Price broke above the descending trendline; recovery target set at $2.3k-$2.4k by March.",
+      "insight": "Recovery narrative gaining traction with buyers returning and targets set at $2.3k-$2.4k by March.",
       "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold successfully reclaimed the $5,000 floor; narrative shifting towards $6,000 breakout on CPI shockwaves.",
+      "insight": "Strong rebound above the $5,000 floor; narrative shifting towards $6,000 breakout on CPI expectations.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "insight": "Retail craze cooling after sharp drop from $83 to $78; floor seen rising to $81/oz average for 2026.",
+      "signal": "Neutral",
+      "insight": "Regaining footing after a sharp drop; price currently consolidating between $70 support and $80 resistance.",
       "confidence": "70%"
     }
   ],
