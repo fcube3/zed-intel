@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Retail sentiment is in deep capitulation/extreme fear despite the price bounce back to $70k.",
-      "confidence": "85%"
+      "signal": "Bullish",
+      "insight": "Traders are eyeing the $70k psychological level following a strong rebound from recent lows.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "ETH is reclaiming the $2,000 level amid extreme fear, with whales buying the dip while ETF flows remain negative.",
-      "confidence": "70%"
+      "signal": "Bullish",
+      "insight": "Whale accumulation and institutional interest are driving a recovery narrative towards $2.4k targets.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold has crossed the $5,000 milestone with strong retail and institutional consensus as the ultimate safe haven.",
+      "insight": "Massive price target upgrades (e.g., UBS to $6,200) have solidified a strong bullish consensus.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "insight": "Silver is experiencing aggressive speculative interest, outperforming the broader market with a 68% monthly gain.",
-      "confidence": "75%"
+      "signal": "Neutral",
+      "insight": "Silver is in a fragile recovery phase after a massive crash, with traders divided on technical patterns.",
+      "confidence": "60%"
     }
   ],
   "predictions": [
