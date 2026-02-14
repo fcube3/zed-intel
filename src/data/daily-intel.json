@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Sentiment is at multi-year lows (Index 9) as retail capitulates near $69k; major disconnect from price action.",
+      "insight": "Fear & Greed Index remains at 9 (Extreme Fear); retail remains in capitulation mode despite price hovering near $69k.",
       "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "ETH community is focused on defending the $2,000 support level amid a broader 'altcoin bleed' narrative.",
+      "insight": "Narrative dominated by 'altcoin bleed' concerns; community focus is on maintaining the critical $2,000 support level.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "XAU reclaim of $5,000 has shifted social focus to its 'safe haven' status as crypto volatility spikes.",
-      "confidence": "90%"
+      "insight": "Social sentiment consolidated around the $5,000 floor as a 'safe haven' rotation continues from risk assets.",
+      "confidence": "92%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "insight": "Narrative dominated by 'physical squeeze' and 'supply depletion' as retail investors bet against western benchmarks.",
-      "confidence": "80%"
+      "insight": "Persistent 'Silver Squeeze' narrative on Reddit/X fueled by reports of physical delivery delays at major bullion dealers.",
+      "confidence": "82%"
     }
   ],
   "predictions": [
