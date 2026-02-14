@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Consolidation in the $65k-$73k range as technicals reset; focus remains on CPI and MVRV signals.",
-      "confidence": "75%"
+      "signal": "Neutral/Bearish",
+      "insight": "Market remains in 'Extreme Fear' (9) despite price consolidation near $68k, with traders eyeing the $65k support floor.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Recovery narrative gaining traction with buyers returning and targets set at $2.3k-$2.4k by March.",
-      "confidence": "65%"
+      "insight": "Ethereum sentiment is turning bullish as technicals improve and buyers target a recovery to the $2,300-$2,400 range by March.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Strong rebound above the $5,000 floor; narrative shifting towards $6,000 breakout on CPI expectations.",
-      "confidence": "85%"
+      "insight": "Gold maintains its bullish momentum, surging on Feb 14 as traders position ahead of CPI, with physical demand remaining a core driver.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Regaining footing after a sharp drop; price currently consolidating between $70 support and $80 resistance.",
-      "confidence": "70%"
+      "signal": "Neutral/Bullish",
+      "insight": "Silver remains in a tight consolidation range between $75 and $86, with tightening futures markets suggesting a potential upward breakout.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
