@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Euphoria",
-      "insight": "CT is celebrating a break back into the $68k-$69k range after a volatile week, with focus on a weekend short squeeze.",
-      "confidence": "75%"
+      "signal": "Panic",
+      "insight": "Retail is in a state of panic as BTC struggles to hold $66k; focus on the $60k support defense.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Ethereum narrative is lagging; traders are shifting focus to high-beta alts as ETH fails to lead the recovery.",
-      "confidence": "65%"
+      "signal": "Bearish",
+      "insight": "ETH fell below $2,000, trailing BTC's weakness with significant derivatives liquidations.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Retail gold bugs are emboldened by the $5,000 reclaim, citing systemic risk and 'debt-spiral' narratives.",
-      "confidence": "85%"
+      "insight": "Bullion is catching a bid as a safe-haven asset amid crypto volatility and cooling US inflation.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "insight": "Silver stackers are hyper-focused on inventory shortages at western vaults, predicting a 'historic squeeze'.",
-      "confidence": "80%"
+      "signal": "Bullish",
+      "insight": "Silver follows gold's momentum, with traders eyeing the gold-to-silver ratio for a potential breakout.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
