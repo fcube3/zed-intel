@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Retail sentiment is at multi-year lows (Index 9) as traders brace for a potential support breach despite holding $68k.",
-      "confidence": "90%"
+      "signal": "Euphoria",
+      "insight": "CT is celebrating a break back into the $68k-$69k range after a volatile week, with focus on a weekend short squeeze.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Panic",
-      "insight": "Fear is spilling over from BTC; retail is increasingly skeptical of ETH/BTC strength in the short term.",
-      "confidence": "85%"
+      "signal": "Neutral",
+      "insight": "Ethereum narrative is lagging; traders are shifting focus to high-beta alts as ETH fails to lead the recovery.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "CT/Finance Twitter is heavily focused on Gold's breakout potential as a macro hedge against global uncertainty.",
-      "confidence": "80%"
+      "insight": "Retail gold bugs are emboldened by the $5,000 reclaim, citing systemic risk and 'debt-spiral' narratives.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Sentiment remains positive on the back of gold's strength, with focus on physical inventory shortages.",
-      "confidence": "70%"
+      "signal": "Euphoria",
+      "insight": "Silver stackers are hyper-focused on inventory shortages at western vaults, predicting a 'historic squeeze'.",
+      "confidence": "80%"
     }
   ],
   "predictions": [
