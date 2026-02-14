@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "insight": "Bitcoin is rebounding toward $70k with a strong correlation to gold as an inflation hedge.",
-      "confidence": "65%"
+      "signal": "Panic",
+      "insight": "Retail sentiment is in deep capitulation/extreme fear despite the price bounce back to $70k.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Ethereum is seeing significant institutional accumulation and staking activity, pushing prices back above $2,000.",
-      "confidence": "80%"
+      "signal": "Neutral",
+      "insight": "ETH is reclaiming the $2,000 level amid extreme fear, with whales buying the dip while ETF flows remain negative.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "Gold is maintaining strong bullish momentum with institutional price targets being revised upward toward $6,200/oz.",
+      "signal": "Bullish",
+      "insight": "Gold has crossed the $5,000 milestone with strong retail and institutional consensus as the ultimate safe haven.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Silver is consolidating in a neutral trend with some technical warning signs, despite a tightening futures market.",
-      "confidence": "60%"
+      "signal": "Euphoria",
+      "insight": "Silver is experiencing aggressive speculative interest, outperforming the broader market with a 68% monthly gain.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
