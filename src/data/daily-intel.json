@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Extreme Fear",
-      "insight": "Sentiment has collapsed to 'Extreme Fear' (9) as BTC hovers near $69k, indicating a massive retail/price disconnect.",
-      "confidence": "95%"
+      "signal": "Neutral",
+      "insight": "CT is focused on consolidation within the $65k-$73k range as the options market shows rising nervousness.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "Retail sentiment remains deeply negative as ETH struggles to reclaim the $2,100 level amidst general crypto malaise.",
+      "insight": "Narrative is shifting to deep bearishness after Standard Chartered's 2026 target cut and key support breakdowns.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Confidence in the $5,000 floor is high as gold reclaims the psychological level, attracting safe-haven interest.",
-      "confidence": "80%"
+      "insight": "Safe-haven flows are accelerating as price reclaims the $5,000 psychological level ahead of high-stakes CPI data.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Physical demand narratives dominate social chatter as western inventories plunge, supporting the bullish case.",
-      "confidence": "75%"
+      "signal": "Neutral-to-Bearish",
+      "insight": "Traders are cautious as silver struggles to hold $80 after a sharp 11% liquidation event.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
