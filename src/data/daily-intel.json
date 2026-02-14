@@ -47,25 +47,32 @@
   },
   "social_intelligence": [
     {
-      "source": "Fear & Greed Index",
+      "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Extreme Fear",
-      "insight": "Sentiment is at its lowest point in years (9/100). Social volume remains high but is dominated by panic and uncertainty.",
+      "signal": "Panic",
+      "insight": "Sentiment is at multi-year lows (Index 9) as retail capitulates near $69k; major disconnect from price action.",
+      "confidence": "95%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Ethereum",
+      "signal": "Bearish",
+      "insight": "ETH community is focused on defending the $2,000 support level amid a broader 'altcoin bleed' narrative.",
+      "confidence": "85%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Gold",
+      "signal": "Bullish",
+      "insight": "XAU reclaim of $5,000 has shifted social focus to its 'safe haven' status as crypto volatility spikes.",
       "confidence": "90%"
     },
     {
-      "source": "Kitco Social",
-      "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Community focus has shifted back to gold as a 'flight to safety' asset as crypto volatility returns and support levels are tested.",
+      "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Euphoria",
+      "insight": "Narrative dominated by 'physical squeeze' and 'supply depletion' as retail investors bet against western benchmarks.",
       "confidence": "80%"
-    },
-    {
-      "source": "Polymarket",
-      "asset": "Macro",
-      "signal": "Stabilizing",
-      "insight": "95%+ probability of Kevin Warsh as next Fed Chair is providing a predictable anchor for macro expectations.",
-      "confidence": "95%"
     }
   ],
   "predictions": [
@@ -326,6 +333,7 @@
           "vol_fmt": "$5,005",
           "price_val": 0,
           "prob_pct": "3%"
+"
         }
       ],
       "color": "blue"
