@@ -47,31 +47,31 @@
   },
   "social_intelligence": [
     {
-      "source": "Reddit (r/CryptoCurrency)",
+      "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "insight": "Retail sentiment is collapsing with 'Extreme Fear (9)' and warnings of a brutal 2026 crash led by MSTR leverage concerns.",
-      "confidence": "85%"
+      "insight": "Retail sentiment is at multi-year lows (Index 9) as traders brace for a potential support breach despite holding $68k.",
+      "confidence": "90%"
     },
     {
-      "source": "Reddit (r/ethereum)",
+      "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "Ethereum is lagging Bitcoin and facing staking regulatory delays, with sentiment described as 'gloomy' despite records potentially being broken later.",
-      "confidence": "75%"
+      "signal": "Panic",
+      "insight": "Fear is spilling over from BTC; retail is increasingly skeptical of ETH/BTC strength in the short term.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold has reclaimed the $5,000 psychological floor with technical energy building for a further surge toward $8,000.",
+      "insight": "CT/Finance Twitter is heavily focused on Gold's breakout potential as a macro hedge against global uncertainty.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "insight": "Silver is predicted to outperform gold in 2026, with some traders calling for a move toward $150-$250/oz.",
+      "signal": "Bullish",
+      "insight": "Sentiment remains positive on the back of gold's strength, with focus on physical inventory shortages.",
       "confidence": "70%"
     }
   ],
@@ -232,7 +232,7 @@
           "name": "\u2191 75,000",
           "prob": 0.395,
           "vol": 1410247.169676,
-          "vol_fmt": "$1,410,247",
+          "vol_fmt": "$1410,247",
           "price_val": 75000.0,
           "prob_pct": "39%"
         },
@@ -391,6 +391,7 @@
           "vol_fmt": "$14,078,936",
           "price_val": 0,
           "prob_pct": "5%"
+"5%"
         },
         {
           "name": "50+ bps decrease",
