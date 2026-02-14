@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "insight": "Traders are eyeing the $70k psychological level following a strong rebound from recent lows.",
+      "insight": "Retail is eyeing the $70k psychological level as a rebound confirmation, noting strong correlation with gold as an inflation hedge.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Whale accumulation and institutional interest are driving a recovery narrative towards $2.4k targets.",
-      "confidence": "85%"
+      "insight": "Institutional and whale accumulation is driving a 6% jump, with retail shifting focus from trading to staking as a recovery narrative builds.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Massive price target upgrades (e.g., UBS to $6,200) have solidified a strong bullish consensus.",
-      "confidence": "90%"
+      "insight": "Institutional price targets are being revised upward (UBS to $6200/oz), with technical traders focused on the $5050–$5150 'decision gate' for further momentum expansion.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Silver is in a fragile recovery phase after a massive crash, with traders divided on technical patterns.",
-      "confidence": "60%"
+      "signal": "Bullish",
+      "insight": "Market tightness is evident in the futures curve (falling contango), with analysts eyeing a breakout above $80 toward triple-digit targets despite short-term consolidation.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
