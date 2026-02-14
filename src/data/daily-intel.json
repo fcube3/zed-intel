@@ -49,29 +49,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Fear & Greed Index remains pinned at 9; retail remains paralyzed by choppy action following the $3B options expiry.",
-      "confidence": "96%"
+      "signal": "Neutral",
+      "insight": "BTC is consolidating between $65k and $73k after recent volatility, with whales remaining cautious.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "Sentiment weighed down by falling institutional interest and the critical $2,000 support retest.",
-      "confidence": "88%"
+      "signal": "Bullish",
+      "insight": "ETH is seeing renewed buying interest after a flush to $2.15k, with whales showing steady conviction despite lowered targets.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "insight": "Retail sentiment cooled as price dipped from recent highs; focus shifting to upcoming US CPI data.",
+      "signal": "Bullish",
+      "insight": "Gold has rebounded above $5,030 after testing $4,967 support; traders focused on CPI for a potential breakout.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "insight": "Narrative pivot as recent 'squeeze' euphoria faces reality check from broader market volatility.",
+      "insight": "Silver is struggling to regain $80 after an 11% drop, with key support at $75 holding as market awaits CPI.",
       "confidence": "80%"
     }
   ],
