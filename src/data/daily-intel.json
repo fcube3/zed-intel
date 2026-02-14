@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Retail is fixated on the 'Death Cross' fears and the $60k support level as the Fear Index sits at record lows.",
-      "confidence": "85%"
+      "signal": "Bullish",
+      "insight": "Bitcoin is rebounding toward $70k with a strong correlation to gold as an inflation hedge.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Traders are split between a 'lower low' below $1,800 and the 'whale accumulation' narrative supporting a bounce.",
-      "confidence": "70%"
+      "signal": "Bullish",
+      "insight": "Ethereum is seeing significant institutional accumulation and staking activity, pushing prices back above $2,000.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "insight": "'Gold to $6k' is trending as the $5,000 floor holds, driven by central bank buying rumors and inflation hedge narrative.",
+      "insight": "Gold is maintaining strong bullish momentum with institutional price targets being revised upward toward $6,200/oz.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Retail is cheering the inventory plunge on COMEX, anticipating a massive short squeeze toward $100.",
-      "confidence": "75%"
+      "signal": "Neutral",
+      "insight": "Silver is consolidating in a neutral trend with some technical warning signs, despite a tightening futures market.",
+      "confidence": "60%"
     }
   ],
   "predictions": [
