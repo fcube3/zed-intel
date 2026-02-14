@@ -50,28 +50,28 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "insight": "CT is focused on consolidation within the $65k-$73k range as the options market shows rising nervousness.",
-      "confidence": "75%"
+      "insight": "Consolidation continues in the $65k-$73k range; PlanB notes price is tracking difficulty better than powerlaw.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "Narrative is shifting to deep bearishness after Standard Chartered's 2026 target cut and key support breakdowns.",
-      "confidence": "85%"
+      "signal": "Neutral-to-Bearish",
+      "insight": "Price is holding $2k but narrative is split; ETF 'double-edged sword' of capital without participation is a theme.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Safe-haven flows are accelerating as price reclaims the $5,000 psychological level ahead of high-stakes CPI data.",
-      "confidence": "90%"
+      "insight": "Strong safe-haven flows confirmed as price stabilizes above $5,030; breakout sentiment is brewing for US CPI.",
+      "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral-to-Bearish",
-      "insight": "Traders are cautious as silver struggles to hold $80 after a sharp 11% liquidation event.",
+      "signal": "Neutral",
+      "insight": "Silver attempts to regain footing but remains capped by $80 resistance; technicals described as at a crossroads.",
       "confidence": "70%"
     }
   ],
