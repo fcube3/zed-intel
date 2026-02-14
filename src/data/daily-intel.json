@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Retail is in a state of panic as BTC struggles to hold $66k; focus on the $60k support defense.",
-      "confidence": "85%"
+      "signal": "Extreme Fear",
+      "insight": "Sentiment has collapsed to 'Extreme Fear' (9) as BTC hovers near $69k, indicating a massive retail/price disconnect.",
+      "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "insight": "ETH fell below $2,000, trailing BTC's weakness with significant derivatives liquidations.",
-      "confidence": "80%"
+      "insight": "Retail sentiment remains deeply negative as ETH struggles to reclaim the $2,100 level amidst general crypto malaise.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Bullion is catching a bid as a safe-haven asset amid crypto volatility and cooling US inflation.",
-      "confidence": "75%"
+      "insight": "Confidence in the $5,000 floor is high as gold reclaims the psychological level, attracting safe-haven interest.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Silver follows gold's momentum, with traders eyeing the gold-to-silver ratio for a potential breakout.",
-      "confidence": "70%"
+      "insight": "Physical demand narratives dominate social chatter as western inventories plunge, supporting the bullish case.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
@@ -399,6 +399,7 @@
           "vol_fmt": "$40,667,512",
           "price_val": 0,
           "prob_pct": "0%"
+%"
         }
       ],
       "color": "green"
