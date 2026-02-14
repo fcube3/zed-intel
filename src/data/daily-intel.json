@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "insight": "Retail is eyeing the $70k psychological level as a rebound confirmation, noting strong correlation with gold as an inflation hedge.",
+      "insight": "Retail is focused on the $70k rebound confirmation, with 78% gold correlation reinforcing its role as a digital haven.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Institutional and whale accumulation is driving a 6% jump, with retail shifting focus from trading to staking as a recovery narrative builds.",
+      "insight": "Stabilizing at $2,050 with supply pressure mounting from the validator entry queue; targets shifted to $2,300 recovery.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Institutional price targets are being revised upward (UBS to $6200/oz), with technical traders focused on the $5050\u2013$5150 'decision gate' for further momentum expansion.",
-      "confidence": "85%"
+      "insight": "Consolidating near $5,050 'psychological gate'; institutional upgrades to $6,200 are fueling a high-conviction momentum narrative.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Market tightness is evident in the futures curve (falling contango), with analysts eyeing a breakout above $80 toward triple-digit targets despite short-term consolidation.",
-      "confidence": "70%"
+      "insight": "Futures curve tightness and falling contango suggest an imminent push toward the $80 supply zone.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
