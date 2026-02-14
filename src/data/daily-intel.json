@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bearish",
-      "insight": "Traders are bracing for a potential capitulation to the $55k psychological floor.",
+      "insight": "Market expects further capitulation with $55k acting as the ultimate bear market bottom.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Consolidation around $2k continues with a focus on a $2.3k recovery target.",
-      "confidence": "60%"
+      "signal": "Bullish",
+      "insight": "Whale accumulation and institutional interest are driving a recovery toward the $2.3k-$2.4k target.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Buyers are aggressively defending the Fibonacci support levels after a strong rebound.",
+      "insight": "Rebounded strongly from $4.9k; UBS raising price target to $6.2k fuels retail euphoria.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "insight": "Retail sentiment is split between technical bearish patterns and fundamental supply tightening.",
-      "confidence": "65%"
+      "signal": "Neutral",
+      "insight": "Stuck in a corrective pullback; traders are cautious of a bearish pennant while monitoring supply tightness.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
