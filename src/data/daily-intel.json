@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "Market expects further capitulation with $55k acting as the ultimate bear market bottom.",
-      "confidence": "75%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Whale accumulation and institutional interest are driving a recovery toward the $2.3k-$2.4k target.",
-      "confidence": "80%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Rebounded strongly from $4.9k; UBS raising price target to $6.2k fuels retail euphoria.",
+      "signal": "Panic",
+      "insight": "Retail is fixated on the 'Death Cross' fears and the $60k support level as the Fear Index sits at record lows.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
-      "asset": "Silver",
+      "asset": "Ethereum",
       "signal": "Neutral",
-      "insight": "Stuck in a corrective pullback; traders are cautious of a bearish pennant while monitoring supply tightness.",
+      "insight": "Traders are split between a 'lower low' below $1,800 and the 'whale accumulation' narrative supporting a bounce.",
       "confidence": "70%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Gold",
+      "signal": "Euphoria",
+      "insight": "'Gold to $6k' is trending as the $5,000 floor holds, driven by central bank buying rumors and inflation hedge narrative.",
+      "confidence": "90%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Bullish",
+      "insight": "Retail is cheering the inventory plunge on COMEX, anticipating a massive short squeeze toward $100.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
