@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "insight": "Traders are targeting a $70k rebound, supported by a strong 78% correlation with Gold as an inflation hedge.",
-      "confidence": "80%"
+      "signal": "Neutral",
+      "insight": "BTC is consolidating around the $68k level with market observers noting relative stability after earlier volatility.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "insight": "ETH is consolidating near $2,050 support, with analysts projecting a recovery toward $2,300 by March.",
-      "confidence": "75%"
+      "insight": "Ethereum maintains price levels above $2k as traders position for a mid-term recovery toward $2.3k.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "insight": "Institutional sentiment is surging as UBS raises price targets to $6,200, with spot prices holding above $5,000.",
-      "confidence": "95%"
+      "insight": "Institutional price target upgrades and safe-haven demand have pushed Gold sentiment into high euphoria.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Technical indicators suggest a volatility breakout is imminent as prices compress in a symmetrical triangle toward $90.",
-      "confidence": "85%"
+      "insight": "Silver sentiment remains bullish on long-term targets despite near-term technical consolidation in tight ranges.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
