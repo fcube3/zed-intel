@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "insight": "Retail sentiment is recovering with focus on $60k support as a key pivot for the next move higher.",
-      "confidence": "75%"
+      "signal": "Neutral",
+      "insight": "Narrative is shifting toward a possible retest of $55k as 'ultimate bottom' despite recent $70k jump.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Traders are eyeing a 'TD buy signal' and on-chain swaps for PAXG as signs of institutional accumulation.",
+      "insight": "Bullish consensus building around TD buy signals and institutional accumulation at $2,000 level.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Consensus remains strong for Gold holding above $5k, with narratives shifting toward a breakout to $5.6k.",
-      "confidence": "85%"
+      "insight": "Strong consensus on $5,000 support holding with aggressive long-term targets raised to $6,200 by UBS.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "insight": "Massive premiums in Shanghai and bullish 'Supertrend' signals have traders anticipating a major supply squeeze.",
-      "confidence": "70%"
+      "signal": "Bullish",
+      "insight": "Traders anticipate a major squeeze ahead of COMEX options expiration with targets up to $240.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
