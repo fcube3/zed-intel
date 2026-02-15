@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "insight": "Traders are debating if $70k is a local top, with some eyeing a $55k bottom retest.",
-      "confidence": "65%"
+      "insight": "Traders are divided on whether $70k is a local top or a base for a liquidity-driven squeeze toward $75k.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Traders are highlighting a TD buy signal on the daily chart, sparking optimism for a trend reversal.",
-      "confidence": "80%"
+      "signal": "Neutral",
+      "insight": "On-chain data shows large rotations into PAXG/Gold, while retail is cautiously watching for a breakdown below local support.",
+      "confidence": "60%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold's firm hold above the $5,000 psychological level is fueling a strong retail consensus for a breakout toward $5,600.",
-      "confidence": "90%"
+      "insight": "Retail and institutional bulls are defending the $5,000 level, anticipating a breakout toward $5,600 on macro instability.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Retail traders are focused on a massive $17/oz East-West arbitrage gap and COMEX options expiration as catalysts for an $80+ target.",
-      "confidence": "85%"
+      "insight": "The narrative is dominated by a massive $17/oz East-West arbitrage gap and commercials loading long on dips.",
+      "confidence": "90%"
     }
   ],
   "predictions": [
