@@ -49,23 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral/Wagering",
-      "insight": "Surge in high-frequency 5-minute bets indicates a shift toward short-term volatility capture over long-term conviction.",
+      "signal": "Panic",
+      "insight": "Retail remains in 'extreme fear' despite the recovery to $70k, indicating fragile conviction after the recent $8.7B wipeout.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
-      "asset": "Gold",
-      "signal": "Strongly Bullish",
-      "insight": "Institutional accumulation is being quietly mirrored by 'bargain hunters' stepping in at the $5,000 floor.",
-      "confidence": "95%"
+      "asset": "Ethereum",
+      "signal": "Bullish",
+      "insight": "Narrative shifting toward institutional growth with Truth Social's new ETF filings adding momentum to the $2k support.",
+      "confidence": "75%"
     },
     {
-      "source": "Prediction Markets",
-      "asset": "Market Share",
-      "signal": "Kalshi Dominant",
-      "insight": "Arbitrage opportunities persist between Polymarket (55c) and Kalshi (62c), signaling fragmented liquidity.",
+      "source": "X (Twitter)",
+      "asset": "Gold",
+      "signal": "Bullish",
+      "insight": "The 'start buying ASAP' narrative gains traction as retail sentiment aligns with institutional targets of $5,000.",
       "confidence": "90%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Bullish",
+      "insight": "Sentiment remains tied to gold's 'melt-up' thesis, with retail anticipating a late-cycle catch-up surge.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
