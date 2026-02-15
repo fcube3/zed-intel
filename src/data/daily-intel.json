@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "insight": "Retail narrative is shifting toward a $75k recovery target following a $70k rebound, though some analysts warn of a $55k floor.",
-      "confidence": "65%"
+      "insight": "Retail narrative is centering on a $70k rebound and a 78% correlation with gold as an inflation hedge.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Bullish consensus is forming around a $2,300-$2,400 recovery target by March, supported by high validator demand and price stability above $2,000.",
-      "confidence": "75%"
+      "insight": "Ethereum targets a $2,300-$2,400 recovery by March, supported by high validator demand and reduced exchange supply.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
       "insight": "Gold sentiment is decoupled and strongly bullish following the UBS $6,200 target hike and a successful defense of the $5,000 psychological floor.",
-      "confidence": "85%"
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "insight": "Traders are bracing for a volatility breakout from a symmetrical triangle, while tightening futures supply supports a long-term $100+ moonshot narrative.",
-      "confidence": "70%"
+      "confidence": "65%"
     }
   ],
   "predictions": [
