@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "insight": "Retail sentiment is cautious near $70k as analysts debate whether the capitulation phase is truly over.",
-      "confidence": "75%"
+      "insight": "Market is divided between a 'capitulation' narrative toward $55k and a 'rebound' narrative as price touches $70k again.",
+      "confidence": "60%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Traders are eyeing a recovery to $2,300-$2,400 by March, supported by decreasing exchange liquidity and validator growth.",
-      "confidence": "80%"
+      "insight": "Traders are eyeing recovery targets up to $2,400, supported by on-chain signals of reduced exchange supply and increased staking.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "Institutional price targets jumping to $6,200 (UBS) have sparked strong retail momentum and technical breakout calls.",
-      "confidence": "90%"
+      "signal": "Bullish",
+      "insight": "Institutional upgrades (UBS target to $6,200) and a strong technical rebound from recent corrections are driving a dominant bullish narrative.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Sentiment is shifting toward a 'tight market' narrative and recovery after recent volatility, with long-term targets as high as $100+.",
-      "confidence": "70%"
+      "insight": "Analysts identify a 'volatility squeeze' in a symmetrical triangle, with long-term sentiment remaining highly optimistic despite short-term consolidation.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
