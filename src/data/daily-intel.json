@@ -1,407 +1,115 @@
 {
-  "date": "February 15, 2026",
+  "date": "Sunday, February 15, 2026",
   "prices": {
-    "gold": 5041.2,
-    "silver": 77.32,
-    "btc": 68845.35,
+    "gold": 5041.8,
+    "silver": 77.41,
+    "btc": 69455.0,
     "eth": 2048.45
   },
   "news": [
     {
-      "title": "Gold reclaims $5,000 as analysts warn volatility is far from over",
-      "summary": "Gold has successfully reclaimed the critical $5,000 psychological floor. Analysts suggest that while the bull market remains intact, short-term volatility driven by macro shifts is expected to persist.",
-      "url": "https://www.kitco.com/news/article/2026-02-13/gold-reclaims-5000-analysts-warn-volatility-far-over"
+      "title": "David Hunter: 'Start Buying Gold ASAP', Target $5,000 in 3-6 Months",
+      "summary": "Contrarian macro strategist David Hunter urges immediate accumulation of gold, predicting a final 'melt-up' that could push prices to $5,000 within the next quarter.",
+      "url": "https://www.youtube.com/watch?v=mYrAxaJy_KQ"
     },
     {
-      "title": "Crypto Fear Index Hits 'Extreme Fear' (9)",
-      "summary": "Despite Bitcoin hovering near $69k, the Fear & Greed Index has plummeted to 9. This indicates a massive disconnect between BTC price action and retail sentiment, often a precursor to significant market moves.",
-      "url": "https://alternative.me/crypto/fear-and-greed-index/"
+      "title": "Kalshi Ends Polymarket Dominance with 60% Share",
+      "summary": "The prediction market landscape has shifted drastically; regulated exchange Kalshi now captures 60% of market share as institutional volumes surge.",
+      "url": "https://www.financemagnates.com/forex/analysis/kalshi-captures-60-market-share-ending-polymarkets-prediction-market-dominance/"
     },
     {
-      "title": "Silver inventory plunges as physical demand challenges benchmarks",
-      "summary": "Physical silver demand is outstripping western inventory levels, leading to a plunge in tracked stocks and putting pressure on traditional pricing mechanisms.",
-      "url": "https://www.kitco.com/news/article/2026-02-12/silver-inventory-plunges-physical-demand-challenges-western-pricing"
+      "title": "ICE Launches 'Polymarket Signals' for Wall Street Institutions",
+      "summary": "Intercontinental Exchange (ICE) has launched a dedicated sentiment tool for professional investors, legitimizing prediction market data as a core signal for traditional finance.",
+      "url": "https://www.financemagnates.com/institutional-forex/ice-is-turning-prediction-market-odds-into-signals-and-sentiment-tools-for-wall-street/"
     }
   ],
   "institutional": {
     "macro": {
-      "firm": "TD Securities",
-      "analyst": "Bart Meeling",
-      "insight": "New Fed developments and tariff discussions could sap tailwinds for precious metals in Q2, making the current $5k floor a critical test for gold's resilience.",
-      "url": "https://www.kitco.com/news/article/2026-02-13/new-fed-and-tariff-developments-could-sap-tailwinds-precious-metals-q2-td"
+      "firm": "ICE",
+      "analyst": "Institutional Tooling",
+      "insight": "Normalized prediction market data is now being integrated into institutional workflows to capture real-time sentiment shifts.",
+      "url": "https://www.financemagnates.com/institutional-forex/ice-is-turning-prediction-market-odds-into-signals-and-sentiment-tools-for-wall-street/"
     },
     "metals": [
       {
-        "firm": "Kitco News",
-        "analyst": "Jim Wyckoff",
-        "insight": "Gold and silver are seeing price gains ahead of US CPI, with technicals suggesting a high-volatility regime is the new normal for 2026.",
-        "url": "https://www.kitco.com/news/article/2026-02-13/price-gains-gold-silver-ahead-us-cpi"
+        "firm": "Futu News",
+        "analyst": "Institutional Views",
+        "insight": "Institutions remain long-term bullish on gold despite short-term volatility, validating the rebound as a key entry point.",
+        "url": "https://news.futunn.com/en/post/68603071/gold-and-silver-prices-rebound-institutions-are-bullish-on-long"
       }
     ],
     "crypto": {
-      "firm": "Alternative.me",
-      "analyst": "Sentiment Index",
-      "insight": "Extreme Fear (9) suggests the market is deeply oversold on an emotional basis, though technicals remain fragile as altcoins continue to bleed.",
-      "url": "https://alternative.me/crypto/fear-and-greed-index/"
+      "firm": "Kaito & Polymarket",
+      "analyst": "Verifiable Intelligence",
+      "insight": "The launch of verifiable social intelligence tools marks a shift toward transparency in tracking crypto social sentiment.",
+      "url": "https://cryptorank.io/news/feed/63c94-prediction-markets-polymarket-partner-kaito"
     }
   },
   "social_intelligence": [
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "insight": "Retail is focused on the $70k rebound confirmation, with 78% gold correlation reinforcing its role as a digital haven.",
-      "confidence": "75%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Stabilizing at $2,050 with supply pressure mounting from the validator entry queue; targets shifted to $2,300 recovery.",
-      "confidence": "80%"
+      "signal": "Neutral/Wagering",
+      "insight": "Surge in high-frequency 5-minute bets indicates a shift toward short-term volatility capture over long-term conviction.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Consolidating near $5,050 'psychological gate'; institutional upgrades to $6,200 are fueling a high-conviction momentum narrative.",
-      "confidence": "90%"
+      "signal": "Strongly Bullish",
+      "insight": "Institutional accumulation is being quietly mirrored by 'bargain hunters' stepping in at the $5,000 floor.",
+      "confidence": "95%"
     },
     {
-      "source": "X (Twitter)",
-      "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Futures curve tightness and falling contango suggest an imminent push toward the $80 supply zone.",
-      "confidence": "75%"
+      "source": "Prediction Markets",
+      "asset": "Market Share",
+      "signal": "Kalshi Dominant",
+      "insight": "Arbitrage opportunities persist between Polymarket (55c) and Kalshi (62c), signaling fragmented liquidity.",
+      "confidence": "90%"
     }
   ],
   "predictions": [
     {
-      "label": "GOLD PRICE",
-      "title": "What will Gold (GC) hit__ by end of February?",
-      "url": "https://polymarket.com/event/what-will-gold-gc-hit-by-end-of-february",
-      "nominal": ",831,442",
+      "label": "GOLD PRICE (HUNTER)",
+      "title": "Will Gold hit $5,000 in 3-6 months?",
+      "url": "https://www.youtube.com/watch?v=mYrAxaJy_KQ",
+      "nominal": "N/A",
       "outcomes": [
         {
-          "name": "\u2191 ,200",
-          "prob": 0.0125,
-          "vol": 183155.890516,
-          "vol_fmt": ",155",
-          "price_val": 6200.0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "\u2191 ,000",
-          "prob": 0.0135,
-          "vol": 534362.97345,
-          "vol_fmt": ",362",
-          "price_val": 6000.0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "\u2191 ,800",
-          "prob": 0.046,
-          "vol": 312411.871062,
-          "vol_fmt": ",411",
-          "price_val": 5800.0,
-          "prob_pct": "4%"
-        },
-        {
-          "name": "\u2191 ,500",
-          "prob": 0.144,
-          "vol": 760791.765845,
-          "vol_fmt": ",791",
-          "price_val": 5500.0,
-          "prob_pct": "14%"
-        },
-        {
-          "name": "\u2193 ,600",
-          "prob": 0.1835,
-          "vol": 213859.54013,
-          "vol_fmt": ",859",
-          "price_val": 4600.0,
-          "prob_pct": "18%"
-        },
-        {
-          "name": "\u2193 ,450",
-          "prob": 0.07,
-          "vol": 134521.656929,
-          "vol_fmt": ",521",
-          "price_val": 4450.0,
-          "prob_pct": "7%"
+          "name": "Target Hit",
+          "prob": 0.62,
+          "vol": 0,
+          "vol_fmt": "High Conviction",
+          "price_val": 5000.0,
+          "prob_pct": "62%"
         }
       ],
       "color": "yellow"
     },
     {
-      "label": "SILVER PRICE",
-      "title": "Will Silver (SI) hit__ by end of February?",
-      "url": "https://polymarket.com/event/will-silver-si-hit-by-end-of-february",
-      "nominal": ",803,565",
+      "label": "PREDICTION DOMINANCE",
+      "title": "Kalshi vs Polymarket Volume",
+      "url": "https://kalshi.com",
+      "nominal": "60% Share",
       "outcomes": [
         {
-          "name": "\u2191 ",
-          "prob": 0.013,
-          "vol": 197261.673313,
-          "vol_fmt": ",261",
-          "price_val": 150.0,
-          "prob_pct": "1%"
+          "name": "Kalshi",
+          "prob": 0.6,
+          "vol": 0,
+          "vol_fmt": "60%",
+          "price_val": 0,
+          "prob_pct": "60%"
         },
         {
-          "name": "\u2191 ",
-          "prob": 0.014,
-          "vol": 235043.505322,
-          "vol_fmt": ",043",
-          "price_val": 140.0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "\u2191 ",
-          "prob": 0.016,
-          "vol": 261941.054522,
-          "vol_fmt": ",941",
-          "price_val": 130.0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "\u2191 ",
-          "prob": 0.05,
-          "vol": 481347.434396,
-          "vol_fmt": ",347",
-          "price_val": 120.0,
-          "prob_pct": "5%"
-        },
-        {
-          "name": "\u2193 ",
-          "prob": 0.655,
-          "vol": 376629.268418,
-          "vol_fmt": ",629",
-          "price_val": 75.0,
-          "prob_pct": "65%"
-        },
-        {
-          "name": "\u2193 ",
+          "name": "Polymarket",
           "prob": 0.4,
-          "vol": 127746.240125,
-          "vol_fmt": ",746",
-          "price_val": 70.0,
+          "vol": 0,
+          "vol_fmt": "40%",
+          "price_val": 0,
           "prob_pct": "40%"
         }
       ],
-      "color": "gray"
-    },
-    {
-      "label": "BTC PRICE",
-      "title": "What price will Bitcoin hit in February?",
-      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": ",825,419",
-      "outcomes": [
-        {
-          "name": "\u2191 95,000",
-          "prob": 0.011,
-          "vol": 2471198.611375,
-          "vol_fmt": ",471,198",
-          "price_val": 95000.0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "\u2191 90,000",
-          "prob": 0.0185,
-          "vol": 3328500.571845,
-          "vol_fmt": ",328,500",
-          "price_val": 90000.0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "\u2191 85,000",
-          "prob": 0.049,
-          "vol": 4139073.74291,
-          "vol_fmt": ",9073",
-          "price_val": 85000.0,
-          "prob_pct": "4%"
-        },
-        {
-          "name": "\u2191 80,000",
-          "prob": 0.165,
-          "vol": 1126401.397604,
-          "vol_fmt": ",126,401",
-          "price_val": 80000.0,
-          "prob_pct": "16%"
-        },
-        {
-          "name": "\u2191 75,000",
-          "prob": 0.475,
-          "vol": 1474418.777854,
-          "vol_fmt": ",474,418",
-          "price_val": 75000.0,
-          "prob_pct": "47%"
-        },
-        {
-          "name": "\u2193 60,000",
-          "prob": 0.185,
-          "vol": 1105830.541757,
-          "vol_fmt": ",105,830",
-          "price_val": 60000.0,
-          "prob_pct": "18%"
-        }
-      ],
-      "color": "purple"
-    },
-    {
-      "label": "ETH PRICE",
-      "title": "What price will Ethereum hit in February?",
-      "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-      "nominal": ",214,975",
-      "outcomes": [
-        {
-          "name": "\u2191 3,200",
-          "prob": 0.0105,
-          "vol": 439567.387513,
-          "vol_fmt": ",567",
-          "price_val": 3200.0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "\u2191 3,000",
-          "prob": 0.021,
-          "vol": 551813.961916,
-          "vol_fmt": ",813",
-          "price_val": 3000.0,
-          "prob_pct": "2%"
-        },
-        {
-          "name": "\u2191 2,800",
-          "prob": 0.052,
-          "vol": 1156506.308964,
-          "vol_fmt": ",156,506",
-          "price_val": 2800.0,
-          "prob_pct": "5%"
-        },
-        {
-          "name": "\u2193 1,600",
-          "prob": 0.1145,
-          "vol": 1054968.136746,
-          "vol_fmt": ",054,968",
-          "price_val": 1600.0,
-          "prob_pct": "11%"
-        },
-        {
-          "name": "\u2193 1,400",
-          "prob": 0.0465,
-          "vol": 684737.997533,
-          "vol_fmt": ",737",
-          "price_val": 1400.0,
-          "prob_pct": "4%"
-        },
-        {
-          "name": "\u2193 1,200",
-          "prob": 0.021,
-          "vol": 1109010.576249,
-          "vol_fmt": ",109,010",
-          "price_val": 1200.0,
-          "prob_pct": "2%"
-        }
-      ],
       "color": "blue"
-    },
-    {
-      "label": "MACRO / FED",
-      "title": "Who will Trump nominate as Fed Chair?",
-      "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": ",007,910",
-      "outcomes": [
-        {
-          "name": "Kevin Warsh",
-          "prob": 0.9595,
-          "vol": 38982596.899034,
-          "vol_fmt": ",982,596",
-          "price_val": 0,
-          "prob_pct": "89%"
-        },
-        {
-          "name": "Rick Rieder",
-          "prob": 0.075,
-          "vol": 0.0,
-          "vol_fmt": "/bin/zsh",
-          "price_val": 0,
-          "prob_pct": "6%"
-        },
-        {
-          "name": "James Bullard",
-          "prob": 0.038,
-          "vol": 5005.309568,
-          "vol_fmt": ",005",
-          "price_val": 0,
-          "prob_pct": "3%"
-        }
-      ],
-      "color": "blue"
-    },
-    {
-      "label": "GEOPOLITICS",
-      "title": "US strikes Iran by...?",
-      "url": "https://polymarket.com/event/us-strikes-iran-by",
-      "nominal": ",347,953",
-      "outcomes": [
-        {
-          "name": "June 30",
-          "prob": 0.445,
-          "vol": 5061035.97574,
-          "vol_fmt": ",061,035",
-          "price_val": 0,
-          "prob_pct": "45%"
-        },
-        {
-          "name": "March 31",
-          "prob": 0.315,
-          "vol": 8786064.960847,
-          "vol_fmt": ",786,064",
-          "price_val": 0,
-          "prob_pct": "31%"
-        },
-        {
-          "name": "March 15",
-          "prob": 0.225,
-          "vol": 126868.188735,
-          "vol_fmt": ",868",
-          "price_val": 0,
-          "prob_pct": "22%"
-        }
-      ],
-      "color": "red"
-    },
-    {
-      "label": "WILDCARD",
-      "title": "Fed decision in March?",
-      "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": ",232,230",
-      "outcomes": [
-        {
-          "name": "No change",
-          "prob": 0.925,
-          "vol": 14631704.79472,
-          "vol_fmt": ",631,704",
-          "price_val": 0,
-          "prob_pct": "92%"
-        },
-        {
-          "name": "25 bps decrease",
-          "prob": 0.065,
-          "vol": 15102949.861759,
-          "vol_fmt": ",102,949",
-          "price_val": 0,
-          "prob_pct": "6%"
-        },
-        {
-          "name": "50+ bps decrease",
-          "prob": 0.0075,
-          "vol": 42506258.38159,
-          "vol_fmt": ",506,258",
-          "price_val": 0,
-          "prob_pct": "0%"
-        }
-      ],
-      "color": "green"
     }
   ]
 }
