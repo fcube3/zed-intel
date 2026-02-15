@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Market is divided between a 'capitulation' narrative toward $55k and a 'rebound' narrative as price touches $70k again.",
-      "confidence": "60%"
+      "signal": "Bullish",
+      "insight": "Retail narrative is shifting toward a $75k recovery target following a $70k rebound, though some analysts warn of a $55k floor.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Traders are eyeing recovery targets up to $2,400, supported by on-chain signals of reduced exchange supply and increased staking.",
-      "confidence": "70%"
+      "insight": "Bullish consensus is forming around a $2,300-$2,400 recovery target by March, supported by high validator demand and price stability above $2,000.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Institutional upgrades (UBS target to $6,200) and a strong technical rebound from recent corrections are driving a dominant bullish narrative.",
+      "insight": "Gold sentiment is decoupled and strongly bullish following the UBS $6,200 target hike and a successful defense of the $5,000 psychological floor.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Analysts identify a 'volatility squeeze' in a symmetrical triangle, with long-term sentiment remaining highly optimistic despite short-term consolidation.",
-      "confidence": "75%"
+      "insight": "Traders are bracing for a volatility breakout from a symmetrical triangle, while tightening futures supply supports a long-term $100+ moonshot narrative.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
