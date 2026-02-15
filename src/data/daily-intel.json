@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "insight": "Traders are focusing on the $70k rebound and BTC's correlation with gold as an inflation hedge.",
+      "insight": "Bitcoin rebounding toward $70k as correlation with gold as an inflation hedge remains high.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Sentiment is cautiously bullish as traders target a recovery to $2,300, supported by reduced supply from staking.",
-      "confidence": "80%"
+      "signal": "Neutral",
+      "insight": "ETH holding steady above $2k, with traders eyeing a recovery toward the $2.3k-$2.4k range by March.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Gold sentiment is highly bullish as UBS raises price targets and retail investors observe a surge in physical demand.",
+      "signal": "Euphoria",
+      "insight": "UBS price target hike to $6,200 and strong retail demand are pushing gold into a momentum expansion phase.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Silver sentiment is neutral as the market enters a slow recovery mode following recent volatility, with technical indicators showing narrowing trading bands.",
-      "confidence": "75%"
+      "signal": "Bullish",
+      "insight": "A tightening futures market and aggressive long-term targets of $100+ are driving strong sentiment in silver.",
+      "confidence": "80%"
     }
   ],
   "predictions": [
