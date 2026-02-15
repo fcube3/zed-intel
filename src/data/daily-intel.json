@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "insight": "Narrative is shifting toward a possible retest of $55k as 'ultimate bottom' despite recent $70k jump.",
+      "insight": "Traders are debating if $70k is a local top, with some eyeing a $55k bottom retest.",
       "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Bullish consensus building around TD buy signals and institutional accumulation at $2,000 level.",
+      "insight": "Traders are highlighting a TD buy signal on the daily chart, sparking optimism for a trend reversal.",
       "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Strong consensus on $5,000 support holding with aggressive long-term targets raised to $6,200 by UBS.",
+      "insight": "Gold's firm hold above the $5,000 psychological level is fueling a strong retail consensus for a breakout toward $5,600.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Traders anticipate a major squeeze ahead of COMEX options expiration with targets up to $240.",
-      "confidence": "75%"
+      "insight": "Retail traders are focused on a massive $17/oz East-West arbitrage gap and COMEX options expiration as catalysts for an $80+ target.",
+      "confidence": "85%"
     }
   ],
   "predictions": [
