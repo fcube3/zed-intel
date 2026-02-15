@@ -1,5 +1,5 @@
 {
-  "date": "Sunday, February 15, 2026",
+  "date": "Monday, February 16, 2026",
   "prices": {
     "gold": 5041.8,
     "silver": 77.41,
@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "insight": "Retail sentiment holds firm as BTC defends the $70k level, with liquidations of short positions providing upward momentum.",
-      "confidence": "80%"
+      "signal": "Neutral",
+      "insight": "CT is focused on the $70k resistance as BTC consolidates; debate intensifies over the next major leg up.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "insight": "ETH remains in a choppy range near $2,050 as traders weigh increased network volume against falling institutional interest.",
-      "confidence": "75%"
+      "insight": "ETH narrative remains stagnant as it continues to lose ground against BTC, with retail interest shifting to L2s.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Extreme fear in broader markets continues to drive safe-haven demand, with gold testing multi-month highs near $5,040.",
+      "insight": "Safe-haven narrative strengthens as geopolitical tensions simmer, with $5,100 becoming the next psychological target.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "insight": "Silver outperformance is the primary retail narrative as price surges 5% to new ATHs, fueled by futures market supply constraints.",
-      "confidence": "85%"
+      "signal": "Bullish",
+      "insight": "Retail enthusiasm for silver persists despite minor profit-taking, driven by supply shortage rumors.",
+      "confidence": "80%"
     }
   ],
   "predictions": [
