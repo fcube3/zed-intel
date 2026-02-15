@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Retail sentiment has collapsed into extreme fear as BTC struggles below $69k, with traders bracing for a deeper correction amid geopolitical uncertainty.",
-      "confidence": "85%"
+      "signal": "Bullish",
+      "insight": "CT is focused on the $70k rebound and whether it holds or drops to the $55k 'ultimate bottom' realized price.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "insight": "ETH is testing the $2,000 psychological support, underperforming BTC as narrative shifts toward capital preservation.",
-      "confidence": "80%"
+      "signal": "Bullish",
+      "insight": "Ethereum targets a $2,300-$2,400 recovery after triggering TD buy signals, with stability observed around $2,050.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "Gold dominance is unquestioned as it holds above $5,000, with CT narrative focused on 'infinite' upside in a conflict-prone macro environment.",
-      "confidence": "95%"
+      "signal": "Bullish",
+      "insight": "Gold prices rebounded strongly to $5,043, with analysts eyeing $5,140 as the next major resistance gate and UBS raising targets to $6,200.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Silver is being touted as the high-beta play for the gold rally, with technical targets moving toward $100/oz.",
-      "confidence": "85%"
+      "insight": "Silver remains in a neutral-to-bullish trend with tight supply in the futures market screaming for higher prices; targets as high as $250 being discussed.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
