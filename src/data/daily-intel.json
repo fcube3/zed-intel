@@ -49,29 +49,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "insight": "Bitcoin rebounding toward $70k as correlation with gold as an inflation hedge remains high.",
+      "signal": "Panic",
+      "insight": "Bitcoin rebounding toward $70k while Fear & Greed Index remains at 'Extreme Fear' (8), indicating a significant wall of worry.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "insight": "ETH holding steady above $2k, with traders eyeing a recovery toward the $2.3k-$2.4k range by March.",
-      "confidence": "70%"
+      "insight": "ETH consolidating near $2,050, lagging Bitcoin's recovery as market participants favor 'digital gold' narratives.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "UBS price target hike to $6,200 and strong retail demand are pushing gold into a momentum expansion phase.",
+      "signal": "Bullish",
+      "insight": "Institutional sentiment remains high as Gold holds above $5,000, with UBS price targets reaching $6,200.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "A tightening futures market and aggressive long-term targets of $100+ are driving strong sentiment in silver.",
+      "signal": "Euphoria",
+      "insight": "Retail interest in Silver is surging amid reports of physical inventory shortages and targets of $100+.",
       "confidence": "80%"
     }
   ],
