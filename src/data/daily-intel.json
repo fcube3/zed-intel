@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Retail is split between fear of a $39k 'bear bottom' and anticipation of a short squeeze above $71.6k.",
+      "signal": "Bearish",
+      "insight": "Market sentiment has dipped to 43 (Bearish) as traders 'fence-sit' following a recent flash selloff and consolidation below $70k.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "insight": "On-chain data reveals significant rotations from ETH into PAXG (Gold), while retail mindshare is shifting toward Solana.",
+      "insight": "Social mindshare remains suppressed as capital rotates toward stable assets and volatility-driven metals.",
       "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Sentiment is extremely bullish as gold holds firm above $5000, with traders targeting a breakout toward $5600.",
-      "confidence": "90%"
+      "insight": "Gold successfully reclaimed the $5,000 level; while analysts warn of a 'high-volatility regime,' retail demand remains strongly bullish.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Narrative is driven by a massive $17/oz East-West arbitrage gap and commercials loading long on dips.",
-      "confidence": "85%"
+      "insight": "Physical inventory plunges and East-West arbitrage continue to drive a bullish narrative, with analysts targeting an $81 average for the year.",
+      "confidence": "80%"
     }
   ],
   "predictions": [
