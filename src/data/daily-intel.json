@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "insight": "CT is debating the sustainability of the $70k rebound amidst fears of an overbought rally and potential short squeezes above $72k.",
-      "confidence": "85%"
+      "insight": "CT is focused on the $70k rebound with price targets of $75k by March, while debating the $60k support stability.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Traders are optimistic about ETH's whale accumulation and staking milestones as it attempts to break the $2,148 resistance.",
-      "confidence": "85%"
+      "signal": "Neutral",
+      "insight": "Narrative is shifting toward a slow recovery to $2,300-$2,400 as ETH holds the $2,050 level alongside BTC.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "Gold narrative is dominated by aggressive central bank buying (China) and institutional targets as high as $6,300 by year-end.",
-      "confidence": "95%"
+      "signal": "Bullish",
+      "insight": "Strong consensus on momentum expansion toward $5,344 with UBS raising the long-term target to $6,200/oz.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Silver sentiment is hyper-bullish with retail and cycle analysts targeting $100+ as physical inventory on exchanges continues to dwindle.",
-      "confidence": "90%"
+      "insight": "Sentiment remains positive as silver prices escalate, trailing gold's strength with focus on ETF price band overhauls.",
+      "confidence": "85%"
     }
   ],
   "predictions": [
