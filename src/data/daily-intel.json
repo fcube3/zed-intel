@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "insight": "Market sentiment is turning bullish as BTC holds the $68k support and rebounds toward $70k.",
+      "insight": "CT is debating the sustainability of the $70k rebound amidst fears of an overbought rally and potential short squeezes above $72k.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "ETH is consolidating around $2k with traders eyeing a recovery toward the $2,300-$2,400 range.",
-      "confidence": "75%"
+      "insight": "Traders are optimistic about ETH's whale accumulation and staking milestones as it attempts to break the $2,148 resistance.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Bullish momentum remains strong as Gold holds above $5,000, supported by upward price target revisions from major banks.",
-      "confidence": "90%"
+      "signal": "Euphoria",
+      "insight": "Gold narrative is dominated by aggressive central bank buying (China) and institutional targets as high as $6,300 by year-end.",
+      "confidence": "95%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Silver is in a slow recovery phase following a recent sharp decline, with traders waiting for a break above $81.5.",
-      "confidence": "70%"
+      "signal": "Bullish",
+      "insight": "Silver sentiment is hyper-bullish with retail and cycle analysts targeting $100+ as physical inventory on exchanges continues to dwindle.",
+      "confidence": "90%"
     }
   ],
   "predictions": [
