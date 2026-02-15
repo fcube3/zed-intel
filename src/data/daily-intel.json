@@ -49,29 +49,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "BTC is consolidating around the $68k level with market observers noting relative stability after earlier volatility.",
-      "confidence": "75%"
+      "signal": "Bullish",
+      "insight": "Market sentiment is turning bullish as BTC holds the $68k support and rebounds toward $70k.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Ethereum maintains price levels above $2k as traders position for a mid-term recovery toward $2.3k.",
-      "confidence": "80%"
+      "signal": "Bullish",
+      "insight": "ETH is consolidating around $2k with traders eyeing a recovery toward the $2,300-$2,400 range.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "Institutional price target upgrades and safe-haven demand have pushed Gold sentiment into high euphoria.",
+      "signal": "Bullish",
+      "insight": "Bullish momentum remains strong as Gold holds above $5,000, supported by upward price target revisions from major banks.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Silver sentiment remains bullish on long-term targets despite near-term technical consolidation in tight ranges.",
+      "signal": "Neutral",
+      "insight": "Silver is in a slow recovery phase following a recent sharp decline, with traders waiting for a break above $81.5.",
       "confidence": "70%"
     }
   ],
