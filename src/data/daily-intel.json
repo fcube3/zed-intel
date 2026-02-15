@@ -49,29 +49,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Retail remains in 'extreme fear' despite the recovery to $70k, indicating fragile conviction after the recent $8.7B wipeout.",
-      "confidence": "85%"
+      "signal": "Neutral",
+      "insight": "Retail sentiment is cautious near $70k as analysts debate whether the capitulation phase is truly over.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Narrative shifting toward institutional growth with Truth Social's new ETF filings adding momentum to the $2k support.",
-      "confidence": "75%"
+      "insight": "Traders are eyeing a recovery to $2,300-$2,400 by March, supported by decreasing exchange liquidity and validator growth.",
+      "confidence": "80%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "The 'start buying ASAP' narrative gains traction as retail sentiment aligns with institutional targets of $5,000.",
+      "signal": "Euphoria",
+      "insight": "Institutional price targets jumping to $6,200 (UBS) have sparked strong retail momentum and technical breakout calls.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Sentiment remains tied to gold's 'melt-up' thesis, with retail anticipating a late-cycle catch-up surge.",
+      "insight": "Sentiment is shifting toward a 'tight market' narrative and recovery after recent volatility, with long-term targets as high as $100+.",
       "confidence": "70%"
     }
   ],
