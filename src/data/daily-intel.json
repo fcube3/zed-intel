@@ -49,29 +49,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "CT is focused on the $70k resistance as BTC consolidates; debate intensifies over the next major leg up.",
+      "signal": "Bullish",
+      "insight": "CT is focused on the $78k push as Lunar New Year momentum and short liquidations drive price action.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "insight": "ETH narrative remains stagnant as it continues to lose ground against BTC, with retail interest shifting to L2s.",
-      "confidence": "70%"
+      "insight": "Narrative remains mixed as whales rotate into Gold/PAXG, while technical analysts watch for a TD buy signal recovery.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Safe-haven narrative strengthens as geopolitical tensions simmer, with $5,100 becoming the next psychological target.",
+      "insight": "Sentiment is firmly bullish as Gold holds the $5,000 floor, with analysts targeting a breakout toward $5,600.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "insight": "Retail enthusiasm for silver persists despite minor profit-taking, driven by supply shortage rumors.",
+      "insight": "Retail and institutional interest surges as a massive $124 Shanghai premium fuels expectations of a COMEX squeeze.",
       "confidence": "80%"
     }
   ],
