@@ -106,7 +106,7 @@ export default function Home() {
                 </div>
                 <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-blue-500/30 rounded-lg text-white">
                   <h4 className="font-bold mb-2 text-[#d4af37]">{dailyIntel.institutional.macro.firm} | {dailyIntel.institutional.macro.analyst}</h4>
-                  <p className="text-sm text-gray-300 leading-relaxed italic mb-3">“{dailyIntel.institutional.macro.insight}”</p>
+                  <p className="text-sm text-gray-300 leading-relaxed italic mb-3">&ldquo;{dailyIntel.institutional.macro.insight}&rdquo;</p>
                   <a href={dailyIntel.institutional.macro.url} target="_blank" className="text-[10px] text-blue-400 hover:text-white transition uppercase font-black tracking-widest">
                     <i className="fas fa-external-link-alt mr-1"></i> {t.openReport}
                   </a>
@@ -135,7 +135,7 @@ export default function Home() {
                     </div>
                     <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-purple-500/30 rounded-lg">
                       <h4 className="font-bold mb-2 text-[#f7931a] uppercase">{dailyIntel.institutional.crypto.firm} | {dailyIntel.institutional.crypto.analyst}</h4>
-                      <p className="text-sm text-gray-300 leading-relaxed italic mb-3">“{dailyIntel.institutional.crypto.insight}”</p>
+                      <p className="text-sm text-gray-300 leading-relaxed italic mb-3">&ldquo;{dailyIntel.institutional.crypto.insight}&rdquo;</p>
                       <a href={dailyIntel.institutional.crypto.url} target="_blank" className="text-[10px] text-blue-400 hover:text-white transition uppercase font-black tracking-widest">
                         <i className="fas fa-link mr-1"></i> {t.openReport}
                       </a>
