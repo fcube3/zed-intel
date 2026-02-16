@@ -84,7 +84,7 @@ export default function Home() {
                       </div>
                       <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{t.confidence}: <span className="text-green-400">{item.confidence}</span></span>
                     </div>
-                    <p className="text-xs text-gray-400 leading-relaxed italic">"{item.insight}"</p>
+                    <p className="text-xs text-gray-400 leading-relaxed italic">&quot;{item.insight}&quot;</p>
                   </div>
                 );
               })}
@@ -163,7 +163,7 @@ export default function Home() {
             </h2>
             <div className="bg-indigo-900/10 border-l-4 border-indigo-500 p-4 rounded-r-lg text-white">
               <p className="text-[11px] text-indigo-200 italic leading-relaxed">
-                "{t.logicText}"
+                &quot;{t.logicText}&quot;
               </p>
             </div>
           </section>

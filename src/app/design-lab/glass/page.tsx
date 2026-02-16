@@ -54,7 +54,7 @@ export default function GlassTheme() {
                             {data.institutional.metals.map((item, i) => (
                                 <div key={i} className="group cursor-pointer">
                                     <h4 className="text-sm font-bold text-gray-300 group-hover:text-white transition">{item.firm}</h4>
-                                    <p className="text-sm text-gray-400 leading-relaxed mt-1 group-hover:text-gray-300 transition">"{item.insight}"</p>
+                                    <p className="text-sm text-gray-400 leading-relaxed mt-1 group-hover:text-gray-300 transition">&quot;{item.insight}&quot;</p>
                                 </div>
                             ))}
                         </div>
@@ -62,7 +62,7 @@ export default function GlassTheme() {
                              <h3 className="text-xs uppercase tracking-[0.2em] text-gray-500 border-b border-white/5 pb-2">Macro Context</h3>
                              <div>
                                 <h4 className="text-sm font-bold text-gray-300">{data.institutional.macro.firm}</h4>
-                                <p className="text-sm text-gray-400 leading-relaxed mt-1">"{data.institutional.macro.insight}"</p>
+                                <p className="text-sm text-gray-400 leading-relaxed mt-1">&quot;{data.institutional.macro.insight}&quot;</p>
                              </div>
                         </div>
                     </div>

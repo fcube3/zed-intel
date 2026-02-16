@@ -37,7 +37,7 @@ export default function CyberTheme() {
         <div className="grid grid-cols-3 gap-1">
             {/* Intel Feed */}
             <div className="col-span-2 border-r border-[#00ff41]/20 pr-4">
-                <h2 className="text-xs bg-[#00ff41] text-black inline-block px-2 py-1 mb-6 font-bold">>> STREAM_LOG</h2>
+                <h2 className="text-xs bg-[#00ff41] text-black inline-block px-2 py-1 mb-6 font-bold">&gt;&gt; STREAM_LOG</h2>
                 
                 <div className="space-y-6">
                     {data.news.map((n, i) => (
@@ -48,12 +48,12 @@ export default function CyberTheme() {
                     ))}
                     
                     <div className="mt-8 border-t border-[#00ff41]/20 pt-8">
-                        <h2 className="text-xs bg-[#00ff41] text-black inline-block px-2 py-1 mb-6 font-bold">>> INSTITUTIONAL_DATA</h2>
+                        <h2 className="text-xs bg-[#00ff41] text-black inline-block px-2 py-1 mb-6 font-bold">&gt;&gt; INSTITUTIONAL_DATA</h2>
                         <div className="grid grid-cols-2 gap-4">
                              {data.institutional.metals.map((m, i) => (
                                  <div key={i} className="border border-[#00ff41]/20 p-4">
                                      <h4 className="text-xs font-bold mb-2">SOURCE: {m.firm.toUpperCase()}</h4>
-                                     <p className="text-xs opacity-80">"{m.insight}"</p>
+                                     <p className="text-xs opacity-80">&quot;{m.insight}&quot;</p>
                                  </div>
                              ))}
                         </div>
@@ -63,7 +63,7 @@ export default function CyberTheme() {
 
             {/* Prediction Terminal */}
             <div className="pl-4">
-                <h2 className="text-xs bg-[#00ff41] text-black inline-block px-2 py-1 mb-6 font-bold">>> PROBABILITY_MATRIX</h2>
+                <h2 className="text-xs bg-[#00ff41] text-black inline-block px-2 py-1 mb-6 font-bold">&gt;&gt; PROBABILITY_MATRIX</h2>
                 <div className="space-y-4 text-xs">
                     {data.predictions.map((p, i) => (
                         <div key={i} className="border border-[#00ff41]/30 p-2 bg-black hover:bg-[#00ff41]/10">

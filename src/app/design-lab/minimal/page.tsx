@@ -65,7 +65,7 @@ export default function MinimalTheme() {
                                      <h4 className="text-xs font-bold uppercase tracking-widest text-[#a1a1aa]">{m.firm}</h4>
                                      <span className="text-[10px] font-mono text-yellow-500/80 bg-yellow-500/10 px-2 py-1">VERIFIED_NOTE</span>
                                  </div>
-                                 <p className="text-lg text-[#d4d4d8] font-light leading-relaxed">"{m.insight}"</p>
+                                 <p className="text-lg text-[#d4d4d8] font-light leading-relaxed">&quot;{m.insight}&quot;</p>
                              </div>
                          ))}
                     </div>
