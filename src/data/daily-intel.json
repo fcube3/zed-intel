@@ -50,29 +50,29 @@
       "source": "X (Twitter) / Reddit",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Macro narrative remains strong as retail defends the $5,000 psychological support level.",
-      "confidence": "85%"
+      "insight": "Gold holds strong above $4,300 as narrative shifts toward a long-term 'melt-up' toward $5,000.",
+      "confidence": "90%"
     },
     {
       "source": "X (Twitter) / Reddit",
       "asset": "Silver",
-      "signal": "Neutral",
-      "insight": "Sentiment has cooled significantly from recent peaks, shifting into a consolidation-watch phase below $80.",
-      "confidence": "70%"
+      "signal": "Bearish",
+      "insight": "Retail fear is peaking as analysts warn of a 19% correction following a 'rising wedge' exhaustion pattern near $100.",
+      "confidence": "75%"
     },
     {
       "source": "X (Twitter) / Reddit",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "Retail remains in disbelief and fear even as prices recover toward the $70,000 resistance.",
-      "confidence": "80%"
+      "signal": "Bullish",
+      "insight": "Sentiment remains buoyant near $78,000 with high engagement around price-to-gold ratios and 2026 targets.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter) / Reddit",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Social sentiment is shifting positive amid signs of institutional accumulation around the $2,000 level.",
-      "confidence": "75%"
+      "signal": "Neutral",
+      "insight": "Narrative is split between 'flipping' fears and massive post-upgrade price targets of $8,000+.",
+      "confidence": "70%"
     }
   ],
   "predictions": [
