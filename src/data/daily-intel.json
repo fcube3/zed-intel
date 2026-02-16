@@ -48,31 +48,31 @@
   "social_intelligence": [
     {
       "source": "X (Twitter)",
-      "asset": "Bitcoin",
-      "signal": "Fearful",
-      "insight": "Social sentiment is heavily weighed down by negative narratives; retail interest has dropped as BTC fails to break the $71k psychological barrier.",
-      "confidence": "80%"
-    },
-    {
-      "source": "Stocktwits",
-      "asset": "Dogecoin",
-      "signal": "Bullish",
-      "insight": "DOGE has seen a massive spike in social engagement and a 20% price rally, significantly outperforming major assets in short-term momentum.",
-      "confidence": "65%"
-    },
-    {
-      "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Bargain hunting narratives are dominating metal discussions; institutional support is cited as a primary floor for the current rebound.",
+      "insight": "Retail sentiment is bullish as gold reclaims $5,000, with bargain hunters viewing volatility as a buy signal.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Cautious",
-      "insight": "Analysts advise caution as silver remains overvalued compared to gold in the near-term, despite long-term industrial demand projections.",
-      "confidence": "70%"
+      "signal": "Bullish",
+      "insight": "Bullish outlook driven by plunging inventories and physical demand challenges; price targets average $81/oz.",
+      "confidence": "80%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Bitcoin",
+      "signal": "Panic",
+      "insight": "Extreme Fear (Index: 12) dominates social narratives; retail is split between 'Panic' and 'Keep buying' buy-the-dip calls.",
+      "confidence": "90%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Ethereum",
+      "signal": "Panic",
+      "insight": "Ethereum sentiment mirrored BTC's extreme fear, with heightened concern over volatility and macro tailwinds.",
+      "confidence": "85%"
     }
   ],
   "predictions": [
