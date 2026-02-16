@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "82%",
-      "insight": "Retail sentiment is buoyed by the bounce off $4,500 support, with 'buy the dip' narratives targeting a return to $5,500."
+      "confidence": "85%",
+      "insight": "Retail sentiment is revitalized by the bounce off $4,500, with 'buy the dip' calls dominating the narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Social buzz has cooled from January's euphoria as index rebalancing and forced selling create a choppy range near $80."
+      "confidence": "72%",
+      "insight": "Traders are cautious as silver continues to underperform gold, leading to a focus on the $75 support level."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bearish",
-      "confidence": "75%",
-      "insight": "Sentiment has turned 'fearful' as retail traders hesitate near $70k, with many fearing a double-top rejection."
+      "confidence": "80%",
+      "insight": "Social discourse is dominated by 'fear' as retail traders capitulate despite heavy institutional ETF buying."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "confidence": "65%",
-      "insight": "Growing 'flippening' narratives and stagnant price action are driving retail frustration and 'dead coin' memes."
+      "confidence": "75%",
+      "insight": "Growing frustration over ETH's price stagnation is driving a narrative of 'opportunity cost' and asset rotation."
     }
   ],
   "predictions": [
