@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Traders view the $5,000 level as a high-impact psychological trap, with choppy price action delaying directional moves."
+      "signal": "Bullish",
+      "confidence": "80%",
+      "insight": "Despite local choppy action, the 'retreat from records' is being bought as retail targets $5,100+."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "confidence": "80%",
-      "insight": "Extreme volatility and institutional index rebalancing are driving fears of a sharp 19% correction despite physical tightness."
+      "confidence": "75%",
+      "insight": "Rising wedge technicals and forced index rebalancing have retail bracing for a 20% flush despite physical premiums in China."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Bitcoin's stability near $78,000 has shifted the narrative toward 2026 ATH targets, drowning out cycle-bottom theories."
+      "signal": "Neutral",
+      "confidence": "75%",
+      "insight": "CT is consolidating after the $78k defense, debating whether a cycle top is in or if $100k is the next magnet."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Ethereum sentiment is split between 'flippening' fears and long-term optimism surrounding the FUSAKA upgrade."
+      "signal": "Bearish",
+      "confidence": "65%",
+      "insight": "Narrative focus has shifted to 'flippening' risk and market cap dilution as Polymarket odds for $10k in 2026 remain low."
     }
   ],
   "predictions": [
