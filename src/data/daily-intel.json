@@ -1,5 +1,5 @@
 {
-  "date": "Monday, February 16, 2026",
+  "date": "Tuesday, February 17, 2026",
   "prices": {
     "gold": 5041.8,
     "silver": 77.41,
@@ -51,28 +51,28 @@
       "asset": "Gold",
       "signal": "Bullish",
       "confidence": "80%",
-      "insight": "Gold maintains strength near $4,400 as a primary hedge against 2026 geopolitical uncertainty."
+      "insight": "Gold consolidates near $4,400 as macro sentiment remains fixed on geopolitical hedging for 2026."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
       "confidence": "85%",
-      "insight": "Silver's vertical move towards $100 has retail traders chasing, while analysts warn of a potential 18% technical correction."
+      "insight": "Triple-digit Silver narratives dominate retail feeds, though analysts warn of an 18% correction loading."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Market is consolidating near $78k with high expectations for a spring breakout towards new record highs."
+      "insight": "CT focuses on the $78k support defense as bulls target a psychological breakout toward $80k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "confidence": "60%",
-      "insight": "Focus shifts to the 'Flippening' narrative and Polymarket odds as the FUSAKA upgrade hype builds."
+      "confidence": "65%",
+      "insight": "Market attention split between FUSAKA upgrade long-term targets and stagnant price action vs BTC."
     }
   ],
   "predictions": [
