@@ -51,7 +51,7 @@
       "asset": "Gold",
       "signal": "Bullish",
       "confidence": "80%",
-      "insight": "Gold consolidates near $4,400 as macro sentiment remains fixed on geopolitical hedging for 2026."
+      "insight": "Narrative revolves around 'market maker traps' and choppy consolidation following record performances."
     },
     {
       "source": "X (Twitter)",
@@ -71,8 +71,8 @@
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Market attention split between FUSAKA upgrade long-term targets and stagnant price action vs BTC."
+      "confidence": "60%",
+      "insight": "Market attention remains split between $10k long-term forecasts and stagnant price action near $2,500."
     }
   ],
   "predictions": [
