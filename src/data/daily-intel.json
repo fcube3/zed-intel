@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Traders are navigating a high-impact psychological zone as gold consolidates near record highs."
+      "signal": "Neutral",
+      "confidence": "75%",
+      "insight": "Traders view the $5,000 level as a high-impact psychological trap, with choppy price action delaying directional moves."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Narratives of physical tightness and Chinese premiums are offsetting index rebalancing fears."
+      "signal": "Panic",
+      "confidence": "80%",
+      "insight": "Extreme volatility and institutional index rebalancing are driving fears of a sharp 19% correction despite physical tightness."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "confidence": "80%",
-      "insight": "Retail sentiment remains in 'fear' territory as traders weigh cycle bottom theories against current support."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Bitcoin's stability near $78,000 has shifted the narrative toward 2026 ATH targets, drowning out cycle-bottom theories."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
       "confidence": "70%",
-      "insight": "Debate intensifies over the 'flippening' risk while long-term bulls eye $10k targets for 2026."
+      "insight": "Ethereum sentiment is split between 'flippening' fears and long-term optimism surrounding the FUSAKA upgrade."
     }
   ],
   "predictions": [
