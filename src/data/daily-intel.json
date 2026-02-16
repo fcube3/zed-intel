@@ -49,29 +49,29 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Retail sentiment is bullish as gold reclaims $5,000, with bargain hunters viewing volatility as a buy signal.",
-      "confidence": "85%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Bullish outlook driven by plunging inventories and physical demand challenges; price targets average $81/oz.",
-      "confidence": "80%"
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Bitcoin",
-      "signal": "Panic",
-      "insight": "Extreme Fear (Index: 12) dominates social narratives; retail is split between 'Panic' and 'Keep buying' buy-the-dip calls.",
+      "signal": "Euphoria",
+      "insight": "Retail is highly excited as Gold reclaims $5,000, with moonshots to $10,000 entering the narrative.",
       "confidence": "90%"
     },
     {
       "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Neutral",
+      "insight": "Narrative revolves around consolidation and whether the next leg up to $120 is imminent.",
+      "confidence": "70%"
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Bitcoin",
+      "signal": "Neutral",
+      "insight": "CT is focused on $71.6k resistance defense and potential consolidation patterns.",
+      "confidence": "75%"
+    },
+    {
+      "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Panic",
-      "insight": "Ethereum sentiment mirrored BTC's extreme fear, with heightened concern over volatility and macro tailwinds.",
+      "signal": "Bullish",
+      "insight": "Sentiment is buoyed by institutional validation and gas fee reduction narratives.",
       "confidence": "85%"
     }
   ],
