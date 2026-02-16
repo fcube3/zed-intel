@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Gold maintains a strong bullish bias, with technical analysts targeting a continuation above $5,100 while RSI remains elevated.",
-      "confidence": "80%"
+      "insight": "Retail is riding the record-breaking trend while cautious of potential market maker traps at current psychological levels.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "insight": "Silver is experiencing a momentum-driven breakout to new all-time highs above $61, with retail sentiment shifting to extreme bullishness.",
-      "confidence": "90%"
+      "insight": "Record prices above $100 are meeting resistance as passive fund rebalancing and technical exhaustion patterns emerge.",
+      "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "insight": "Traders are cautious as BTC remains trapped in a descending channel, eyeing the $76k-$80k support zone for potential defense.",
+      "signal": "Neutral",
+      "insight": "Traders are watching the $78k level as a pivot point for a run towards $100k, while retail stays cautious.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "The narrative is centered on whether ETH can flip the $2,588 resistance into support to resume its bullish trajectory.",
-      "confidence": "65%"
+      "signal": "Bullish",
+      "insight": "High expectations for the FUSAKA upgrade and potential market cap flippening narratives are driving bullish sentiment.",
+      "confidence": "80%"
     }
   ],
   "predictions": [
