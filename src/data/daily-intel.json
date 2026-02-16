@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "82%",
-      "insight": "Retail narrative shifting toward a permanent $5k floor as macro uncertainty persists."
+      "signal": "Euphoria",
+      "confidence": "90%",
+      "insight": "CT is celebrating a break towards $5k, with major accounts calling for a multi-year 'Gold Rush' cycle."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Traders are eyeing the $80 resistance, but retail volume is lagging behind the Gold surge."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Narrative shifting to 'Silver is the new Gold' as prices cross $100, catching retail by surprise."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "confidence": "88%",
-      "insight": "Social feeds are flooded with 'it's over' sentiment as BTC struggles to defend the $70k level."
+      "signal": "Bullish",
+      "confidence": "75%",
+      "insight": "Price action around $78k is consolidating; sentiment is shifting from panic to 'buying the re-accumulation'."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "confidence": "78%",
-      "insight": "Retail is rotating into metals and RWA as ETH/BTC weakness continues to frustrate holders."
+      "signal": "Neutral",
+      "confidence": "60%",
+      "insight": "Market is divided on whether ETH will be flipped by market cap in 2026, creating a wait-and-see vibe."
     }
   ],
   "predictions": [
