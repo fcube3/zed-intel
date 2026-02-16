@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "insight": "Retail is highly excited as Gold reclaims $5,000, with moonshots to $10,000 entering the narrative.",
-      "confidence": "90%"
+      "signal": "Bullish",
+      "insight": "Retail narrative remains focused on Gold holding the $5,000 handle with long-term 'moonshot' targets.",
+      "confidence": "85%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "insight": "Narrative revolves around consolidation and whether the next leg up to $120 is imminent.",
+      "insight": "Silver is consolidating near $77, with traders watching for a break of the $82 resistance level.",
       "confidence": "70%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "insight": "CT is focused on $71.6k resistance defense and potential consolidation patterns.",
+      "insight": "Caution prevails as BTC consolidates below $71.6k, with some analysts warning of a dip to $55k.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "Sentiment is buoyed by institutional validation and gas fee reduction narratives.",
-      "confidence": "85%"
+      "insight": "ETH sentiment is positive after reclaiming $2,000, with traders anticipating a move toward $2,500.",
+      "confidence": "80%"
     }
   ],
   "predictions": [
