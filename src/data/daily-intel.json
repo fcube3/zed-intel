@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "80%",
-      "insight": "Despite local choppy action, the 'retreat from records' is being bought as retail targets $5,100+."
+      "insight": "Gold is entering a high-impact psychological zone with choppy price action as it retreats from recent records."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "75%",
-      "insight": "Rising wedge technicals and forced index rebalancing have retail bracing for a 20% flush despite physical premiums in China."
+      "signal": "Euphoria",
+      "confidence": "85%",
+      "insight": "Extreme physical tightness in China and record prices above $80 have triggered a narrative of euphoria mixed with correction fears."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "75%",
-      "insight": "CT is consolidating after the $78k defense, debating whether a cycle top is in or if $100k is the next magnet."
+      "insight": "Institutional predictions from Bitwise and others are setting a bullish tone for 2026 ATH expectations."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
+      "signal": "Bullish",
       "confidence": "65%",
-      "insight": "Narrative focus has shifted to 'flippening' risk and market cap dilution as Polymarket odds for $10k in 2026 remain low."
+      "insight": "Traders are debating the 'flippening' while institutional targets remain high at $8k-$10k."
     }
   ],
   "predictions": [
