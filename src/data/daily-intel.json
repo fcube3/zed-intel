@@ -47,32 +47,32 @@
   },
   "social_intelligence": [
     {
-      "source": "X (Twitter)",
+      "source": "X (Twitter) / Reddit",
       "asset": "Gold",
       "signal": "Bullish",
-      "insight": "Retail is riding the record-breaking trend while cautious of potential market maker traps at current psychological levels.",
+      "insight": "Macro narrative remains strong as retail defends the $5,000 psychological support level.",
       "confidence": "85%"
     },
     {
-      "source": "X (Twitter)",
+      "source": "X (Twitter) / Reddit",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "insight": "Record prices above $100 are meeting resistance as passive fund rebalancing and technical exhaustion patterns emerge.",
+      "signal": "Neutral",
+      "insight": "Sentiment has cooled significantly from recent peaks, shifting into a consolidation-watch phase below $80.",
       "confidence": "70%"
     },
     {
-      "source": "X (Twitter)",
+      "source": "X (Twitter) / Reddit",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "insight": "Traders are watching the $78k level as a pivot point for a run towards $100k, while retail stays cautious.",
-      "confidence": "75%"
+      "signal": "Bearish",
+      "insight": "Retail remains in disbelief and fear even as prices recover toward the $70,000 resistance.",
+      "confidence": "80%"
     },
     {
-      "source": "X (Twitter)",
+      "source": "X (Twitter) / Reddit",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "insight": "High expectations for the FUSAKA upgrade and potential market cap flippening narratives are driving bullish sentiment.",
-      "confidence": "80%"
+      "insight": "Social sentiment is shifting positive amid signs of institutional accumulation around the $2,000 level.",
+      "confidence": "75%"
     }
   ],
   "predictions": [
