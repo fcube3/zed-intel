@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "65%",
-      "insight": "Gold is holding its 2025 gains well, with some analysts calling for $6,000 by year-end as a macro hedge."
+      "confidence": "82%",
+      "insight": "Retail narrative shifting toward a permanent $5k floor as macro uncertainty persists."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "confidence": "60%",
-      "insight": "Silver started 2026 strong but is currently facing resistance amidst commodity index rebalancing volatility."
+      "confidence": "65%",
+      "insight": "Traders are eyeing the $80 resistance, but retail volume is lagging behind the Gold surge."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "confidence": "85%",
-      "insight": "Market is reeling from a 50% drawdown from the $126k October high, with retail debating if the cycle has topped."
+      "confidence": "88%",
+      "insight": "Social feeds are flooded with 'it's over' sentiment as BTC struggles to defend the $70k level."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "70%",
-      "insight": "Sentiment is heavy as traders fear a breakdown below the $2,500 support amidst weak ETH/BTC performance."
+      "confidence": "78%",
+      "insight": "Retail is rotating into metals and RWA as ETH/BTC weakness continues to frustrate holders."
     }
   ],
   "predictions": [
