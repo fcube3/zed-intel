@@ -47,32 +47,32 @@
   },
   "social_intelligence": [
     {
-      "source": "X (Twitter) / Reddit",
+      "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "insight": "Sentiment cooled slightly after recent reversals, with retail waiting for a definitive breakout above $5,100.",
-      "confidence": "65%"
+      "confidence": "90%",
+      "insight": "Choppy price action continues as retail waits for clear macroeconomic direction or a breakout catalyst."
     },
     {
-      "source": "X (Twitter) / Reddit",
+      "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "insight": "Silver remains a retail favorite, with many calling it a 'generational buy' as it outpaces gold's YTD performance.",
-      "confidence": "75%"
+      "signal": "Bearish",
+      "confidence": "75%",
+      "insight": "Narrative shifting toward a technical correction (rising wedge) and fears of forced institutional selling."
     },
     {
-      "source": "X (Twitter) / Reddit",
+      "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "insight": "High engagement around the $78k support, with the narrative focused on institutional accumulation and $100k targets.",
-      "confidence": "85%"
+      "confidence": "85%",
+      "insight": "Focus remains on the $80k psychological barrier with strong retail conviction in long-term targets."
     },
     {
-      "source": "X (Twitter) / Reddit",
+      "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "insight": "Retail interest is spiked by Polymarket 'flippening' odds and aggressive post-upgrade targets near $8,000.",
-      "confidence": "70%"
+      "signal": "Euphoria",
+      "confidence": "70%",
+      "insight": "Aggressive positioning ahead of the FUSAKA upgrade with retail eyeing the potential market cap flip."
     }
   ],
   "predictions": [
