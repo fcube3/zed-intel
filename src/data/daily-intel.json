@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "CT is celebrating a break towards $5k, with major accounts calling for a multi-year 'Gold Rush' cycle."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Traders see Gold as a safe haven anchoring confidence, with technicals favoring buy orders near $4,500."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Narrative shifting to 'Silver is the new Gold' as prices cross $100, catching retail by surprise."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Narrative is split between record-breaking momentum and a technical 'rising wedge' suggesting a potential 18% correction."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Price action around $78k is consolidating; sentiment is shifting from panic to 'buying the re-accumulation'."
+      "insight": "Consolidation around the $70k mark is viewed as a re-accumulation phase before the next leg up."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "60%",
-      "insight": "Market is divided on whether ETH will be flipped by market cap in 2026, creating a wait-and-see vibe."
+      "signal": "Bullish",
+      "confidence": "80%",
+      "insight": "Whales are opening massive long positions in anticipation of the FUSAKA upgrade and potential $7.8k targets."
     }
   ],
   "predictions": [
