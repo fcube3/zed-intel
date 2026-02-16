@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Traders see Gold as a safe haven anchoring confidence, with technicals favoring buy orders near $4,500."
+      "confidence": "80%",
+      "insight": "Gold maintains strength near $4,400 as a primary hedge against 2026 geopolitical uncertainty."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Narrative is split between record-breaking momentum and a technical 'rising wedge' suggesting a potential 18% correction."
+      "signal": "Euphoria",
+      "confidence": "85%",
+      "insight": "Silver's vertical move towards $100 has retail traders chasing, while analysts warn of a potential 18% technical correction."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Consolidation around the $70k mark is viewed as a re-accumulation phase before the next leg up."
+      "insight": "Market is consolidating near $78k with high expectations for a spring breakout towards new record highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Whales are opening massive long positions in anticipation of the FUSAKA upgrade and potential $7.8k targets."
+      "signal": "Neutral",
+      "confidence": "60%",
+      "insight": "Focus shifts to the 'Flippening' narrative and Polymarket odds as the FUSAKA upgrade hype builds."
     }
   ],
   "predictions": [
