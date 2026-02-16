@@ -51,28 +51,28 @@
       "asset": "Gold",
       "signal": "Bullish",
       "confidence": "85%",
-      "insight": "Retail sentiment is revitalized by the bounce off $4,500, with 'buy the dip' calls dominating the narrative."
+      "insight": "Traders are navigating a high-impact psychological zone as gold consolidates near record highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "confidence": "72%",
-      "insight": "Traders are cautious as silver continues to underperform gold, leading to a focus on the $75 support level."
+      "signal": "Bullish",
+      "confidence": "75%",
+      "insight": "Narratives of physical tightness and Chinese premiums are offsetting index rebalancing fears."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bearish",
       "confidence": "80%",
-      "insight": "Social discourse is dominated by 'fear' as retail traders capitulate despite heavy institutional ETF buying."
+      "insight": "Retail sentiment remains in 'fear' territory as traders weigh cycle bottom theories against current support."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Panic",
-      "confidence": "75%",
-      "insight": "Growing frustration over ETH's price stagnation is driving a narrative of 'opportunity cost' and asset rotation."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Debate intensifies over the 'flippening' risk while long-term bulls eye $10k targets for 2026."
     }
   ],
   "predictions": [
