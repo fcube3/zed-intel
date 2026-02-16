@@ -49,29 +49,29 @@
     {
       "source": "X (Twitter) / Reddit",
       "asset": "Gold",
-      "signal": "Bullish",
-      "insight": "Gold holds strong above $4,300 as narrative shifts toward a long-term 'melt-up' toward $5,000.",
-      "confidence": "90%"
+      "signal": "Neutral",
+      "insight": "Sentiment cooled slightly after recent reversals, with retail waiting for a definitive breakout above $5,100.",
+      "confidence": "65%"
     },
     {
       "source": "X (Twitter) / Reddit",
       "asset": "Silver",
-      "signal": "Bearish",
-      "insight": "Retail fear is peaking as analysts warn of a 19% correction following a 'rising wedge' exhaustion pattern near $100.",
+      "signal": "Bullish",
+      "insight": "Silver remains a retail favorite, with many calling it a 'generational buy' as it outpaces gold's YTD performance.",
       "confidence": "75%"
     },
     {
       "source": "X (Twitter) / Reddit",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "insight": "Sentiment remains buoyant near $78,000 with high engagement around price-to-gold ratios and 2026 targets.",
+      "insight": "High engagement around the $78k support, with the narrative focused on institutional accumulation and $100k targets.",
       "confidence": "85%"
     },
     {
       "source": "X (Twitter) / Reddit",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "insight": "Narrative is split between 'flipping' fears and massive post-upgrade price targets of $8,000+.",
+      "signal": "Bullish",
+      "insight": "Retail interest is spiked by Polymarket 'flippening' odds and aggressive post-upgrade targets near $8,000.",
       "confidence": "70%"
     }
   ],
