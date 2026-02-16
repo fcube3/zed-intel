@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Traders are eyeing $5,000 as the next major psychological barrier amidst an 'unstoppable' rally."
+      "signal": "Bullish",
+      "confidence": "65%",
+      "insight": "Gold is holding its 2025 gains well, with some analysts calling for $6,000 by year-end as a macro hedge."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Extreme physical tightness in Asia is driving record prices and volatility, with some calling for a correction."
+      "signal": "Neutral",
+      "confidence": "60%",
+      "insight": "Silver started 2026 strong but is currently facing resistance amidst commodity index rebalancing volatility."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Market is consolidating near $78k with high volume in automated price updates."
+      "signal": "Panic",
+      "confidence": "85%",
+      "insight": "Market is reeling from a 50% drawdown from the $126k October high, with retail debating if the cycle has topped."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "65%",
-      "insight": "Sentiment is split between long-term upgrade optimism (Fusaka) and short-term 'flippening' fears."
+      "confidence": "70%",
+      "insight": "Sentiment is heavy as traders fear a breakdown below the $2,500 support amidst weak ETH/BTC performance."
     }
   ],
   "predictions": [
