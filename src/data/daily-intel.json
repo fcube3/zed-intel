@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "90%",
-      "insight": "Choppy price action continues as retail waits for clear macroeconomic direction or a breakout catalyst."
+      "insight": "Institutional 'buy the dip' narrative dominates as retail targets a sustained push back above $5,000."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
       "confidence": "75%",
-      "insight": "Narrative shifting toward a technical correction (rising wedge) and fears of forced institutional selling."
+      "insight": "Technical exhaustion and index rebalancing fears are fueling expectations of a correction toward the $75 support."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "85%",
-      "insight": "Focus remains on the $80k psychological barrier with strong retail conviction in long-term targets."
+      "insight": "Contrarian 'smart money' signals are emerging as retail fear peaks near the $70k psychological barrier."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Euphoria",
-      "confidence": "70%",
-      "insight": "Aggressive positioning ahead of the FUSAKA upgrade with retail eyeing the potential market cap flip."
+      "confidence": "80%",
+      "insight": "Aggressive positioning continues ahead of the FUSAKA upgrade with increasing bets on a 2026 market cap flip."
     }
   ],
   "predictions": [
