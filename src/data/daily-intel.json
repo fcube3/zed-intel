@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Narrative is shifting to Gold being 'stable around $4,600' as it awaits the next catalyst after strong year-start momentum."
+      "signal": "Euphoria",
+      "confidence": "85%",
+      "insight": "Gold is holding psychological support above $5,000 as macro traders view every dip as a buying opportunity."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Sentiment is heavily weighed down by a looming 18-19% correction and ~$4B in forced selling due to index rebalancing."
+      "signal": "Euphoria",
+      "confidence": "80%",
+      "insight": "Silver is experiencing extreme volatility with physical tightness in Asian markets driving spot prices toward $120."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Bitcoin remains resilient near $78k, with social sentiment focused on steady price updates and relative strength against metals."
+      "confidence": "75%",
+      "insight": "Market is absorbing supply near $78k as traders eye the next leg toward six figures."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
       "confidence": "65%",
-      "insight": "CT is debating $ETH 'fair value' at $8k-$10k vs. the 50% Polymarket odds of a market cap flip in 2026."
+      "insight": "ETH remains in a consolidation phase with retail debating the 50% chance of a market cap flip in 2026."
     }
   ],
   "predictions": [
