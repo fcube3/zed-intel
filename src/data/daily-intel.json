@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "CT is focused on the $78k consolidation and whether the 2025 rally has peaked."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Institutional optimism remains high with Bitwise predicting new ATHs in 2026, while retail watches the $78k consolidation."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "confidence": "65%",
-      "insight": "Sentiment is dampened by 'flippening' fears on Polymarket and ETH's underperformance relative to BTC."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Traders are divided as Ethereum faces 'flipping' odds on Polymarket despite long-term $10k price targets."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Narrative remains strong as price marches toward $3,400, despite minor 'psychological zone' volatility."
+      "confidence": "75%",
+      "insight": "Gold is navigating a psychological 'trap' zone as it consolidates before the next leg toward $3,400."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "85%",
-      "insight": "Traders are panicking over a projected 18-19% correction linked to commodity index rebalancing."
+      "signal": "Euphoria",
+      "confidence": "65%",
+      "insight": "Silver's parabolic run to $80+ has triggered 'forced selling' warnings from index rebalancing, but retail demand stays hot."
     }
   ],
   "predictions": [
