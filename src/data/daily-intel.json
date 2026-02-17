@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Consolidation around $78k continues as long-term cycle models gain traction, overshadowing short-term volatility concerns."
+      "signal": "Neutral",
+      "confidence": "75%",
+      "insight": "Traders are monitoring the $77k support floor as BTC consolidates after the early February peak."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "The narrative is locked in a tug-of-war between optimistic $10k price targets and the rising odds of a market cap flip by competitors."
+      "signal": "Bearish",
+      "confidence": "65%",
+      "insight": "Retail sentiment is shaken by Polymarket odds of ETH being flipped by market cap, despite long-term $10k targets."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Traders describe current price action as a 'market maker trap' following a choppy retreat from recent $3,400 record attempts."
+      "confidence": "80%",
+      "insight": "Gold enters a choppy 'trap' zone after hitting records, with analysts eyeing $3,400 as the next major target."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Social chatter is peaking as prices cross $120/oz in China, though technical analysts are loudly warning of a rising wedge correction."
+      "signal": "Panic",
+      "confidence": "70%",
+      "insight": "A sharp correction looms for Silver as index rebalancing forces multibillion-dollar liquidations following a parabolic rally."
     }
   ],
   "predictions": [
