@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Traders are monitoring the $77k support floor as BTC consolidates after the early February peak."
+      "insight": "Sentiment shifts bullish as Bitcoin holds $78k; traders anticipate a breakout from the February consolidation range."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "confidence": "65%",
-      "insight": "Retail sentiment is shaken by Polymarket odds of ETH being flipped by market cap, despite long-term $10k targets."
+      "signal": "Neutral",
+      "confidence": "60%",
+      "insight": "Ethereum sentiment stabilizes as long-term $10k targets balance out the short-term fear of a market cap flip."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "80%",
-      "insight": "Gold enters a choppy 'trap' zone after hitting records, with analysts eyeing $3,400 as the next major target."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Bullish conviction grows as Gold grinds toward $3,400, shrugging off minor retreats from recent records."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "70%",
-      "insight": "A sharp correction looms for Silver as index rebalancing forces multibillion-dollar liquidations following a parabolic rally."
+      "signal": "Euphoria",
+      "confidence": "75%",
+      "insight": "Silver hits $103, driving retail euphoria; however, institutional warnings of index rebalancing liquidations are mounting."
     }
   ],
   "predictions": [
