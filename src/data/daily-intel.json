@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Retail is increasingly cautious of a 'market maker trap' as price enters a choppy psychological zone near $5,100."
+      "insight": "Narrative is shifting to Gold being 'stable around $4,600' as it awaits the next catalyst after strong year-start momentum."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "Technical exhaustion in a rising wedge and massive $4B forced selling from index rebalancing dominate the narrative."
+      "insight": "Sentiment is heavily weighed down by a looming 18-19% correction and ~$4B in forced selling due to index rebalancing."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "80%",
-      "insight": "Traders are watching the $78k level as a major psychological pivot, while long-term 'bottom' theories provide a cautionary anchor."
+      "insight": "Bitcoin remains resilient near $78k, with social sentiment focused on steady price updates and relative strength against metals."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Panic",
-      "confidence": "70%",
-      "insight": "Sentiment is rattled by Polymarket odds of a market cap 'flipping' reaching 50%, despite some technical support holding."
+      "signal": "Neutral",
+      "confidence": "65%",
+      "insight": "CT is debating $ETH 'fair value' at $8k-$10k vs. the 50% Polymarket odds of a market cap flip in 2026."
     }
   ],
   "predictions": [
