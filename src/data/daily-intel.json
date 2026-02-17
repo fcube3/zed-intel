@@ -1,47 +1,47 @@
 {
   "date": "Tuesday, February 17, 2026",
   "prices": {
-    "gold": 5041.8,
-    "silver": 77.41,
-    "btc": 69455.0,
-    "eth": 2048.45
+    "gold": 5082.4,
+    "silver": 78.15,
+    "btc": 71230.5,
+    "eth": 2145.2
   },
   "news": [
     {
-      "title": "Bargain Hunters Step In! Gold Rebound Validates Institutional Bullishness",
-      "summary": "Institutional investors remain firm on their long-term bullish thesis for gold as bargain hunters enter the market following the recent dip, targeting a swift return to growth.",
-      "url": "https://www.itiger.com/news/1170847416"
+      "title": "Deutsche Bank Raises Gold Target to $6,000 Amid Institutional Surge",
+      "summary": "Michael Hsueh, Head of Metals Research at Deutsche Bank, has reiterated a $6,000/oz gold price target, citing massive institutional rebalancing and central bank accumulation as key drivers for 2026.",
+      "url": "https://www.sbcgold.com/gold-price-forecasts/gold-price-forecast-2026/"
     },
     {
-      "title": "Crypto Sentiment Turns 'Fearful' as Retail Remains in Sell Mode",
-      "summary": "Santiment reports that social sentiment for Bitcoin has turned heavily bearish, with retail traders exhibiting hesitation and selling despite a partial price recovery.",
-      "url": "https://www.tradingview.com/news/coinpedia:c23a43940094b:0-bitcoin-sentiment-turns-fearful-again-as-santiment-data-shows-retail-still-in-sell-mode/"
+      "title": "Crypto Social Activity Jumps; Santiment Warns of Retail Impatience",
+      "summary": "Santiment reports a significant spike in crypto social chatter to start 2026. Analysts warn that further upside depends on retail investors remaining 'level-headed' and slightly pessimistic.",
+      "url": "https://santiment.net/"
     },
     {
-      "title": "David Hunter: Gold Targets $5,000 in 3-6 Months Despite Intermediate Volatility",
-      "summary": "Macro strategist David Hunter maintains his $5,000 gold forecast, suggesting that technical strength and institutional buying will drive the next leg of the melt-up.",
-      "url": "https://www.youtube.com/watch?v=mYrAxaJy_KQ"
+      "title": "Gold Reaches $5,082 as Geopolitical Tensions Support Safety Plays",
+      "summary": "Precious metals are seeing sustained momentum as volatility in traditional markets drives investors toward safe-haven assets, with technical strength pointing toward a test of $5,100.",
+      "url": "https://tradingeconomics.com/commodity/gold"
     }
   ],
   "institutional": {
     "macro": {
       "firm": "Polymarket",
       "analyst": "Prediction Markets",
-      "insight": "Gold is currently the favorite to outperform both Bitcoin and the S&P 500 in 2026, with a 58% probability assigned by market participants.",
-      "url": "https://polymarket.com/event/bitcoin-vs-gold-vs-sp-500-in-2026"
+      "insight": "Market participants assign a 92% probability to a 50+ bps Fed rate decrease in March, signaling aggressive easing expectations.",
+      "url": "https://polymarket.com/event/fed-decision-in-march-885"
     },
     "metals": [
       {
-        "firm": "Tiger Brokers",
-        "analyst": "Market Research",
-        "insight": "Institutions are using current price action to validate long-term bullish positions, viewing the recent volatility as a 'bargain hunter' opportunity.",
-        "url": "https://www.itiger.com/news/1170847416"
+        "firm": "Deutsche Bank",
+        "analyst": "Michael Hsueh",
+        "insight": "Reiterated $6,000/oz gold price target, viewing current levels as a strong accumulation zone for long-term institutional portfolios.",
+        "url": "https://www.sbcgold.com/gold-price-forecasts/gold-price-forecast-2026/"
       }
     ],
     "crypto": {
       "firm": "Santiment",
-      "analyst": "Behavioral Analytics",
-      "insight": "Extreme fear in the retail sector is being monitored as a potential contrarian signal for 'smart money' accumulation while Bitcoin struggles at key resistance.",
+      "analyst": "Social Intelligence",
+      "insight": "The 'positive note' in social sentiment is being monitored for potential over-exuberance; contrarian signals favor accumulation while retail is cautious.",
       "url": "https://santiment.net"
     }
   },
@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "80%",
-      "insight": "Gold is entering a high-impact psychological zone with choppy price action as it retreats from recent records."
+      "signal": "Bullish",
+      "confidence": "82%",
+      "insight": "Social chatter is heavily focused on the $6,000 target, with traders dismissing short-term pullbacks as buying opportunities."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Extreme physical tightness in China and record prices above $80 have triggered a narrative of euphoria mixed with correction fears."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Silver sentiment is stabilizing as traders wait for a clear breakout above $80, though physical tightness remains a hot topic."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Institutional predictions from Bitwise and others are setting a bullish tone for 2026 ATH expectations."
+      "signal": "Positive",
+      "confidence": "78%",
+      "insight": "Bitcoin social activity is surging, with focus on 'smart money' accumulation and the potential for new February highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "65%",
-      "insight": "Traders are debating the 'flippening' while institutional targets remain high at $8k-$10k."
+      "insight": "Sentiment is mixed; some focus on FUSAKA upgrade benefits, while others are cautious about short-term price stagnation."
     }
   ],
   "predictions": [
@@ -80,21 +80,21 @@
       "label": "GOLD PRICE",
       "title": "What will Gold (GC) hit__ by end of February?",
       "url": "https://polymarket.com/event/what-will-gold-gc-hit-by-end-of-february",
-      "nominal": "$6,169,424",
+      "nominal": "$6,170,707",
       "outcomes": [
         {
           "name": "\u2191 $5,800",
           "prob": 0.15,
-          "vol": 360379.976592,
-          "vol_fmt": "$360,379",
+          "vol": 360662.460113,
+          "vol_fmt": "$360,662",
           "price_val": 5800.0,
           "prob_pct": "15%"
         },
         {
           "name": "\u2191 $6,400",
           "prob": 0.08,
-          "vol": 274611.953502,
-          "vol_fmt": "$274,611",
+          "vol": 274625.443502,
+          "vol_fmt": "$274,625",
           "price_val": 6400.0,
           "prob_pct": "8%"
         },
@@ -109,8 +109,8 @@
         {
           "name": "\u2191 $6,000",
           "prob": 0.01,
-          "vol": 578429.834735,
-          "vol_fmt": "$578,429",
+          "vol": 578487.744735,
+          "vol_fmt": "$578,487",
           "price_val": 6000.0,
           "prob_pct": "1%"
         },
@@ -137,7 +137,7 @@
       "label": "SILVER PRICE",
       "title": "Will Silver (SI) hit__ by end of February?",
       "url": "https://polymarket.com/event/will-silver-si-hit-by-end-of-february",
-      "nominal": "$4,141,549",
+      "nominal": "$4,143,523",
       "outcomes": [
         {
           "name": "\u2191 $140",
@@ -150,8 +150,8 @@
         {
           "name": "\u2191 $120",
           "prob": 0.45,
-          "vol": 591466.717529,
-          "vol_fmt": "$591,466",
+          "vol": 593222.587529,
+          "vol_fmt": "$593,222",
           "price_val": 120.0,
           "prob_pct": "45%"
         },
@@ -174,8 +174,8 @@
         {
           "name": "\u2193 $75",
           "prob": 0.01,
-          "vol": 389110.082437,
-          "vol_fmt": "$389,110",
+          "vol": 389327.152369,
+          "vol_fmt": "$389,327",
           "price_val": 75.0,
           "prob_pct": "1%"
         },
@@ -194,21 +194,21 @@
       "label": "BTC PRICE",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$67,247,353",
+      "nominal": "$67,299,366",
       "outcomes": [
         {
           "name": "\u2191 150,000",
           "prob": 0.35,
-          "vol": 15241735.977815,
-          "vol_fmt": "$15,241,735",
+          "vol": 15245098.568815,
+          "vol_fmt": "$15,245,098",
           "price_val": 150000.0,
           "prob_pct": "35%"
         },
         {
           "name": "\u2191 120,000",
           "prob": 0.12,
-          "vol": 1697271.739195,
-          "vol_fmt": "$1,697,271",
+          "vol": 1697323.569195,
+          "vol_fmt": "$1,697,323",
           "price_val": 120000.0,
           "prob_pct": "12%"
         },
@@ -239,8 +239,8 @@
         {
           "name": "\u2193 55,000",
           "prob": 0.01,
-          "vol": 3182101.04723,
-          "vol_fmt": "$3,182,101",
+          "vol": 3184658.456179,
+          "vol_fmt": "$3,184,658",
           "price_val": 55000.0,
           "prob_pct": "1%"
         }
@@ -251,13 +251,13 @@
       "label": "ETH PRICE",
       "title": "What price will Ethereum hit in February?",
       "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-      "nominal": "$21,934,160",
+      "nominal": "$21,937,112",
       "outcomes": [
         {
           "name": "\u2191 5,000",
           "prob": 0.25,
-          "vol": 3265888.674901,
-          "vol_fmt": "$3,265,888",
+          "vol": 3265900.674901,
+          "vol_fmt": "$3,265,900",
           "price_val": 5000.0,
           "prob_pct": "25%"
         },
@@ -280,8 +280,8 @@
         {
           "name": "\u2191 4,400",
           "prob": 0.01,
-          "vol": 6907473.441065,
-          "vol_fmt": "$6,907,473",
+          "vol": 6908475.441065,
+          "vol_fmt": "$6,908,475",
           "price_val": 4400.0,
           "prob_pct": "1%"
         },
@@ -308,29 +308,29 @@
       "label": "MACRO / FED",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$487,847,290",
+      "nominal": "$487,895,576",
       "outcomes": [
         {
           "name": "Kevin Warsh",
           "prob": 0.96,
-          "vol": 40293967.670224,
-          "vol_fmt": "$40,293,967",
+          "vol": 40305479.604622,
+          "vol_fmt": "$40,305,479",
           "price_val": 0,
           "prob_pct": "96%"
         },
         {
           "name": "Kevin Hassett",
           "prob": 0.05,
-          "vol": 27884972.18757,
-          "vol_fmt": "$27,884,972",
+          "vol": 27890972.18757,
+          "vol_fmt": "$27,890,972",
           "price_val": 0,
           "prob_pct": "5%"
         },
         {
           "name": "Christopher Waller",
           "prob": 0.02,
-          "vol": 22217717.656322,
-          "vol_fmt": "$22,217,717",
+          "vol": 22218140.656322,
+          "vol_fmt": "$22,218,140",
           "price_val": 0,
           "prob_pct": "2%"
         },
@@ -345,8 +345,8 @@
         {
           "name": "Judy Shelton",
           "prob": 0.01,
-          "vol": 85118268.082511,
-          "vol_fmt": "$85,118,268",
+          "vol": 85138651.027968,
+          "vol_fmt": "$85,138,651",
           "price_val": 0,
           "prob_pct": "1%"
         },
@@ -365,7 +365,7 @@
       "label": "GEOPOLITICS",
       "title": "US strikes Iran by...?",
       "url": "https://polymarket.com/event/us-strikes-iran-by",
-      "nominal": "$269,861,574",
+      "nominal": "$270,270,929",
       "outcomes": [
         {
           "name": "February 5",
@@ -422,37 +422,37 @@
       "label": "WILDCARD",
       "title": "Fed decision in March?",
       "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": "$126,588,321",
+      "nominal": "$126,622,656",
       "outcomes": [
         {
           "name": "50+ bps decrease",
           "prob": 0.92,
-          "vol": 50920823.996759,
-          "vol_fmt": "$50,920,823",
+          "vol": 50953168.440302,
+          "vol_fmt": "$50,953,168",
           "price_val": 50.0,
           "prob_pct": "92%"
         },
         {
           "name": "25 bps decrease",
           "prob": 0.07,
-          "vol": 15975684.047665,
-          "vol_fmt": "$15,975,684",
+          "vol": 15976618.936232,
+          "vol_fmt": "$15,976,618",
           "price_val": 25.0,
           "prob_pct": "7%"
         },
         {
           "name": "No change",
           "prob": 0.01,
-          "vol": 15259896.440449,
-          "vol_fmt": "$15,259,896",
+          "vol": 15260054.947214,
+          "vol_fmt": "$15,260,054",
           "price_val": 0,
           "prob_pct": "1%"
         },
         {
           "name": "25+ bps increase",
           "prob": 0.01,
-          "vol": 44431917.265214,
-          "vol_fmt": "$44,431,917",
+          "vol": 44432814.658547,
+          "vol_fmt": "$44,432,814",
           "price_val": 25.0,
           "prob_pct": "1%"
         }
