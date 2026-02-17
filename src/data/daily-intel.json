@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "confidence": "80%",
-      "insight": "Retail sentiment is shifting toward 'fear' as traders fixate on a $50k bottom defense, ignoring the consolidation above $70k."
+      "signal": "Bullish",
+      "confidence": "75%",
+      "insight": "Social sentiment is pivoting from panic to optimism as '2026 cycle targets' of $250k resurface amidst stability above $71k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Crowd sentiment remains cautiously bullish as Ethereum attempts to stabilize following a sharp 40% drawdown from recent highs."
+      "confidence": "65%",
+      "insight": "Retail is torn between the $10k 'fair value' narrative and rising Polymarket odds of a market cap flippening in 2026."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "90%",
-      "insight": "Bullish conviction remains high as Gold maintains its slow march toward new historical milestones, with $5,100 acting as the next major psychological test."
+      "confidence": "85%",
+      "insight": "Conviction remains high as technicals point to continued strength, though traders are wary of 'traps' near psychological resistance."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "75%",
-      "insight": "Silver sentiment reflects near-euphoric levels following its rally to $78+, though technical analysts warn of potential pullbacks as extreme overbought signals flash."
+      "confidence": "85%",
+      "insight": "Retail enthusiasm is peaking with mentions of $100+ targets following the clean break above the $80 milestone."
     }
   ],
   "predictions": [
