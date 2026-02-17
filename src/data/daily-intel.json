@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "confidence": "90%",
-      "insight": "X is flooded with 'it's over' memes as BTC slides through $67k, triggering a wave of retail liquidations."
+      "signal": "Neutral",
+      "confidence": "80%",
+      "insight": "CT is focused on the $78k consolidation zone after the early February price stabilization."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Ethereum sentiment has soured as the ETH/BTC ratio hits new lows, with traders favoring cash over alts."
+      "signal": "Bullish",
+      "confidence": "75%",
+      "insight": "Narrative remains focused on 2026 'flippening' odds and catch-up rally towards $8k-$10k targets."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Gold bugs are cautiously discussing 'generational buying opportunities' amidst the ongoing price correction."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Retail is tracking the retreat from records near $5k, viewing dips as high-impact psychological entries."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "85%",
-      "insight": "Reddit's r/WallStreetSilver is in full damage-control mode after the recent collapse, with extreme bearishness prevailing."
+      "signal": "Euphoria",
+      "confidence": "90%",
+      "insight": "Extreme physical tightness and record spot prices over $100 in Asian markets drive speculative mania."
     }
   ],
   "predictions": [
