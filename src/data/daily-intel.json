@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "82%",
-      "insight": "Social chatter is heavily focused on the $6,000 target, with traders dismissing short-term pullbacks as buying opportunities."
+      "signal": "Neutral",
+      "confidence": "75%",
+      "insight": "Retail sentiment has cooled as Gold enters a 'psychological trap zone' near $5,000, with traders expecting choppy price action."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Silver sentiment is stabilizing as traders wait for a clear breakout above $80, though physical tightness remains a hot topic."
+      "signal": "Bearish",
+      "confidence": "65%",
+      "insight": "Fear of a 2026 index rebalancing sell-off is dominating the narrative, with technicians flagging a 'rising wedge' exhaustion pattern."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Positive",
-      "confidence": "78%",
-      "insight": "Bitcoin social activity is surging, with focus on 'smart money' accumulation and the potential for new February highs."
+      "signal": "Neutral",
+      "confidence": "80%",
+      "insight": "Sentiment is steady around $78k, with traders heavily focused on long-term cycle models predicting a $27k bottom by late 2026."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Sentiment is mixed; some focus on FUSAKA upgrade benefits, while others are cautious about short-term price stagnation."
+      "signal": "Panic",
+      "confidence": "60%",
+      "insight": "Social chatter is spiking over a 50% Polymarket probability of ETH being flipped in market cap by 2026."
     }
   ],
   "predictions": [
