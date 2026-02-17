@@ -51,28 +51,28 @@
       "asset": "Gold",
       "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Retail sentiment has shifted to cautious as Gold enters a 'psychological trap zone' near $5,050, with traders flagging choppy price action and delayed directional moves."
+      "insight": "Retail is increasingly cautious of a 'market maker trap' as price enters a choppy psychological zone near $5,100."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
-      "confidence": "70%",
-      "insight": "Technicians are warning of a rising wedge exhaustion pattern and potential $4B in forced selling from commodity index rebalancing, driving a corrective sentiment."
+      "confidence": "85%",
+      "insight": "Technical exhaustion in a rising wedge and massive $4B forced selling from index rebalancing dominate the narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "80%",
-      "insight": "Traders are closely watching the $78k level as a psychological pivot, while cycle theories suggesting a $27k bottom by late 2026 continue to anchor long-term caution."
+      "insight": "Traders are watching the $78k level as a major psychological pivot, while long-term 'bottom' theories provide a cautionary anchor."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "confidence": "65%",
-      "insight": "Social narrative is dominated by a 50% Polymarket probability of ETH being flipped in market cap by 2026, leading to heightened anxiety despite bullish $10k price targets."
+      "confidence": "70%",
+      "insight": "Sentiment is rattled by Polymarket odds of a market cap 'flipping' reaching 50%, despite some technical support holding."
     }
   ],
   "predictions": [
