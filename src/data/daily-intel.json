@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Social chatter is dominated by the '$250K prophecy' as Bitcoin maintains high-level consolidation."
+      "confidence": "88%",
+      "insight": "Retail sentiment is peaking as 'prophecy' accounts gain traction, forecasting a $250K target for late 2026."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Sentiment is split; long-term bulls eye $10K while Polymarket participants hedge against a potential market cap flip."
+      "signal": "Bullish",
+      "confidence": "72%",
+      "insight": "ETH narrative is shifting toward institutional catch-up, with Polymarket odds of a market cap flip rising to 50%."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Traders remain optimistic as Gold holds above $4,370, though chatter regarding 'market maker traps' persists."
+      "confidence": "75%",
+      "insight": "Gold traders are focused on holding the $4,300 support floor while warning of psychological traps for late-entrants."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Retail FOMO is at peak levels as Silver continues its parabolic run toward the $100 psychological barrier."
+      "confidence": "92%",
+      "insight": "Silver sentiment has gone parabolic after clearing $100/oz, with record engagement on physical stacking threads."
     }
   ],
   "predictions": [
