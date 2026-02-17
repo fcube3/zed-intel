@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Gold is rebounding from a leverage-driven flush as macro traders view the positioning reset as a healthy precursor to $5,400."
+      "confidence": "85%",
+      "insight": "Retail sentiment is strengthening as price holds above $5,000, with CT influencers pointing to institutional 'diamond hands' accumulation."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Silver is stabilizing near $90 after extreme volatility and lower circuits, with retail monitoring for a reclaim of previous highs."
+      "confidence": "75%",
+      "insight": "Consolidation continues below $80; retail is divided on whether the next move is a retest of $70 or a breakout to $100."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Retail sentiment is cautious as BTC hovers near $58,000, with analysts describing the current deleveraging as healthy for long-term structure."
+      "confidence": "70%",
+      "insight": "Sentiment is lukewarm as BTC trades at $71k; the narrative has shifted from 'moon' to 'macro range bound' until a clear breakout."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "65%",
-      "insight": "ETH faces a 'brutal stumble' toward $2,350, leading to a divide between bullish retail crowds and bearish market indicators."
+      "confidence": "75%",
+      "insight": "Social chatter is dominated by 'ETH is dead' memes and flippening talk as the asset continues to underperform BTC and metals."
     }
   ],
   "predictions": [
