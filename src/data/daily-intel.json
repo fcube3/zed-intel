@@ -48,31 +48,31 @@
   "social_intelligence": [
     {
       "source": "X (Twitter)",
-      "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Retail sentiment is strengthening as price holds above $5,000, with CT influencers pointing to institutional 'diamond hands' accumulation."
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Silver",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Consolidation continues below $80; retail is divided on whether the next move is a retest of $70 or a breakout to $100."
-    },
-    {
-      "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Sentiment is lukewarm as BTC trades at $71k; the narrative has shifted from 'moon' to 'macro range bound' until a clear breakout."
+      "signal": "Panic",
+      "confidence": "90%",
+      "insight": "X is flooded with 'it's over' memes as BTC slides through $67k, triggering a wave of retail liquidations."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "75%",
-      "insight": "Social chatter is dominated by 'ETH is dead' memes and flippening talk as the asset continues to underperform BTC and metals."
+      "confidence": "85%",
+      "insight": "Ethereum sentiment has soured as the ETH/BTC ratio hits new lows, with traders favoring cash over alts."
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Gold",
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Gold bugs are cautiously discussing 'generational buying opportunities' amidst the ongoing price correction."
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Panic",
+      "confidence": "85%",
+      "insight": "Reddit's r/WallStreetSilver is in full damage-control mode after the recent collapse, with extreme bearishness prevailing."
     }
   ],
   "predictions": [
