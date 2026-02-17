@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Gold is holding psychological support above $5,000 as macro traders view every dip as a buying opportunity."
+      "signal": "Bullish",
+      "confidence": "80%",
+      "insight": "Gold is rebounding from a leverage-driven flush as macro traders view the positioning reset as a healthy precursor to $5,400."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "80%",
-      "insight": "Silver is experiencing extreme volatility with physical tightness in Asian markets driving spot prices toward $120."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Silver is stabilizing near $90 after extreme volatility and lower circuits, with retail monitoring for a reclaim of previous highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Market is absorbing supply near $78k as traders eye the next leg toward six figures."
+      "insight": "Retail sentiment is cautious as BTC hovers near $58,000, with analysts describing the current deleveraging as healthy for long-term structure."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
+      "signal": "Bearish",
       "confidence": "65%",
-      "insight": "ETH remains in a consolidation phase with retail debating the 50% chance of a market cap flip in 2026."
+      "insight": "ETH faces a 'brutal stumble' toward $2,350, leading to a divide between bullish retail crowds and bearish market indicators."
     }
   ],
   "predictions": [
