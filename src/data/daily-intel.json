@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "80%",
-      "insight": "CT is focused on the $78k consolidation zone after the early February price stabilization."
+      "signal": "Bullish",
+      "confidence": "75%",
+      "insight": "Traders are celebrating the defense of the $75k level while keeping an eye on historical cycle models for signs of a late-year peak."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Narrative remains focused on 2026 'flippening' odds and catch-up rally towards $8k-$10k targets."
+      "confidence": "70%",
+      "insight": "The narrative is shifting toward whale accumulation and the upcoming FUSAKA upgrade as catalysts for a move toward $7.8k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Retail is tracking the retreat from records near $5k, viewing dips as high-impact psychological entries."
+      "signal": "Neutral",
+      "confidence": "65%",
+      "insight": "Narrative is currently focused on whether the 'Venezuela spike' was a one-off or the start of a structural move toward $6k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Extreme physical tightness and record spot prices over $100 in Asian markets drive speculative mania."
+      "signal": "Bearish",
+      "confidence": "65%",
+      "insight": "Retail sentiment is cooling as warnings of a 19% correction and 'rising wedge' exhaustion patterns gain traction on social media."
     }
   ],
   "predictions": [
