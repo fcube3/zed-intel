@@ -51,28 +51,28 @@
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Traders are celebrating the defense of the $75k level while keeping an eye on historical cycle models for signs of a late-year peak."
+      "insight": "Sentiment remains bullish as BTC consolidates around $78k, with traders referencing historical cycle models for late-year targets."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "The narrative is shifting toward whale accumulation and the upcoming FUSAKA upgrade as catalysts for a move toward $7.8k."
+      "signal": "Neutral",
+      "confidence": "60%",
+      "insight": "Social narrative is divided between 'flipping' optimism (50% odds) and caution following a return to the $2,540 support level."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "65%",
-      "insight": "Narrative is currently focused on whether the 'Venezuela spike' was a one-off or the start of a structural move toward $6k."
+      "insight": "Retail traders are monitoring a 'choppy' retreat from records, focusing on psychological support levels as institutional targets remain high."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bearish",
-      "confidence": "65%",
-      "insight": "Retail sentiment is cooling as warnings of a 19% correction and 'rising wedge' exhaustion patterns gain traction on social media."
+      "signal": "Euphoria",
+      "confidence": "80%",
+      "insight": "Despite silver soaring above $100/oz, social signals are flashing 'exhaustion' with widespread warnings of an imminent 19% technical correction."
     }
   ],
   "predictions": [
