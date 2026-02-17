@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Retail is fixated on '4chan prophecies' and 2026 cycle targets of $250k as Bitcoin maintains strength above $71k."
+      "confidence": "85%",
+      "insight": "Retail sentiment remains buoyed by long-term targets of $250k and rumors of a '4chan prophecy' coming true."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
       "confidence": "70%",
-      "insight": "Sentiment is tempered by rising Polymarket odds of Ethereum being flipped by market cap, despite $10k fair value narratives."
+      "insight": "Traders are balancing $10k long-term optimism against the near-term risk of being flipped in market cap rank."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Professional traders are warning of 'market maker traps' in high-impact psychological zones even as the structural uptrend holds."
+      "signal": "Neutral",
+      "confidence": "65%",
+      "insight": "Caution prevails as traders warn of 'psychological traps' and market maker manipulation in a choppy range."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
       "confidence": "90%",
-      "insight": "Social activity is parabolic with reports of $100+ spot prices and fund subscription suspensions driving intense retail FOMO."
+      "insight": "Parabolic retail interest continues as spot prices break record levels above $100, fueling extreme FOMO."
     }
   ],
   "predictions": [
