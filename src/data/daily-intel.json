@@ -51,28 +51,28 @@
       "asset": "Bitcoin",
       "signal": "Euphoria",
       "confidence": "85%",
-      "insight": "Retail sentiment is driven by '4chan prophecies' and long-term targets of $250k, with focus on historical ATH accuracy."
+      "insight": "Euphoric sentiment persists as traders eye $250k targets following the late 2025 all-time high."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Narrative is split between 10k price targets and fears of being flipped by market cap (50% odds on Polymarket)."
+      "signal": "Bullish",
+      "confidence": "70%",
+      "insight": "ETH bulls are focused on a Q1 rally to $8k, despite intensifying debates over a potential market cap flippening."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Trading near $4373; sentiment is bullish but wary of 'market maker traps' and choppy price action in psychological zones."
+      "insight": "Gold remains in a choppy consolidation zone near $5k, with analysts warning of liquidity traps for both sides."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Record highs above $80-$100/oz in early 2026 have fueled extreme retail momentum and massive year-over-year gains."
+      "signal": "Bullish",
+      "confidence": "80%",
+      "insight": "Silver continues its parabolic run, with retail interest surging as prices stabilize above the $80 psychological level."
     }
   ],
   "predictions": [
