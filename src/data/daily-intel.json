@@ -80,7 +80,7 @@
       "label": "GOLD PRICE",
       "title": "What will Gold (GC) hit__ by end of February?",
       "url": "https://polymarket.com/event/what-will-gold-gc-hit-by-end-of-february",
-      "nominal": "$6,170,707",
+      "nominal": "$6,170,750",
       "outcomes": [
         {
           "name": "\u2191 $5,800",
@@ -194,7 +194,7 @@
       "label": "BTC PRICE",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$67,299,366",
+      "nominal": "$67,300,026",
       "outcomes": [
         {
           "name": "\u2191 150,000",
@@ -239,8 +239,8 @@
         {
           "name": "\u2193 55,000",
           "prob": 0.01,
-          "vol": 3184658.456179,
-          "vol_fmt": "$3,184,658",
+          "vol": 3184857.516179,
+          "vol_fmt": "$3,184,857",
           "price_val": 55000.0,
           "prob_pct": "1%"
         }
@@ -251,7 +251,7 @@
       "label": "ETH PRICE",
       "title": "What price will Ethereum hit in February?",
       "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-      "nominal": "$21,937,112",
+      "nominal": "$21,937,122",
       "outcomes": [
         {
           "name": "\u2191 5,000",
@@ -308,13 +308,13 @@
       "label": "MACRO / FED",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$487,895,576",
+      "nominal": "$487,896,216",
       "outcomes": [
         {
           "name": "Kevin Warsh",
           "prob": 0.96,
-          "vol": 40305479.604622,
-          "vol_fmt": "$40,305,479",
+          "vol": 40305550.844622,
+          "vol_fmt": "$40,305,550",
           "price_val": 0,
           "prob_pct": "96%"
         },
@@ -345,8 +345,8 @@
         {
           "name": "Judy Shelton",
           "prob": 0.01,
-          "vol": 85138651.027968,
-          "vol_fmt": "$85,138,651",
+          "vol": 85139219.787968,
+          "vol_fmt": "$85,139,219",
           "price_val": 0,
           "prob_pct": "1%"
         },
@@ -422,21 +422,21 @@
       "label": "WILDCARD",
       "title": "Fed decision in March?",
       "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": "$126,622,656",
+      "nominal": "$126,624,756",
       "outcomes": [
         {
           "name": "50+ bps decrease",
           "prob": 0.92,
-          "vol": 50953168.440302,
-          "vol_fmt": "$50,953,168",
+          "vol": 50955253.122302,
+          "vol_fmt": "$50,955,253",
           "price_val": 50.0,
           "prob_pct": "92%"
         },
         {
           "name": "25 bps decrease",
           "prob": 0.07,
-          "vol": 15976618.936232,
-          "vol_fmt": "$15,976,618",
+          "vol": 15976633.936232,
+          "vol_fmt": "$15,976,633",
           "price_val": 25.0,
           "prob_pct": "7%"
         },
