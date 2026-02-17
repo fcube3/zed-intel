@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
+      "signal": "Euphoria",
       "confidence": "85%",
-      "insight": "Retail sentiment remains buoyed by long-term targets of $250k and rumors of a '4chan prophecy' coming true."
+      "insight": "Social chatter is dominated by the '$250K prophecy' as Bitcoin maintains high-level consolidation."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Traders are balancing $10k long-term optimism against the near-term risk of being flipped in market cap rank."
+      "confidence": "65%",
+      "insight": "Sentiment is split; long-term bulls eye $10K while Polymarket participants hedge against a potential market cap flip."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Caution prevails as traders warn of 'psychological traps' and market maker manipulation in a choppy range."
+      "signal": "Bullish",
+      "confidence": "80%",
+      "insight": "Traders remain optimistic as Gold holds above $4,370, though chatter regarding 'market maker traps' persists."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
       "confidence": "90%",
-      "insight": "Parabolic retail interest continues as spot prices break record levels above $100, fueling extreme FOMO."
+      "insight": "Retail FOMO is at peak levels as Silver continues its parabolic run toward the $100 psychological barrier."
     }
   ],
   "predictions": [
