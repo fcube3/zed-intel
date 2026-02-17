@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Social sentiment is pivoting from panic to optimism as '2026 cycle targets' of $250k resurface amidst stability above $71k."
+      "confidence": "80%",
+      "insight": "Retail is fixated on '4chan prophecies' and 2026 cycle targets of $250k as Bitcoin maintains strength above $71k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Retail is torn between the $10k 'fair value' narrative and rising Polymarket odds of a market cap flippening in 2026."
+      "confidence": "70%",
+      "insight": "Sentiment is tempered by rising Polymarket odds of Ethereum being flipped by market cap, despite $10k fair value narratives."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Conviction remains high as technicals point to continued strength, though traders are wary of 'traps' near psychological resistance."
+      "confidence": "75%",
+      "insight": "Professional traders are warning of 'market maker traps' in high-impact psychological zones even as the structural uptrend holds."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Retail enthusiasm is peaking with mentions of $100+ targets following the clean break above the $80 milestone."
+      "confidence": "90%",
+      "insight": "Social activity is parabolic with reports of $100+ spot prices and fund subscription suspensions driving intense retail FOMO."
     }
   ],
   "predictions": [
