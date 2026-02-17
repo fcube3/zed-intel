@@ -1,5 +1,5 @@
 {
-  "date": "Tuesday, February 17, 2026",
+  "date": "Wednesday, February 18, 2026",
   "prices": {
     "gold": 5082.4,
     "silver": 78.15,
@@ -49,30 +49,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Institutional optimism remains high with Bitwise predicting new ATHs in 2026, while retail watches the $78k consolidation."
+      "signal": "Panic",
+      "confidence": "80%",
+      "insight": "Retail sentiment is shifting toward 'fear' as traders fixate on a $50k bottom defense, ignoring the consolidation above $70k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
       "confidence": "70%",
-      "insight": "Traders are divided as Ethereum faces 'flipping' odds on Polymarket despite long-term $10k price targets."
+      "insight": "Crowd sentiment remains cautiously bullish as Ethereum attempts to stabilize following a sharp 40% drawdown from recent highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Gold is navigating a psychological 'trap' zone as it consolidates before the next leg toward $3,400."
+      "confidence": "90%",
+      "insight": "Bullish conviction remains high as Gold maintains its slow march toward new historical milestones, with $5,100 acting as the next major psychological test."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "65%",
-      "insight": "Silver's parabolic run to $80+ has triggered 'forced selling' warnings from index rebalancing, but retail demand stays hot."
+      "confidence": "75%",
+      "insight": "Silver sentiment reflects near-euphoric levels following its rally to $78+, though technical analysts warn of potential pullbacks as extreme overbought signals flash."
     }
   ],
   "predictions": [
