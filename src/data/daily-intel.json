@@ -51,28 +51,28 @@
       "asset": "Gold",
       "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Retail sentiment has cooled as Gold enters a 'psychological trap zone' near $5,000, with traders expecting choppy price action."
+      "insight": "Retail sentiment has shifted to cautious as Gold enters a 'psychological trap zone' near $5,050, with traders flagging choppy price action and delayed directional moves."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
-      "confidence": "65%",
-      "insight": "Fear of a 2026 index rebalancing sell-off is dominating the narrative, with technicians flagging a 'rising wedge' exhaustion pattern."
+      "confidence": "70%",
+      "insight": "Technicians are warning of a rising wedge exhaustion pattern and potential $4B in forced selling from commodity index rebalancing, driving a corrective sentiment."
     },
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
       "confidence": "80%",
-      "insight": "Sentiment is steady around $78k, with traders heavily focused on long-term cycle models predicting a $27k bottom by late 2026."
+      "insight": "Traders are closely watching the $78k level as a psychological pivot, while cycle theories suggesting a $27k bottom by late 2026 continue to anchor long-term caution."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "confidence": "60%",
-      "insight": "Social chatter is spiking over a 50% Polymarket probability of ETH being flipped in market cap by 2026."
+      "confidence": "65%",
+      "insight": "Social narrative is dominated by a 50% Polymarket probability of ETH being flipped in market cap by 2026, leading to heightened anxiety despite bullish $10k price targets."
     }
   ],
   "predictions": [
