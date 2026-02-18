@@ -85,28 +85,28 @@
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Retail sentiment is buoyed by long-term ATH targets while consolidation above $70k builds a base for the next leg."
+      "insight": "Narrative remains focused on long-term targets of $250k while the $78k support level is being defended."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "60%",
-      "insight": "Ethereum sentiment remains tepid compared to BTC, with traders debating 'flippening' odds and the $2.5k resistance."
+      "signal": "Bullish",
+      "confidence": "65%",
+      "insight": "Institutional bidding and staking approval are key narratives, with some traders targeting $8k-$10k by end of Q1."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
-      "confidence": "65%",
-      "insight": "The narrative has shifted to profit-taking and defensive positioning after the failure to hold the $5,200 level."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Price action is described as 'choppy' and a 'trap' by traders as it consolidates within a high-impact psychological zone."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Despite a pullback from the $100 peak, the retail 'Silver Squeeze' narrative remains potent as price tests the $80 level."
+      "signal": "Bearish",
+      "confidence": "80%",
+      "insight": "A sharp 18-19% correction is anticipated as technical exhaustion meets forced selling from commodity index rebalancing."
     }
   ],
   "predictions": [
