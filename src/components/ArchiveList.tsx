@@ -16,6 +16,9 @@ export default function ArchiveList() {
     { date: "2026-02-11", label: "Feb 11, 2026" },
   ];
 
+  const [isExpanded, setIsExpanded] = React.useState(false);
+  const displayedArchives = isExpanded ? archives : archives.slice(0, 3);
+
   return (
     <section>
       <h2 className="text-xs font-black mb-6 flex items-center uppercase tracking-[0.3em] text-gray-500 text-white">
@@ -23,7 +26,7 @@ export default function ArchiveList() {
       </h2>
       <div className="bg-[#161b22] border border-[#30363d] p-4 rounded-lg text-white">
         <ul className="space-y-2">
-          {archives.map((item, idx) => (
+          {displayedArchives.map((item, idx) => (
             <li key={idx}>
               <a 
                 href={`/archive/${item.date}`} 
@@ -33,6 +36,16 @@ export default function ArchiveList() {
               </a>
             </li>
           ))}
+          {!isExpanded && archives.length > 3 && (
+            <li>
+              <button 
+                onClick={() => setIsExpanded(true)}
+                className="text-[11px] font-bold text-gray-500 hover:text-white transition uppercase tracking-widest block py-2 w-full text-left"
+              >
+                •••
+              </button>
+            </li>
+          )}
           {archives.length === 0 && (
             <p className="text-[10px] text-gray-600 italic">No archived data yet.</p>
           )}
