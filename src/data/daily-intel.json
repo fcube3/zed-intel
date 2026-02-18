@@ -83,30 +83,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Retail sentiment is fixated on '4chan prophecies' of $250k BTC while ignoring local resistance near $80k."
+      "signal": "Bullish",
+      "confidence": "75%",
+      "insight": "Sentiment remains strong as traders look towards a $100k psychological milestone following a steady hold above $75k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "CT remains split between 'flippening' optimism and $10k price targets vs. fears of being outpaced by SOL."
+      "signal": "Neutral",
+      "confidence": "60%",
+      "insight": "The narrative is shifting toward 'flippening' risks and M2 supply correlations as ETH consolidates around the $2.5k range."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Traders describe current price action as a 'trap' with choppy movement as market makers target emotional levels."
+      "confidence": "65%",
+      "insight": "Analysts are warning of 'market maker traps' and choppy price action following a record-breaking start to the year."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "80%",
-      "insight": "Social chatter is dominated by warnings of a major 18-19% correction following the rally to $100+."
+      "signal": "Euphoria",
+      "confidence": "70%",
+      "insight": "After a massive rally to $100+, retail is bracing for a significant correction driven by institutional rebalancing."
     }
   ],
   "predictions": [
