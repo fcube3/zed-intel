@@ -113,6 +113,22 @@
           "vol_fmt": "$585,578",
           "price_val": 6000.0,
           "prob_pct": "1%"
+        },
+        {
+          "name": "\u2191 $5,300",
+          "prob": 0.01,
+          "vol": 64921.156883,
+          "vol_fmt": "$64,921",
+          "price_val": 5300.0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "\u2191 $5,100",
+          "prob": 0.01,
+          "vol": 34695.097739,
+          "vol_fmt": "$34,695",
+          "price_val": 5100.0,
+          "prob_pct": "1%"
         }
       ],
       "color": "yellow"
@@ -146,6 +162,30 @@
           "vol_fmt": "$18,692",
           "price_val": 105.0,
           "prob_pct": "22%"
+        },
+        {
+          "name": "\u2193 $90",
+          "prob": 0.08,
+          "vol": 150500.814795,
+          "vol_fmt": "$150,500",
+          "price_val": 90.0,
+          "prob_pct": "8%"
+        },
+        {
+          "name": "\u2193 $75",
+          "prob": 0.01,
+          "vol": 702035.240594,
+          "vol_fmt": "$702,035",
+          "price_val": 75.0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "\u2193 $65",
+          "prob": 0.01,
+          "vol": 115035.099093,
+          "vol_fmt": "$115,035",
+          "price_val": 65.0,
+          "prob_pct": "1%"
         }
       ],
       "color": "gray"
@@ -154,23 +194,55 @@
       "label": "BTC PRICE",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$71,254,728",
+      "nominal": "$71,356,185",
       "outcomes": [
         {
           "name": "\u2191 150,000",
           "prob": 0.35,
-          "vol": 16452960.620245,
-          "vol_fmt": "$16,452,960",
+          "vol": 16486633.445283,
+          "vol_fmt": "$16,486,633",
           "price_val": 150000.0,
           "prob_pct": "35%"
         },
         {
           "name": "\u2191 120,000",
           "prob": 0.12,
-          "vol": 1846628.068338,
-          "vol_fmt": "$1,846,628",
+          "vol": 1849003.908338,
+          "vol_fmt": "$1,849,003",
           "price_val": 120000.0,
           "prob_pct": "12%"
+        },
+        {
+          "name": "\u2191 125,000",
+          "prob": 0.04,
+          "vol": 2813213.309887,
+          "vol_fmt": "$2,813,213",
+          "price_val": 125000.0,
+          "prob_pct": "4%"
+        },
+        {
+          "name": "\u2193 60,000",
+          "prob": 0.02,
+          "vol": 3982230.891942,
+          "vol_fmt": "$3,982,230",
+          "price_val": 60000.0,
+          "prob_pct": "2%"
+        },
+        {
+          "name": "\u2191 115,000",
+          "prob": 0.01,
+          "vol": 1901684.068128,
+          "vol_fmt": "$1,901,684",
+          "price_val": 115000.0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "\u2193 55,000",
+          "prob": 0.01,
+          "vol": 3424825.655296,
+          "vol_fmt": "$3,424,825",
+          "price_val": 55000.0,
+          "prob_pct": "1%"
         }
       ],
       "color": "purple"
@@ -196,6 +268,38 @@
           "vol_fmt": "$746,838",
           "price_val": 2000.0,
           "prob_pct": "8%"
+        },
+        {
+          "name": "\u2193 2,400",
+          "prob": 0.03,
+          "vol": 147700.517132,
+          "vol_fmt": "$147,700",
+          "price_val": 2400.0,
+          "prob_pct": "3%"
+        },
+        {
+          "name": "\u2191 4,400",
+          "prob": 0.01,
+          "vol": 6942382.741492,
+          "vol_fmt": "$6,942,382",
+          "price_val": 4400.0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "\u2193 2,600",
+          "prob": 0.01,
+          "vol": 61975.0681,
+          "vol_fmt": "$61,975",
+          "price_val": 2600.0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "\u2191 3,600",
+          "prob": 0.01,
+          "vol": 510349.107012,
+          "vol_fmt": "$510,349",
+          "price_val": 3600.0,
+          "prob_pct": "1%"
         }
       ],
       "color": "blue"
@@ -221,6 +325,38 @@
           "vol_fmt": "$28,170,201",
           "price_val": 0,
           "prob_pct": "5%"
+        },
+        {
+          "name": "Christopher Waller",
+          "prob": 0.02,
+          "vol": 22482924.817521,
+          "vol_fmt": "$22,482,924",
+          "price_val": 0,
+          "prob_pct": "2%"
+        },
+        {
+          "name": "Bill Pulte",
+          "prob": 0.01,
+          "vol": 24415220.778131,
+          "vol_fmt": "$24,415,220",
+          "price_val": 0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "Judy Shelton",
+          "prob": 0.01,
+          "vol": 86822258.090717,
+          "vol_fmt": "$86,822,258",
+          "price_val": 0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "David Malpass",
+          "prob": 0.01,
+          "vol": 6249564.590659,
+          "vol_fmt": "$6,249,564",
+          "price_val": 0,
+          "prob_pct": "1%"
         }
       ],
       "color": "green"
@@ -246,6 +382,38 @@
           "vol_fmt": "$41,754,060",
           "price_val": 31.0,
           "prob_pct": "35%"
+        },
+        {
+          "name": "January 14",
+          "prob": 0.22,
+          "vol": 13619741.635223,
+          "vol_fmt": "$13,619,741",
+          "price_val": 14.0,
+          "prob_pct": "22%"
+        },
+        {
+          "name": "January 15",
+          "prob": 0.01,
+          "vol": 7975001.728113,
+          "vol_fmt": "$7,975,001",
+          "price_val": 15.0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "January 18",
+          "prob": 0.01,
+          "vol": 5468912.658799,
+          "vol_fmt": "$5,468,912",
+          "price_val": 18.0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "January 17",
+          "prob": 0.01,
+          "vol": 3823998.430446,
+          "vol_fmt": "$3,823,998",
+          "price_val": 17.0,
+          "prob_pct": "1%"
         }
       ],
       "color": "red"
@@ -254,23 +422,39 @@
       "label": "WILDCARD",
       "title": "Fed decision in March?",
       "url": "https://polymarket.com/event/fed-decision-in-march-885",
-      "nominal": "$132,070,413",
+      "nominal": "$132,072,601",
       "outcomes": [
         {
           "name": "50+ bps decrease",
           "prob": 0.92,
-          "vol": 53771418.43155,
-          "vol_fmt": "$53,771,418",
+          "vol": 53771620.43155,
+          "vol_fmt": "$53,771,620",
           "price_val": 50.0,
           "prob_pct": "92%"
         },
         {
           "name": "25 bps decrease",
           "prob": 0.07,
-          "vol": 16437642.383929,
-          "vol_fmt": "$16,437,642",
+          "vol": 16438247.526785,
+          "vol_fmt": "$16,438,247",
           "price_val": 25.0,
           "prob_pct": "7%"
+        },
+        {
+          "name": "No change",
+          "prob": 0.01,
+          "vol": 15802832.437231,
+          "vol_fmt": "$15,802,832",
+          "price_val": 0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "25+ bps increase",
+          "prob": 0.01,
+          "vol": 46059900.647054,
+          "vol_fmt": "$46,059,900",
+          "price_val": 25.0,
+          "prob_pct": "1%"
         }
       ],
       "color": "green"
