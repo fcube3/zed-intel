@@ -85,28 +85,28 @@
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Sentiment remains strong as traders look towards a $100k psychological milestone following a steady hold above $75k."
+      "insight": "Retail sentiment is buoyed by long-term ATH targets while consolidation above $70k builds a base for the next leg."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
       "confidence": "60%",
-      "insight": "The narrative is shifting toward 'flippening' risks and M2 supply correlations as ETH consolidates around the $2.5k range."
+      "insight": "Ethereum sentiment remains tepid compared to BTC, with traders debating 'flippening' odds and the $2.5k resistance."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
+      "signal": "Bearish",
       "confidence": "65%",
-      "insight": "Analysts are warning of 'market maker traps' and choppy price action following a record-breaking start to the year."
+      "insight": "The narrative has shifted to profit-taking and defensive positioning after the failure to hold the $5,200 level."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
+      "signal": "Bullish",
       "confidence": "70%",
-      "insight": "After a massive rally to $100+, retail is bracing for a significant correction driven by institutional rebalancing."
+      "insight": "Despite a pullback from the $100 peak, the retail 'Silver Squeeze' narrative remains potent as price tests the $80 level."
     }
   ],
   "predictions": [
