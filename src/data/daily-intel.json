@@ -85,28 +85,28 @@
       "asset": "Bitcoin",
       "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Retail is focused on holding through local volatility while eyeing the $250k long-term prophecy."
+      "insight": "CT is focused on the $70k support defense after pulling back from the $78k early February highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Sentiment is bolstered by institutional staking interest and expectations for a late-cycle rally toward $10k."
+      "confidence": "85%",
+      "insight": "Euphoria is building around the 'FUSAKA' upgrade effects and institutional staking yield dominance."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Traders remain cautious as price enters a high-impact psychological zone with heavy manipulation narratives."
+      "signal": "Bullish",
+      "confidence": "70%",
+      "insight": "Narrative is dominated by central bank accumulation and the search for inflation-proof safe havens above $5k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bearish",
-      "confidence": "80%",
-      "insight": "Narrative is dominated by exhaustion patterns and extreme volatility following the parabolic move above $100."
+      "signal": "Euphoria",
+      "confidence": "90%",
+      "insight": "Retail is calling for a 'silver squeeze' to $100 as the asset significantly outpaces gold's percentage gains."
     }
   ],
   "predictions": [
