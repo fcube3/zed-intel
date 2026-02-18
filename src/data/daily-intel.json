@@ -83,30 +83,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Retail is highly optimistic with $250k price targets circulating widely following the 2025 breakout."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Retail sentiment has cooled from euphoria to caution as the $70k defense becomes the primary focus for traders."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Market debate intensifies over the 'flippening' while price targets of $8k-$10k remain prevalent."
+      "confidence": "65%",
+      "insight": "ETH is being framed as a relative value play against BTC, with retail narrative focused on potential catch-up growth."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Gold maintains its status as a safe haven near records, despite recent choppy price action in high-impact zones."
+      "confidence": "85%",
+      "insight": "Safe-haven narrative is strengthening at $5,100+ as rotation into hard assets accelerates amid macro uncertainty."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Silver's parabolic run to $100+ has captured significant retail interest following its best performance since 1979."
+      "signal": "Bullish",
+      "confidence": "70%",
+      "insight": "Consolidation around the $80 mark is viewed as healthy after the 2025 rally, with retail targets still set on $100+."
     }
   ],
   "predictions": [
