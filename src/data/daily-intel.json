@@ -51,28 +51,28 @@
       "asset": "Bitcoin",
       "signal": "Euphoria",
       "confidence": "85%",
-      "insight": "Retail is buzzing about '4chan prophecies' and $250k targets for 2026 as price momentum remains strong."
+      "insight": "Social narrative is dominated by '4chan prophecies' for a $250k BTC target in 2026, fueling high retail expectations."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Sentiment is driven by institutional bidding and a 'fair value' narrative of $8k-$10k, despite some market cap 'flipping' debates."
+      "confidence": "70%",
+      "insight": "Discussion centers on an $8,000-$10,000 price target for Q1 2026, despite growing speculation regarding a market cap flip."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Traders are watching for a retreat from records, focusing on whether it holds psychological zones after a strong early 2026 open."
+      "confidence": "75%",
+      "insight": "Traders note Gold's strong 2026 opening around $4,370, with technical indicators like RSI maintaining a bullish bias."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
       "confidence": "90%",
-      "insight": "Narrative is dominated by record highs over $100 and massive year-to-date gains, with retail FOMO at peak levels."
+      "insight": "Silver sentiment is at peak levels as spot prices touch record highs near $100/oz, marking a parabolic start to the year."
     }
   ],
   "predictions": [
