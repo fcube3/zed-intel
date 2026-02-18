@@ -83,30 +83,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
+      "signal": "Euphoria",
       "confidence": "85%",
-      "insight": "Retail sentiment is focused on long-term cycle targets of $250k following the decisive 2025 breakout."
+      "insight": "Retail is highly optimistic with $250k price targets circulating widely following the 2025 breakout."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "70%",
-      "insight": "The narrative is shifting towards the risk of a market cap flipping by competitors while long-term $10k targets remain."
+      "insight": "Market debate intensifies over the 'flippening' while price targets of $8k-$10k remain prevalent."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Traders are navigating a high-impact psychological 'trap zone' as price retreats from recent record highs."
+      "insight": "Gold maintains its status as a safe haven near records, despite recent choppy price action in high-impact zones."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "95%",
-      "insight": "Silver continues its parabolic ascent with retail sentiment reaching peak euphoria as spot prices eye triple digits."
+      "confidence": "90%",
+      "insight": "Silver's parabolic run to $100+ has captured significant retail interest following its best performance since 1979."
     }
   ],
   "predictions": [
