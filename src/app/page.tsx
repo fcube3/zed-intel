@@ -5,6 +5,7 @@ import LivePriceTicker from "@/components/LivePriceTicker";
 import AssetSelector from "@/components/AssetSelector";
 import PredictionFunnel from "@/components/PredictionFunnel";
 import LanguageSelector from "@/components/LanguageSelector";
+import InstitutionalForecasts from "@/components/InstitutionalForecasts";
 import { useTranslation } from "@/components/LanguageContext";
 
 import ArchiveList from "@/components/ArchiveList";
@@ -144,6 +145,9 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+          {/* Institutional Forecasts (NEW) */}
+          <InstitutionalForecasts />
 
           {/* Charts */}
           <AssetSelector />

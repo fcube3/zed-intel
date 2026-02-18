@@ -45,6 +45,40 @@
       "url": "https://santiment.net"
     }
   },
+  "forecasts": [
+    {
+      "firm": "J.P. Morgan",
+      "target": "$5,055 - $6,300",
+      "timeline": "End 2026",
+      "sentiment": "bullish",
+      "change": "raised",
+      "note": "Driven by central bank demand & rate cuts."
+    },
+    {
+      "firm": "Goldman Sachs",
+      "target": "$4,900 - $5,000",
+      "timeline": "End 2026",
+      "sentiment": "bullish",
+      "change": "neutral",
+      "note": "Based on ETF inflows and safe-haven buying."
+    },
+    {
+      "firm": "Bank of America",
+      "target": "$5,000",
+      "timeline": "2026",
+      "sentiment": "bullish",
+      "change": "neutral",
+      "note": "Structural bull market intact."
+    },
+    {
+      "firm": "UBS",
+      "target": "$4,800",
+      "timeline": "2026",
+      "sentiment": "neutral",
+      "change": "lowered",
+      "note": "Cautious on rate cut velocity."
+    }
+  ],
   "social_intelligence": [
     {
       "source": "X (Twitter)",
