@@ -83,30 +83,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Narrative remains focused on long-term targets of $250k while the $78k support level is being defended."
+      "insight": "Retail is eyeing the $78k level for support while maintaining high-conviction long-term targets of $250k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "65%",
-      "insight": "Institutional bidding and staking approval are key narratives, with some traders targeting $8k-$10k by end of Q1."
+      "confidence": "70%",
+      "insight": "Traders are split between a potential 'flippening' and institutional bidding driving ETH toward the $8k-$10k range."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Price action is described as 'choppy' and a 'trap' by traders as it consolidates within a high-impact psychological zone."
+      "confidence": "65%",
+      "insight": "Sentiment is cautious as gold enters a psychological zone with heavy 'market maker' manipulation narratives."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
       "confidence": "80%",
-      "insight": "A sharp 18-19% correction is anticipated as technical exhaustion meets forced selling from commodity index rebalancing."
+      "insight": "Exhaustion patterns and index rebalancing-led selling are dominating the narrative after the parabolic move to $100+."
     }
   ],
   "predictions": [
