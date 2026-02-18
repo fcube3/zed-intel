@@ -17,7 +17,10 @@ export default function ArchiveList() {
   ];
 
   const [isExpanded, setIsExpanded] = React.useState(false);
-  const displayedArchives = isExpanded ? archives : archives.slice(0, 3);
+  
+  const RECENT_COUNT = 3;
+  const recentArchives = archives.slice(0, RECENT_COUNT);
+  const olderArchives = archives.slice(RECENT_COUNT);
 
   return (
     <section>
@@ -26,8 +29,8 @@ export default function ArchiveList() {
       </h2>
       <div className="bg-[#161b22] border border-[#30363d] p-4 rounded-lg text-white">
         <ul className="space-y-2">
-          {displayedArchives.map((item, idx) => (
-            <li key={idx}>
+          {recentArchives.map((item, idx) => (
+            <li key={`recent-${idx}`}>
               <a 
                 href={`/archive/${item.date}`} 
                 className="text-[11px] font-bold text-blue-400 hover:text-white transition uppercase tracking-widest block py-1 border-b border-gray-800"
@@ -36,20 +39,45 @@ export default function ArchiveList() {
               </a>
             </li>
           ))}
-          {!isExpanded && archives.length > 3 && (
-            <li>
+        </ul>
+
+        {olderArchives.length > 0 && (
+          <div className="mt-2 pt-1 border-t border-gray-800/50">
+            {!isExpanded ? (
               <button 
                 onClick={() => setIsExpanded(true)}
-                className="text-[11px] font-bold text-gray-500 hover:text-white transition uppercase tracking-widest block py-2 w-full text-left"
+                className="text-[10px] font-black text-gray-500 hover:text-white transition uppercase tracking-widest block py-2 w-full text-left"
               >
-                •••
+                <i className="fas fa-history mr-1"></i> Show History ({olderArchives.length})
               </button>
-            </li>
-          )}
-          {archives.length === 0 && (
-            <p className="text-[10px] text-gray-600 italic">No archived data yet.</p>
-          )}
-        </ul>
+            ) : (
+              <div className="animate-in fade-in slide-in-from-top-1 duration-200">
+                <ul className="space-y-2 max-h-32 overflow-y-auto pr-1 my-2 custom-scrollbar">
+                  {olderArchives.map((item, idx) => (
+                    <li key={`old-${idx}`}>
+                      <a 
+                        href={`/archive/${item.date}`} 
+                        className="text-[10px] font-bold text-gray-500 hover:text-white transition uppercase tracking-widest block py-1 border-b border-gray-800/50"
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <button 
+                  onClick={() => setIsExpanded(false)}
+                  className="text-[9px] font-bold text-gray-600 hover:text-gray-400 transition uppercase tracking-widest block py-1 w-full text-left"
+                >
+                  Hide History
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+
+        {archives.length === 0 && (
+          <p className="text-[10px] text-gray-600 italic">No archived data yet.</p>
+        )}
       </div>
     </section>
   );
