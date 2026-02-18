@@ -83,30 +83,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Narrative remains anchored to the $70k resistance defense, with 'prophecy' targets of $250k providing a long-term bullish bias."
+      "signal": "Bullish",
+      "confidence": "82%",
+      "insight": "Prophecy narrative gains traction as social channels target $250k by YE 2026, citing institutional scarcity and M2 supply expansion."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "72%",
-      "insight": "Flipping narrative reaches fever pitch as Polymarket odds hit 50%, with social consensus targeting an $8k catch-up rally."
+      "confidence": "78%",
+      "insight": "Flipping narrative dominance as Polymarket odds hold at 50%, with retail consensus eyeing an $8k catch-up rally."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
+      "signal": "Neutral",
       "confidence": "70%",
-      "insight": "Sentiment is increasingly cautious as price retreats below $4,900, with traders warning of 'psychological traps' and choppy distribution."
+      "insight": "Retail sentiment cools as price holds the $4,900 support; traders warn of 'market maker traps' in a choppy distribution phase."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "88%",
-      "insight": "Peak retail FOMO following the $81 breach, with social chatter aggressively anchoring on triple-digit spot targets."
+      "confidence": "92%",
+      "insight": "Extreme retail FOMO following the $100 price discovery, with social chatter firmly anchored on sustained triple-digit targets."
     }
   ],
   "predictions": [
