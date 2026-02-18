@@ -84,29 +84,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Retail and institutional participants are fixated on the $100k psychological barrier as price consolidates above $70k."
+      "confidence": "85%",
+      "insight": "Retail sentiment is focused on long-term cycle targets of $250k following the decisive 2025 breakout."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
       "confidence": "70%",
-      "insight": "Traders are wary of the $2,000 support level as Ethereum lags behind BTC and gold in recent momentum."
+      "insight": "The narrative is shifting towards the risk of a market cap flipping by competitors while long-term $10k targets remain."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Consensus remains strongly bullish as gold hits records near $5,100, though some analysts warn of 'overbought' conditions."
+      "signal": "Neutral",
+      "confidence": "75%",
+      "insight": "Traders are navigating a high-impact psychological 'trap zone' as price retreats from recent record highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Retail frenzy continues after Silver smashed through $80, with widespread calls for $100+ by year-end."
+      "confidence": "95%",
+      "insight": "Silver continues its parabolic ascent with retail sentiment reaching peak euphoria as spot prices eye triple digits."
     }
   ],
   "predictions": [
