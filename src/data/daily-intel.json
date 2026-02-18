@@ -83,30 +83,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
+      "signal": "Bullish",
       "confidence": "75%",
-      "insight": "CT is focused on the $70k support defense after pulling back from the $78k early February highs."
+      "insight": "Retail remains optimistic with 'prophecy' targets of $250k, despite recent consolidation in the $68k-$78k range."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Euphoria is building around the 'FUSAKA' upgrade effects and institutional staking yield dominance."
+      "signal": "Neutral/Bullish",
+      "confidence": "65%",
+      "insight": "Sentiment is divided between $10k price targets and fears of being 'flipped' by rivals in market cap."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "70%",
-      "insight": "Narrative is dominated by central bank accumulation and the search for inflation-proof safe havens above $5k."
+      "insight": "Traders are wary of 'market maker traps' as price action remains choppy near psychological highs around $4800."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Retail is calling for a 'silver squeeze' to $100 as the asset significantly outpaces gold's percentage gains."
+      "signal": "Euphoria/Caution",
+      "confidence": "80%",
+      "insight": "After hitting record highs over $100, analysts warn of a 18-19% correction due to index rebalancing."
     }
   ],
   "predictions": [
