@@ -7,6 +7,7 @@ export default function ArchiveList() {
   
   // Feb 12 is currently LIVE. It should only appear here after the 11:59 PM fix.
   const archives = [
+    { date: "2026-02-18", label: "Feb 18, 2026" },
     { date: "2026-02-17", label: "Feb 17, 2026" },
     { date: "2026-02-16", label: "Feb 16, 2026" },
     { date: "2026-02-15", label: "Feb 15, 2026" },
