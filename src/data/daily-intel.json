@@ -50,29 +50,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Retail sentiment is peaking as the '$250k by 2026' prophecy gains mainstream traction across financial subreddits and X."
+      "confidence": "90%",
+      "insight": "The '$250k Prophecy' is dominating X, with retail investors increasingly FOMOing into the narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "ETH social volume is spiking around the $2,200 level, with 'Flippening' debates reaching a 52-week high in engagement."
+      "confidence": "70%",
+      "insight": "Mixed sentiment as the 'Flippening' probability hits 50%, but long-term targets of $10k keep the narrative positive."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "confidence": "60%",
-      "insight": "Narrative shift toward 'healthy consolidation' as Gold holds steady above $5,100, though short-term traders warn of a 'liquidity trap'."
+      "confidence": "75%",
+      "insight": "Traders describe a 'choppy psychological zone' as prices consolidate after recent record highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Social engagement for #SilverSqueeze 2.0 has surged this hour as spot prices show resilience near local support levels."
+      "confidence": "85%",
+      "insight": "Social volume is surging as silver tests record levels, with retail focused on the $100 psychological barrier."
     }
   ],
   "predictions": [
