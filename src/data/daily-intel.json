@@ -83,30 +83,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Social media 'prophecy' narratives targeting $250k by YE 2026 are dominating the feed as BTC holds the $70k psychological level."
+      "signal": "Euphoria",
+      "confidence": "75%",
+      "insight": "Retail is fixated on the '4chan prophecy' of $250k BTC while ignoring potential overextension near local highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "72%",
-      "insight": "Sentiment is rebounding as retail eyes an $8k 'catch-up' rally following the FUSAKA upgrade roadmap."
+      "confidence": "70%",
+      "insight": "Ethereum sentiment is bolstered by 'flippening' narratives and $10k price targets circulating for the current year."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "confidence": "68%",
-      "insight": "Retail traders are hesitant at the $5,100 level, with many awaiting a clear breakout from recent 'market maker traps'."
+      "confidence": "65%",
+      "insight": "Gold is consolidating near $4,900 as traders navigate a high-impact psychological zone after recent record highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "94%",
-      "insight": "Extreme retail FOMO continues as social chatter anchors on a $100 target, despite the current consolidation around $79."
+      "signal": "Bullish",
+      "confidence": "80%",
+      "insight": "Silver momentum remains aggressive with spot prices testing the $100 level amidst high social media volatility."
     }
   ],
   "predictions": [
