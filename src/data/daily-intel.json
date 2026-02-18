@@ -85,28 +85,28 @@
       "asset": "Bitcoin",
       "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Retail sentiment remains tethered to the $70k defense, with narrative shifting toward long-term 2026 'prophecy' targets of $250k."
+      "insight": "Narrative remains anchored to the $70k resistance defense, with 'prophecy' targets of $250k providing a long-term bullish bias."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Narrative focuses on a 'catch-up' rally to $8k-$10k by Q1 2026, driven by institutional bidding and potential market cap 'flipping' odds rising."
+      "confidence": "72%",
+      "insight": "Flipping narrative reaches fever pitch as Polymarket odds hit 50%, with social consensus targeting an $8k catch-up rally."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bearish",
-      "confidence": "65%",
-      "insight": "Social sentiment has turned cautious as price retreats from records toward $4,900, with traders warning of 'psychological traps' and choppy action."
+      "confidence": "70%",
+      "insight": "Sentiment is increasingly cautious as price retreats below $4,900, with traders warning of 'psychological traps' and choppy distribution."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Extreme retail optimism as price breaches $81, with social chatter reporting $100+ targets and strong dealer buyback demand."
+      "confidence": "88%",
+      "insight": "Peak retail FOMO following the $81 breach, with social chatter aggressively anchoring on triple-digit spot targets."
     }
   ],
   "predictions": [
