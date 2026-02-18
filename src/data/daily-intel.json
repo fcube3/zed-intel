@@ -84,29 +84,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "The '$250k Prophecy' is dominating X, with retail investors increasingly FOMOing into the narrative."
+      "confidence": "85%",
+      "insight": "Social circles are fixated on the $250k 2026 prophecy, with high engagement on posts predicting a parabolic February finish."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Mixed sentiment as the 'Flippening' probability hits 50%, but long-term targets of $10k keep the narrative positive."
+      "confidence": "75%",
+      "insight": "Discussion focuses on the 50% flippening odds on Polymarket and long-term targets of $10k despite local price chop."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Traders describe a 'choppy psychological zone' as prices consolidate after recent record highs."
+      "confidence": "70%",
+      "insight": "Sentiment is cooling as traders describe the $5,100 level as a 'choppy psychological zone' following the record run."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Social volume is surging as silver tests record levels, with retail focused on the $100 psychological barrier."
+      "confidence": "80%",
+      "insight": "Retail interest remains at fever pitch as silver consolidates near $80, with many calling for a 'short squeeze' to $100."
     }
   ],
   "predictions": [
