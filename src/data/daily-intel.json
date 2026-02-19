@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Retail remains anchored to high-six-figure targets while closely monitoring the $70k psychological support level."
+      "insight": "Retail is tracking the retreat from $78k while eyes remain on the $250k macro target."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
       "confidence": "70%",
-      "insight": "Post-FUSAKA upgrade optimism is driving a 'flippening' narrative and aggressive five-figure price targets."
+      "insight": "Traders are pricing in the FUSAKA upgrade and a potential market cap flip narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "80%",
-      "insight": "Traders are bracing for a 'market maker trap' as price consolidates below recent highs near the $4,800 support."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Consensus remains structural bullishness following the best annual performance in decades, despite short-term choppy action."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Forced liquidations from commodity index rebalancing and technical 'rising wedge' breakdowns are sparking a retail exit."
+      "confidence": "80%",
+      "insight": "Retail is bracing for a significant correction as commodity index rebalancing forces passive selling."
     }
   ],
   "predictions": [
