@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "confidence": "60%",
-      "insight": "Market consolidation as traders await direction amidst mixed signals from Gold/ETH."
+      "confidence": "65%",
+      "insight": "Traders are neutral as BTC consolidates around $71k, awaiting a definitive breakout."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Staking entry queue is 105x larger than exit, fueling supply shock narratives."
+      "confidence": "75%",
+      "insight": "Whale accumulation detected near $2,200 support, suggesting confidence despite recent retracement."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bearish",
-      "confidence": "75%",
-      "insight": "Retail sentiment warns of a 'bull trap' following the early 2026 rally."
+      "confidence": "70%",
+      "insight": "Retail traders remain skeptical of the rally to $5,122, fearing a potential bull trap."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "confidence": "70%",
-      "insight": "High volatility expected as passive funds rebalance after the $81 record high."
+      "confidence": "80%",
+      "insight": "Retail sentiment is fearful as Silver corrects to $80 from January highs."
     }
   ],
   "predictions": [
