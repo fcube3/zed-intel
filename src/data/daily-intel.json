@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Retail remains optimistic with 'prophecy' targets of $250k, despite recent consolidation in the $68k-$78k range."
+      "insight": "Retail is monitoring the $68k level as a potential bottom after the retreat from $78k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral/Bullish",
+      "signal": "Bullish",
       "confidence": "65%",
-      "insight": "Sentiment is divided between $10k price targets and fears of being 'flipped' by rivals in market cap."
+      "insight": "Traders are pricing in the FUSAKA upgrade impact while monitoring the ETH/BTC flipping odds."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
+      "signal": "Neutral",
       "confidence": "70%",
-      "insight": "Sentiment has turned sharply bullish as gold breaks psychological resistance at $5,000, with eyes on $5,200."
+      "insight": "The narrative focus is on 'market maker traps' and choppy price action in a high-impact psychological zone."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria/Caution",
+      "signal": "Bearish",
       "confidence": "80%",
-      "insight": "After hitting record highs over $100, analysts warn of a 18-19% correction due to index rebalancing."
+      "insight": "Fears of a deep 18-19% correction are rising as index rebalancing forces passive fund liquidation."
     }
   ],
   "predictions": [
