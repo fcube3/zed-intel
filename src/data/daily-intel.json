@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Retail is bracing for more downside after the slip from $78k towards $65k support."
+      "signal": "Bullish",
+      "confidence": "75%",
+      "insight": "Retail sentiment is turning bullish as BTC stabilizes above $70k, eyes now on the $75k resistance."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
       "confidence": "70%",
-      "insight": "Traders are split between FUSAKA upgrade optimism and the reality of stagnant price action near $2.5k."
+      "insight": "The narrative remains centered on the FUSAKA upgrade as ETH continues its sideways grind relative to BTC."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Retail sentiment is cautious as price enters a high-impact 'psychological trap' zone with choppy moves."
+      "signal": "Euphoria",
+      "confidence": "85%",
+      "insight": "Record institutional inflows and central bank buying have pushed retail sentiment into the euphoria zone near $5,200."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
       "confidence": "90%",
-      "insight": "Fear of a massive 18-20% correction is dominating the narrative after the parabolic move to $80+."
+      "insight": "The 'Rising Wedge' exhaustion narrative is dominant, with retail fearing a massive liquidation event after hitting $81."
     }
   ],
   "predictions": [
