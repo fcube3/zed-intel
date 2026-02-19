@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Retail is clinging to the $250k prophecy while accumulating at the $68k-$71k support levels."
+      "confidence": "75%",
+      "insight": "Retail remains anchored to high-six-figure targets while closely monitoring the $70k psychological support level."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "65%",
-      "insight": "Social discourse is dominated by post-FUSAKA upgrade optimism and speculation on $10k price targets."
+      "confidence": "70%",
+      "insight": "Post-FUSAKA upgrade optimism is driving a 'flippening' narrative and aggressive five-figure price targets."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Sentiment is shifting toward caution as traders expect a short-term correction toward the $4,800 psychological support."
+      "confidence": "80%",
+      "insight": "Traders are bracing for a 'market maker trap' as price consolidates below recent highs near the $4,800 support."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "80%",
-      "insight": "Retail panic is emerging as technical 'rising wedge' patterns and fund rebalancing signal a potential 19% correction."
+      "signal": "Bearish",
+      "confidence": "85%",
+      "insight": "Forced liquidations from commodity index rebalancing and technical 'rising wedge' breakdowns are sparking a retail exit."
     }
   ],
   "predictions": [
