@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Traders eyeing $72k breakout; high engagement on 'next leg up' narratives despite recent chop."
+      "signal": "Neutral",
+      "confidence": "60%",
+      "insight": "Market consolidation as traders await direction amidst mixed signals from Gold/ETH."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "60%",
-      "insight": "CT anxious about the $2,200 support defense; 'make or break' sentiment dominates discussion."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Staking entry queue is 105x larger than exit, fueling supply shock narratives."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Retail euphoria building as price holds >$5,100; 'New ATH' trending with heavy FOMO."
+      "signal": "Bearish",
+      "confidence": "75%",
+      "insight": "Retail sentiment warns of a 'bull trap' following the early 2026 rally."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Panic",
-      "confidence": "90%",
-      "insight": "Panic selling dominates as price dumps from $100+ highs to ~$80; 'falling knife' warnings prevalent."
+      "confidence": "70%",
+      "insight": "High volatility expected as passive funds rebalance after the $81 record high."
     }
   ],
   "predictions": [
