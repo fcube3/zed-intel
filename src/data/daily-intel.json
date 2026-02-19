@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Bullish",
       "confidence": "75%",
-      "insight": "Retail sentiment is turning bullish as BTC stabilizes above $70k, eyes now on the $75k resistance."
+      "insight": "Retail is focused on the $250k prophecy while tracking historical accuracy; confidence in long-term targets is rising."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "The narrative remains centered on the FUSAKA upgrade as ETH continues its sideways grind relative to BTC."
+      "signal": "Bullish",
+      "confidence": "80%",
+      "insight": "Institutional accumulation narratives and $10k price targets for 2026 are dominating the social landscape."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "confidence": "85%",
-      "insight": "Record institutional inflows and central bank buying have pushed retail sentiment into the euphoria zone near $5,200."
+      "signal": "Neutral",
+      "confidence": "65%",
+      "insight": "Choppy price action in a high-impact psychological zone near $4,900 has traders cautious about the next major move."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "90%",
-      "insight": "The 'Rising Wedge' exhaustion narrative is dominant, with retail fearing a massive liquidation event after hitting $81."
+      "signal": "Euphoria",
+      "confidence": "85%",
+      "insight": "A parabolic move toward $100 has triggered intense euphoria; retail stackers are celebrating the break above $80."
     }
   ],
   "predictions": [
