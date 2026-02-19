@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Neutral",
       "confidence": "65%",
-      "insight": "Traders are neutral as BTC consolidates around $71k, awaiting a definitive breakout."
+      "insight": "Consolidation above $71k continues; lack of retail hype suggests healthy market structure."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Whale accumulation detected near $2,200 support, suggesting confidence despite recent retracement."
+      "confidence": "72%",
+      "insight": "Fresh whale longs ($80M+) defending $2,200 support spark reversal hopes."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
-      "confidence": "70%",
-      "insight": "Retail traders remain skeptical of the rally to $5,122, fearing a potential bull trap."
+      "signal": "Bullish",
+      "confidence": "80%",
+      "insight": "Dip-buying interest evident at $5,100; macro uncertainty supports safe-haven narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "80%",
-      "insight": "Retail sentiment is fearful as Silver corrects to $80 from January highs."
+      "signal": "Bearish",
+      "confidence": "60%",
+      "insight": "Ongoing correction from Jan highs dampens retail euphoria; watching $80 support."
     }
   ],
   "predictions": [
