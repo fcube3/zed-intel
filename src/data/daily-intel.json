@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "confidence": "70%",
-      "insight": "Sentiment souring as BTC slips to $67k on ETF outflows and FOMC uncertainty — traders eyeing $60k support defense."
+      "signal": "Bullish",
+      "confidence": "75%",
+      "insight": "Traders eyeing $72k breakout; high engagement on 'next leg up' narratives despite recent chop."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "RSI oversold with eyes on $2,500 breakout; GLAMSTERDAM upgrade hopes keeping long-term bulls engaged despite weakness."
+      "confidence": "60%",
+      "insight": "CT anxious about the $2,200 support defense; 'make or break' sentiment dominates discussion."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Gold consolidating in $4,930-$5,000 range after corrective pullback; institutional flows remain the driver, not retail momentum."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Retail euphoria building as price holds >$5,100; 'New ATH' trending with heavy FOMO."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bearish",
-      "confidence": "80%",
-      "insight": "Retail sentiment collapsed to 35% bulls as silver corrects sharply from $121 ATH — traders expect continued downside."
+      "signal": "Panic",
+      "confidence": "90%",
+      "insight": "Panic selling dominates as price dumps from $100+ highs to ~$80; 'falling knife' warnings prevalent."
     }
   ],
   "predictions": [
