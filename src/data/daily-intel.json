@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Retail is tracking the retreat from $78k while eyes remain on the $250k macro target."
+      "signal": "Bearish",
+      "confidence": "70%",
+      "insight": "Sentiment souring as BTC slips to $67k on ETF outflows and FOMC uncertainty — traders eyeing $60k support defense."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Traders are pricing in the FUSAKA upgrade and a potential market cap flip narrative."
+      "signal": "Neutral",
+      "confidence": "65%",
+      "insight": "RSI oversold with eyes on $2,500 breakout; GLAMSTERDAM upgrade hopes keeping long-term bulls engaged despite weakness."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Consensus remains structural bullishness following the best annual performance in decades, despite short-term choppy action."
+      "signal": "Neutral",
+      "confidence": "75%",
+      "insight": "Gold consolidating in $4,930-$5,000 range after corrective pullback; institutional flows remain the driver, not retail momentum."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
       "confidence": "80%",
-      "insight": "Retail is bracing for a significant correction as commodity index rebalancing forces passive selling."
+      "insight": "Retail sentiment collapsed to 35% bulls as silver corrects sharply from $121 ATH — traders expect continued downside."
     }
   ],
   "predictions": [
