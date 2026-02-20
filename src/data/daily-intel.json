@@ -97,32 +97,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "X (Twitter)",
+      "source": "X (Twitter) / Aggregators",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Consolidating alongside ETH weakness; market waiting for decisive move."
+      "signal": "Bearish",
+      "confidence": "80%",
+      "insight": "Extreme Fear (Index: 8); traders anticipate consolidation or downside below $65k."
     },
     {
-      "source": "X (Twitter)",
+      "source": "X (Twitter) / Aggregators",
       "asset": "Ethereum",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "Failed to hold $2,100; retail traders watching the $2,000 support closely."
+      "insight": "Struggling near $1,960 with 'Extreme Fear'; traders eye $1,900 support."
     },
     {
-      "source": "X (Twitter)",
+      "source": "X (Twitter) / Aggregators",
       "asset": "Gold",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Choppy price action; traders wary of a 'bull trap' after hitting record highs."
+      "confidence": "75%",
+      "insight": "Consolidating near $5,000; sentiment moderately positive but not euphoric."
     },
     {
-      "source": "X (Twitter)",
+      "source": "X (Twitter) / Aggregators",
       "asset": "Silver",
-      "signal": "Bullish",
+      "signal": "Bearish",
       "confidence": "80%",
-      "insight": "Strong momentum holding above $100; retail sentiment remains euphoric."
+      "insight": "Correction expected to continue; sentiment cautious after drop from $130 to ~$85."
     }
   ],
   "predictions": [
