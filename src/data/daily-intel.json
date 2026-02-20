@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Panic",
       "confidence": "95%",
-      "insight": "Retail sentiment remains trapped in 'Extreme Fear' as major outlets highlight massive ETF outflows and defensive positioning."
+      "insight": "Extreme Fear dominates retail narrative as $65k support is tested amid massive ETF outflows."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "Narrative is centered on the $1,900 support defense amidst a broader corrective trend and flipping concerns."
+      "insight": "Concerns of market cap flipping and correction to $1,900 support weigh heavily on retail sentiment."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
       "confidence": "80%",
-      "insight": "Gold is holding steady near record highs, with traders currently favoring consolidation over further aggressive upside."
+      "insight": "Stable consolidation near record highs as profit-taking offsets persistent economic uncertainty."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
+      "signal": "Bearish",
       "confidence": "75%",
-      "insight": "Sentiment is stabilizing following profit-taking, but volatility concerns persist among retail precious metal traders."
+      "insight": "Retail traders brace for an estimated 18-19% correction following commodity index rebalancing."
     }
   ],
   "predictions": [
