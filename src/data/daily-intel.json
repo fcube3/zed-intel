@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Extreme Fear (Index: 8); traders anticipate consolidation or downside below $66.5k."
+      "confidence": "90%",
+      "insight": "Narrative is focused on the 'Extreme Fear' (Index 9) reading and defense of the $66k support zone."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
       "confidence": "80%",
-      "insight": "Underperforming BTC; holding $1,900 support driven by macro-driven risk-off sentiment."
+      "insight": "Macro stress weighs heavily, but massive whale long positions ($80M) are creating a 'buy the dip' narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Consolidating below $5,100; media sentiment moderately positive but far from euphoric."
+      "insight": "Gold is consolidating after retreating from records, with traders watching for 'traps' in a choppy psychological zone."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Wholesale buying slowly improving, but social sentiment remains cautious following recent corrections."
+      "confidence": "80%",
+      "insight": "Silver is maintaining momentum around record levels, with a focus on institutional execution costs during volatility."
     }
   ],
   "predictions": [
