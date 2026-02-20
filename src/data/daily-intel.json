@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Consolidating near $66k; retail remains cautious as ETH weakness drags sentiment."
+      "confidence": "75%",
+      "insight": "Consolidating between $65k-$73k; retail sentiment cautious with <10% odds given for $100k in Feb."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Sentiment grim after losing $2,000 support; traders eyeing $1,700 as next major defense."
+      "confidence": "65%",
+      "insight": "Struggling below $2,000; whale accumulation of $80M long positions contrasts with weak price action."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "80%",
-      "insight": "Choppy price action at high levels; market makers seen trapping late longs."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Consolidating near ATHs; traders wary of 'bull trap' but macro demand remains strong."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Euphoria",
-      "confidence": "90%",
-      "insight": "Retail frenzy continues despite volatility; 'buy the dip' calls dominate at $78 levels."
+      "confidence": "92%",
+      "insight": "Retail euphoria persists despite volatility; dip-buying strong as price holds high $70s."
     }
   ],
   "predictions": [
