@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Neutral",
       "confidence": "75%",
-      "insight": "Consolidating in the high $60ks; bears calling for <$100k confirmation while bulls await the next leg up."
+      "insight": "Consolidating alongside ETH weakness; market waiting for decisive move."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "60%",
-      "insight": "Stuck in the $2,500s despite bullish institutional forecasts; waiting for BTC to stabilize."
+      "signal": "Bearish",
+      "confidence": "85%",
+      "insight": "Failed to hold $2,100; retail traders watching the $2,000 support closely."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Consolidating in a triangle pattern after hitting ~$4,600; traders eyeing the next breakout."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Choppy price action; traders wary of a 'bull trap' after hitting record highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Euphoria",
+      "signal": "Bullish",
       "confidence": "80%",
-      "insight": "China export bans driving massive volatility; prices elevated ($80+) with supply squeeze narratives dominating."
+      "insight": "Strong momentum holding above $100; retail sentiment remains euphoric."
     }
   ],
   "predictions": [
