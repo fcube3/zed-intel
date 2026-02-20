@@ -187,7 +187,7 @@
     "label": "SILVER PRICE",
     "title": "Will Silver (SI) hit__ by end of February?",
     "url": "https://polymarket.com/event/will-silver-si-hit-by-end-of-february",
-    "nominal": "$5,199,328",
+    "nominal": "$5,199,504",
     "outcomes": [
       {
         "name": "\u2191 $140",
@@ -244,13 +244,13 @@
     "label": "BTC PRICE",
     "title": "What price will Bitcoin hit in February?",
     "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-    "nominal": "$82,516,022",
+    "nominal": "$82,516,471",
     "outcomes": [
       {
         "name": "\u2191 150,000",
         "prob": 0.35,
-        "vol": 20794951.797516,
-        "vol_fmt": "$20,794,951",
+        "vol": 20795023.797516,
+        "vol_fmt": "$20,795,023",
         "price_val": 150000.0,
         "prob_pct": "35%"
       },
@@ -289,8 +289,8 @@
       {
         "name": "\u2193 55,000",
         "prob": 0.01,
-        "vol": 3822200.772887,
-        "vol_fmt": "$3,822,200",
+        "vol": 3822215.442887,
+        "vol_fmt": "$3,822,215",
         "price_val": 55000.0,
         "prob_pct": "1%"
       }
@@ -301,7 +301,7 @@
     "label": "ETH PRICE",
     "title": "What price will Ethereum hit in February?",
     "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-    "nominal": "$26,680,086",
+    "nominal": "$26,680,402",
     "outcomes": [
       {
         "name": "\u2191 5,000",
@@ -358,13 +358,13 @@
     "label": "MACRO / FED",
     "title": "Who will Trump nominate as Fed Chair?",
     "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-    "nominal": "$497,286,696",
+    "nominal": "$497,288,217",
     "outcomes": [
       {
         "name": "Kevin Warsh",
         "prob": 0.96,
-        "vol": 41152636.672884,
-        "vol_fmt": "$41,152,636",
+        "vol": 41152714.50887,
+        "vol_fmt": "$41,152,714",
         "price_val": 0,
         "prob_pct": "96%"
       },
@@ -395,8 +395,8 @@
       {
         "name": "Judy Shelton",
         "prob": 0.01,
-        "vol": 88927355.72862,
-        "vol_fmt": "$88,927,355",
+        "vol": 88927638.20862,
+        "vol_fmt": "$88,927,638",
         "price_val": 0,
         "prob_pct": "1%"
       },
@@ -415,7 +415,7 @@
     "label": "GEOPOLITICS",
     "title": "US strikes Iran by...?",
     "url": "https://polymarket.com/event/us-strikes-iran-by",
-    "nominal": "$319,039,296",
+    "nominal": "$319,058,394",
     "outcomes": [
       {
         "name": "February 5",
@@ -472,37 +472,37 @@
     "label": "WILDCARD",
     "title": "Fed decision in March?",
     "url": "https://polymarket.com/event/fed-decision-in-march-885",
-    "nominal": "$142,018,368",
+    "nominal": "$142,020,888",
     "outcomes": [
       {
         "name": "50+ bps decrease",
         "prob": 0.92,
-        "vol": 58586041.196349,
-        "vol_fmt": "$58,586,041",
+        "vol": 58586635.196349,
+        "vol_fmt": "$58,586,635",
         "price_val": 50.0,
         "prob_pct": "92%"
       },
       {
         "name": "25 bps decrease",
         "prob": 0.07,
-        "vol": 17398952.574298,
-        "vol_fmt": "$17,398,952",
+        "vol": 17399388.928842,
+        "vol_fmt": "$17,399,388",
         "price_val": 25.0,
         "prob_pct": "7%"
       },
       {
         "name": "No change",
         "prob": 0.01,
-        "vol": 16279930.699792,
-        "vol_fmt": "$16,279,930",
+        "vol": 16280077.919792,
+        "vol_fmt": "$16,280,077",
         "price_val": 0,
         "prob_pct": "1%"
       },
       {
         "name": "25+ bps increase",
         "prob": 0.01,
-        "vol": 49753444.324556,
-        "vol_fmt": "$49,753,444",
+        "vol": 49754786.324556,
+        "vol_fmt": "$49,754,786",
         "price_val": 25.0,
         "prob_pct": "1%"
       }
