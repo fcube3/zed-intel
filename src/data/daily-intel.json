@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "confidence": "95%",
-      "insight": "Extreme Fear dominates retail narrative as $65k support is tested amid massive ETF outflows."
+      "signal": "Bullish",
+      "confidence": "70%",
+      "insight": "Retail sentiment is recovering as $66k holds; traders are now eyeing a reclaim of the $70k psychological barrier."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Concerns of market cap flipping and correction to $1,900 support weigh heavily on retail sentiment."
+      "signal": "Neutral",
+      "confidence": "65%",
+      "insight": "Sentiment is split between 'Flippening' fears and long-term optimism regarding the upcoming FUSAKA upgrade."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Neutral",
-      "confidence": "80%",
-      "insight": "Stable consolidation near record highs as profit-taking offsets persistent economic uncertainty."
+      "signal": "Bullish",
+      "confidence": "90%",
+      "insight": "Persistent geopolitical tensions and 'Trump threat' hedges keep retail conviction high for a move toward $5,000."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
-      "confidence": "75%",
-      "insight": "Retail traders brace for an estimated 18-19% correction following commodity index rebalancing."
+      "confidence": "85%",
+      "insight": "Concerns over 'forced selling' from commodity index rebalancing continue to weigh heavily on retail silver bulls."
     }
   ],
   "predictions": [
