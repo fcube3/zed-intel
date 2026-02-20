@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "confidence": "85%",
-      "insight": "Retail sentiment is trapped in 'Extreme Fear' as traders watch for a potential flush below the $65k support level."
+      "confidence": "90%",
+      "insight": "Retail is trapped in 'Extreme Fear' as the market tests the major $65k support psychological zone."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "80%",
-      "insight": "Ethereum is struggling to maintain the $2,000 psychological floor as macro-driven risk-off sentiment persists."
+      "confidence": "85%",
+      "insight": "Traders are eyeing the $2k support as ETH underperforms, though counter-trend whale long signals are surfacing."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bearish",
-      "confidence": "75%",
-      "insight": "Gold is entering a choppy consolidation phase as traders look for direction after the recent retreat from all-time highs."
+      "signal": "Neutral",
+      "confidence": "80%",
+      "insight": "Bullion is stabilizing around $4,990, with a focus on consolidation ranges as the record-breaking rally takes a breather."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Silver remains highly volatile near historic peaks, with retail focus shifting toward execution efficiency and institutional front-running."
+      "confidence": "75%",
+      "insight": "Silver is finding support after the recent correction, but extreme volatility remains the primary concern for retail traders."
     }
   ],
   "predictions": [
