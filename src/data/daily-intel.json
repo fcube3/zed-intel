@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Neutral",
       "confidence": "65%",
-      "insight": "Consolidating near $66k. Retail is bored/fearful, waiting for a definitive breakout or rejection."
+      "insight": "Consolidating near $66k; retail remains cautious as ETH weakness drags sentiment."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "Lost key $2,000 support. Sentiment is grim with calls for a flush to $1,700."
+      "insight": "Sentiment grim after losing $2,000 support; traders eyeing $1,700 as next major defense."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Neutral",
       "confidence": "80%",
-      "insight": "Correcting from highs. Testing support at $4,850 amidst pre-budget volatility."
+      "insight": "Choppy price action at high levels; market makers seen trapping late longs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Volatile",
-      "confidence": "75%",
-      "insight": "Rebounding after the flash crash to $64. High volatility and 'buy the dip' chatter."
+      "signal": "Euphoria",
+      "confidence": "90%",
+      "insight": "Retail frenzy continues despite volatility; 'buy the dip' calls dominate at $78 levels."
     }
   ],
   "predictions": [
