@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bullish",
-      "confidence": "70%",
-      "insight": "Retail sentiment is recovering as $66k holds; traders are now eyeing a reclaim of the $70k psychological barrier."
+      "confidence": "75%",
+      "insight": "CT sentiment is shifting toward a '$70k reclaim' narrative as long-term holder accumulation remains the focus."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Neutral",
-      "confidence": "65%",
-      "insight": "Sentiment is split between 'Flippening' fears and long-term optimism regarding the upcoming FUSAKA upgrade."
+      "signal": "Bullish",
+      "confidence": "70%",
+      "insight": "Narrative is pivotting toward valuation catch-up with M2 supply and anticipation of the FUSAKA upgrade."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
       "confidence": "90%",
-      "insight": "Persistent geopolitical tensions and 'Trump threat' hedges keep retail conviction high for a move toward $5,000."
+      "insight": "Traders are doubling down on the 'Trump hedge' narrative as geopolitical threats drive consistent bids."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Concerns over 'forced selling' from commodity index rebalancing continue to weigh heavily on retail silver bulls."
+      "confidence": "80%",
+      "insight": "Fear of a 'rising wedge' exhaustion pattern and forced index selling continues to dominate retail discussions."
     }
   ],
   "predictions": [
