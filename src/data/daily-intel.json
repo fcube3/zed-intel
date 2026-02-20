@@ -50,48 +50,48 @@
       "firm": "J.P. Morgan",
       "target": "$6,300",
       "timeline": "End 2026",
-      "sentiment": "bullish",
-      "change": "raised",
-      "note": "Driven by central bank & investor demand."
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "Driven by continued demand from central banks & investors."
     },
     {
       "firm": "UBS",
       "target": "$6,200",
-      "timeline": "2026",
-      "sentiment": "bullish",
-      "change": "raised",
-      "note": "Stronger investment demand expected."
+      "timeline": "Mid-2026",
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "Peak target; expects consolidation to $5,900 by year-end."
     },
     {
       "firm": "Goldman Sachs",
       "target": "$5,400",
       "timeline": "End 2026",
-      "sentiment": "bullish",
-      "change": "raised",
+      "sentiment": "Bullish",
+      "change": "Raised",
       "note": "Persistent central bank buying."
     },
     {
       "firm": "Bank of America",
       "target": "$5,000",
       "timeline": "2026",
-      "sentiment": "bullish",
-      "change": "neutral",
+      "sentiment": "Bullish",
+      "change": "Neutral",
       "note": "Structural bull market intact."
     },
     {
       "firm": "HSBC",
       "target": "$5,000",
       "timeline": "2026",
-      "sentiment": "bullish",
-      "change": "raised",
+      "sentiment": "Bullish",
+      "change": "Neutral",
       "note": "Strong demand in the \"5k club\"."
     },
     {
       "firm": "Citi",
       "target": "$3,800",
       "timeline": "End 2026",
-      "sentiment": "neutral",
-      "change": "lowered",
+      "sentiment": "Bearish",
+      "change": "Lowered",
       "note": "Caution on further price increases."
     }
   ],
