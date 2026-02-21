@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "CT remains skeptical of the $66k rebound, with social narratives increasingly focused on a potential liquidity hunt below $60k."
+      "insight": "CT is bracing for a potential liquidity hunt below $65k as the weekend rebound loses steam."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
       "confidence": "90%",
-      "insight": "Despair has turned into apathy for many retail holders as ETH continues to bleed against the 'Gold Supercycle' narrative."
+      "insight": "Despair is turning into apathy as ETH fails to hold the $2k level, with 'utility' debates overshadowing price action."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "98%",
-      "insight": "Sentiment has gone parabolic following the definitive break of $5,000, with many calling it the start of a generational re-rating."
+      "insight": "Conviction remains at multi-decade highs as the $5,000 breach is viewed as the start of a new 'Hard Asset' era."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "90%",
-      "insight": "Conviction is surging as Silver follows Gold's lead, with social media influencers pivoting heavily to the 'Silver Squeeze 2026' narrative."
+      "insight": "Retail rotation from crypto into Silver is accelerating, with social narratives shifting to the 'generational catch-up' trade."
     }
   ],
   "predictions": [
