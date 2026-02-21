@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Panic",
       "confidence": "80%",
-      "insight": "CT is on edge as Bitcoin battles to hold the $65k psychological level after the recent sharp pullback."
+      "insight": "Retail sentiment is dominated by fear as BTC struggles to hold the $65k level, with discussions shifting toward potential bottoming in late 2026."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
       "confidence": "75%",
-      "insight": "Retail is losing patience with Ethereum's sluggish recovery as it struggles to reclaim $2,000."
+      "insight": "Frustration mounts as ETH underperforms, with the retail narrative focused on whether upgrades can spark a recovery from current stagnant levels."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "95%",
-      "insight": "Retail traders are increasingly viewing Gold as the ultimate refuge as it establishes a new base above $5,000."
+      "insight": "Gold's ascent past $5,000 has retail traders increasingly abandoning fiat for the perceived safety of a multi-decade breakout."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "85%",
-      "insight": "While the $100 target remains in sight, concerns over a 'forced selling' correction and technical exhaustion are rising."
+      "insight": "Silver bulls are targeting $100+ while ignoring rising warnings of technical exhaustion and potential 'forced selling' from index rebalancing."
     }
   ],
   "predictions": [
