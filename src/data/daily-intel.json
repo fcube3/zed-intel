@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "confidence": "85%",
-      "insight": "Market sentiment has shifted to panic as BTC defends the $65k level following a 20%+ correction from recent highs."
+      "confidence": "80%",
+      "insight": "CT is on edge as Bitcoin battles to hold the $65k psychological level after the recent sharp pullback."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "80%",
-      "insight": "Retail is cautious as ETH faces resistance at $2,000, with narrative shifting towards its long-term recovery potential after a rough start to 2026."
+      "confidence": "75%",
+      "insight": "Retail is losing patience with Ethereum's sluggish recovery as it struggles to reclaim $2,000."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "95%",
-      "insight": "Euphoria dominates as Gold breaks the historic $5,000 barrier, driven by its best performance since the late 70s."
+      "insight": "Retail traders are increasingly viewing Gold as the ultimate refuge as it establishes a new base above $5,000."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Silver has seen massive gains but traders are wary of a 'forced selling' correction after hitting record highs near $100."
+      "confidence": "85%",
+      "insight": "While the $100 target remains in sight, concerns over a 'forced selling' correction and technical exhaustion are rising."
     }
   ],
   "predictions": [
