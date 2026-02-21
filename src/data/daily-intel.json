@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "CT is fixated on the $65k support defense, with growing chatter about a potential capitulation wick to the high $50s."
+      "insight": "CT remains skeptical of the weekend recovery, with social engagement peaking on threads discussing a 'cycle bottom' below $30k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "confidence": "90%",
-      "insight": "Retail narrative is overwhelmingly negative as ETH continues to bleed against both BTC and the surging metals market."
+      "confidence": "95%",
+      "insight": "Extreme despair dominates as the 'flippening' narrative reverses, with Polymarket odds of ETH underperforming hits record highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "98%",
-      "insight": "Sentiment is parabolic following the $5,000 breakthrough, with 'Hard Asset' maximalism becoming the dominant social narrative."
+      "insight": "Retail conviction is absolute following the $5,000 breach; social media is flooded with 'Gold to $10k' projections."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "90%",
-      "insight": "Retail momentum is shifting toward Silver as the 'inflation hedge with industrial upside,' targeting a catch-up to Gold's performance."
+      "insight": "The 'Silver Squeeze' narrative is being revived as retail traders pivot from crypto into what they view as the next major breakout."
     }
   ],
   "predictions": [
