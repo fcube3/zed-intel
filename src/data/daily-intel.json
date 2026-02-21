@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "confidence": "85%",
-      "insight": "Extreme Fear dominates CT as BTC struggles to hold $65k, a sharp pivot from the $100k euphoria seen in January."
+      "signal": "Bearish",
+      "confidence": "80%",
+      "insight": "Sentiment is stabilizing at lows as CT shifts from panic to a grim acceptance of the $65k-$68k range."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "confidence": "90%",
-      "insight": "Conviction has evaporated with ETH lingering near $2k; retail narratives are shifting toward 'capitulation' before a potential bottom."
+      "confidence": "85%",
+      "insight": "Retail despair is peaking as ETH stays pinned under $2k, with 'utility' vs 'store of value' debates turning toxic."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "75%",
-      "insight": "Retail traders are fixated on the $5,000 level, with geopolitical hedging keeping sentiment resilient despite the crypto carnage."
+      "signal": "Euphoria",
+      "confidence": "95%",
+      "insight": "Total retail fixation on the $5,000 breach, with social mentions of 'Gold Supercycle' hitting all-time highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Bulls are cautiously returning as Silver stabilizes at $84, though memory of the $120 'blow-off top' still haunts the narrative."
+      "signal": "Bullish",
+      "confidence": "85%",
+      "insight": "Silver is trending as the 'smart money' alternative to gold, with retail rotation from crypto providing fresh momentum."
     }
   ],
   "predictions": [
