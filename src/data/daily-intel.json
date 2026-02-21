@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "confidence": "80%",
-      "insight": "Retail sentiment is dominated by fear as BTC struggles to hold the $65k level, with discussions shifting toward potential bottoming in late 2026."
+      "confidence": "85%",
+      "insight": "Retail fear is intensifying as Bitcoin fails to reclaim $68k, with CT increasingly focused on the 'death cross' and potential for a flush to $60k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "75%",
-      "insight": "Frustration mounts as ETH underperforms, with the retail narrative focused on whether upgrades can spark a recovery from current stagnant levels."
+      "confidence": "80%",
+      "insight": "The 'ETH is dead' meme is gaining traction in retail circles as it continues to lose ground to both BTC and hard assets."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "confidence": "95%",
-      "insight": "Gold's ascent past $5,000 has retail traders increasingly abandoning fiat for the perceived safety of a multi-decade breakout."
+      "confidence": "98%",
+      "insight": "Retail interest has peaked with mainstream media outlets now covering the 'Gold Rush of 2026,' reinforcing the $5k floor narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Silver bulls are targeting $100+ while ignoring rising warnings of technical exhaustion and potential 'forced selling' from index rebalancing."
+      "confidence": "80%",
+      "insight": "Influencers are pivoting to Silver as the 'last undervalued trade,' though some smart money accounts are warning of extreme overbought conditions."
     }
   ],
   "predictions": [
