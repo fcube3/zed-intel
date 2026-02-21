@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "CT is bracing for a volatile weekly close, with a growing consensus that the $66k level must be reclaimed to avoid a 'death cross' narrative on lower timeframes."
+      "insight": "CT remains skeptical of the weekend recovery, with social engagement peaking on threads discussing a 'cycle bottom' below $30k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
       "confidence": "95%",
-      "insight": "Despair is evolving into capitulation as even long-term ETH bulls on social media begin to scale into Gold and Silver for 'safety'."
+      "insight": "Extreme despair dominates as the 'flippening' narrative reverses, with Polymarket odds of ETH underperforming hitting record highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "98%",
-      "insight": "The $5,000 level is now being characterized as the 'new floor' rather than a ceiling, with retail social volume exploding."
+      "insight": "Retail conviction is absolute following the $5,000 breach; social media is flooded with 'Gold to $10k' projections."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "90%",
-      "insight": "Silver is trending as the 'alpha play' of the metals complex, with traders betting on a violent catch-up rally to $100."
+      "insight": "The 'Silver Squeeze' narrative is being revived as retail traders pivot from crypto into what they view as the next major breakout."
     }
   ],
   "predictions": [
