@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Euphoria",
-      "confidence": "95%",
-      "insight": "CT is now in full 'supercycle' mode, with $100k viewed as the baseline for the next leg up."
+      "signal": "Panic",
+      "confidence": "85%",
+      "insight": "Extreme Fear dominates CT as BTC struggles to hold $65k, a sharp pivot from the $100k euphoria seen in January."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Euphoria",
-      "confidence": "95%",
-      "insight": "Retail conviction in an $8k-$10k 'fair value' is reaching a peak as FUSAKA speculation intensifies."
+      "signal": "Panic",
+      "confidence": "90%",
+      "insight": "Conviction has evaporated with ETH lingering near $2k; retail narratives are shifting toward 'capitulation' before a potential bottom."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Bullish",
-      "confidence": "95%",
-      "insight": "Sentiment remains absolute; every minor price pause is characterized as a 'coiling spring' for the $5k break."
+      "confidence": "75%",
+      "insight": "Retail traders are fixated on the $5,000 level, with geopolitical hedging keeping sentiment resilient despite the crypto carnage."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Panic",
-      "confidence": "95%",
-      "insight": "Capitulation narrative is dominant as retail bulls struggle to justify holding through the wedge breakdown."
+      "signal": "Neutral",
+      "confidence": "70%",
+      "insight": "Bulls are cautiously returning as Silver stabilizes at $84, though memory of the $120 'blow-off top' still haunts the narrative."
     }
   ],
   "predictions": [
