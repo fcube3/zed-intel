@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "CT is increasingly divided as BTC hovers near $66k, with some calling for a 'double bottom' while others fear a Sunday night flush."
+      "confidence": "70%",
+      "insight": "Retail interest is tepid as BTC remains range-bound, with the narrative shifting towards institutional accumulation vs. retail apathy."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
       "confidence": "90%",
-      "insight": "Despair is the dominant retail narrative as ETH/BTC reaches new lows, fueling intense debates over the network's long-term utility."
+      "insight": "Despair is evolving into apathy as ETH fails to reclaim key support levels, leading to significant rotational chatter into metals."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "98%",
-      "insight": "Safe-haven demand has reached a fever pitch following the $5,000 breakthrough, with retail traders targeting $6k as the next logical stop."
+      "insight": "Safe-haven demand remains at a fever pitch as retail traders pivot entire portfolios into Gold, viewing $5,000 as the new floor."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "90%",
-      "insight": "Retail momentum is surging for Silver as the 'undervalued' metal play, with social influencers betting on a violent catch-up rally."
+      "insight": "CT influencers are aggressively pushing the 'Silver Catch-up' narrative, expecting it to outperform Gold in the next leg up."
     }
   ],
   "predictions": [
