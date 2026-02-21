@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "Retail is focused on the $65k support as the last line of defense before a potential slide to $60k."
+      "insight": "CT remains skeptical of the $66k rebound, with social narratives increasingly focused on a potential liquidity hunt below $60k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
       "confidence": "90%",
-      "insight": "Despair is mounting as ETH fails to participate in the 'hard asset' rally, with many questioning its long-term utility."
+      "insight": "Despair has turned into apathy for many retail holders as ETH continues to bleed against the 'Gold Supercycle' narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "confidence": "95%",
-      "insight": "The $5,000 milestone is viewed as inevitable, with retail 'fear of missing out' driving social mentions to record levels."
+      "confidence": "98%",
+      "insight": "Sentiment has gone parabolic following the definitive break of $5,000, with many calling it the start of a generational re-rating."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Social sentiment is pivoting to Silver as the 'laggard' trade, with expectations of a catch-up move towards $100."
+      "confidence": "90%",
+      "insight": "Conviction is surging as Silver follows Gold's lead, with social media influencers pivoting heavily to the 'Silver Squeeze 2026' narrative."
     }
   ],
   "predictions": [
