@@ -301,7 +301,7 @@
     "label": "ETH PRICE",
     "title": "What price will Ethereum hit in February?",
     "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-    "nominal": "$27,397,887",
+    "nominal": "$27,398,026",
     "outcomes": [
       {
         "name": "\u2191 5,000",
@@ -358,13 +358,13 @@
     "label": "MACRO / FED",
     "title": "Who will Trump nominate as Fed Chair?",
     "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-    "nominal": "$501,776,733",
+    "nominal": "$501,780,427",
     "outcomes": [
       {
         "name": "Kevin Warsh",
         "prob": 0.96,
-        "vol": 41516959.729653,
-        "vol_fmt": "$41,516,959",
+        "vol": 41517057.739653,
+        "vol_fmt": "$41,517,057",
         "price_val": 0,
         "prob_pct": "96%"
       },
@@ -395,8 +395,8 @@
       {
         "name": "Judy Shelton",
         "prob": 0.01,
-        "vol": 91439608.06567,
-        "vol_fmt": "$91,439,608",
+        "vol": 91443203.63924,
+        "vol_fmt": "$91,443,203",
         "price_val": 0,
         "prob_pct": "1%"
       },
@@ -415,7 +415,7 @@
     "label": "GEOPOLITICS",
     "title": "US strikes Iran by...?",
     "url": "https://polymarket.com/event/us-strikes-iran-by",
-    "nominal": "$331,865,986",
+    "nominal": "$331,886,264",
     "outcomes": [
       {
         "name": "February 5",
@@ -494,7 +494,7 @@
         "name": "No change",
         "prob": 0.01,
         "vol": 17285945.957099,
-        "vol_fmt": "$17,260,386",
+        "vol_fmt": "$17,285,945",
         "price_val": 0,
         "prob_pct": "1%"
       },
@@ -502,7 +502,7 @@
         "name": "25+ bps increase",
         "prob": 0.01,
         "vol": 50463989.140396,
-        "vol_fmt": "$50,399,629",
+        "vol_fmt": "$50,463,989",
         "price_val": 25.0,
         "prob_pct": "1%"
       }
