@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Bearish",
-      "confidence": "80%",
-      "insight": "CT remains skeptical of the $66k rebound, with many anticipating a final 'flush out' to $58k before any sustainable recovery."
+      "confidence": "85%",
+      "insight": "Social sentiment is fixated on the 'double top' fear, with many traders bracing for a liquidity hunt below $60k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
       "confidence": "90%",
-      "insight": "Despair is turning into apathy as ETH continues to underperform; 'Is ETH dead?' threads are currently the most engaged crypto content."
+      "insight": "Retail despair is at local highs as the 'ETH is dead' narrative gains traction amidst a stagnant price action."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "95%",
-      "insight": "Conviction is reaching multi-decade highs as the $5,000 breach looms, triggering a wave of 'Gold Supercycle' narratives."
+      "insight": "The $5,000 breach is being hailed as the start of a multi-year 'Hard Asset Supercycle' by institutional and retail accounts."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "85%",
-      "insight": "Fresh momentum as retail rotates from crypto into 'hard money', with Silver holding its ground above $84."
+      "insight": "CT is heavily promoting the 'Silver Catch-up' trade, expecting a breakout towards $100 as Gold leads the way."
     }
   ],
   "predictions": [
