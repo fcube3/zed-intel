@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "70%",
-      "insight": "Retail interest is tepid as BTC remains range-bound, with the narrative shifting towards institutional accumulation vs. retail apathy."
+      "signal": "Panic",
+      "confidence": "85%",
+      "insight": "Market sentiment has shifted to panic as BTC defends the $65k level following a 20%+ correction from recent highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
-      "signal": "Panic",
-      "confidence": "90%",
-      "insight": "Despair is evolving into apathy as ETH fails to reclaim key support levels, leading to significant rotational chatter into metals."
+      "signal": "Bearish",
+      "confidence": "80%",
+      "insight": "Retail is cautious as ETH faces resistance at $2,000, with narrative shifting towards its long-term recovery potential after a rough start to 2026."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "confidence": "98%",
-      "insight": "Safe-haven demand remains at a fever pitch as retail traders pivot entire portfolios into Gold, viewing $5,000 as the new floor."
+      "confidence": "95%",
+      "insight": "Euphoria dominates as Gold breaks the historic $5,000 barrier, driven by its best performance since the late 70s."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "confidence": "90%",
-      "insight": "CT influencers are aggressively pushing the 'Silver Catch-up' narrative, expecting it to outperform Gold in the next leg up."
+      "confidence": "75%",
+      "insight": "Silver has seen massive gains but traders are wary of a 'forced selling' correction after hitting record highs near $100."
     }
   ],
   "predictions": [
