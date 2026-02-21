@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "CT is bracing for a volatile weekly close, with many anticipating a liquidity-hunt into the $50k range before any trend reversal."
+      "signal": "Neutral",
+      "confidence": "75%",
+      "insight": "CT is increasingly divided as BTC hovers near $66k, with some calling for a 'double bottom' while others fear a Sunday night flush."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "confidence": "95%",
-      "insight": "Despair is mounting as ETH fails to participate in the 'hard asset' rally, leading to aggressive rotational narratives into Gold and Silver."
+      "confidence": "90%",
+      "insight": "Despair is the dominant retail narrative as ETH/BTC reaches new lows, fueling intense debates over the network's long-term utility."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "98%",
-      "insight": "Sentiment has decoupled from traditional macro as the $5,000 breach triggers global retail FOMO and safe-haven mania."
+      "insight": "Safe-haven demand has reached a fever pitch following the $5,000 breakthrough, with retail traders targeting $6k as the next logical stop."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "90%",
-      "insight": "The 'poor man's gold' narrative is resurfacing as social volume for Silver catches up to Gold, targeting a squeeze towards $100."
+      "insight": "Retail momentum is surging for Silver as the 'undervalued' metal play, with social influencers betting on a violent catch-up rally."
     }
   ],
   "predictions": [
