@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Bearish",
       "confidence": "80%",
-      "insight": "Sentiment is stabilizing at lows as CT shifts from panic to a grim acceptance of the $65k-$68k range."
+      "insight": "CT remains skeptical of the $66k rebound, with many anticipating a final 'flush out' to $58k before any sustainable recovery."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
-      "confidence": "85%",
-      "insight": "Retail despair is peaking as ETH stays pinned under $2k, with 'utility' vs 'store of value' debates turning toxic."
+      "confidence": "90%",
+      "insight": "Despair is turning into apathy as ETH continues to underperform; 'Is ETH dead?' threads are currently the most engaged crypto content."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "95%",
-      "insight": "Total retail fixation on the $5,000 breach, with social mentions of 'Gold Supercycle' hitting all-time highs."
+      "insight": "The $5,000 milestone has triggered a flood of moon-math, with retail sentiment hitting levels of conviction not seen in decades."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "85%",
-      "insight": "Silver is trending as the 'smart money' alternative to gold, with retail rotation from crypto providing fresh momentum."
+      "insight": "Conviction is building as Silver holds above $84; social media is pivoting to the 'catch-up' trade narrative versus Gold."
     }
   ],
   "predictions": [
