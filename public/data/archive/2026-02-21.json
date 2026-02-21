@@ -1,0 +1,513 @@
+{
+  "date": "Saturday, February 21, 2026",
+  "prices": {
+    "gold": 5012.35,
+    "silver": 85.22,
+    "btc": 68140.0,
+    "eth": 2015.45
+  },
+  "news": [
+    {
+      "title": "Metals Hunter: Institutional Diversification Into Hard Assets Accelerates",
+      "summary": "Dollar debasement fears are causing both institutional and individual investors to diversify into harder assets. Gold reserves are expected to rise as USD holdings fall among central banks.",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-metals-fever-spreads-markets-buckle-under-heat-2026-02-06/"
+    },
+    {
+      "title": "Santiment: Crypto Sentiment Starts 2026 Strong, XRP Reversal Watch",
+      "summary": "Social media sentiment among crypto participants began the year strong despite fear signals. XRP sentiment hits extreme negativity, historically setting up for a potential reversal.",
+      "url": "https://coinmarketcap.com/academy/article/santiment-reports-positive-social-sentiment-to-start-2026"
+    },
+    {
+      "title": "Prediction Markets: 92% Odds of 50+ bps Rate Cut in March",
+      "summary": "Polymarket data shows overwhelming conviction for an aggressive 50+ bps Fed rate decrease in March. Kevin Warsh remains the top choice for Fed Chair with 96% odds.",
+      "url": "https://polymarket.com/event/fed-decision-in-march-885"
+    }
+  ],
+  "institutional": {
+    "macro": {
+      "firm": "Polymarket",
+      "analyst": "Prediction Markets",
+      "insight": "92% probability of a 50+ bps Fed rate decrease in March, signaling aggressive easing expectations.",
+      "url": "https://polymarket.com/event/fed-decision-in-march-885"
+    },
+    "metals": [
+      {
+        "firm": "Metals Hunter",
+        "analyst": "Institutional View",
+        "insight": "Fear of dollar debasement is the primary driver for institutional rotation into gold and silver. Lithium recovery also gaining momentum.",
+        "url": "https://www.woodmac.com/news/opinion/metals-mining-2026-outlook/"
+      }
+    ],
+    "crypto": {
+      "firm": "Santiment",
+      "analyst": "Social Intelligence",
+      "insight": "Strong social sentiment start to 2026. Lack of retail euphoria suggests further upside potential as long as caution persists.",
+      "url": "https://santiment.net"
+    }
+  },
+  "forecasts": [
+    {
+      "firm": "J.P. Morgan",
+      "target": "$6,300",
+      "timeline": "Late 2026",
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "Driven by continued demand from central banks & investors."
+    },
+    {
+      "firm": "UBS",
+      "target": "$6,200",
+      "timeline": "End 2026",
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "Structural revaluation; upside case $7,200."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "target": "$5,700",
+      "timeline": "H2 2026",
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "Bull case scenario based on fiscal concerns."
+    },
+    {
+      "firm": "Goldman Sachs",
+      "target": "$5,400",
+      "timeline": "End 2026",
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "Persistent central bank buying and ETF inflows."
+    },
+    {
+      "firm": "Bank of America",
+      "target": "$5,000",
+      "timeline": "2026",
+      "sentiment": "Bullish",
+      "change": "Neutral",
+      "note": "Structural bull market intact; consolidation phase expected."
+    },
+    {
+      "firm": "Citi",
+      "target": "$3,800",
+      "timeline": "End 2026",
+      "sentiment": "Bearish",
+      "change": "Lowered",
+      "note": "Anticipating no further price increases; potential easing to $3,600."
+    }
+  ],
+  "social_intelligence": [
+    {
+      "source": "X (Twitter)",
+      "asset": "Bitcoin",
+      "signal": "Bearish",
+      "confidence": "85%",
+      "insight": "CT is bracing for a volatile weekly close, with many anticipating a liquidity-hunt into the $50k range before any trend reversal."
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Ethereum",
+      "signal": "Panic",
+      "confidence": "95%",
+      "insight": "Despair is mounting as ETH fails to participate in the 'hard asset' rally, leading to aggressive rotational narratives into Gold and Silver."
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Gold",
+      "signal": "Euphoria",
+      "confidence": "98%",
+      "insight": "Sentiment has decoupled from traditional macro as the $5,000 breach triggers global retail FOMO and safe-haven mania."
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Silver",
+      "signal": "Bullish",
+      "confidence": "90%",
+      "insight": "The 'poor man's gold' narrative is resurfacing as social volume for Silver catches up to Gold, targeting a squeeze towards $100."
+    }
+  ],
+  "predictions": [
+  {
+    "label": "GOLD PRICE",
+    "title": "What will Gold (GC) hit__ by end of February?",
+    "url": "https://polymarket.com/event/what-will-gold-gc-hit-by-end-of-february",
+    "nominal": "$7,598,099",
+    "outcomes": [
+      {
+        "name": "↑ $5,800",
+        "prob": 0.15,
+        "vol": 475468.69988,
+        "vol_fmt": "$475,468",
+        "price_val": 5800.0,
+        "prob_pct": "15%"
+      },
+      {
+        "name": "↑ $6,400",
+        "prob": 0.08,
+        "vol": 300361.554184,
+        "vol_fmt": "$300,361",
+        "price_val": 6400.0,
+        "prob_pct": "8%"
+      },
+      {
+        "name": "↑ $7,000",
+        "prob": 0.03,
+        "vol": 617057.862471,
+        "vol_fmt": "$617,057",
+        "price_val": 7000.0,
+        "prob_pct": "3%"
+      },
+      {
+        "name": "↑ $6,000",
+        "prob": 0.01,
+        "vol": 656602.61103,
+        "vol_fmt": "$656,602",
+        "price_val": 6000.0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "↑ $5,300",
+        "prob": 0.01,
+        "vol": 64921.156883,
+        "vol_fmt": "$64,921",
+        "price_val": 5300.0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "↑ $5,100",
+        "prob": 0.01,
+        "vol": 34695.097739,
+        "vol_fmt": "$34,695",
+        "price_val": 5100.0,
+        "prob_pct": "1%"
+      }
+    ],
+    "color": "yellow"
+  },
+  {
+    "label": "SILVER PRICE",
+    "title": "Will Silver (SI) hit__ by end of February?",
+    "url": "https://polymarket.com/event/will-silver-si-hit-by-end-of-february",
+    "nominal": "$5,899,934",
+    "outcomes": [
+      {
+        "name": "↑ $140",
+        "prob": 0.82,
+        "vol": 275950.054927,
+        "vol_fmt": "$275,950",
+        "price_val": 140.0,
+        "prob_pct": "82%"
+      },
+      {
+        "name": "↑ $120",
+        "prob": 0.45,
+        "vol": 760950.690066,
+        "vol_fmt": "$760,950",
+        "price_val": 120.0,
+        "prob_pct": "45%"
+      },
+      {
+        "name": "↑ $105",
+        "prob": 0.22,
+        "vol": 18692.824998,
+        "vol_fmt": "$18,692",
+        "price_val": 105.0,
+        "prob_pct": "22%"
+      },
+      {
+        "name": "↓ $90",
+        "prob": 0.08,
+        "vol": 150500.814795,
+        "vol_fmt": "$150,500",
+        "price_val": 90.0,
+        "prob_pct": "8%"
+      },
+      {
+        "name": "↓ $75",
+        "prob": 0.01,
+        "vol": 917822.598431,
+        "vol_fmt": "$917,822",
+        "price_val": 75.0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "↓ $65",
+        "prob": 0.01,
+        "vol": 151628.07452,
+        "vol_fmt": "$151,628",
+        "price_val": 65.0,
+        "prob_pct": "1%"
+      }
+    ],
+    "color": "gray"
+  },
+  {
+    "label": "BTC PRICE",
+    "title": "What price will Bitcoin hit in February?",
+    "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
+    "nominal": "$87,295,880",
+    "outcomes": [
+      {
+        "name": "↑ 150,000",
+        "prob": 0.35,
+        "vol": 22028555.448516,
+        "vol_fmt": "$22,028,555",
+        "price_val": 150000.0,
+        "prob_pct": "35%"
+      },
+      {
+        "name": "↑ 120,000",
+        "prob": 0.12,
+        "vol": 2990991.516766,
+        "vol_fmt": "$2,990,991",
+        "price_val": 120000.0,
+        "prob_pct": "12%"
+      },
+      {
+        "name": "↑ 125,000",
+        "prob": 0.04,
+        "vol": 3339574.654261,
+        "vol_fmt": "$3,339,574",
+        "price_val": 125000.0,
+        "prob_pct": "4%"
+      },
+      {
+        "name": "↓ 60,000",
+        "prob": 0.02,
+        "vol": 3982230.891942,
+        "vol_fmt": "$3,982,230",
+        "price_val": 60000.0,
+        "prob_pct": "2%"
+      },
+      {
+        "name": "↑ 115,000",
+        "prob": 0.01,
+        "vol": 3293117.9109,
+        "vol_fmt": "$3,293,117",
+        "price_val": 115000.0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "↓ 55,000",
+        "prob": 0.01,
+        "vol": 3978050.255178,
+        "vol_fmt": "$3,978,050",
+        "price_val": 55000.0,
+        "prob_pct": "1%"
+      }
+    ],
+    "color": "purple"
+  },
+  {
+    "label": "ETH PRICE",
+    "title": "What price will Ethereum hit in February?",
+    "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
+    "nominal": "$27,997,060",
+    "outcomes": [
+      {
+        "name": "↑ 5,000",
+        "prob": 0.25,
+        "vol": 5520012.003901,
+        "vol_fmt": "$5,520,012",
+        "price_val": 5000.0,
+        "prob_pct": "25%"
+      },
+      {
+        "name": "↓ 2,000",
+        "prob": 0.08,
+        "vol": 746838.01884,
+        "vol_fmt": "$746,838",
+        "price_val": 2000.0,
+        "prob_pct": "8%"
+      },
+      {
+        "name": "↓ 2,400",
+        "prob": 0.03,
+        "vol": 147700.517132,
+        "vol_fmt": "$147,700",
+        "price_val": 2400.0,
+        "prob_pct": "3%"
+      },
+      {
+        "name": "↑ 4,400",
+        "prob": 0.01,
+        "vol": 8085008.298492,
+        "vol_fmt": "$8,085,008",
+        "price_val": 4400.0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "↓ 2,600",
+        "prob": 0.01,
+        "vol": 61975.0681,
+        "vol_fmt": "$61,975",
+        "price_val": 2600.0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "↑ 3,600",
+        "prob": 0.01,
+        "vol": 629699.190635,
+        "vol_fmt": "$629,699",
+        "price_val": 3600.0,
+        "prob_pct": "1%"
+      }
+    ],
+    "color": "blue"
+  },
+  {
+    "label": "MACRO / FED",
+    "title": "Who will Trump nominate as Fed Chair?",
+    "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
+    "nominal": "$505,665,213",
+    "outcomes": [
+      {
+        "name": "Kevin Warsh",
+        "prob": 0.96,
+        "vol": 41953493.317317,
+        "vol_fmt": "$41,953,493",
+        "price_val": 0,
+        "prob_pct": "96%"
+      },
+      {
+        "name": "Kevin Hassett",
+        "prob": 0.05,
+        "vol": 29642092.079673,
+        "vol_fmt": "$29,642,092",
+        "price_val": 0,
+        "prob_pct": "5%"
+      },
+      {
+        "name": "Christopher Waller",
+        "prob": 0.02,
+        "vol": 23596533.025988,
+        "vol_fmt": "$23,596,533",
+        "price_val": 0,
+        "prob_pct": "2%"
+      },
+      {
+        "name": "Bill Pulte",
+        "prob": 0.01,
+        "vol": 24429330.778131,
+        "vol_fmt": "$24,429,330",
+        "price_val": 0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "Judy Shelton",
+        "prob": 0.01,
+        "vol": 92085588.543729,
+        "vol_fmt": "$92,085,588",
+        "price_val": 0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "David Malpass",
+        "prob": 0.01,
+        "vol": 6268136.350659,
+        "vol_fmt": "$6,268,136",
+        "price_val": 0,
+        "prob_pct": "1%"
+      }
+    ],
+    "color": "green"
+  },
+  {
+    "label": "GEOPOLITICS",
+    "title": "US strikes Iran by...?",
+    "url": "https://polymarket.com/event/us-strikes-iran-by",
+    "nominal": "$341,009,954",
+    "outcomes": [
+      {
+        "name": "February 5",
+        "prob": 0.45,
+        "vol": 4461531.494124,
+        "vol_fmt": "$4,461,531",
+        "price_val": 5.0,
+        "prob_pct": "45%"
+      },
+      {
+        "name": "January 31",
+        "prob": 0.35,
+        "vol": 41754060.055673,
+        "vol_fmt": "$41,754,060",
+        "price_val": 31.0,
+        "prob_pct": "35%"
+      },
+      {
+        "name": "January 14",
+        "prob": 0.22,
+        "vol": 13619741.635223,
+        "vol_fmt": "$13,619,741",
+        "price_val": 14.0,
+        "prob_pct": "22%"
+      },
+      {
+        "name": "January 15",
+        "prob": 0.01,
+        "vol": 7975001.728113,
+        "vol_fmt": "$7,975,001",
+        "price_val": 15.0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "January 18",
+        "prob": 0.01,
+        "vol": 5468912.658799,
+        "vol_fmt": "$5,468,912",
+        "price_val": 18.0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "January 17",
+        "prob": 0.01,
+        "vol": 3823998.430446,
+        "vol_fmt": "$3,823,998",
+        "price_val": 17.0,
+        "prob_pct": "1%"
+      }
+    ],
+    "color": "red"
+  },
+  {
+    "label": "WILDCARD",
+    "title": "Fed decision in March?",
+    "url": "https://polymarket.com/event/fed-decision-in-march-885",
+    "nominal": "$148,745,960",
+    "outcomes": [
+      {
+        "name": "50+ bps decrease",
+        "prob": 0.92,
+        "vol": 61763175.568562,
+        "vol_fmt": "$61,763,175",
+        "price_val": 50.0,
+        "prob_pct": "92%"
+      },
+      {
+        "name": "25 bps decrease",
+        "prob": 0.07,
+        "vol": 18109180.982403,
+        "vol_fmt": "$18,109,180",
+        "price_val": 25.0,
+        "prob_pct": "7%"
+      },
+      {
+        "name": "No change",
+        "prob": 0.01,
+        "vol": 17727930.029129,
+        "vol_fmt": "$17,727,930",
+        "price_val": 0,
+        "prob_pct": "1%"
+      },
+      {
+        "name": "25+ bps increase",
+        "prob": 0.01,
+        "vol": 51145673.878135,
+        "vol_fmt": "$51,145,673",
+        "price_val": 25.0,
+        "prob_pct": "1%"
+      }
+    ],
+    "color": "green"
+  }
+]
+}
