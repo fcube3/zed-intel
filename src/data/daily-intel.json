@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Bearish",
       "confidence": "85%",
-      "insight": "Social sentiment is fixated on the 'double top' fear, with many traders bracing for a liquidity hunt below $60k."
+      "insight": "Retail is focused on the $65k support as the last line of defense before a potential slide to $60k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Panic",
       "confidence": "90%",
-      "insight": "Retail despair is at local highs as the 'ETH is dead' narrative gains traction amidst a stagnant price action."
+      "insight": "Despair is mounting as ETH fails to participate in the 'hard asset' rally, with many questioning its long-term utility."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "95%",
-      "insight": "The $5,000 breach is being hailed as the start of a multi-year 'Hard Asset Supercycle' by institutional and retail accounts."
+      "insight": "The $5,000 milestone is viewed as inevitable, with retail 'fear of missing out' driving social mentions to record levels."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "85%",
-      "insight": "CT is heavily promoting the 'Silver Catch-up' trade, expecting a breakout towards $100 as Gold leads the way."
+      "insight": "Social sentiment is pivoting to Silver as the 'laggard' trade, with expectations of a catch-up move towards $100."
     }
   ],
   "predictions": [
