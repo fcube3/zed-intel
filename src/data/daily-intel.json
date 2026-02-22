@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "confidence": "90%",
-      "insight": "The retail narrative has shifted from 'buy the dip' to 'survival mode' as Bitcoin struggles to maintain $67k, with many traders anticipating a final capitulation wick."
+      "confidence": "92%",
+      "insight": "Retail is increasingly fearful as BTC fails to reclaim $68k, with social sentiment now fixated on a potential breakdown toward the $60k support floor."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "Retail despair is turning into total detachment as ETH fails to participate in the broader metals-led rally, resulting in heavy rotation into SOL and Gold."
+      "confidence": "88%",
+      "insight": "Social engagement for Ethereum has hit multi-year lows as retail capitulation accelerates into Gold and higher-beta SOL plays."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "confidence": "99%",
-      "insight": "Gold's absolute dominance of the social narrative has reached a fever pitch, with retail traders treating $5,100 as the 'generational bottom' for the next decade."
+      "confidence": "98%",
+      "insight": "Main Street sentiment is in overdrive as Gold holds firmly above $5,100, with retail traders aggressively piling into 'uncorrelated' hedges."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "The 'Silver catch-up' narrative is being pushed harder than ever by influencers, betting on $100 as the next psychological magnet despite extreme overbought RSI."
+      "confidence": "82%",
+      "insight": "The 'Silver Squeeze 2.0' narrative is gaining renewed traction, with retail influencers targeting $100 as the next logical psychological magnet."
     }
   ],
   "predictions": [
