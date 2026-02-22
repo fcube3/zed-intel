@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "confidence": "92%",
-      "insight": "Retail is increasingly fearful as BTC fails to reclaim $68k, with social sentiment now fixated on a potential breakdown toward the $60k support floor."
+      "confidence": "93%",
+      "insight": "Fear & Greed Index pinned at 8 (Extreme Fear) as the Feb 24 tariff deadline looms, with CT bracing for a final capitulation flush below $65k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "88%",
-      "insight": "Social engagement for Ethereum has hit multi-year lows as retail capitulation accelerates into Gold and higher-beta SOL plays."
+      "confidence": "90%",
+      "insight": "Polymarket odds of ETH being flipped by market cap have surged to 50%, crystallizing an existential bearish narrative across Crypto Twitter."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "confidence": "98%",
-      "insight": "Main Street sentiment is in overdrive as Gold holds firmly above $5,100, with retail traders aggressively piling into 'uncorrelated' hedges."
+      "confidence": "95%",
+      "insight": "Retail FOMO remains intense above $5,100 but early profit-taking chatter is emerging as gold sits 8% below its $5,595 ATH from late January."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "confidence": "82%",
-      "insight": "The 'Silver Squeeze 2.0' narrative is gaining renewed traction, with retail influencers targeting $100 as the next logical psychological magnet."
+      "confidence": "78%",
+      "insight": "The recovery from $64 to $86 is fueling renewed 'Silver Squeeze 2.0' calls, but bubble warnings from Seeking Alpha are tempering conviction."
     }
   ],
   "predictions": [
