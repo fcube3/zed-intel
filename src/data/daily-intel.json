@@ -101,28 +101,28 @@
       "asset": "Bitcoin",
       "signal": "Panic",
       "confidence": "85%",
-      "insight": "Sentiment is deteriorating as Bitcoin struggles to hold $67k, with retail panic-selling increasing on fears of a deep retrace to $60k."
+      "insight": "Fear is mounting as BTC consolidates precariously below $68k, with retail sentiment increasingly braced for a potential liquidity flush to $60k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
       "confidence": "80%",
-      "insight": "Retail capitulation in ETH continues as the 'ETH/BTC' pair hits multi-year lows, driving users toward high-momentum alternatives."
+      "insight": "Ethereum retail sentiment has hit a 'lost generation' phase, with users migrating to SOL and hard assets as the ETH/BTC ratio remains stagnant."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "98%",
-      "insight": "Extreme retail excitement as Gold establishes its new regime above $5,100, with many calling it the 'only safe asset' left."
+      "insight": "The Gold narrative has achieved 'Main Street' status, with retail traders FOMO-ing into the $5,100+ breakout as a multi-year hedge."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "80%",
-      "insight": "The retail 'Silver Squeeze' narrative is at its highest point since 2021, with traders ignoring mounting risks of a blow-off top."
+      "insight": "Retail influencers are doubling down on the 'Silver Squeeze 2.0' thesis, targeting $100 while dismissing technical warning signs of exhaustion."
     }
   ],
   "predictions": [
