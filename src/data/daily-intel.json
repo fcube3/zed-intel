@@ -244,21 +244,21 @@
       "label": "BTC PRICE",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$88,123,855",
+      "nominal": "$88,186,627",
       "outcomes": [
         {
           "name": "\u2191 150,000",
           "prob": 0.35,
-          "vol": 22253183.939516,
-          "vol_fmt": "$22,253,183",
+          "vol": 22312643.349516,
+          "vol_fmt": "$22,312,643",
           "price_val": 150000.0,
           "prob_pct": "35%"
         },
         {
           "name": "\u2191 120,000",
           "prob": 0.12,
-          "vol": 3031495.101766,
-          "vol_fmt": "$3,031,495",
+          "vol": 3032185.101766,
+          "vol_fmt": "$3,032,185",
           "price_val": 120000.0,
           "prob_pct": "12%"
         },
@@ -289,8 +289,8 @@
         {
           "name": "\u2193 55,000",
           "prob": 0.01,
-          "vol": 4034962.394333,
-          "vol_fmt": "$4,034,962",
+          "vol": 4035563.914333,
+          "vol_fmt": "$4,035,563",
           "price_val": 55000.0,
           "prob_pct": "1%"
         }
@@ -301,7 +301,7 @@
       "label": "ETH PRICE",
       "title": "What price will Ethereum hit in February?",
       "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-      "nominal": "$28,213,370",
+      "nominal": "$28,214,798",
       "outcomes": [
         {
           "name": "\u2191 5,000",
@@ -358,21 +358,21 @@
       "label": "MACRO / FED",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$506,732,139",
+      "nominal": "$506,732,453",
       "outcomes": [
         {
           "name": "Kevin Warsh",
           "prob": 0.96,
-          "vol": 42028582.342616,
-          "vol_fmt": "$42,028,582",
+          "vol": 42028691.362616,
+          "vol_fmt": "$42,028,691",
           "price_val": 0,
           "prob_pct": "96%"
         },
         {
           "name": "Kevin Hassett",
           "prob": 0.05,
-          "vol": 29809742.239334,
-          "vol_fmt": "$29,809,742",
+          "vol": 29809832.419334,
+          "vol_fmt": "$29,809,832",
           "price_val": 0,
           "prob_pct": "5%"
         },
@@ -395,8 +395,8 @@
         {
           "name": "Judy Shelton",
           "prob": 0.01,
-          "vol": 92277786.32513,
-          "vol_fmt": "$92,277,786",
+          "vol": 92277799.32513,
+          "vol_fmt": "$92,277,799",
           "price_val": 0,
           "prob_pct": "1%"
         },
