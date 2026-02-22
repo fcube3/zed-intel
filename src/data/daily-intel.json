@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "75%",
-      "insight": "Caution prevails as BTC consolidates below $68k, with some analysts warning of a dip to $60k."
+      "signal": "Panic",
+      "confidence": "80%",
+      "insight": "Market anxiety remains high as BTC tests $67k support, with retail debates polarized between a $200k target and a 2026 bear market floor."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "80%",
-      "insight": "ETH sentiment remains negative as it loses ground to BTC and hard assets; 'ETH is dead' meme persists."
+      "confidence": "75%",
+      "insight": "Frustration persists over ETH's relative weakness, though institutional accumulation chatter (e.g., BitMine) is providing a slight psychological cushion."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "confidence": "98%",
-      "insight": "Retail interest has peaked with mainstream media outlets now covering the 'Gold Rush of 2026,' reinforcing the $5k floor narrative."
+      "confidence": "95%",
+      "insight": "Narrative is shifting from 'inflation hedge' to 'absolute store of value' as Gold maintains its grip above the $5,000 milestone."
     },
     {
-      "source": "X (Twitter) ",
+      "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "confidence": "80%",
-      "insight": "Influencers are pivoting to Silver as the 'last undervalued trade,' watching for a break of key resistance."
+      "confidence": "85%",
+      "insight": "Silver's parabolic run toward $100 is triggering 'buy the dip' calls, despite index rebalancing risks threatening near-term forced selling."
     }
   ],
   "predictions": [
