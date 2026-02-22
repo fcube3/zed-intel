@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "confidence": "80%",
-      "insight": "Market anxiety remains high as BTC tests $67k support, with retail debates polarized between a $200k target and a 2026 bear market floor."
+      "confidence": "85%",
+      "insight": "CT remains on high alert as BTC fails to recover $68k, with growing retail fear of a breakdown to the $60k psychological support."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "75%",
-      "insight": "Frustration persists over ETH's relative weakness, though institutional accumulation chatter (e.g., BitMine) is providing a slight psychological cushion."
+      "confidence": "80%",
+      "insight": "Apathy is setting in for ETH retail holders as the asset continues to lag behind both Bitcoin and the parabolic metals market."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
-      "confidence": "95%",
-      "insight": "Narrative is shifting from 'inflation hedge' to 'absolute store of value' as Gold maintains its grip above the $5,000 milestone."
+      "confidence": "98%",
+      "insight": "The Gold narrative is shifting toward a multi-year supercycle, with retail traders aggressively rotating out of equities into physical and paper gold."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
-      "confidence": "85%",
-      "insight": "Silver's parabolic run toward $100 is triggering 'buy the dip' calls, despite index rebalancing risks threatening near-term forced selling."
+      "confidence": "80%",
+      "insight": "Influencers are hyping a 'massive squeeze' to $100+, despite technical signals suggesting the asset is extremely overextended in the short term."
     }
   ],
   "predictions": [
