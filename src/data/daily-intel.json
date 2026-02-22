@@ -49,26 +49,26 @@
     {
       "firm": "J.P. Morgan",
       "target": "$6,300",
-      "timeline": "Late 2026",
+      "timeline": "End 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Driven by continued demand from central banks & investors."
+      "note": "Central bank and investor demand."
     },
     {
       "firm": "UBS",
       "target": "$6,200",
-      "timeline": "End 2026",
+      "timeline": "Q3 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Structural revaluation; upside case $7,200."
+      "note": "Rising geopolitical uncertainty."
     },
     {
-      "firm": "Morgan Stanley",
-      "target": "$5,700",
-      "timeline": "H2 2026",
+      "firm": "Deutsche Bank",
+      "target": "$6,000",
+      "timeline": "Full Year 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Bull case scenario based on fiscal concerns."
+      "note": "Structural revaluation."
     },
     {
       "firm": "Goldman Sachs",
@@ -76,23 +76,23 @@
       "timeline": "End 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Persistent central bank buying and ETF inflows."
+      "note": "Persistent central bank accumulation."
     },
     {
       "firm": "Bank of America",
       "target": "$5,000",
-      "timeline": "2026",
+      "timeline": "Full Year 2026",
       "sentiment": "Bullish",
-      "change": "Neutral",
-      "note": "Structural bull market intact; consolidation phase expected."
+      "change": "Raised",
+      "note": "Bullish forecast hike."
     },
     {
       "firm": "Citi",
-      "target": "$3,800",
-      "timeline": "End 2026",
-      "sentiment": "Bearish",
-      "change": "Lowered",
-      "note": "Anticipating no further price increases; potential easing to $3,600."
+      "target": "$4,950",
+      "timeline": "Dec 2026",
+      "sentiment": "Neutral",
+      "change": "Raised",
+      "note": "No further price increases expected from current levels."
     }
   ],
   "social_intelligence": [
