@@ -100,29 +100,29 @@
       "source": "X (Twitter)",
       "asset": "Bitcoin",
       "signal": "Panic",
-      "confidence": "95%",
-      "insight": "Retail sentiment is paralyzed by extreme fear as traders brace for a 'tariff shock' liquidity flush on Feb 24."
+      "confidence": "96%",
+      "insight": "Extreme fear persists as the 'tariff shock' deadline on Feb 24 approaches, with retail bracing for a potential final flush to $60k."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "90%",
-      "insight": "The 'flippening' narrative at 50% probability on Polymarket is driving retail apathy and rotation into hard assets."
+      "confidence": "92%",
+      "insight": "Despair is deepening as ETH fails to hold $2,000, with Polymarket flippening odds at 50% driving heavy rotation into hard assets."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "98%",
-      "insight": "Gold's stability above $5,100 has cemented its role as the primary safe haven in the current macro narrative."
+      "insight": "Gold remains the undisputed safe-haven king above $5,100, with retail viewing the recent ATH pullback as a 'generational' accumulation zone."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "85%",
-      "insight": "Retail influencers are aggressively targeting $100 in the 'Silver Squeeze 2.0' narrative, dismissing institutional bubble warnings."
+      "insight": "The 'Silver Squeeze 2.0' to $100 narrative is drowning out bubble warnings as retail influencers capitalize on the recovery from $64."
     }
   ],
   "predictions": [
