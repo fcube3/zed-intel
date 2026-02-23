@@ -52,23 +52,23 @@
       "timeline": "End 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Central bank and investor demand."
+      "note": "Raised from $5,055; cited central bank buying floor."
     },
     {
       "firm": "UBS",
       "target": "$6,200",
-      "timeline": "Q3 2026",
+      "timeline": "End 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Rising geopolitical uncertainty."
+      "note": "Bull case of $7,200 on geopolitical risk."
     },
     {
-      "firm": "Deutsche Bank",
-      "target": "$6,000",
-      "timeline": "Full Year 2026",
+      "firm": "Morgan Stanley",
+      "target": "$5,700",
+      "timeline": "H2 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Structural revaluation."
+      "note": "Strategic allocation shift to hard assets."
     },
     {
       "firm": "Goldman Sachs",
@@ -76,23 +76,23 @@
       "timeline": "End 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Persistent central bank accumulation."
+      "note": "Persistent central bank accumulation targets."
     },
     {
       "firm": "Bank of America",
       "target": "$5,000",
       "timeline": "Full Year 2026",
-      "sentiment": "Bullish",
-      "change": "Raised",
-      "note": "Bullish forecast hike."
+      "sentiment": "Neutral",
+      "change": "Neutral",
+      "note": "Forecast remains below current spot levels."
     },
     {
       "firm": "Citi",
       "target": "$4,950",
       "timeline": "Dec 2026",
-      "sentiment": "Neutral",
-      "change": "Raised",
-      "note": "No further price increases expected from current levels."
+      "sentiment": "Bearish",
+      "change": "Neutral",
+      "note": "Targeting consolidation below $5,000."
     }
   ],
   "social_intelligence": [
