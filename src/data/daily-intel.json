@@ -99,30 +99,30 @@
     {
       "source": "X (Twitter)",
       "asset": "Bitcoin",
-      "signal": "Panic",
-      "confidence": "98%",
-      "insight": "The 'tariff-induced liquidity flush' is the dominant narrative as X-influencers warn of a final wipeout to $60k before the Feb 24 deadline."
+      "signal": "Bearish",
+      "confidence": "72%",
+      "insight": "CT is watching BTC hold the $67K corrective zone, with 24 of 30 technical indicators flashing bearish as the market digests a post-peak slide from $78K highs."
     },
     {
       "source": "X (Twitter)",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "97%",
-      "insight": "Retail capitulation is intensifying as ETH loses the $2,000 psychological handle, with traders rotating aggressively into precious metals."
+      "confidence": "80%",
+      "insight": "Crypto Twitter is fixated on whether ETH can hold the $2,000 psychological floor after $327M in weekly ETF outflows, including $264M sold by BlackRock alone."
     },
     {
       "source": "X (Twitter)",
       "asset": "Gold",
-      "signal": "Euphoria",
-      "confidence": "99%",
-      "insight": "Gold is being hailed as the 'Alpha Asset' of 2026, with social consensus targeting $6,000 as the global debt-debasement narrative accelerates."
+      "signal": "Bullish",
+      "confidence": "82%",
+      "insight": "Traders are watching whether Gold can reclaim ATH territory above $5,595 after pulling back to $5,138, with J.P. Morgan's $6,300 target anchoring the bullish macro debasement narrative."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
-      "signal": "Bullish",
-      "confidence": "95%",
-      "insight": "Silver maximalists are cheering a 'generational breakout' toward $120, citing industrial supply shocks and record ETF inflows."
+      "signal": "Euphoria",
+      "confidence": "85%",
+      "insight": "Silver is surging +6% today to $87.30 on tariff-driven supply shock fears, with retail traders and maximalists eyeing a re-test of the $100+ level as geopolitical tensions sustain momentum."
     }
   ],
   "predictions": [
