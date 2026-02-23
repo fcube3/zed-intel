@@ -98,31 +98,31 @@
   "social_intelligence": [
     {
       "source": "X (Twitter)",
+      "asset": "Bitcoin",
+      "signal": "Panic",
+      "confidence": "98%",
+      "insight": "Fear of a 'pre-tariff' liquidation event is peaking as traders speculate on a massive volatility spike for the Feb 24 deadline."
+    },
+    {
+      "source": "X (Twitter)",
+      "asset": "Ethereum",
+      "signal": "Bearish",
+      "confidence": "96%",
+      "insight": "Retail fatigue is setting in as ETH struggles to hold $2,000 support amidst persistent institutional ETF outflows."
+    },
+    {
+      "source": "X (Twitter)",
       "asset": "Gold",
       "signal": "Euphoria",
       "confidence": "99%",
-      "insight": "The #GoldStandard narrative is exploding as prices hold above $5,100; retail sentiment is decoupling from traditional dollar-inverse correlations."
+      "insight": "The 'Gold Standard 2.0' narrative is trending globally, with retail investors viewing current prices as a launchpad rather than a ceiling."
     },
     {
       "source": "X (Twitter)",
       "asset": "Silver",
       "signal": "Bullish",
       "confidence": "94%",
-      "insight": "Silver influencers are shifting focus from 'squeeze' to 'supply-deficit' fundamentals, targeting a clean break of $100 by Q2."
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Bitcoin",
-      "signal": "Neutral",
-      "confidence": "85%",
-      "insight": "BTC consolidation near $68k is being interpreted as a healthy reset; liquidations have slowed as high-leverage longs were flushed over the weekend."
-    },
-    {
-      "source": "X (Twitter)",
-      "asset": "Ethereum",
-      "signal": "Apathy",
-      "confidence": "90%",
-      "insight": "ETH is the ultimate contrarian indicator right now; social dominance is at multi-month lows even as fundamental sentiment scores rise among researchers."
+      "insight": "Silver spot price momentum toward $120 is driving record engagement on X, as retail squeezes traditional short positions."
     }
   ],
   "predictions": [
