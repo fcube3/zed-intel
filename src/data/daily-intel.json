@@ -187,21 +187,21 @@
       "label": "SILVER PRICE",
       "title": "Will Silver (SI) hit__ by end of February?",
       "url": "https://polymarket.com/event/will-silver-si-hit-by-end-of-february",
-      "nominal": "$6,991,641",
+      "nominal": "$7,060,543",
       "outcomes": [
         {
           "name": "↑ $140",
           "prob": 0.82,
-          "vol": 287085.552463,
-          "vol_fmt": "$287,085",
+          "vol": 287716.402463,
+          "vol_fmt": "$287,716",
           "price_val": 140.0,
           "prob_pct": "82%"
         },
         {
           "name": "↑ $120",
           "prob": 0.45,
-          "vol": 838279.867787,
-          "vol_fmt": "$838,279",
+          "vol": 842418.3955,
+          "vol_fmt": "$842,418",
           "price_val": 120.0,
           "prob_pct": "45%"
         },
@@ -232,8 +232,8 @@
         {
           "name": "↓ $65",
           "prob": 0.01,
-          "vol": 197046.443899,
-          "vol_fmt": "$197,046",
+          "vol": 197744.479499,
+          "vol_fmt": "$197,744",
           "price_val": 65.0,
           "prob_pct": "1%"
         }
@@ -358,29 +358,29 @@
       "label": "MACRO / FED",
       "title": "Who will Trump nominate as Fed Chair?",
       "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
-      "nominal": "$510,557,637",
+      "nominal": "$510,767,540",
       "outcomes": [
         {
           "name": "Kevin Warsh",
           "prob": 0.96,
-          "vol": 42495138.300886,
-          "vol_fmt": "$42,495,138",
+          "vol": 42515209.949045,
+          "vol_fmt": "$42,515,209",
           "price_val": 0,
           "prob_pct": "96%"
         },
         {
           "name": "Kevin Hassett",
           "prob": 0.05,
-          "vol": 30285458.977667,
-          "vol_fmt": "$30,285,458",
+          "vol": 30293452.634667,
+          "vol_fmt": "$30,293,452",
           "price_val": 0,
           "prob_pct": "5%"
         },
         {
           "name": "Christopher Waller",
           "prob": 0.02,
-          "vol": 23902366.860653,
-          "vol_fmt": "$23,902,366",
+          "vol": 23937055.639819,
+          "vol_fmt": "$23,937,055",
           "price_val": 0,
           "prob_pct": "2%"
         },
@@ -395,8 +395,8 @@
         {
           "name": "Judy Shelton",
           "prob": 0.01,
-          "vol": 94080360.256567,
-          "vol_fmt": "$94,080,360",
+          "vol": 94120322.330174,
+          "vol_fmt": "$94,120,322",
           "price_val": 0,
           "prob_pct": "1%"
         },
@@ -415,7 +415,7 @@
       "label": "GEOPOLITICS",
       "title": "US strikes Iran by...?",
       "url": "https://polymarket.com/event/us-strikes-iran-by",
-      "nominal": "$382,042,690",
+      "nominal": "$384,778,831",
       "outcomes": [
         {
           "name": "February 5",
