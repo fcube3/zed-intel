@@ -3,7 +3,7 @@ import "./globals.css";
 import { LanguageProvider } from "@/components/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "Zed Intelligence Dashboard",
+  title: "Kai Intelligence Dashboard",
   description: "Strategic briefing for hard assets",
   icons: {
     icon: '/favicon.ico?v=3',

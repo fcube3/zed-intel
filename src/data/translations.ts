@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    title: "📡 ZED INTELLIGENCE",
+    title: "📡 KAI INTELLIGENCE",
     subtitle: "Daily Strategic Briefing | Public Edition 🦊",
     liveFeed: "Live Feed",
     date: "Thursday, Feb 12, 2026",
@@ -14,7 +14,7 @@ export const translations = {
     sentimentTitle: "Sentiment Radar",
     calendarTitle: "Economic Calendar",
     socialIntelTitle: "Social Intelligence Stream",
-    logicTitle: "Zed's Logic Briefing",
+    logicTitle: "Kai's Logic Briefing",
     openReport: "Open Full Report",
     verifiedSource: "Verified Source",
     nominalSize: "Nominal Size",
@@ -32,7 +32,7 @@ export const translations = {
     dir: "ltr"
   },
   tw: {
-    title: "📡 ZED 智訊",
+    title: "📡 KAI 智訊",
     subtitle: "每日戰略簡報 | 公開版 🦊",
     liveFeed: "實時數據",
     date: "2026年2月12日 星期四",
@@ -46,7 +46,7 @@ export const translations = {
     sentimentTitle: "情緒雷達",
     calendarTitle: "經濟日曆",
     socialIntelTitle: "社交情報流",
-    logicTitle: "Zed 邏輯簡報",
+    logicTitle: "Kai 邏輯簡報",
     openReport: "閱讀完整報告",
     verifiedSource: "來源驗證",
     nominalSize: "名義規模",

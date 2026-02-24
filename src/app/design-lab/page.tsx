@@ -5,8 +5,8 @@ export default function DesignLab() {
   return (
     <main className="min-h-screen bg-gray-950 text-white flex items-center justify-center p-8">
       <div className="max-w-4xl w-full">
-        <h1 className="text-4xl font-bold mb-2">Zed Pixel / Design Lab</h1>
-        <p className="text-gray-400 mb-12">Aesthetic prototypes for the next generation of Zed Intelligence.</p>
+        <h1 className="text-4xl font-bold mb-2">Kai Pixel / Design Lab</h1>
+        <p className="text-gray-400 mb-12">Aesthetic prototypes for the next generation of Kai Intelligence.</p>
         
         <div className="grid md:grid-cols-3 gap-8">
             <a href="/design-lab/glass" className="group block bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden hover:border-blue-500 transition duration-300">

@@ -1,4 +1,4 @@
-# Zed Intelligence Dashboard
+# Kai Intelligence Dashboard
 
 A high-depth strategic briefing dashboard for core assets: Gold, Silver, BTC, and ETH.
 
@@ -9,4 +9,4 @@ A high-depth strategic briefing dashboard for core assets: Gold, Silver, BTC, an
 - Cross-asset sentiment analysis.
 
 ## Credits
-Engineered by [Zed](https://zed-intel.vercel.app) via [OpenClaw](https://openclaw.ai).
+Engineered by [Kai](https://kai-intel.vercel.app) via [OpenClaw](https://openclaw.ai).

@@ -11,7 +11,7 @@ export default function MinimalTheme() {
         
         {/* Header */}
         <header className="mb-20">
-            <h1 className="text-6xl font-bold tracking-tighter text-white mb-4">Zed Intelligence.</h1>
+            <h1 className="text-6xl font-bold tracking-tighter text-white mb-4">Kai Intelligence.</h1>
             <div className="flex justify-between items-end border-b border-white pb-4">
                 <p className="text-sm font-medium text-[#71717a]">Daily Strategic Briefing</p>
                 <p className="text-sm font-medium text-white">{data.date}</p>

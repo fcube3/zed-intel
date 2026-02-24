@@ -176,7 +176,7 @@ export default function Home() {
             <p className="text-[9px] text-gray-600 font-black uppercase tracking-widest">
               {t.poweredBy} <a href="https://openclaw.ai" target="_blank" className="text-blue-500 hover:text-blue-400 transition underline">OpenClaw</a>
             </p>
-            <p className="text-[9px] text-gray-700 font-bold uppercase">© 2026 ZED INTEL | ZGOLD LABS</p>
+            <p className="text-[9px] text-gray-700 font-bold uppercase">© 2026 KAI INTEL | KGOLD LABS</p>
           </footer>
         </div>
       </div>

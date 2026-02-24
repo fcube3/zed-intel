@@ -16,7 +16,7 @@ export default function CyberTheme() {
         <header className="flex justify-between items-center border-b border-[#00ff41]/30 pb-4 mb-8 bg-black/80 backdrop-blur">
             <div className="flex items-center space-x-4">
                 <div className="w-4 h-4 bg-[#00ff41] animate-pulse"></div>
-                <h1 className="text-xl font-bold tracking-tighter">ZED_INTEL__V2.0</h1>
+                <h1 className="text-xl font-bold tracking-tighter">KAI_INTEL__V2.0</h1>
             </div>
             <div className="text-xs text-[#00ff41]/60">
                 Connection: SECURE_SOCKET_LAYER

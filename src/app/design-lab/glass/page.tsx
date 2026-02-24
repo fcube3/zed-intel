@@ -14,7 +14,7 @@ export default function GlassTheme() {
         <header className="mb-16 border-b border-white/10 pb-8 flex justify-between items-end">
           <div>
             <h1 className="text-5xl font-extralight tracking-tight mb-2 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-              ZED <span className="font-bold text-white">INTELLIGENCE</span>
+              KAI <span className="font-bold text-white">INTELLIGENCE</span>
             </h1>
             <p className="text-sm uppercase tracking-[0.3em] text-gray-500">Institutional Strategic Briefing</p>
           </div>
