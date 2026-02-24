@@ -1,48 +1,48 @@
 {
   "date": "Tuesday, February 24, 2026",
   "prices": {
-    "gold": 5238.65,
-    "silver": 88.1,
-    "btc": 64760.0,
-    "eth": 1864.09
+    "gold": 5172.11,
+    "silver": 88.04,
+    "btc": 63105.0,
+    "eth": 1828.0
   },
   "news": [
     {
-      "title": "Metals Hunter: 15% Global Flat Tariff Goes Live Today — Gold & Silver Surge as Stagflation Risk Premium Rebuilds",
-      "summary": "The Trump administration invoked Section 122 of the Trade Act of 1974 to impose a 15% global flat tariff effective February 24, after the Supreme Court struck down prior emergency-power tariffs. Gold broke above $5,238 (LiteFinance) while silver climbed on stagflation and geopolitical risk premium, with structural demand expected to remain elevated even if Middle East tensions ease.",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-23-gold-and-silver-surge-as-stagflation-fears-and-geopolitical-tensions-rebuild-the-risk-premium"
+      "title": "Metals Pullback: Gold Snaps 4-Day Winning Streak — Retreats from $5,250 Monthly High as USD Rebounds",
+      "summary": "Gold dropped 1.1% to $5,172/oz on Tuesday, snapping a four-session winning streak after touching a fresh monthly high of $5,250 during Asian trading. The Shanghai Gold Exchange announced it will lower margin rates, while U.S. gold futures for April delivery fell 0.6% to $5,191.50. Silver also pulled back 0.98% to $88.04 from Monday's $88.91. Despite the intraday pullback, the underlying structural bid remains intact — tariff uncertainty, central bank demand, and Iran tensions continue to support the metals complex.",
+      "url": "https://www.livemint.com/market/commodities/gold-silver-rates-today-live-mcx-gold-rate-today-mcx-silver-price-comex-gold-donald-trump-tariffs-us-iran-war-11771900478690.html"
     },
     {
-      "title": "Crypto Sentiment: BTC Slips Below $65K on Tariff Risk; USDT Flashes a Rare 2022-Era Signal",
-      "summary": "Bitcoin slipped below $65,000 during Asian trading as renewed tariff tensions weighed on risk appetite. Meanwhile, a USDT dominance signal — last seen in early 2022 before a major crypto correction — has re-emerged, suggesting capital rotation out of crypto into stablecoins. Analyst Timothy Peterson put an 88% probability on Bitcoin reaching $122K by late 2026 despite the near-term headwinds.",
-      "url": "https://bitcoinethereumnews.com/bitcoin/what-usdts-2022-signal-means-for-bitcoin-in-february-2026/"
+      "title": "Crypto Crash: BTC Plunges Below $63K — Fear & Greed Index Hits 5, ETF Outflows Hit $3.8B in Five Weeks",
+      "summary": "Bitcoin tumbled over 5% to break below $63,000 on Tuesday as tariff tensions, Iran escalation risk, and massive ETF redemptions triggered a cascade of liquidations. The Crypto Fear & Greed Index collapsed to 5/100 — a reading only seen three times since 2018 (Aug 2019, June 2022, and earlier this month). Over $468M in leveraged positions were liquidated in 24 hours. BTC spot ETFs have bled $3.8 billion across five consecutive weeks, the longest outflow streak since February 2025. BTC now trades ~50% below its ATH above $126,000.",
+      "url": "https://www.cnbc.com/2026/02/24/bitcoin-extends-decline-falling-below-64000-btc-trump-tariffs-ai-crypto.html"
     },
     {
-      "title": "Polymarket/Kalshi: Kevin Warsh Confirmed as Fed Chair — Prediction Markets Move to Settlement",
-      "summary": "Prediction markets confirm Kevin Warsh has been nominated as the next Fed Chair, replacing Powell. Kalshi's market showed odds surging from 31% to 81% on January 29 when Trump-Warsh meeting leaked, resolving near-certainty. The Polymarket Fed Chair market — nominally $510M — is now tracking settlement. Implications: a hawkish shadow cast on aggressive rate-cut bets for 2026.",
-      "url": "https://defirate.com/prediction-markets/fed-chair-nominee-odds/"
+      "title": "Polymarket: US-Iran Diplomatic Meeting Odds Surge to 84% — But Strike Odds by June Hit 69%",
+      "summary": "Polymarket is pricing an 84% chance of a U.S.-Iran diplomatic meeting by February 28 (up 31% in 24 hours), while simultaneously pricing a 69% probability of a US military strike on Iran by end of June (per Bank of America analysis). The dueling signals suggest markets expect a last-ditch diplomatic effort before potential escalation. Meanwhile, Polymarket traders see only a 17% chance BTC hits $75K in February but a 31% chance it drops to $60K, reflecting deep bearish positioning.",
+      "url": "https://www.cryptotimes.io/2026/02/23/u-s-and-iran-diplomatic-meeting-chances-surge-to-84-on-polymarket/"
     }
   ],
   "institutional": {
     "macro": {
-      "firm": "Polymarket / Kalshi",
-      "analyst": "Prediction Markets",
-      "insight": "Kevin Warsh confirmed as Fed Chair nominee — markets now reassessing the 92% March 50bps cut odds as Warsh is known as a hawk. The nomination introduces rate-cut uncertainty and is gold-bullish (dollar debasement narrative intact, but timeline shifts).",
-      "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair"
+      "firm": "CME FedWatch / Polymarket",
+      "analyst": "Rate Markets",
+      "insight": "CME FedWatch now prices a 97% probability of a 75bps rate cut at the March 18 FOMC meeting — up from 92% last week. Warsh's formal nomination as Fed Chair is expected by March 31 (Polymarket: 85%). The disconnect between extreme rate-cut expectations and Warsh's known hawkish leanings creates a volatility catalyst: either the market reprices cuts lower (risk-off for crypto/equities) or the Fed delivers an emergency cut to backstop cratering risk assets (bullish for everything).",
+      "url": "https://polymarket.com/event/kevin-warsh-formally-nominated-as-fed-chair-by"
     },
     "metals": [
       {
-        "firm": "J.P. Morgan / DeVere Group",
+        "firm": "J.P. Morgan / UBS / Goldman Sachs",
         "analyst": "Commodities Research",
-        "insight": "J.P. Morgan is the latest bank to raise its gold target to $6,300/oz by year-end 2026, citing 755+ tonne central bank demand floor and structural shift to hard assets. Deutsche Bank and Societe Generale have followed. The 15% tariff effective today adds a fresh supply-shock premium to both gold and silver.",
-        "url": "https://www.devere-group.com/gold-price-predictions-yellow-metal-to-hit-6000-in-2026/"
+        "insight": "The institutional gold consensus is tightening around $5,400-$6,300 year-end targets. J.P. Morgan leads at $6,300 (755T central bank demand floor), UBS at $6,200 (bull case $7,200 on full geopolitical escalation), Goldman at $5,400, Morgan Stanley at $5,700. Today's pullback from $5,250 to $5,172 is seen as healthy profit-taking after a 4-day rally. Shanghai Gold Exchange lowering margin rates signals continued institutional appetite in China.",
+        "url": "https://www.growjustindia.com/business/gold-forecast-2026-ubs-targets-6200-as-rate-cuts-loom-29554"
       }
     ],
     "crypto": {
-      "firm": "Santiment / Crypto.news",
-      "analyst": "Behavioral Analytics",
-      "insight": "BTC down ~24% YTD and ETH down ~34% YTD — worst start in a decade (Fortune). USDT signal (rising stablecoin dominance) mirrors 2022 bear setup. However, analyst Timothy Peterson's Metcalfe-based model still shows 88% probability of BTC hitting $122K by late 2026, suggesting the current drawdown is a mid-cycle correction, not a trend reversal.",
-      "url": "https://crypto.news/analyst-says-bitcoin-has-88-chance-of-rising-to-122k/"
+      "firm": "TipRanks / Polymarket / SoSoValue",
+      "analyst": "Institutional vs Retail Divergence",
+      "insight": "A stark divergence: Polymarket retail traders see 72% chance of BTC under $55K, while institutional firms (per TipRanks) argue Bitcoin should be priced between $85K-$95K based on its role as a global asset. Fear & Greed at 5 matches the FTX-era collapse reading. The $3.8B five-week ETF outflow is the worst since launch — but historically, extreme fear readings of this magnitude have preceded 40-80% rallies within 6 months.",
+      "url": "https://www.tipranks.com/news/polymarket-traders-see-72-chance-of-bitcoin-under-55000-as-bearish-bets-explode"
     }
   },
   "forecasts": [
@@ -52,7 +52,7 @@
       "timeline": "End 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Latest upgrade. Cites 755T central bank demand floor + tariff-driven dollar debasement."
+      "note": "Highest major bank target. Cites 755T central bank demand floor + tariff-driven dollar debasement."
     },
     {
       "firm": "UBS",
@@ -60,7 +60,7 @@
       "timeline": "End 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Bull case of $7,200 on full geopolitical escalation scenario."
+      "note": "Bull case of $7,200 on full geopolitical escalation (Iran strike scenario)."
     },
     {
       "firm": "Morgan Stanley",
@@ -84,7 +84,7 @@
       "timeline": "Full Year 2026",
       "sentiment": "Neutral",
       "change": "Neutral",
-      "note": "Forecast now below current spot of $5,238 — effectively a sell signal vs. peers."
+      "note": "Now $172 below spot — effectively a sell signal vs. peers. Contrarian positioning."
     },
     {
       "firm": "Citi",
@@ -92,37 +92,37 @@
       "timeline": "Dec 2026",
       "sentiment": "Bearish",
       "change": "Neutral",
-      "note": "Most bearish major bank — significantly below current spot. Deep contrarian view."
+      "note": "Most bearish major bank — $222 below current spot. Deep contrarian view."
     }
   ],
   "social_intelligence": [
     {
-      "source": "X (Twitter) / Crypto.news",
+      "source": "X (Twitter) / CoinDesk / SoSoValue",
       "asset": "Bitcoin",
-      "signal": "Bearish",
-      "confidence": "76%",
-      "insight": "BTC sliding to ~$64,760 as Section 122 tariffs go live today, crushing risk appetite. USDT dominance signal mirrors 2022 — CT debating whether this is a capitulation flush or the start of a deeper leg down. Peterson's $122K model is keeping long-term bulls anchored."
+      "signal": "Extreme Fear",
+      "confidence": "91%",
+      "insight": "Fear & Greed at 5/100 — only the third time this low since 2018. BTC crashed through $63K as $468M in liquidations cascaded. CT is in full capitulation mode with 'this is 2022 again' dominating the timeline. $3.8B in five-week ETF outflows is the worst since launch. Polymarket: 72% chance of sub-$55K, but institutional firms see $85K-$95K fair value — the divergence is extreme."
     },
     {
-      "source": "X (Twitter) / CoinMarketCap",
+      "source": "X (Twitter) / AMBCrypto / CoinDCX",
       "asset": "Ethereum",
       "signal": "Bearish",
-      "confidence": "82%",
-      "insight": "ETH at $1,864 — down 34% YTD, worst start to a year in a decade. Crypto Twitter torn between 'accumulate here' and 'knife-catching' narratives. No clear catalyst to reverse ETF outflow trend in the near-term."
+      "confidence": "85%",
+      "insight": "ETH at $1,828 — down 2.87% today and ~36% YTD. Testing $1,850 support which analysts say must hold to avoid a flush to $1,600. Motley Fool flags a 'never-before-seen bearish signal' in the crypto market. Social sentiment is capitulatory but contrarians note ETH historically bottoms when retail completely gives up."
     },
     {
-      "source": "X (Twitter) / FinancialContent",
+      "source": "X (Twitter) / FXStreet / Reuters",
       "asset": "Gold",
-      "signal": "Bullish",
-      "confidence": "87%",
-      "insight": "Today's 15% global tariff activation is THE dominant narrative on finance Twitter. Gold trading $5,238 is seen as confirming the 'debasement trade.' J.P. Morgan's $6,300 target being quoted everywhere. Stagflation fear is replacing soft-landing hope."
+      "signal": "Bullish (consolidating)",
+      "confidence": "84%",
+      "insight": "Gold pulled back 1.1% from monthly high of $5,250 to $5,172 — snapping a 4-day winning streak. Finance Twitter sees this as healthy profit-taking, not trend reversal. Shanghai Gold Exchange lowering margins is being read as bullish (encouraging more buying). J.P. Morgan $6,300 target and UBS $6,200 remain the consensus anchors."
     },
     {
-      "source": "X (Twitter) / Finance Magnates",
+      "source": "X (Twitter) / FXLeaders / FXStreet",
       "asset": "Silver",
-      "signal": "Euphoria",
-      "confidence": "88%",
-      "insight": "Silver charging toward $88+ with silver maximalists calling for $100 break. Supply deficit deepening — tariff disruption to industrial silver supply chains (solar, EVs) cited as explosive upside catalyst. Gold/silver ratio compression trade very active."
+      "signal": "Bullish",
+      "confidence": "86%",
+      "insight": "Silver dipped 0.98% to $88.04 from Monday's $88.91 high but the $100 moonshot narrative is gaining traction. FXLeaders calls the trend 'very bullish above $82.70.' Resistance at $90 early Feb highs, support at $84. Gold/silver ratio compression trade remains active. Industrial demand from solar/EV tariff disruption cited as supply-squeeze catalyst."
     }
   ],
   "predictions": [
@@ -248,51 +248,51 @@
       "outcomes": [
         {
           "name": "↑ 150,000",
-          "prob": 0.35,
+          "prob": 0.15,
           "vol": 23454155.196516,
           "vol_fmt": "$23,454,155",
           "price_val": 150000.0,
-          "prob_pct": "35%"
+          "prob_pct": "15%"
         },
         {
-          "name": "↑ 120,000",
-          "prob": 0.12,
+          "name": "↑ 75,000",
+          "prob": 0.17,
           "vol": 3074465.296766,
           "vol_fmt": "$3,074,465",
-          "price_val": 120000.0,
-          "prob_pct": "12%"
-        },
-        {
-          "name": "↑ 125,000",
-          "prob": 0.04,
-          "vol": 3489056.102261,
-          "vol_fmt": "$3,489,056",
-          "price_val": 125000.0,
-          "prob_pct": "4%"
+          "price_val": 75000.0,
+          "prob_pct": "17%"
         },
         {
           "name": "↓ 60,000",
-          "prob": 0.02,
+          "prob": 0.31,
           "vol": 3982230.891942,
           "vol_fmt": "$3,982,230",
           "price_val": 60000.0,
-          "prob_pct": "2%"
-        },
-        {
-          "name": "↑ 115,000",
-          "prob": 0.01,
-          "vol": 3348601.766575,
-          "vol_fmt": "$3,348,601",
-          "price_val": 115000.0,
-          "prob_pct": "1%"
+          "prob_pct": "31%"
         },
         {
           "name": "↓ 55,000",
-          "prob": 0.01,
+          "prob": 0.72,
           "vol": 4805178.163122,
           "vol_fmt": "$4,805,178",
           "price_val": 55000.0,
-          "prob_pct": "1%"
+          "prob_pct": "72%"
+        },
+        {
+          "name": "↑ 120,000",
+          "prob": 0.05,
+          "vol": 3489056.102261,
+          "vol_fmt": "$3,489,056",
+          "price_val": 120000.0,
+          "prob_pct": "5%"
+        },
+        {
+          "name": "↑ 80,000",
+          "prob": 0.05,
+          "vol": 3348601.766575,
+          "vol_fmt": "$3,348,601",
+          "price_val": 80000.0,
+          "prob_pct": "5%"
         }
       ],
       "color": "purple"
@@ -356,55 +356,55 @@
     },
     {
       "label": "MACRO / FED",
-      "title": "Who will Trump nominate as Fed Chair?",
-      "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair",
+      "title": "Kevin Warsh formally nominated as Fed Chair by...?",
+      "url": "https://polymarket.com/event/kevin-warsh-formally-nominated-as-fed-chair-by",
       "nominal": "$510,767,540",
       "outcomes": [
         {
-          "name": "Kevin Warsh",
-          "prob": 0.96,
+          "name": "March 31",
+          "prob": 0.85,
           "vol": 42515209.949045,
           "vol_fmt": "$42,515,209",
           "price_val": 0,
-          "prob_pct": "96%"
+          "prob_pct": "85%"
         },
         {
-          "name": "Kevin Hassett",
-          "prob": 0.05,
+          "name": "February 28",
+          "prob": 0.28,
           "vol": 30293452.634667,
           "vol_fmt": "$30,293,452",
+          "price_val": 0,
+          "prob_pct": "28%"
+        },
+        {
+          "name": "April 30",
+          "prob": 0.05,
+          "vol": 23937055.639819,
+          "vol_fmt": "$23,937,055",
           "price_val": 0,
           "prob_pct": "5%"
         },
         {
-          "name": "Christopher Waller",
+          "name": "May 31",
           "prob": 0.02,
-          "vol": 23937055.639819,
-          "vol_fmt": "$23,937,055",
+          "vol": 24443505.328131,
+          "vol_fmt": "$24,443,505",
           "price_val": 0,
           "prob_pct": "2%"
         },
         {
-          "name": "Bill Pulte",
-          "prob": 0.01,
-          "vol": 24443505.328131,
-          "vol_fmt": "$24,443,505",
-          "price_val": 0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "Judy Shelton",
-          "prob": 0.01,
-          "vol": 94120322.330174,
-          "vol_fmt": "$94,120,322",
-          "price_val": 0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "David Malpass",
+          "name": "June 30",
           "prob": 0.01,
           "vol": 6282292.300659,
           "vol_fmt": "$6,282,292",
+          "price_val": 0,
+          "prob_pct": "1%"
+        },
+        {
+          "name": "Never in 2026",
+          "prob": 0.01,
+          "vol": 3823998.430446,
+          "vol_fmt": "$3,823,998",
           "price_val": 0,
           "prob_pct": "1%"
         }
@@ -413,56 +413,56 @@
     },
     {
       "label": "GEOPOLITICS",
-      "title": "US strikes Iran by...?",
-      "url": "https://polymarket.com/event/us-strikes-iran-by",
+      "title": "US-Iran diplomatic meeting by February 28?",
+      "url": "https://polymarket.com/event/us-iran-diplomatic-meeting",
       "nominal": "$384,778,831",
       "outcomes": [
         {
-          "name": "February 5",
-          "prob": 0.45,
-          "vol": 4461531.494124,
-          "vol_fmt": "$4,461,531",
-          "price_val": 5.0,
-          "prob_pct": "45%"
-        },
-        {
-          "name": "January 31",
-          "prob": 0.35,
+          "name": "By Feb 28",
+          "prob": 0.84,
           "vol": 41754060.055673,
           "vol_fmt": "$41,754,060",
-          "price_val": 31.0,
-          "prob_pct": "35%"
+          "price_val": 28.0,
+          "prob_pct": "84%"
         },
         {
-          "name": "January 14",
-          "prob": 0.22,
+          "name": "By March 31",
+          "prob": 0.91,
           "vol": 13619741.635223,
           "vol_fmt": "$13,619,741",
-          "price_val": 14.0,
-          "prob_pct": "22%"
+          "price_val": 31.0,
+          "prob_pct": "91%"
         },
         {
-          "name": "January 15",
-          "prob": 0.01,
+          "name": "Strike by June (BofA)",
+          "prob": 0.69,
           "vol": 7975001.728113,
           "vol_fmt": "$7,975,001",
-          "price_val": 15.0,
-          "prob_pct": "1%"
+          "price_val": 0,
+          "prob_pct": "69%"
         },
         {
-          "name": "January 18",
-          "prob": 0.01,
+          "name": "Strike by Feb 27",
+          "prob": 0.13,
           "vol": 5468912.658799,
           "vol_fmt": "$5,468,912",
-          "price_val": 18.0,
-          "prob_pct": "1%"
+          "price_val": 27.0,
+          "prob_pct": "13%"
         },
         {
-          "name": "January 17",
+          "name": "Strike Feb 24",
+          "prob": 0.02,
+          "vol": 4461531.494124,
+          "vol_fmt": "$4,461,531",
+          "price_val": 24.0,
+          "prob_pct": "2%"
+        },
+        {
+          "name": "No meeting or strike",
           "prob": 0.01,
           "vol": 3823998.430446,
           "vol_fmt": "$3,823,998",
-          "price_val": 17.0,
+          "price_val": 0,
           "prob_pct": "1%"
         }
       ],
@@ -475,35 +475,35 @@
       "nominal": "$163,297,391",
       "outcomes": [
         {
-          "name": "50+ bps decrease",
-          "prob": 0.92,
+          "name": "75+ bps decrease",
+          "prob": 0.97,
           "vol": 67378774.141274,
           "vol_fmt": "$67,378,774",
+          "price_val": 75.0,
+          "prob_pct": "97%"
+        },
+        {
+          "name": "50 bps decrease",
+          "prob": 0.05,
+          "vol": 19214859.541432,
+          "vol_fmt": "$19,214,859",
           "price_val": 50.0,
-          "prob_pct": "92%"
+          "prob_pct": "5%"
         },
         {
           "name": "25 bps decrease",
-          "prob": 0.07,
-          "vol": 19214859.541432,
-          "vol_fmt": "$19,214,859",
+          "prob": 0.02,
+          "vol": 19067521.577963,
+          "vol_fmt": "$19,067,521",
           "price_val": 25.0,
-          "prob_pct": "7%"
+          "prob_pct": "2%"
         },
         {
           "name": "No change",
           "prob": 0.01,
-          "vol": 19067521.577963,
-          "vol_fmt": "$19,067,521",
-          "price_val": 0,
-          "prob_pct": "1%"
-        },
-        {
-          "name": "25+ bps increase",
-          "prob": 0.01,
           "vol": 57636236.489105,
           "vol_fmt": "$57,636,236",
-          "price_val": 25.0,
+          "price_val": 0,
           "prob_pct": "1%"
         }
       ],
