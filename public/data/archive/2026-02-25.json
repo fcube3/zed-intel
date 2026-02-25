@@ -1,128 +1,128 @@
 {
-  "date": "Wednesday, February 25, 2026",
+  "date": "Tuesday, February 24, 2026",
   "prices": {
-    "gold": 5198.62,
-    "silver": 89.03,
-    "btc": 63290.0,
-    "eth": 1846.16
+    "gold": 5172.11,
+    "silver": 88.04,
+    "btc": 63105.0,
+    "eth": 1828.0
   },
   "news": [
     {
-      "title": "Gold Slips from 3-Week High as Dollar Firms; Profit-Taking Hits Metals",
-      "summary": "Reuters reports gold retreated on Feb 24 after touching a three-week high as a firmer U.S. dollar and profit-taking weighed on bullion. Silver also eased as traders de-risked ahead of further U.S. macro and policy signals.",
-      "url": "https://www.reuters.com/world/india/gold-falls-three-week-high-dollar-firms-2026-02-24/"
+      "title": "Metals Pullback: Gold Snaps 4-Day Winning Streak — Retreats from $5,250 Monthly High as USD Rebounds",
+      "summary": "Gold dropped 1.1% to $5,172/oz on Tuesday, snapping a four-session winning streak after touching a fresh monthly high of $5,250 during Asian trading. The Shanghai Gold Exchange announced it will lower margin rates, while U.S. gold futures for April delivery fell 0.6% to $5,191.50. Silver also pulled back 0.98% to $88.04 from Monday's $88.91. Despite the intraday pullback, the underlying structural bid remains intact — tariff uncertainty, central bank demand, and Iran tensions continue to support the metals complex.",
+      "url": "https://www.livemint.com/market/commodities/gold-silver-rates-today-live-mcx-gold-rate-today-mcx-silver-price-comex-gold-donald-trump-tariffs-us-iran-war-11771900478690.html"
     },
     {
-      "title": "Bitcoin Falls Below $63K Before Stabilizing; Risk-Off Tone Persists",
-      "summary": "CNBC reports Bitcoin briefly fell to about $62,964 before rebounding toward $63,290 as investors rotated out of risk assets. ETF outflows and macro uncertainty continue to pressure crypto beta.",
+      "title": "Crypto Crash: BTC Plunges Below $63K — Fear & Greed Index Hits 5, ETF Outflows Hit $3.8B in Five Weeks",
+      "summary": "Bitcoin tumbled over 5% to break below $63,000 on Tuesday as tariff tensions, Iran escalation risk, and massive ETF redemptions triggered a cascade of liquidations. The Crypto Fear & Greed Index collapsed to 5/100 — a reading only seen three times since 2018 (Aug 2019, June 2022, and earlier this month). Over $468M in leveraged positions were liquidated in 24 hours. BTC spot ETFs have bled $3.8 billion across five consecutive weeks, the longest outflow streak since February 2025. BTC now trades ~50% below its ATH above $126,000.",
       "url": "https://www.cnbc.com/2026/02/24/bitcoin-extends-decline-falling-below-64000-btc-trump-tariffs-ai-crypto.html"
     },
     {
-      "title": "Global Markets Rebound Bid: Bitcoin and Ethereum Bounce with Risk Assets",
-      "summary": "Reuters global markets coverage shows episodic relief rallies still present: Bitcoin and Ethereum posted sharp upside bursts during broader cross-asset rebounds, underscoring volatility rather than a confirmed trend reversal.",
-      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1pix-2026-02-06/"
+      "title": "Polymarket: US-Iran Diplomatic Meeting Odds Surge to 84% — But Strike Odds by June Hit 69%",
+      "summary": "Polymarket is pricing an 84% chance of a U.S.-Iran diplomatic meeting by February 28 (up 31% in 24 hours), while simultaneously pricing a 69% probability of a US military strike on Iran by end of June (per Bank of America analysis). The dueling signals suggest markets expect a last-ditch diplomatic effort before potential escalation. Meanwhile, Polymarket traders see only a 17% chance BTC hits $75K in February but a 31% chance it drops to $60K, reflecting deep bearish positioning.",
+      "url": "https://www.cryptotimes.io/2026/02/23/u-s-and-iran-diplomatic-meeting-chances-surge-to-84-on-polymarket/"
     }
   ],
   "institutional": {
     "macro": {
-      "firm": "CME FedWatch / Kalshi / Polymarket",
-      "analyst": "Rates & Event Market Composite",
-      "insight": "Rate-event pricing remains highly unstable. Kalshi Fed-decision contracts and Polymarket policy-event markets continue to imply elevated policy volatility into March, while traditional rates desks still oscillate between hold and larger-cut scenarios depending on incoming inflation and growth data.",
-      "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26mar"
+      "firm": "CME FedWatch / Polymarket",
+      "analyst": "Rate Markets",
+      "insight": "CME FedWatch now prices a 97% probability of a 75bps rate cut at the March 18 FOMC meeting — up from 92% last week. Warsh's formal nomination as Fed Chair is expected by March 31 (Polymarket: 85%). The disconnect between extreme rate-cut expectations and Warsh's known hawkish leanings creates a volatility catalyst: either the market reprices cuts lower (risk-off for crypto/equities) or the Fed delivers an emergency cut to backstop cratering risk assets (bullish for everything).",
+      "url": "https://polymarket.com/event/kevin-warsh-formally-nominated-as-fed-chair-by"
     },
     "metals": [
       {
-        "firm": "J.P. Morgan / Goldman Sachs / UBS / BofA",
-        "analyst": "Commodities Strategy",
-        "insight": "Large-bank metals desks remain structurally constructive on gold through 2026, with upside tied to central-bank demand, geopolitics, and real-rate compression risk. Near-term pullbacks are still being framed as positioning resets rather than cycle tops.",
-        "url": "https://www.jpmorgan.com/insights/global-research/commodities/gold-prices"
+        "firm": "J.P. Morgan / UBS / Goldman Sachs",
+        "analyst": "Commodities Research",
+        "insight": "The institutional gold consensus is tightening around $5,400-$6,300 year-end targets. J.P. Morgan leads at $6,300 (755T central bank demand floor), UBS at $6,200 (bull case $7,200 on full geopolitical escalation), Goldman at $5,400, Morgan Stanley at $5,700. Today's pullback from $5,250 to $5,172 is seen as healthy profit-taking after a 4-day rally. Shanghai Gold Exchange lowering margin rates signals continued institutional appetite in China.",
+        "url": "https://www.growjustindia.com/business/gold-forecast-2026-ubs-targets-6200-as-rate-cuts-loom-29554"
       }
     ],
     "crypto": {
-      "firm": "Standard Chartered / JPMorgan / CoinDesk",
-      "analyst": "Digital Assets Research",
-      "insight": "Institutional crypto forecasts are wide but still skew positive over a 12-24 month horizon: Standard Chartered reset to a lower but still bullish 2026 target path, while JPMorgan frameworks continue to point to upside if bitcoin re-closes the volatility-adjusted gap vs gold.",
-      "url": "https://www.coindesk.com/markets/2025/12/09/standard-chartered-throws-in-the-towel-on-bullish-bitcoin-forecast"
+      "firm": "TipRanks / Polymarket / SoSoValue",
+      "analyst": "Institutional vs Retail Divergence",
+      "insight": "A stark divergence: Polymarket retail traders see 72% chance of BTC under $55K, while institutional firms (per TipRanks) argue Bitcoin should be priced between $85K-$95K based on its role as a global asset. Fear & Greed at 5 matches the FTX-era collapse reading. The $3.8B five-week ETF outflow is the worst since launch — but historically, extreme fear readings of this magnitude have preceded 40-80% rallies within 6 months.",
+      "url": "https://www.tipranks.com/news/polymarket-traders-see-72-chance-of-bitcoin-under-55000-as-bearish-bets-explode"
     }
   },
   "forecasts": [
     {
       "firm": "J.P. Morgan",
-      "target": "$5,200-$5,300",
+      "target": "$6,300",
       "timeline": "End 2026",
       "sentiment": "Bullish",
-      "change": "Maintained",
-      "note": "Institutional demand + ETF inflow assumptions keep baseline constructive."
-    },
-    {
-      "firm": "Goldman Sachs",
-      "target": "$5,000",
-      "timeline": "2026",
-      "sentiment": "Bullish",
-      "change": "Maintained",
-      "note": "Safe-haven and reserve-diversification flows remain core thesis."
+      "change": "Raised",
+      "note": "Highest major bank target. Cites 755T central bank demand floor + tariff-driven dollar debasement."
     },
     {
       "firm": "UBS",
-      "target": "$5,400",
-      "timeline": "2026",
+      "target": "$6,200",
+      "timeline": "End 2026",
       "sentiment": "Bullish",
-      "change": "Maintained",
-      "note": "Upside scenario if geopolitical stress and policy easing intensify."
+      "change": "Raised",
+      "note": "Bull case of $7,200 on full geopolitical escalation (Iran strike scenario)."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "target": "$5,700",
+      "timeline": "H2 2026",
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "Strategic allocation shift from equities to hard assets driving demand."
+    },
+    {
+      "firm": "Goldman Sachs",
+      "target": "$5,400",
+      "timeline": "End 2026",
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "Persistent central bank accumulation plus tariff-driven supply shock."
     },
     {
       "firm": "Bank of America",
       "target": "$5,000",
-      "timeline": "2026",
+      "timeline": "Full Year 2026",
       "sentiment": "Neutral",
-      "change": "Maintained",
-      "note": "Constructive but less aggressive vs high-beta bull cases."
+      "change": "Neutral",
+      "note": "Now $172 below spot — effectively a sell signal vs. peers. Contrarian positioning."
     },
     {
-      "firm": "Standard Chartered (BTC)",
-      "target": "$150,000",
-      "timeline": "End 2026",
-      "sentiment": "Bullish",
-      "change": "Lowered",
-      "note": "Reset from prior higher path; still expects cyclical recovery."
-    },
-    {
-      "firm": "JPMorgan (BTC)",
-      "target": "$170,000",
-      "timeline": "2026 (theoretical)",
-      "sentiment": "Bullish",
-      "change": "Maintained",
-      "note": "Volatility-ratio framework versus gold implies upside in normalization regime."
+      "firm": "Citi",
+      "target": "$4,950",
+      "timeline": "Dec 2026",
+      "sentiment": "Bearish",
+      "change": "Neutral",
+      "note": "Most bearish major bank — $222 below current spot. Deep contrarian view."
     }
   ],
   "social_intelligence": [
     {
-      "source": "Alternative.me / CMC / X",
+      "source": "X (Twitter) / CoinDesk / SoSoValue",
       "asset": "Bitcoin",
       "signal": "Extreme Fear",
-      "confidence": "90%",
-      "insight": "Fear & Greed trackers remain in single digits (extreme fear regime), consistent with liquidation-driven positioning and heavy risk reduction narratives across crypto social channels."
+      "confidence": "91%",
+      "insight": "Fear & Greed at 5/100 — only the third time this low since 2018. BTC crashed through $63K as $468M in liquidations cascaded. CT is in full capitulation mode with 'this is 2022 again' dominating the timeline. $3.8B in five-week ETF outflows is the worst since launch. Polymarket: 72% chance of sub-$55K, but institutional firms see $85K-$95K fair value — the divergence is extreme."
     },
     {
-      "source": "CoinDesk / Stocktwits / X",
+      "source": "X (Twitter) / AMBCrypto / CoinDCX",
       "asset": "Ethereum",
-      "signal": "Bearish-to-Capitulation",
-      "confidence": "84%",
-      "insight": "ETH sentiment remains weaker than BTC with persistent underperformance chatter and reduced retail participation; social flow is skewed toward downside-protection discussion."
+      "signal": "Bearish",
+      "confidence": "85%",
+      "insight": "ETH at $1,828 — down 2.87% today and ~36% YTD. Testing $1,850 support which analysts say must hold to avoid a flush to $1,600. Motley Fool flags a 'never-before-seen bearish signal' in the crypto market. Social sentiment is capitulatory but contrarians note ETH historically bottoms when retail completely gives up."
     },
     {
-      "source": "Reuters / Metals X",
+      "source": "X (Twitter) / FXStreet / Reuters",
       "asset": "Gold",
-      "signal": "Bullish (pullback buy-the-dip)",
-      "confidence": "82%",
-      "insight": "Social narratives frame the latest pullback as tactical profit-taking after an extended run, not a full trend break, with dollar and rates still the key tactical swing factors."
+      "signal": "Bullish (consolidating)",
+      "confidence": "84%",
+      "insight": "Gold pulled back 1.1% from monthly high of $5,250 to $5,172 — snapping a 4-day winning streak. Finance Twitter sees this as healthy profit-taking, not trend reversal. Shanghai Gold Exchange lowering margins is being read as bullish (encouraging more buying). J.P. Morgan $6,300 target and UBS $6,200 remain the consensus anchors."
     },
     {
-      "source": "Reuters / Bullion Desks / X",
+      "source": "X (Twitter) / FXLeaders / FXStreet",
       "asset": "Silver",
-      "signal": "Bullish but Volatile",
-      "confidence": "80%",
-      "insight": "Silver conversation remains two-sided: tactical de-risking after spikes, but persistent structural bulls citing tight physical markets and industrial-demand resilience."
+      "signal": "Bullish",
+      "confidence": "86%",
+      "insight": "Silver dipped 0.98% to $88.04 from Monday's $88.91 high but the $100 moonshot narrative is gaining traction. FXLeaders calls the trend 'very bullish above $82.70.' Resistance at $90 early Feb highs, support at $84. Gold/silver ratio compression trade remains active. Industrial demand from solar/EV tariff disruption cited as supply-squeeze catalyst."
     }
   ],
   "predictions": [
@@ -244,7 +244,7 @@
       "label": "BTC PRICE",
       "title": "What price will Bitcoin hit in February?",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
-      "nominal": "$94,812,000",
+      "nominal": "$94,370,670",
       "outcomes": [
         {
           "name": "↑ 150,000",
@@ -301,7 +301,7 @@
       "label": "ETH PRICE",
       "title": "What price will Ethereum hit in February?",
       "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-      "nominal": "$30,920,000",
+      "nominal": "$30,617,113",
       "outcomes": [
         {
           "name": "↑ 5,000",
@@ -470,33 +470,41 @@
     },
     {
       "label": "WILDCARD",
-      "title": "Fed decision in March? (Kalshi contract watch)",
-      "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26mar",
-      "nominal": "$N/A (Kalshi contract)",
+      "title": "Fed decision in March?",
+      "url": "https://polymarket.com/event/fed-decision-in-march-885",
+      "nominal": "$163,297,391",
       "outcomes": [
         {
-          "name": "No change",
-          "prob": 0.89,
-          "vol": 0,
-          "vol_fmt": "N/A",
-          "price_val": 0,
-          "prob_pct": "89%"
+          "name": "75+ bps decrease",
+          "prob": 0.97,
+          "vol": 67378774.141274,
+          "vol_fmt": "$67,378,774",
+          "price_val": 75.0,
+          "prob_pct": "97%"
+        },
+        {
+          "name": "50 bps decrease",
+          "prob": 0.05,
+          "vol": 19214859.541432,
+          "vol_fmt": "$19,214,859",
+          "price_val": 50.0,
+          "prob_pct": "5%"
         },
         {
           "name": "25 bps decrease",
-          "prob": 0.08,
-          "vol": 0,
-          "vol_fmt": "N/A",
-          "price_val": 25,
-          "prob_pct": "8%"
+          "prob": 0.02,
+          "vol": 19067521.577963,
+          "vol_fmt": "$19,067,521",
+          "price_val": 25.0,
+          "prob_pct": "2%"
         },
         {
-          "name": "50+ bps decrease",
-          "prob": 0.03,
-          "vol": 0,
-          "vol_fmt": "N/A",
-          "price_val": 50,
-          "prob_pct": "3%"
+          "name": "No change",
+          "prob": 0.01,
+          "vol": 57636236.489105,
+          "vol_fmt": "$57,636,236",
+          "price_val": 0,
+          "prob_pct": "1%"
         }
       ],
       "color": "green"
