@@ -1,13 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+const COOKIE_NAME = 'ops_cost_auth';
+
 function unauthorized(message = 'Unauthorized') {
-  return new NextResponse(message, {
-    status: 401,
-    headers: {
-      'WWW-Authenticate': 'Basic realm="Ops Cost Dashboard"',
-      'Cache-Control': 'no-store',
+  return new NextResponse(
+    `${message}\n\nTip: open /ops-cost?pw=YOUR_PASSWORD once to set an auth cookie.`,
+    {
+      status: 401,
+      headers: {
+        'Cache-Control': 'no-store',
+        'Content-Type': 'text/plain; charset=utf-8',
+      },
     },
-  });
+  );
 }
 
 export function middleware(request: NextRequest) {
@@ -16,28 +21,28 @@ export function middleware(request: NextRequest) {
     return unauthorized('COST_DASH_PASSWORD is not configured');
   }
 
-  const authHeader = request.headers.get('authorization');
-  if (!authHeader || !authHeader.startsWith('Basic ')) {
-    return unauthorized();
+  const cookieValue = request.cookies.get(COOKIE_NAME)?.value;
+  if (cookieValue === expectedPassword) {
+    return NextResponse.next();
   }
 
-  const encoded = authHeader.slice(6);
-  let decoded = '';
-  try {
-    decoded = atob(encoded);
-  } catch {
-    return unauthorized();
+  const url = request.nextUrl;
+  const pw = url.searchParams.get('pw');
+  if (pw && pw === expectedPassword) {
+    const clean = new URL(url.toString());
+    clean.searchParams.delete('pw');
+    const res = NextResponse.redirect(clean);
+    res.cookies.set(COOKIE_NAME, expectedPassword, {
+      httpOnly: true,
+      secure: true,
+      sameSite: 'lax',
+      path: '/ops-cost',
+      maxAge: 60 * 60 * 24 * 14,
+    });
+    return res;
   }
 
-  const separator = decoded.indexOf(':');
-  if (separator === -1) return unauthorized();
-
-  const password = decoded.slice(separator + 1);
-  if (password !== expectedPassword) {
-    return unauthorized();
-  }
-
-  return NextResponse.next();
+  return unauthorized();
 }
 
 export const config = {
