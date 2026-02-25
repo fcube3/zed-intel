@@ -8,6 +8,10 @@ function safeNextPath(value: string | null) {
   return value;
 }
 
+export function GET(request: NextRequest) {
+  return NextResponse.redirect(new URL('/ops-cost/login', request.url), 303);
+}
+
 export async function POST(request: NextRequest) {
   const expectedPassword = process.env.COST_DASH_PASSWORD?.trim();
   if (!expectedPassword) {
@@ -22,11 +26,11 @@ export async function POST(request: NextRequest) {
     const retryUrl = new URL('/ops-cost/login', request.url);
     retryUrl.searchParams.set('error', '1');
     retryUrl.searchParams.set('next', nextPath);
-    return NextResponse.redirect(retryUrl);
+    return NextResponse.redirect(retryUrl, 303);
   }
 
   const target = new URL(nextPath, request.url);
-  const response = NextResponse.redirect(target);
+  const response = NextResponse.redirect(target, 303);
   response.cookies.set(COOKIE_NAME, expectedPassword, {
     httpOnly: true,
     secure: true,
