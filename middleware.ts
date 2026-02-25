@@ -41,5 +41,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/ops-cost/:path*'],
+  matcher: ['/ops-cost', '/ops-cost/:path*'],
 };
