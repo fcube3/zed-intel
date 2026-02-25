@@ -1,0 +1,39 @@
+import { NextRequest, NextResponse } from 'next/server';
+
+const COOKIE_NAME = 'ops_cost_auth';
+
+function safeNextPath(value: string | null) {
+  if (!value) return '/ops-cost';
+  if (!value.startsWith('/ops-cost')) return '/ops-cost';
+  return value;
+}
+
+export async function POST(request: NextRequest) {
+  const expectedPassword = process.env.COST_DASH_PASSWORD?.trim();
+  if (!expectedPassword) {
+    return new NextResponse('COST_DASH_PASSWORD is not configured', { status: 503 });
+  }
+
+  const formData = await request.formData();
+  const password = String(formData.get('password') || '').trim();
+  const nextPath = safeNextPath(String(formData.get('next') || '/ops-cost'));
+
+  if (password !== expectedPassword) {
+    const retryUrl = new URL('/ops-cost/login', request.url);
+    retryUrl.searchParams.set('error', '1');
+    retryUrl.searchParams.set('next', nextPath);
+    return NextResponse.redirect(retryUrl);
+  }
+
+  const target = new URL(nextPath, request.url);
+  const response = NextResponse.redirect(target);
+  response.cookies.set(COOKIE_NAME, expectedPassword, {
+    httpOnly: true,
+    secure: true,
+    sameSite: 'lax',
+    path: '/ops-cost',
+    maxAge: 60 * 60 * 24 * 14,
+  });
+
+  return response;
+}
