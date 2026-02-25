@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cost:build-data": "node scripts/build-cost-dashboard-data.mjs",
+    "cost:dashboard": "npm run cost:build-data && next dev"
   },
   "dependencies": {
     "clsx": "^2.1.0",

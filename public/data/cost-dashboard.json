@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-02-25T11:16:31.027Z",
+  "sources": {
+    "jsonlFilesScanned": 3,
+    "codexbarFilesScanned": 0,
+    "usageRows": 2
+  },
+  "totals": {
+    "cost": 0,
+    "inputTokens": 64542,
+    "outputTokens": 4892,
+    "totalTokens": 68253
+  },
+  "byProvider": [
+    {
+      "provider": "openai-codex",
+      "cost": 0,
+      "inputTokens": 64542,
+      "outputTokens": 4892,
+      "totalTokens": 68253
+    }
+  ],
+  "byModel": [
+    {
+      "provider": "openai-codex",
+      "model": "gpt-5.3-codex",
+      "cost": 0,
+      "inputTokens": 64542,
+      "outputTokens": 4892,
+      "totalTokens": 68253
+    }
+  ],
+  "byDay": [
+    {
+      "date": "2026-02-25",
+      "cost": 0,
+      "inputTokens": 64542,
+      "outputTokens": 4892,
+      "totalTokens": 68253
+    }
+  ]
+}
