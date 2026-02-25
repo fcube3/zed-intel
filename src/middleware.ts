@@ -16,18 +16,18 @@ function unauthorized(message = 'Unauthorized') {
 }
 
 export function middleware(request: NextRequest) {
-  const expectedPassword = process.env.COST_DASH_PASSWORD;
+  const expectedPassword = process.env.COST_DASH_PASSWORD?.trim();
   if (!expectedPassword) {
     return unauthorized('COST_DASH_PASSWORD is not configured');
   }
 
-  const cookieValue = request.cookies.get(COOKIE_NAME)?.value;
+  const cookieValue = request.cookies.get(COOKIE_NAME)?.value?.trim();
   if (cookieValue === expectedPassword) {
     return NextResponse.next();
   }
 
   const url = request.nextUrl;
-  const pw = url.searchParams.get('pw');
+  const pw = url.searchParams.get('pw')?.trim();
   if (pw && pw === expectedPassword) {
     const clean = new URL(url.toString());
     clean.searchParams.delete('pw');
