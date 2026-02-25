@@ -97,32 +97,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "Alternative.me / Santiment / X / Reddit r/CryptoCurrency",
+      "source": "Cointelegraph on X (Santiment) / Alternative.me Fear & Greed / Reddit r/CryptoCurrency",
       "asset": "Bitcoin",
-      "signal": "Bearish (capitulation-leaning)",
-      "confidence": "88%",
-      "insight": "Social flow is still fear-heavy: Crypto Fear & Greed remains in fear territory, Santiment-linked posts highlight 2026 highs in negative BTC chatter, and Reddit daily threads continue to describe weak relief rallies after sharp drawdowns."
+      "signal": "Bearish-to-Neutral (fear-heavy, contrarian bounce risk)",
+      "confidence": "86%",
+      "insight": "BTC social tone remains risk-off: Cointelegraph relayed Santiment data showing weaker bullish vs bearish comment balance for BTC, broad fear gauges stayed in extreme-fear territory through February, and Reddit flow is still split between capitulation talk and cautious dip-buying rather than strong trend conviction."
     },
     {
-      "source": "Cointelegraph on X (Santiment) / Reddit r/ethereum & r/ethtrader / CoinDesk",
+      "source": "Santiment Community Insights / Cointelegraph on X / Reddit r/ethtrader",
       "asset": "Ethereum",
-      "signal": "Bearish-to-Neutral (underperformance fatigue)",
-      "confidence": "83%",
-      "insight": "ETH sentiment is softer than BTC in recent community discussions: X posts citing Santiment flag bearish BTC/ETH social tone, while Reddit shows split positioning (bottom-fishing vs. exhaustion) and CoinDesk coverage reflects persistent downside sensitivity."
+      "signal": "Bearish (oversold narrative building)",
+      "confidence": "84%",
+      "insight": "ETH sentiment is softer than BTC in current social data: Santiment notes crowd sentiment remains fiercely bearish with reduced upside calls, Cointelegraph's Santiment-linked X coverage flags weak BTC/ETH mood, and Reddit discussions focus on bottom-fishing and opportunity framing after heavy downside rather than confident breakout expectations."
     },
     {
-      "source": "Kitco / XAUUSD traders on X / Reddit day-trading threads",
+      "source": "XAUUSD community on X / Kitco gold coverage / Reddit r/Daytrading",
       "asset": "Gold",
-      "signal": "Bullish (buy-the-dip bias)",
-      "confidence": "81%",
-      "insight": "Gold social narratives remain constructive despite pullbacks: Kitco survey/news flow still skews bullish, and XAUUSD trading chatter repeatedly frames dips near key support as entries rather than trend failure."
+      "signal": "Bullish (buy-the-dip with volatility caution)",
+      "confidence": "80%",
+      "insight": "Gold social chatter is still constructive despite pullback noise: XAUUSD trader posts and Reddit day-trading threads repeatedly describe dips as entries in a persistent uptrend, while Kitco's February flow keeps gold in focus near major highs; sentiment is pro-upside but acknowledges sharper two-way swings."
     },
     {
-      "source": "X silver community (COMEX squeeze narrative) / Reddit r/Silverbugs / Kitco",
+      "source": "SilverSqueeze community on X / Reddit r/Silverbugs / Kitco silver coverage",
       "asset": "Silver",
-      "signal": "Bullish but Hyper-Volatile",
-      "confidence": "79%",
-      "insight": "Silver sentiment is aggressively bullish on supply-tightness and delivery-risk narratives across X, while Reddit discussions are more mixed on extreme upside targets; net tone is positive but headline-sensitive and prone to sharp two-way swings."
+      "signal": "Bullish but Highly Speculative",
+      "confidence": "78%",
+      "insight": "Silver discussions remain momentum-driven and headline-sensitive: X communities continue to push outperformance and squeeze narratives, Reddit silver communities show excitement mixed with explicit volatility stress, and Kitco silver commentary points to strong interest but unstable positioning. Net social tone is positive, but fragility is high."
     }
   ],
   "predictions": [
