@@ -1,23 +1,71 @@
 {
-  "generatedAt": "2026-02-25T11:16:31.027Z",
+  "generatedAt": "2026-02-25T13:26:58.779Z",
   "sources": {
     "jsonlFilesScanned": 3,
     "codexbarFilesScanned": 0,
-    "usageRows": 2
+    "usageRows": 3,
+    "configuredModels": 43,
+    "configuredProviders": 5
+  },
+  "pricing": {
+    "mode": "estimated",
+    "sourceUrl": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+    "fetchedAt": "2026-02-25T13:26:58.778Z",
+    "staleCache": false,
+    "note": "Estimated from token usage × public model pricing registry; exact vendor billing may differ."
   },
   "totals": {
     "cost": 0,
-    "inputTokens": 64542,
-    "outputTokens": 4892,
-    "totalTokens": 68253
+    "estimatedCost": 0.37098074999999997,
+    "inputTokens": 150861,
+    "outputTokens": 7641,
+    "totalTokens": 113717
   },
   "byProvider": [
     {
       "provider": "openai-codex",
       "cost": 0,
-      "inputTokens": 64542,
-      "outputTokens": 4892,
-      "totalTokens": 68253
+      "estimatedCost": 0.37098074999999997,
+      "inputTokens": 150861,
+      "outputTokens": 7641,
+      "totalTokens": 113717,
+      "estimated": true
+    },
+    {
+      "provider": "openai",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true
+    },
+    {
+      "provider": "anthropic",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true
+    },
+    {
+      "provider": "google",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true
+    },
+    {
+      "provider": "google-vertex",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true
     }
   ],
   "byModel": [
@@ -25,18 +73,485 @@
       "provider": "openai-codex",
       "model": "gpt-5.3-codex",
       "cost": 0,
-      "inputTokens": 64542,
-      "outputTokens": 4892,
-      "totalTokens": 68253
+      "estimatedCost": 0.37098074999999997,
+      "inputTokens": 150861,
+      "outputTokens": 7641,
+      "totalTokens": 113717,
+      "estimated": true,
+      "priceSourceModelKey": "gpt-5.3-codex"
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5-pro",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5-codex",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5-mini",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5-nano",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.1",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.1-codex",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.1-codex-max",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.1-codex-mini",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.2",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.2-codex",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.2-pro",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai-codex",
+      "model": "gpt-5.3-codex-spark",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "o1",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "o1-pro",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "o3",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "o3-pro",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "o3-mini",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "o3-deep-research",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "o4-mini",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "o4-mini-deep-research",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4.1",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4.1-nano",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5-chat-latest",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.1-chat-latest",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.2-chat-latest",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "codex-mini-latest",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4-turbo",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "google",
+      "model": "gemini-3-flash-preview",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "google",
+      "model": "gemini-3-pro-preview",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "google",
+      "model": "gemini-3.1-pro-preview",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "google-vertex",
+      "model": "gemini-3-flash-preview",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "google-vertex",
+      "model": "gemini-3-pro-preview",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "google-vertex",
+      "model": "gemini-3.1-pro-preview",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-4-5",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "cost": 0,
+      "estimatedCost": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
     }
   ],
   "byDay": [
     {
       "date": "2026-02-25",
       "cost": 0,
-      "inputTokens": 64542,
-      "outputTokens": 4892,
-      "totalTokens": 68253
+      "estimatedCost": 0.37098074999999997,
+      "inputTokens": 150861,
+      "outputTokens": 7641,
+      "totalTokens": 113717,
+      "estimated": true
     }
   ]
 }

@@ -1,11 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+export const dynamic = 'force-dynamic';
+
 type BreakdownRow = {
   provider?: string;
   model?: string;
   date?: string;
   cost: number;
+  estimatedCost?: number;
   inputTokens: number;
   outputTokens: number;
   totalTokens: number;
@@ -13,6 +16,13 @@ type BreakdownRow = {
 
 type CostDashboardData = {
   generatedAt: string;
+  pricing?: {
+    mode?: string;
+    sourceUrl?: string;
+    fetchedAt?: string | null;
+    staleCache?: boolean;
+    note?: string;
+  };
   totals: BreakdownRow;
   byProvider: BreakdownRow[];
   byModel: BreakdownRow[];
@@ -35,7 +45,7 @@ function readData(): CostDashboardData {
   const filePath = path.join(process.cwd(), 'public', 'data', 'cost-dashboard.json');
   const fallback: CostDashboardData = {
     generatedAt: new Date().toISOString(),
-    totals: { cost: 0, inputTokens: 0, outputTokens: 0, totalTokens: 0 },
+    totals: { cost: 0, estimatedCost: 0, inputTokens: 0, outputTokens: 0, totalTokens: 0 },
     byProvider: [],
     byModel: [],
     byDay: [],
@@ -66,11 +76,12 @@ function BreakdownTable({ title, rows, labelKey }: { title: string; rows: Breakd
     <section className="rounded-xl border border-white/10 bg-zinc-950/70 p-4">
       <h2 className="text-sm font-semibold text-zinc-200">{title}</h2>
       <div className="mt-3 overflow-x-auto">
-        <table className="w-full min-w-[640px] text-left text-sm">
+        <table className="w-full min-w-[700px] text-left text-sm">
           <thead className="text-xs uppercase tracking-wide text-zinc-500">
             <tr>
               <th className="pb-2">{labelKey}</th>
-              <th className="pb-2">Cost</th>
+              <th className="pb-2">Estimated cost</th>
+              <th className="pb-2">Reported cost</th>
               <th className="pb-2">Input</th>
               <th className="pb-2">Output</th>
               <th className="pb-2">Total tokens</th>
@@ -88,7 +99,10 @@ function BreakdownTable({ title, rows, labelKey }: { title: string; rows: Breakd
                       <div className="h-1.5 rounded bg-cyan-500" style={{ width: `${width}%` }} />
                     </div>
                   </td>
-                  <td className="py-3 pr-2 text-zinc-300">{row.cost ? formatCurrency(row.cost) : '—'}</td>
+                  <td className="py-3 pr-2 text-zinc-300">
+                    {(row.estimatedCost || 0) > 0 ? formatCurrency(row.estimatedCost || 0) : '—'}
+                  </td>
+                  <td className="py-3 pr-2 text-zinc-400">{row.cost > 0 ? formatCurrency(row.cost) : '—'}</td>
                   <td className="py-3 pr-2">{formatNumber(row.inputTokens)}</td>
                   <td className="py-3 pr-2">{formatNumber(row.outputTokens)}</td>
                   <td className="py-3 pr-2">{formatNumber(row.totalTokens)}</td>
@@ -104,7 +118,6 @@ function BreakdownTable({ title, rows, labelKey }: { title: string; rows: Breakd
 
 export default function OpsCostPage() {
   const data = readData();
-  const hasCost = data.totals.cost > 0;
 
   const prioritizedProviders = [...data.byProvider].sort((a, b) => {
     const score = (name?: string) => {
@@ -114,11 +127,12 @@ export default function OpsCostPage() {
     };
     const scoreDiff = score(b.provider) - score(a.provider);
     if (scoreDiff !== 0) return scoreDiff;
-    return b.cost - a.cost || b.totalTokens - a.totalTokens;
+    return (b.estimatedCost || 0) - (a.estimatedCost || 0) || b.totalTokens - a.totalTokens;
   });
 
   const topProvider = data.byProvider[0]?.provider || 'unknown';
   const topModel = data.byModel[0]?.model || 'unknown';
+  const estimatedTotal = data.totals.estimatedCost || 0;
 
   return (
     <main className="min-h-screen bg-zinc-950 px-6 py-10 text-zinc-100">
@@ -130,31 +144,48 @@ export default function OpsCostPage() {
               <h1 className="mt-2 text-3xl font-bold">Cost Dashboard</h1>
               <p className="mt-2 text-sm text-zinc-400">Generated at {new Date(data.generatedAt).toLocaleString()}</p>
             </div>
-            <form action="/ops-cost/logout" method="post">
-              <button
-                type="submit"
-                className="rounded-lg border border-white/15 bg-zinc-900 px-3 py-2 text-sm text-zinc-200 transition hover:bg-zinc-800"
-              >
-                Log out
-              </button>
-            </form>
+            <div className="flex gap-2">
+              <form action="/ops-cost/refresh" method="post">
+                <button
+                  type="submit"
+                  className="rounded-lg border border-cyan-400/40 bg-cyan-500/10 px-3 py-2 text-sm text-cyan-200 transition hover:bg-cyan-500/20"
+                >
+                  Refresh now
+                </button>
+              </form>
+              <form action="/ops-cost/logout" method="post">
+                <button
+                  type="submit"
+                  className="rounded-lg border border-white/15 bg-zinc-900 px-3 py-2 text-sm text-zinc-200 transition hover:bg-zinc-800"
+                >
+                  Log out
+                </button>
+              </form>
+            </div>
           </div>
-          {!hasCost ? (
-            <p className="mt-3 rounded-lg border border-amber-500/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-300">
-              Cost fields were unavailable in some source logs. Token totals are shown and can be used as an estimate baseline.
+
+          <p className="mt-3 rounded-lg border border-amber-500/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-300">
+            Estimated costs are shown when exact billed cost is missing. Estimates = token usage × public model pricing. Exact invoice may differ.
+          </p>
+
+          {data.pricing?.sourceUrl ? (
+            <p className="mt-2 text-xs text-zinc-500">
+              Pricing source: <a className="underline" href={data.pricing.sourceUrl}>{data.pricing.sourceUrl}</a>
+              {data.pricing.fetchedAt ? ` · fetched ${new Date(data.pricing.fetchedAt).toLocaleString()}` : ''}
+              {data.pricing.staleCache ? ' · using cached pricing' : ''}
             </p>
           ) : null}
         </header>
 
         <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-          <SummaryCard title="Total cost" value={hasCost ? formatCurrency(data.totals.cost) : 'Unavailable'} sub="All providers treated as billable" />
+          <SummaryCard title="Estimated total cost" value={estimatedTotal > 0 ? formatCurrency(estimatedTotal) : 'Unavailable'} sub="Estimate based on token usage" />
+          <SummaryCard title="Reported total cost" value={data.totals.cost > 0 ? formatCurrency(data.totals.cost) : 'Unavailable'} sub="Directly reported by logs/providers" />
           <SummaryCard title="Total tokens" value={formatNumber(data.totals.totalTokens)} sub={`${formatNumber(data.totals.inputTokens)} in / ${formatNumber(data.totals.outputTokens)} out`} />
-          <SummaryCard title="Top provider" value={topProvider} sub="By cost, then token volume" />
-          <SummaryCard title="Top model" value={topModel} sub="By cost, then token volume" />
+          <SummaryCard title="Top model" value={topModel} sub={`Top provider: ${topProvider}`} />
         </section>
 
-        <BreakdownTable title="By provider (google + google-vertex visible first when present)" rows={prioritizedProviders} labelKey="provider" />
-        <BreakdownTable title="By model" rows={data.byModel.slice(0, 30)} labelKey="model" />
+        <BreakdownTable title="By provider (includes configured zero-usage providers)" rows={prioritizedProviders} labelKey="provider" />
+        <BreakdownTable title="By model (includes configured zero-usage models)" rows={data.byModel} labelKey="model" />
         <BreakdownTable title="By day" rows={data.byDay} labelKey="date" />
       </div>
     </main>
