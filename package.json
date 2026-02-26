@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "node --test scripts/*.test.mjs",
     "cost:build-data": "node scripts/build-cost-dashboard-data.mjs",
+    "cost:reconcile": "node scripts/reconcile-cost-dashboard-data.mjs",
     "cost:dashboard": "npm run cost:build-data && next dev"
   },
   "dependencies": {

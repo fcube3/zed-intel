@@ -1,34 +1,60 @@
 {
-  "generatedAt": "2026-02-25T13:26:58.779Z",
+  "generatedAt": "2026-02-26T02:38:17.175Z",
   "sources": {
-    "jsonlFilesScanned": 3,
+    "jsonlFilesScanned": 22,
     "codexbarFilesScanned": 0,
-    "usageRows": 3,
+    "usageRows": 1026,
     "configuredModels": 43,
     "configuredProviders": 5
   },
   "pricing": {
     "mode": "estimated",
     "sourceUrl": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-    "fetchedAt": "2026-02-25T13:26:58.778Z",
+    "fetchedAt": "2026-02-26T02:38:17.165Z",
     "staleCache": false,
     "note": "Estimated from token usage × public model pricing registry; exact vendor billing may differ."
   },
   "totals": {
-    "cost": 0,
-    "estimatedCost": 0.37098074999999997,
-    "inputTokens": 150861,
-    "outputTokens": 7641,
-    "totalTokens": 113717
+    "cost": 12.444002999999999,
+    "estimatedCost": 13.249739091433387,
+    "inputTokens": 12102941.623181993,
+    "outputTokens": 98545.02005899984,
+    "totalTokens": 22085947.444002993,
+    "cacheReadTokens": 18941385.800761998,
+    "cacheWriteTokens": 0
   },
   "byProvider": [
     {
+      "provider": "google",
+      "cost": 6.4740002000000025,
+      "estimatedCost": 6.4740054159078,
+      "inputTokens": 10559020.845620995,
+      "outputTokens": 21651.127052999986,
+      "totalTokens": 10580672.474000197,
+      "cacheReadTokens": 9082025.501326201,
+      "cacheWriteTokens": 0,
+      "estimated": true
+    },
+    {
       "provider": "openai-codex",
-      "cost": 0,
-      "estimatedCost": 0.37098074999999997,
-      "inputTokens": 150861,
-      "outputTokens": 7641,
-      "totalTokens": 113717,
+      "cost": 3.9537218000000003,
+      "estimatedCost": 4.7594526755255915,
+      "inputTokens": 1354063.8282810007,
+      "outputTokens": 69539.70915600004,
+      "totalTokens": 9467097.9537218,
+      "cacheReadTokens": 8093057.416284803,
+      "cacheWriteTokens": 0,
+      "estimated": true
+    },
+    {
+      "provider": "anthropic",
+      "cost": 2.0162810000000007,
+      "estimatedCost": 2.0162810000000007,
+      "inputTokens": 189856.94928000003,
+      "outputTokens": 7354.18385,
+      "totalTokens": 2038177.0162810003,
+      "cacheReadTokens": 1766302.8831510004,
+      "cacheWriteTokens": 0,
       "estimated": true
     },
     {
@@ -38,24 +64,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
-      "estimated": true
-    },
-    {
-      "provider": "anthropic",
-      "cost": 0,
-      "estimatedCost": 0,
-      "inputTokens": 0,
-      "outputTokens": 0,
-      "totalTokens": 0,
-      "estimated": true
-    },
-    {
-      "provider": "google",
-      "cost": 0,
-      "estimatedCost": 0,
-      "inputTokens": 0,
-      "outputTokens": 0,
-      "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true
     },
     {
@@ -65,20 +75,63 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true
     }
   ],
   "byModel": [
     {
+      "provider": "google",
+      "model": "gemini-3-flash-preview",
+      "cost": 5.573415599999999,
+      "estimatedCost": 5.57341830007848,
+      "inputTokens": 10181611.090802994,
+      "outputTokens": 14751.04425299999,
+      "totalTokens": 10196362.573415598,
+      "cacheReadTokens": 8767192.438359596,
+      "cacheWriteTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": "gemini-3-flash-preview"
+    },
+    {
       "provider": "openai-codex",
       "model": "gpt-5.3-codex",
-      "cost": 0,
-      "estimatedCost": 0.37098074999999997,
-      "inputTokens": 150861,
-      "outputTokens": 7641,
-      "totalTokens": 113717,
+      "cost": 3.9537218000000003,
+      "estimatedCost": 4.7594526755255915,
+      "inputTokens": 1354063.8282810007,
+      "outputTokens": 69539.70915600004,
+      "totalTokens": 9467097.9537218,
+      "cacheReadTokens": 8093057.416284803,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": "gpt-5.3-codex"
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-4-6-thinking",
+      "cost": 2.0162810000000007,
+      "estimatedCost": 2.0162810000000007,
+      "inputTokens": 189856.94928000003,
+      "outputTokens": 7354.18385,
+      "totalTokens": 2038177.0162810003,
+      "cacheReadTokens": 1766302.8831510004,
+      "cacheWriteTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": null
+    },
+    {
+      "provider": "google",
+      "model": "gemini-3.1-pro-preview",
+      "cost": 0.9005846,
+      "estimatedCost": 0.9005871158293199,
+      "inputTokens": 377409.75481799996,
+      "outputTokens": 6900.082800000001,
+      "totalTokens": 384309.90058460017,
+      "cacheReadTokens": 314833.0629666,
+      "cacheWriteTokens": 0,
+      "estimated": true,
+      "priceSourceModelKey": "gemini-3.1-pro-preview"
     },
     {
       "provider": "openai",
@@ -88,6 +141,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -99,6 +154,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -110,6 +167,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -121,6 +180,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -132,6 +193,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -143,6 +206,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -154,6 +219,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -165,6 +232,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -176,6 +245,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -187,6 +258,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -198,6 +271,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -209,6 +284,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -220,6 +297,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -231,6 +310,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -242,6 +323,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -253,6 +336,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -264,6 +349,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -275,6 +362,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -286,6 +375,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -297,6 +388,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -308,6 +401,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -319,6 +414,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -330,6 +427,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -341,6 +440,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -352,6 +453,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -363,6 +466,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -374,6 +479,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -385,6 +492,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -396,6 +505,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -407,6 +518,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -418,6 +531,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -429,6 +544,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -440,17 +557,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
-      "estimated": true,
-      "priceSourceModelKey": null
-    },
-    {
-      "provider": "google",
-      "model": "gemini-3-flash-preview",
-      "cost": 0,
-      "estimatedCost": 0,
-      "inputTokens": 0,
-      "outputTokens": 0,
-      "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -462,17 +570,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
-      "estimated": true,
-      "priceSourceModelKey": null
-    },
-    {
-      "provider": "google",
-      "model": "gemini-3.1-pro-preview",
-      "cost": 0,
-      "estimatedCost": 0,
-      "inputTokens": 0,
-      "outputTokens": 0,
-      "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -484,6 +583,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -495,6 +596,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -506,6 +609,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -517,6 +622,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -528,6 +635,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     },
@@ -539,6 +648,8 @@
       "inputTokens": 0,
       "outputTokens": 0,
       "totalTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
       "estimated": true,
       "priceSourceModelKey": null
     }
@@ -546,11 +657,24 @@
   "byDay": [
     {
       "date": "2026-02-25",
-      "cost": 0,
-      "estimatedCost": 0.37098074999999997,
-      "inputTokens": 150861,
-      "outputTokens": 7641,
-      "totalTokens": 113717,
+      "cost": 10.240514000000001,
+      "estimatedCost": 10.26328756905675,
+      "inputTokens": 11104673.307271993,
+      "outputTokens": 45375.547037000004,
+      "totalTokens": 19094882.240513988,
+      "cacheReadTokens": 16617464.386204991,
+      "cacheWriteTokens": 0,
+      "estimated": true
+    },
+    {
+      "date": "2026-02-26",
+      "cost": 2.2034890000000003,
+      "estimatedCost": 2.986451522376639,
+      "inputTokens": 998268.31591,
+      "outputTokens": 53169.473022,
+      "totalTokens": 2991065.203489,
+      "cacheReadTokens": 2323921.414557,
+      "cacheWriteTokens": 0,
       "estimated": true
     }
   ]
