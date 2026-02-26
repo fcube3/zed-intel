@@ -10,6 +10,7 @@
     "test": "node --test scripts/*.test.mjs",
     "cost:build-data": "node scripts/build-cost-dashboard-data.mjs",
     "cost:reconcile": "node scripts/reconcile-cost-dashboard-data.mjs",
+    "cost:bootstrap-kv": "node scripts/bootstrap-ops-cost-kv.mjs",
     "cost:dashboard": "npm run cost:build-data && next dev"
   },
   "dependencies": {

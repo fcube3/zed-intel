@@ -1,5 +1,4 @@
-import fs from 'node:fs';
-import path from 'node:path';
+import { loadDashboardData } from '@/lib/ops-cost-storage.mjs';
 
 export const dynamic = 'force-dynamic';
 
@@ -41,23 +40,6 @@ function formatNumber(value: number) {
   return new Intl.NumberFormat('en-US').format(Math.round(value));
 }
 
-function readData(): CostDashboardData {
-  const filePath = path.join(process.cwd(), 'public', 'data', 'cost-dashboard.json');
-  const fallback: CostDashboardData = {
-    generatedAt: new Date().toISOString(),
-    totals: { cost: 0, estimatedCost: 0, inputTokens: 0, outputTokens: 0, totalTokens: 0 },
-    byProvider: [],
-    byModel: [],
-    byDay: [],
-  };
-
-  try {
-    const raw = fs.readFileSync(filePath, 'utf8');
-    return { ...fallback, ...JSON.parse(raw) };
-  } catch {
-    return fallback;
-  }
-}
 
 function SummaryCard({ title, value, sub }: { title: string; value: string; sub?: string }) {
   return (
@@ -116,8 +98,12 @@ function BreakdownTable({ title, rows, labelKey }: { title: string; rows: Breakd
   );
 }
 
-export default function OpsCostPage() {
-  const data = readData();
+export default async function OpsCostPage({
+  searchParams,
+}: {
+  searchParams?: { refreshed?: string; refresh_error?: string };
+}) {
+  const { data, diagnostics } = await loadDashboardData();
 
   const prioritizedProviders = [...data.byProvider].sort((a, b) => {
     const score = (name?: string) => {
@@ -143,6 +129,10 @@ export default function OpsCostPage() {
               <p className="text-xs uppercase tracking-[0.2em] text-cyan-400">Private · Ops</p>
               <h1 className="mt-2 text-3xl font-bold">Cost Dashboard</h1>
               <p className="mt-2 text-sm text-zinc-400">Generated at {new Date(data.generatedAt).toLocaleString()}</p>
+              <p className="mt-1 text-xs text-zinc-500">
+                Source: {diagnostics.source === 'kv' ? 'KV' : 'Bundled file fallback'}
+                {diagnostics.generatedAt ? ` · generatedAt ${new Date(diagnostics.generatedAt).toLocaleString()}` : ''}
+              </p>
             </div>
             <div className="flex gap-2">
               <form action="/ops-cost/refresh" method="post">
@@ -167,6 +157,22 @@ export default function OpsCostPage() {
           <p className="mt-3 rounded-lg border border-amber-500/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-300">
             Estimated costs are shown when exact billed cost is missing. Estimates = token usage × public model pricing. Exact invoice may differ.
           </p>
+
+          {searchParams?.refreshed === '1' ? (
+            <p className="mt-2 rounded-lg border border-emerald-500/40 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-300">
+              Dashboard refreshed successfully and saved to KV.
+            </p>
+          ) : null}
+
+          {searchParams?.refresh_error === '1' ? (
+            <p className="mt-2 rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-2 text-sm text-red-300">
+              Refresh failed. Verify KV environment variables and try again.
+            </p>
+          ) : null}
+
+          {diagnostics.warning ? (
+            <p className="mt-2 rounded-lg border border-yellow-500/40 bg-yellow-500/10 px-3 py-2 text-sm text-yellow-300">{diagnostics.warning}</p>
+          ) : null}
 
           {data.pricing?.sourceUrl ? (
             <p className="mt-2 text-xs text-zinc-500">
