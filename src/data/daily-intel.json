@@ -89,32 +89,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "Alternative.me Crypto Fear & Greed Index / exchange flow chatter",
-      "asset": "Bitcoin",
-      "signal": "Bearish-to-Neutral",
-      "confidence": "87%",
-      "insight": "Crypto Fear & Greed sits at 11 (Extreme Fear), indicating continued defensive positioning despite spot BTC holding near the upper-$60k range."
-    },
-    {
-      "source": "Alternative.me index + ETH market commentary",
-      "asset": "Ethereum",
-      "signal": "Bearish",
-      "confidence": "85%",
-      "insight": "ETH remains weaker than BTC on relative momentum; social flow focuses on distribution/overhang narratives and rebound skepticism."
-    },
-    {
-      "source": "Reuters metals tape + trader chatter",
+      "source": "X macro-trader chatter (aggregated via market coverage) + Reddit r/Gold/r_investing threads",
       "asset": "Gold",
-      "signal": "Bullish with Event-Risk Volatility",
-      "confidence": "81%",
-      "insight": "Dip-buying bias persists, but upcoming US macro prints are viewed as high-impact for real yields and near-term positioning."
+      "signal": "Bullish but Crowded",
+      "confidence": "82%",
+      "insight": "Social flow remains pro-gold on safe-haven and central-bank-demand narratives, but discussion increasingly flags crowded longs and sharper downside risk on hotter U.S. data/real-yield spikes."
     },
     {
-      "source": "Metals community commentary + futures momentum watch",
+      "source": "Reddit r/Silverbugs + metals social commentary + X-linked retail momentum channels",
       "asset": "Silver",
-      "signal": "Bullish but Fragile",
-      "confidence": "79%",
-      "insight": "Silver sentiment remains positive, though momentum is headline-sensitive and prone to sharper reversals than gold."
+      "signal": "Bullish / High-Volatility",
+      "confidence": "78%",
+      "insight": "Community tone is still upside-biased (ratio-reversion and breakout narratives), but conviction is uneven and highly headline-sensitive; sentiment swings are faster than in gold."
+    },
+    {
+      "source": "X crypto sentiment trackers + Reddit BTC community chatter + Glassnode/CryptoQuant-linked analyst commentary",
+      "asset": "Bitcoin",
+      "signal": "Cautiously Bearish",
+      "confidence": "86%",
+      "insight": "Broad crypto mood remains risk-off (Extreme Fear regime and liquidation talk), with traders treating rebounds as tactical until exchange-flow pressure and short-term holder capitulation cool further."
+    },
+    {
+      "source": "X altcoin discourse + Reddit ETH threads + on-chain analyst community (Glassnode/Santiment-style commentary)",
+      "asset": "Ethereum",
+      "signal": "Bearish-to-Neutral",
+      "confidence": "84%",
+      "insight": "ETH sentiment improved after a reflexive bounce back above key psychological levels, but social conversation still leans defensive on relative underperformance vs BTC and fragile follow-through demand."
     }
   ],
   "predictions": [
