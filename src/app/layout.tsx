@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { LanguageProvider } from "@/components/LanguageContext";
 
@@ -9,6 +9,11 @@ export const metadata: Metadata = {
     icon: '/favicon.ico?v=3',
     apple: '/apple-icon.png?v=3',
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
