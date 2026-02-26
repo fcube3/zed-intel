@@ -1,21 +1,32 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const COOKIE_NAME = 'ops_cost_auth';
-const LOGIN_PATH = '/ops-cost/login';
-const LOGOUT_PATH = '/ops-cost/logout';
-const AUTH_PATH = '/ops-cost/auth';
+/* ── Route configs ─────────────────────────────────────────────── */
+type ProtectedRoute = {
+  cookieName: string;
+  envVar: string;
+  loginPath: string;
+  bypassPaths: string[];
+  realm: string;
+};
 
-function setAuthCookie(response: NextResponse, password: string) {
-  response.cookies.set(COOKIE_NAME, password, {
-    httpOnly: true,
-    secure: true,
-    sameSite: 'lax',
-    path: '/ops-cost',
-    maxAge: 60 * 60 * 24 * 14,
-  });
-}
+const ROUTES: Record<string, ProtectedRoute> = {
+  '/ops-cost': {
+    cookieName: 'ops_cost_auth',
+    envVar: 'COST_DASH_PASSWORD',
+    loginPath: '/ops-cost/login',
+    bypassPaths: ['/ops-cost/login', '/ops-cost/logout', '/ops-cost/auth'],
+    realm: 'Ops Cost',
+  },
+  '/fitness': {
+    cookieName: 'fitness_auth',
+    envVar: 'FITNESS_PASSWORD',
+    loginPath: '/fitness/login',
+    bypassPaths: ['/fitness/login', '/fitness/logout', '/fitness/auth'],
+    realm: 'Fitness',
+  },
+};
 
-
+/* ── Helpers ────────────────────────────────────────────────────── */
 function isHtmlRequest(request: NextRequest) {
   const accept = request.headers.get('accept') || '';
   return accept.includes('text/html');
@@ -24,67 +35,69 @@ function isHtmlRequest(request: NextRequest) {
 function readBasicPassword(request: NextRequest) {
   const authHeader = request.headers.get('authorization');
   if (!authHeader?.startsWith('Basic ')) return null;
-
   try {
     const decoded = atob(authHeader.slice(6));
-    const separator = decoded.indexOf(':');
-    if (separator < 0) return null;
-    return decoded.slice(separator + 1).trim();
+    const sep = decoded.indexOf(':');
+    return sep < 0 ? null : decoded.slice(sep + 1).trim();
   } catch {
     return null;
   }
 }
 
-function unauthorizedResponse() {
+function unauthorizedResponse(realm: string) {
   return new NextResponse('Unauthorized', {
     status: 401,
     headers: {
       'Cache-Control': 'no-store',
-      'WWW-Authenticate': 'Basic realm="Ops Cost"',
+      'WWW-Authenticate': `Basic realm="${realm}"`,
       'Content-Type': 'text/plain; charset=utf-8',
     },
   });
 }
 
+/* ── Middleware ──────────────────────────────────────────────────── */
 export function middleware(request: NextRequest) {
-  const expectedPassword = process.env.COST_DASH_PASSWORD?.trim();
+  const { pathname } = request.nextUrl;
+
+  const prefix = Object.keys(ROUTES).find(
+    (p) => pathname === p || pathname.startsWith(p + '/')
+  );
+  if (!prefix) return NextResponse.next();
+
+  const route = ROUTES[prefix];
+
+  const expectedPassword = process.env[route.envVar]?.trim();
   if (!expectedPassword) {
-    return new NextResponse('COST_DASH_PASSWORD is not configured', {
+    return new NextResponse(`${route.envVar} is not configured`, {
       status: 503,
-      headers: {
-        'Cache-Control': 'no-store',
-        'Content-Type': 'text/plain; charset=utf-8',
-      },
+      headers: { 'Cache-Control': 'no-store', 'Content-Type': 'text/plain; charset=utf-8' },
     });
   }
 
-  const { pathname } = request.nextUrl;
+  if (route.bypassPaths.includes(pathname)) return NextResponse.next();
 
-  if (pathname === LOGIN_PATH || pathname === LOGOUT_PATH || pathname === AUTH_PATH) {
-    return NextResponse.next();
-  }
+  // Cookie check
+  const cookieValue = request.cookies.get(route.cookieName)?.value?.trim();
+  if (cookieValue === expectedPassword) return NextResponse.next();
 
-  const cookieValue = request.cookies.get(COOKIE_NAME)?.value?.trim();
-  if (cookieValue === expectedPassword) {
-    return NextResponse.next();
-  }
-
+  // Basic auth
   const basicPassword = readBasicPassword(request);
   if (basicPassword && basicPassword === expectedPassword) {
     const response = NextResponse.next();
-    setAuthCookie(response, expectedPassword);
+    response.cookies.set(route.cookieName, expectedPassword, {
+      httpOnly: true, secure: true, sameSite: 'lax',
+      path: prefix, maxAge: 60 * 60 * 24 * 14,
+    });
     return response;
   }
 
-  if (!isHtmlRequest(request)) {
-    return unauthorizedResponse();
-  }
+  if (!isHtmlRequest(request)) return unauthorizedResponse(route.realm);
 
-  const loginUrl = new URL(LOGIN_PATH, request.url);
+  const loginUrl = new URL(route.loginPath, request.url);
   loginUrl.searchParams.set('next', pathname);
   return NextResponse.redirect(loginUrl);
 }
 
 export const config = {
-  matcher: ['/ops-cost', '/ops-cost/:path*'],
+  matcher: ['/ops-cost', '/ops-cost/:path*', '/fitness', '/fitness/:path*'],
 };
