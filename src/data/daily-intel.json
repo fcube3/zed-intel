@@ -89,32 +89,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "X macro-trader chatter (aggregated via market coverage) + Reddit r/Gold/r_investing threads",
+      "source": "X macro/metals trader posts + Reddit r/Gold and r/investing threads + Kitco/FX analyst community chatter",
       "asset": "Gold",
-      "signal": "Bullish but Crowded",
-      "confidence": "82%",
-      "insight": "Social flow remains pro-gold on safe-haven and central-bank-demand narratives, but discussion increasingly flags crowded longs and sharper downside risk on hotter U.S. data/real-yield spikes."
+      "signal": "Bullish but Late-Cycle Crowded",
+      "confidence": "80%",
+      "insight": "Cross-platform tone is still risk-hedge bullish (safe-haven + central-bank-demand narrative), but more posts now warn that positioning is crowded and vulnerable to sharp pullbacks if U.S. real yields or dollar momentum re-accelerate."
     },
     {
-      "source": "Reddit r/Silverbugs + metals social commentary + X-linked retail momentum channels",
+      "source": "X silver momentum commentary + Reddit r/Silverbugs discussions + metals trading community flow",
       "asset": "Silver",
-      "signal": "Bullish / High-Volatility",
-      "confidence": "78%",
-      "insight": "Community tone is still upside-biased (ratio-reversion and breakout narratives), but conviction is uneven and highly headline-sensitive; sentiment swings are faster than in gold."
+      "signal": "Bullish / Speculative",
+      "confidence": "77%",
+      "insight": "Retail chatter remains upside-biased with recurring breakout and gold-silver-ratio mean-reversion calls, yet thread quality shows wide forecast dispersion and frequent spike/chop expectations, indicating conviction is high but unstable."
     },
     {
-      "source": "X crypto sentiment trackers + Reddit BTC community chatter + Glassnode/CryptoQuant-linked analyst commentary",
+      "source": "X crypto sentiment feeds + Reddit r/Bitcoin & r/CryptoCurrency + Glassnode/CryptoQuant-linked analyst commentary",
       "asset": "Bitcoin",
-      "signal": "Cautiously Bearish",
-      "confidence": "86%",
-      "insight": "Broad crypto mood remains risk-off (Extreme Fear regime and liquidation talk), with traders treating rebounds as tactical until exchange-flow pressure and short-term holder capitulation cool further."
+      "signal": "Cautiously Bearish to Neutral",
+      "confidence": "85%",
+      "insight": "Sentiment has improved from panic lows after rebounds toward 70k, but most discussion still frames upside as tactical while on-chain desks describe fragile accumulation, softer ETF/spot demand, and a market that has not fully rebuilt bullish conviction."
     },
     {
-      "source": "X altcoin discourse + Reddit ETH threads + on-chain analyst community (Glassnode/Santiment-style commentary)",
+      "source": "X alt/ETH discourse + Reddit r/ethereum + on-chain analyst community (CryptoQuant/market-structure commentary)",
       "asset": "Ethereum",
       "signal": "Bearish-to-Neutral",
-      "confidence": "84%",
-      "insight": "ETH sentiment improved after a reflexive bounce back above key psychological levels, but social conversation still leans defensive on relative underperformance vs BTC and fragile follow-through demand."
+      "confidence": "83%",
+      "insight": "ETH social tone is less capitulative than earlier in the month but remains defensive: communities cite oversold-bounce potential while emphasizing relative underperformance, uneven demand follow-through, and lingering skepticism around sustainable trend reversal."
     }
   ],
   "predictions": [
