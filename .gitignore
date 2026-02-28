@@ -30,3 +30,6 @@ yarn-error.log*
 .env
 __pycache__/
 venv/
+.env.kv
+tsconfig.tsbuildinfo
+public/data/model-pricing-cache.json

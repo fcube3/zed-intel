@@ -10,19 +10,12 @@ type ProtectedRoute = {
 };
 
 const ROUTES: Record<string, ProtectedRoute> = {
-  '/ops-cost': {
+  '/costs': {
     cookieName: 'ops_cost_auth',
     envVar: 'COST_DASH_PASSWORD',
-    loginPath: '/ops-cost/login',
-    bypassPaths: ['/ops-cost/login', '/ops-cost/logout', '/ops-cost/auth'],
+    loginPath: '/costs/login',
+    bypassPaths: ['/costs/login', '/costs/logout', '/costs/auth'],
     realm: 'Ops Cost',
-  },
-  '/fitness': {
-    cookieName: 'fitness_auth',
-    envVar: 'FITNESS_PASSWORD',
-    loginPath: '/fitness/login',
-    bypassPaths: ['/fitness/login', '/fitness/logout', '/fitness/auth'],
-    realm: 'Fitness',
   },
 };
 
@@ -99,5 +92,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/ops-cost', '/ops-cost/:path*', '/fitness', '/fitness/:path*'],
+  matcher: ['/costs', '/costs/:path*'],
 };

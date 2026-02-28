@@ -3,11 +3,10 @@ import "./globals.css";
 import { LanguageProvider } from "@/components/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "Kai Intelligence Dashboard",
+  title: "Kai Intelligence",
   description: "Strategic briefing for hard assets",
   icons: {
     icon: '/favicon.ico?v=3',
-    apple: '/apple-icon.png?v=3',
   },
 };
 

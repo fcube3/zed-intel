@@ -3,13 +3,13 @@ import { NextRequest, NextResponse } from 'next/server';
 const COOKIE_NAME = 'ops_cost_auth';
 
 function safeNextPath(value: string | null) {
-  if (!value) return '/ops-cost';
-  if (!value.startsWith('/ops-cost')) return '/ops-cost';
+  if (!value) return '/costs';
+  if (!value.startsWith('/costs')) return '/costs';
   return value;
 }
 
 export function GET(request: NextRequest) {
-  return NextResponse.redirect(new URL('/ops-cost/login', request.url), 303);
+  return NextResponse.redirect(new URL('/costs/login', request.url), 303);
 }
 
 export async function POST(request: NextRequest) {
@@ -20,10 +20,10 @@ export async function POST(request: NextRequest) {
 
   const formData = await request.formData();
   const password = String(formData.get('password') || '').trim();
-  const nextPath = safeNextPath(String(formData.get('next') || '/ops-cost'));
+  const nextPath = safeNextPath(String(formData.get('next') || '/costs'));
 
   if (password !== expectedPassword) {
-    const retryUrl = new URL('/ops-cost/login', request.url);
+    const retryUrl = new URL('/costs/login', request.url);
     retryUrl.searchParams.set('error', '1');
     retryUrl.searchParams.set('next', nextPath);
     return NextResponse.redirect(retryUrl, 303);
@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
     httpOnly: true,
     secure: true,
     sameSite: 'lax',
-    path: '/ops-cost',
+    path: '/costs',
     maxAge: 60 * 60 * 24 * 14,
   });
 

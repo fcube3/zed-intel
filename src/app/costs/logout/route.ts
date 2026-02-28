@@ -1,12 +1,15 @@
 import { NextResponse } from 'next/server';
 
-const COOKIE_NAME = 'fitness_auth';
+const COOKIE_NAME = 'ops_cost_auth';
 
 export async function POST(request: Request) {
-  const response = NextResponse.redirect(new URL('/fitness/login', request.url));
+  const response = NextResponse.redirect(new URL('/costs/login', request.url));
   response.cookies.set(COOKIE_NAME, '', {
-    httpOnly: true, secure: true, sameSite: 'lax',
-    path: '/fitness', maxAge: 0,
+    httpOnly: true,
+    secure: true,
+    sameSite: 'lax',
+    path: '/costs',
+    maxAge: 0,
   });
   return response;
 }

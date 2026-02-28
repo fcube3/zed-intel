@@ -135,7 +135,7 @@ export default async function OpsCostPage({
               </p>
             </div>
             <div className="flex gap-2">
-              <form action="/ops-cost/refresh" method="post">
+              <form action="/costs/refresh" method="post">
                 <button
                   type="submit"
                   className="rounded-lg border border-cyan-400/40 bg-cyan-500/10 px-3 py-2 text-sm text-cyan-200 transition hover:bg-cyan-500/20"
@@ -143,7 +143,7 @@ export default async function OpsCostPage({
                   Refresh now
                 </button>
               </form>
-              <form action="/ops-cost/logout" method="post">
+              <form action="/costs/logout" method="post">
                 <button
                   type="submit"
                   className="rounded-lg border border-white/15 bg-zinc-900 px-3 py-2 text-sm text-zinc-200 transition hover:bg-zinc-800"

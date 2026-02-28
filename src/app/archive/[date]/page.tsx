@@ -15,7 +15,7 @@ export default function ArchivePage() {
 
   React.useEffect(() => {
     if (date) {
-      fetch(`/data/archive/${date}.json`)
+      fetch(`/api/archive/${date}`)
         .then(res => res.json())
         .then(json => setData(json))
         .catch(e => console.error("Failed to load archive", e));

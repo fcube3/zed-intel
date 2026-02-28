@@ -6,8 +6,8 @@ type LoginPageProps = {
 };
 
 function safeNextPath(value?: string) {
-  if (!value) return '/ops-cost';
-  if (!value.startsWith('/ops-cost')) return '/ops-cost';
+  if (!value) return '/costs';
+  if (!value.startsWith('/costs')) return '/costs';
   return value;
 }
 
@@ -22,7 +22,7 @@ export default function OpsCostLoginPage({ searchParams }: LoginPageProps) {
         <h1 className="mt-2 text-2xl font-semibold">Sign in to Cost Dashboard</h1>
         <p className="mt-2 text-sm text-zinc-400">Enter the dashboard password to continue.</p>
 
-        <form action="/ops-cost/auth" method="post" className="mt-6 space-y-4">
+        <form action="/costs/auth" method="post" className="mt-6 space-y-4">
           <input type="hidden" name="next" value={nextPath} />
           <div>
             <label htmlFor="password" className="mb-1 block text-sm text-zinc-300">

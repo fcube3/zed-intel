@@ -11,13 +11,13 @@ export async function POST(request: Request) {
 
     if (!writeResult.ok) {
       console.error('[ops-cost/refresh] KV write failed', writeResult);
-      return NextResponse.redirect(new URL('/ops-cost?refresh_error=1', request.url), 303);
+      return NextResponse.redirect(new URL('/costs?refresh_error=1', request.url), 303);
     }
 
-    revalidatePath('/ops-cost');
-    return NextResponse.redirect(new URL('/ops-cost?refreshed=1', request.url), 303);
+    revalidatePath('/costs');
+    return NextResponse.redirect(new URL('/costs?refreshed=1', request.url), 303);
   } catch (error) {
     console.error('[ops-cost/refresh] refresh failed', { error });
-    return NextResponse.redirect(new URL('/ops-cost?refresh_error=1', request.url), 303);
+    return NextResponse.redirect(new URL('/costs?refresh_error=1', request.url), 303);
   }
 }
