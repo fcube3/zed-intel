@@ -1,58 +1,59 @@
-# Kai Intelligence Dashboard
+# Kai Intelligence
 
-A high-depth strategic briefing dashboard for core assets: Gold, Silver, BTC, and ETH.
+Private intelligence dashboard — market data, predictions, and cost monitoring.
+
+## Architecture
+
+```
+Next.js 16 (App Router) → Vercel
+Supabase (Postgres + PostgREST)
+OpenClaw cron → local scripts → Supabase
+```
 
 ## Features
-- Real-time price tracking via TradingView.
-- Institutional research synthesis from top II-rated firms.
-- Prediction market intelligence from Polymarket and Kalshi.
-- Cross-asset sentiment analysis.
 
-## Private Ops Cost Dashboard
+- `/` — Market intelligence dashboard (Gold, Silver, BTC, ETH)
+- `/costs` — Cost monitoring per provider (OpenRouter, Anthropic, OpenAI, local usage)
+- Daily briefing cron (8AM HKT)
+- Prediction market sync (every 3h)
+- Cost data sync (API: every 6h, local: every 2h)
 
-A password-protected internal dashboard is available at `/ops-cost`.
+## Setup
 
-- The route is intentionally **not linked** from public pages.
-- Access is protected via HTTP Basic Auth middleware using `COST_DASH_PASSWORD`.
+### Environment Variables
 
-### Set `COST_DASH_PASSWORD` on Vercel
-1. In Vercel, open your project → **Settings** → **Environment Variables**.
-2. Add key: `COST_DASH_PASSWORD`.
-3. Set a strong value for Production (and Preview/Development if needed).
-4. Redeploy so middleware reads the new value.
+**`.env.local`** (for Next.js / Vercel):
+- `NEXT_PUBLIC_SUPABASE_URL` — Supabase project URL
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase anon key
+- `SUPABASE_SERVICE_ROLE_KEY` — Supabase service role key
 
-### Ops-cost storage setup (Vercel KV / Upstash Redis)
-The `/ops-cost` dashboard now reads latest payload from managed KV, with bundled `public/data/cost-dashboard.json` as read-only fallback.
+**`~/.openclaw/.env`** (for cron scripts):
+- `OPENROUTER_API_KEY` — OpenRouter API key
+- `ANTHROPIC_ADMIN_KEY` — (optional) Anthropic admin API key
+- `OPENAI_ADMIN_KEY` — (optional) OpenAI admin API key
 
-Required environment variables (Vercel Project Settings → Environment Variables):
+### Database
 
-- `KV_REST_API_URL` (or `UPSTASH_REDIS_REST_URL`)
-- `KV_REST_API_TOKEN` (or `UPSTASH_REDIS_REST_TOKEN`)
-- `OPS_COST_KV_KEY` (optional, default: `ops-cost:latest`)
-- `COST_DASH_PASSWORD` (existing auth)
-
-One-time bootstrap after setting env vars:
-
+Run migration:
 ```bash
-npm run cost:bootstrap-kv
+node scripts/migrate-supabase.mjs
 ```
 
-This builds payload in memory and writes it to KV so `/ops-cost` can serve KV-backed data immediately.
-
-### Generate local fallback data
-```bash
-npm run cost:build-data
-```
-
-This scans local OpenClaw usage artifacts (`~/.openclaw/cron/runs/*.jsonl` and optional CodexBar JSON if present) and updates bundled fallback file:
-
-- `public/data/cost-dashboard.json`
-
-You can run local dev with a refresh in one command:
+### Development
 
 ```bash
-npm run cost:dashboard
+npm install
+npm run dev
 ```
 
-## Credits
-Engineered by [Kai](https://kai-intel.vercel.app) via [OpenClaw](https://openclaw.ai).
+### Deployment
+
+Push to `main` → auto-deploys via Vercel.
+
+## Cost Scripts
+
+| Script | Purpose | Cron |
+|--------|---------|------|
+| `scripts/fetch-openrouter.mjs` | OpenRouter credit/activity | Every 6h |
+| `scripts/fetch-provider-apis.mjs` | Anthropic + OpenAI admin APIs | Every 6h |
+| `scripts/parse-local-usage.mjs` | Local session JSONL parsing | Every 2h |
