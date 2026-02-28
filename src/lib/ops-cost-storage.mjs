@@ -38,11 +38,7 @@ export function readBundledDashboardFile() {
 export async function writeDashboardToSupabase(payload) {
   const { error } = await supabase
     .from(TABLE)
-    .upsert({
-      id: ROW_ID,
-      data: payload,
-      updated_at: new Date().toISOString(),
-    });
+    .upsert({ id: ROW_ID, data: payload });
 
   if (error) {
     console.error('[ops-cost-storage] Supabase upsert failed', error);
@@ -56,7 +52,7 @@ export async function readDashboardFromSupabase() {
     .from(TABLE)
     .select('data')
     .eq('id', ROW_ID)
-    .single();
+    .maybeSingle();
 
   if (error || !data) {
     return { ok: false, reason: error?.message || 'empty' };
