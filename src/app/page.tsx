@@ -21,7 +21,7 @@ export default function Home() {
       {/* Header */}
       <header className="mb-12 flex flex-col md:flex-row justify-between items-start md:items-end">
         <div className="w-full md:w-auto">
-          <h1 className="text-4xl font-bold mb-2 uppercase tracking-tighter text-white">Kai Intelligence</h1>
+          <h1 className="text-4xl font-bold mb-2 uppercase tracking-tighter text-[#F5A623]">Kai Intelligence</h1>
           <p className="text-gray-500 font-medium">Hard Assets · Strategic Briefing</p>
         </div>
         <div className="text-right mt-4 md:mt-0 flex flex-col items-end w-full md:w-auto">
@@ -43,12 +43,12 @@ export default function Home() {
           {/* Major News */}
           <section>
             <h2 className="text-xl font-bold mb-6 flex items-center uppercase tracking-widest text-white">
-              <i className="fas fa-bolt mr-3 text-blue-500"></i> Breaking Intel
+              <i className="fas fa-bolt mr-3 text-[#F5A623]"></i> Breaking Intel
             </h2>
             <div className="grid md:grid-cols-2 gap-4">
               {dailyIntel.news.map((item, idx) => (
-                <a key={idx} href={item.url} target="_blank" className="bg-[#161b22] border border-[#30363d] p-4 border-l-4 border-blue-600 hover:bg-gray-800/30 block group rounded-r-lg transition">
-                  <h3 className="font-bold mb-1 text-sm group-hover:text-blue-500 transition uppercase tracking-tight">{item.title}</h3>
+                <a key={idx} href={item.url} target="_blank" className="bg-[#161b22] border border-[#30363d] p-4 border-l-4 border-[#F5A623] hover:bg-gray-800/30 block group rounded-r-lg transition">
+                  <h3 className="font-bold mb-1 text-sm group-hover:text-[#F5A623] transition uppercase tracking-tight">{item.title}</h3>
                   <p className="text-xs text-gray-400 leading-tight">{item.summary}</p>
                 </a>
               ))}
@@ -89,13 +89,13 @@ export default function Home() {
               {/* Macro */}
               <div>
                 <div className="flex items-center space-x-2 mb-4">
-                  <span className="h-1 w-8 bg-blue-500 rounded-full"></span>
+                  <span className="h-1 w-8 bg-[#F5A623] rounded-full"></span>
                   <h3 className="text-[10px] font-black uppercase text-gray-500 tracking-[0.2em]">Macro</h3>
                 </div>
-                <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-blue-500/30 rounded-lg text-white">
+                <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-[#F5A623]/30 rounded-lg text-white">
                   <h4 className="font-bold mb-2 text-[#d4af37]">{dailyIntel.institutional.macro.firm} | {dailyIntel.institutional.macro.analyst}</h4>
                   <p className="text-sm text-gray-300 leading-relaxed italic mb-3">&ldquo;{dailyIntel.institutional.macro.insight}&rdquo;</p>
-                  <a href={dailyIntel.institutional.macro.url} target="_blank" className="text-[10px] text-blue-400 hover:text-white transition uppercase font-black tracking-widest">
+                  <a href={dailyIntel.institutional.macro.url} target="_blank" className="text-[10px] text-[#F5A623] hover:text-white transition uppercase font-black tracking-widest">
                     <i className="fas fa-external-link-alt mr-1"></i> Open Report
                   </a>
                 </div>
@@ -112,7 +112,7 @@ export default function Home() {
                     <div key={idx} className="bg-[#161b22] border border-[#30363d] p-5 border-t-2 border-yellow-500/50 rounded-b-lg">
                       <h4 className="font-bold mb-2 text-[#a6a6a6] text-sm uppercase">{item.firm} | {item.analyst}</h4>
                       <p className="text-[11px] text-gray-400 mb-4 leading-relaxed">{item.insight}</p>
-                      <a href={item.url} target="_blank" className="text-[9px] text-gray-500 hover:text-blue-400 transition font-bold uppercase tracking-tighter">Verified Source</a>
+                      <a href={item.url} target="_blank" className="text-[9px] text-gray-500 hover:text-[#F5A623] transition font-bold uppercase tracking-tighter">Verified Source</a>
                     </div>
                   ))}
                 </div>
@@ -124,7 +124,7 @@ export default function Home() {
                   <div className="bg-[#161b22] border border-[#30363d] p-6 border-l-4 border-purple-500/30 rounded-lg">
                     <h4 className="font-bold mb-2 text-[#f7931a] uppercase">{dailyIntel.institutional.crypto.firm} | {dailyIntel.institutional.crypto.analyst}</h4>
                     <p className="text-sm text-gray-300 leading-relaxed italic mb-3">&ldquo;{dailyIntel.institutional.crypto.insight}&rdquo;</p>
-                    <a href={dailyIntel.institutional.crypto.url} target="_blank" className="text-[10px] text-blue-400 hover:text-white transition uppercase font-black tracking-widest">
+                    <a href={dailyIntel.institutional.crypto.url} target="_blank" className="text-[10px] text-[#F5A623] hover:text-white transition uppercase font-black tracking-widest">
                       <i className="fas fa-link mr-1"></i> Open Report
                     </a>
                   </div>
@@ -159,7 +159,7 @@ export default function Home() {
 
           <footer className="text-center pt-8 space-y-3 border-t border-gray-800/50">
             <p className="text-[9px] text-gray-600 font-black uppercase tracking-widest">
-              Powered by <a href="https://openclaw.ai" target="_blank" className="text-blue-500 hover:text-blue-400 transition underline">OpenClaw</a>
+              Powered by <a href="https://openclaw.ai" target="_blank" className="text-[#F5A623] hover:text-[#F5A623] transition underline">OpenClaw</a>
             </p>
             <p className="text-[9px] text-gray-700 font-bold uppercase">© 2026 KAI INTEL | KGOLD LABS</p>
           </footer>

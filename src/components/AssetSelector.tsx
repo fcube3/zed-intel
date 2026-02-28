@@ -50,7 +50,7 @@ export default function AssetSelector() {
     <section>
       <div className="flex justify-between items-center mb-6 border-b border-gray-800 pb-2">
         <h2 className="text-xl font-bold flex items-center uppercase tracking-widest text-white">
-          <i className="fas fa-chart-line mr-3 text-blue-500"></i> {t.chartTitle}
+          <i className="fas fa-chart-line mr-3 text-[#F5A623]"></i> {t.chartTitle}
         </h2>
         <div className="flex space-x-6 text-[10px] font-black tracking-widest">
           {assets.map((asset) => (
@@ -60,7 +60,7 @@ export default function AssetSelector() {
                 setSelected(asset.symbol);
                 loadWidget(asset.symbol);
               }}
-              className={`pb-1 uppercase transition ${selected === asset.symbol ? 'border-b-2 border-blue-500 text-blue-500' : 'text-gray-500 hover:text-white'}`}
+              className={`pb-1 uppercase transition ${selected === asset.symbol ? 'border-b-2 border-[#F5A623] text-[#F5A623]' : 'text-gray-500 hover:text-white'}`}
             >
               {asset.name}
             </button>
