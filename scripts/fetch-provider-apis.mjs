@@ -67,9 +67,9 @@ async function fetchAnthropic() {
     });
     console.log(`✓ Anthropic API: fetched`);
   } catch (err) {
-    await supabase.from('cost_sync_log').insert({
+    try { await supabase.from('cost_sync_log').insert({
       provider: 'anthropic_api', status: 'error', error_msg: err.message, duration_ms: Date.now() - start,
-    }).catch(() => {});
+    }); } catch {}
     console.error(`✗ Anthropic API: ${err.message}`);
   }
 }
@@ -144,8 +144,10 @@ async function fetchCodexUsage() {
       },
       body: JSON.stringify({
         model: 'codex-mini-latest',
-        input: [{ role: 'user', content: 'echo 1' }],
+        instructions: 'Reply with one word.',
+        input: 'ping',
         max_output_tokens: 1,
+        stream: false,
       }),
     });
 
@@ -190,13 +192,84 @@ async function fetchCodexUsage() {
     });
     console.log(`✓ Codex: 5h window ${primaryUsedPct}% used, weekly ${secondaryUsedPct}% used`);
   } catch (err) {
-    await supabase.from('cost_sync_log').insert({
+    try { await supabase.from('cost_sync_log').insert({
       provider: 'codex', status: 'error', error_msg: err.message, duration_ms: Date.now() - start,
-    }).catch(() => {});
+    }); } catch {}
     console.error(`✗ Codex: ${err.message}`);
   }
 }
 
+// --- Claude (OAuth usage) ---
+// Endpoint: https://api.anthropic.com/api/oauth/usage
+// Auth: OAuth access token from macOS Keychain ("Claude Code-credentials")
+// Response: { five_hour: { utilization }, seven_day: { utilization }, seven_day_sonnet: { utilization } }
+
+import { execSync } from 'node:child_process';
+
+async function fetchClaudeOAuthUsage() {
+  const start = Date.now();
+  try {
+    let keychainJson;
+    try {
+      keychainJson = execSync('security find-generic-password -s "Claude Code-credentials" -w 2>/dev/null', { encoding: 'utf8' }).trim();
+    } catch {
+      console.log('⊘ Claude Code-credentials not found in Keychain, skipping Claude OAuth usage');
+      return;
+    }
+
+    const credentials = JSON.parse(keychainJson);
+    const accessToken = credentials?.claudeAiOauth?.accessToken;
+    if (!accessToken) {
+      console.log('⊘ No accessToken in Claude Code-credentials, skipping');
+      return;
+    }
+
+    const res = await fetch('https://api.anthropic.com/api/oauth/usage', {
+      headers: {
+        'Authorization': `Bearer ${accessToken}`,
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+        'anthropic-beta': 'oauth-2025-04-20',
+        'User-Agent': 'claude-cli/2.0.53 (external, cli)',
+      },
+    });
+
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
+    const data = await res.json();
+
+    const usageSnapshot = {
+      five_hour_utilization: data.five_hour?.utilization ?? null,
+      seven_day_utilization: data.seven_day?.utilization ?? null,
+      seven_day_sonnet_utilization: data.seven_day_sonnet?.utilization ?? null,
+    };
+
+    const row = {
+      provider: 'claude_oauth',
+      source: 'oauth_usage_api',
+      total_cost_usd: null,
+      input_tokens: null,
+      output_tokens: null,
+      total_tokens: null,
+      model_breakdown: usageSnapshot,
+      raw_response: data,
+    };
+
+    const { error } = await supabase.from('usage_snapshots').insert(row);
+    if (error) throw new Error(`Supabase insert: ${error.message}`);
+
+    await supabase.from('cost_sync_log').insert({
+      provider: 'claude_oauth', status: 'ok', duration_ms: Date.now() - start,
+    });
+    console.log(`✓ Claude OAuth: 5h=${data.five_hour?.utilization ?? '?'}%, 7d=${data.seven_day?.utilization ?? '?'}%`);
+  } catch (err) {
+    try { await supabase.from('cost_sync_log').insert({
+      provider: 'claude_oauth', status: 'error', error_msg: err.message, duration_ms: Date.now() - start,
+    }); } catch {}
+    console.error(`✗ Claude OAuth: ${err.message}`);
+  }
+}
+
 await fetchAnthropic();
+await fetchClaudeOAuthUsage();
 await fetchCodexUsage();
 console.log('Provider API fetch complete.');
