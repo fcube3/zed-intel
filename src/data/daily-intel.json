@@ -89,32 +89,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "X macro-metals threads + Reddit r/Gold/r/investing discussions + bank analyst commentary (JPM/MS/Forex desks)",
+      "source": "X macro/metals sentiment recaps + Reddit r/Gold and r/investing threads + analyst community commentary (Reuters-linked bank desk chatter)",
       "asset": "Gold",
-      "signal": "Constructive Bullish with Consolidation Watch",
-      "confidence": "82%",
-      "insight": "Cross-platform chatter remains positive on safe-haven demand and higher 2026 analyst targets, but short-term posts increasingly warn that stretched positioning and firmer yield/dollar prints could trigger a cooling phase before trend continuation."
+      "signal": "Bullish Bias, Crowded-Position Risk Rising",
+      "confidence": "80%",
+      "insight": "Cross-platform tone remains net-bullish on safe-haven demand and higher 2026 bank targets, but newer discussions increasingly flag overextended positioning and sensitivity to stronger dollar/real-yield prints, implying higher pullback risk inside the broader uptrend."
     },
     {
-      "source": "X silver-squeeze/physical-demand posts + Reddit r/Silverbugs threads + commodities analyst notes",
+      "source": "X silver-squeeze narratives + Reddit r/Silverbugs threads + commodities analyst community takes (CNBC/desk commentary)",
       "asset": "Silver",
-      "signal": "Speculative Bullish, Volatility Elevated",
-      "confidence": "81%",
-      "insight": "Social tone is still aggressive upside (supply-deficit and squeeze narratives), while more experienced community voices now flag that large upside spikes may be episodic and followed by sharp mean-reversion rather than clean trend advances."
+      "signal": "High-Beta Bullish, Speculative and Two-Way",
+      "confidence": "79%",
+      "insight": "Sentiment is still upside-seeking (industrial demand and squeeze narratives), yet community tone has become more split after sharp swings: experienced participants now emphasize meme-like volatility, fast reversals, and preference for staggered accumulation over momentum chasing."
     },
     {
-      "source": "X BTC ETF-flow discourse + Reddit r/Bitcoin/r/CryptoCurrency daily threads + analyst desks (CoinDesk/K33/Pantera/CNBC-linked commentary)",
+      "source": "X BTC flow chatter + Reddit r/Bitcoin daily discussions + crypto analyst community (CoinDesk/Glassnode/CryptoQuant-linked commentary)",
       "asset": "Bitcoin",
-      "signal": "Stabilizing, Rebound-Biased but Not Euphoric",
+      "signal": "Improving from Risk-Off to Cautious Recovery",
       "confidence": "84%",
-      "insight": "Sentiment has improved from panic lows on intermittent ETF inflow sessions and bottom-fishing narratives, but communities still describe fragile conviction, range-trading expectations, and sensitivity to renewed outflow/deleveraging headlines."
+      "insight": "Social mood shifted from capitulation talk toward stabilization as late-week U.S. spot ETF inflow headlines returned, but conviction is still fragile: users frequently frame this as a relief/rebuild phase with range-trade expectations unless flows stay consistently positive."
     },
     {
-      "source": "X ETH ecosystem/market chatter + Reddit r/ethereum daily discussions + crypto analyst community views (Grayscale/market desks)",
+      "source": "X ETH market narratives + Reddit r/ethereum discussions + analyst community around ETF flows and on-chain positioning",
       "asset": "Ethereum",
-      "signal": "Cautious Neutral with Tactical Recovery Hopes",
-      "confidence": "83%",
-      "insight": "ETH sentiment remains weaker than BTC structurally: participants cite low retail conviction and relative underperformance, though recent rebound and roadmap narratives are creating a tentative 'oversold-bounce then prove-it' mindset rather than broad bullish conviction."
+      "signal": "Cautious-to-Neutral, Relative Underperformance Persists",
+      "confidence": "82%",
+      "insight": "ETH sentiment remains weaker than BTC in most communities, with recurring concern around ETF outflows and lagging price structure; still, a minority constructive camp is rebuilding on upgrade/valuation arguments, producing a tentative 'bottoming attempt' narrative rather than broad risk-on enthusiasm."
     }
   ],
   "predictions": [
@@ -265,7 +265,7 @@
         },
         {
           "name": "New ATH by Dec 31",
-          "prob": 0.40,
+          "prob": 0.4,
           "vol": 1191805,
           "vol_fmt": "$1,191,805",
           "price_val": 0,
@@ -298,7 +298,7 @@
         },
         {
           "name": "Senate hurdles / delay",
-          "prob": 0.10,
+          "prob": 0.1,
           "vol": 184015,
           "vol_fmt": "$184,015",
           "price_val": 0,
@@ -331,7 +331,7 @@
         },
         {
           "name": "3 cuts (75 bps)",
-          "prob": 0.20,
+          "prob": 0.2,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 75,
