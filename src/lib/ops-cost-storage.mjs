@@ -3,7 +3,7 @@ import path from 'node:path';
 import { supabase } from './supabase.ts';
 
 const TABLE = 'opcost_snapshots';
-const ROW_ID = 'latest';
+const ROW_ID = 1;
 
 function fallbackPayload() {
   return {
