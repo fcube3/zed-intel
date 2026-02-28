@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { supabase } from './supabase.ts';
 
-const DEFAULT_KV_KEY = 'ops-cost:latest';
+const TABLE = 'opcost_snapshots';
+const ROW_ID = 'latest';
 
 function fallbackPayload() {
   return {
@@ -13,45 +15,12 @@ function fallbackPayload() {
   };
 }
 
-export function getKvConfig() {
-  const url = process.env.KV_REST_API_URL?.trim() || process.env.UPSTASH_REDIS_REST_URL?.trim() || '';
-  const token = process.env.KV_REST_API_TOKEN?.trim() || process.env.UPSTASH_REDIS_REST_TOKEN?.trim() || '';
-  const key = process.env.OPS_COST_KV_KEY?.trim() || DEFAULT_KV_KEY;
-
-  return {
-    url,
-    token,
-    key,
-    available: Boolean(url && token),
-  };
-}
-
-async function callKv(command) {
-  const cfg = getKvConfig();
-  if (!cfg.available) {
-    return { ok: false, reason: 'KV env vars are not configured (KV_REST_API_URL + KV_REST_API_TOKEN).' };
+function toDashboardShape(payload) {
+  if (!payload || typeof payload !== 'object') return null;
+  if (!payload.totals || !Array.isArray(payload.byProvider) || !Array.isArray(payload.byModel) || !Array.isArray(payload.byDay)) {
+    return null;
   }
-
-  const response = await fetch(cfg.url, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${cfg.token}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(command),
-    cache: 'no-store',
-  });
-
-  if (!response.ok) {
-    return { ok: false, reason: `KV HTTP ${response.status}` };
-  }
-
-  const json = await response.json();
-  if (json?.error) {
-    return { ok: false, reason: String(json.error) };
-  }
-
-  return { ok: true, result: json?.result };
+  return payload;
 }
 
 export function readBundledDashboardFile() {
@@ -66,68 +35,53 @@ export function readBundledDashboardFile() {
   }
 }
 
-function toDashboardShape(payload) {
-  if (!payload || typeof payload !== 'object') return null;
-  if (!payload.totals || !Array.isArray(payload.byProvider) || !Array.isArray(payload.byModel) || !Array.isArray(payload.byDay)) {
-    return null;
-  }
-  return payload;
-}
+export async function writeDashboardToSupabase(payload) {
+  const { error } = await supabase
+    .from(TABLE)
+    .upsert({
+      id: ROW_ID,
+      data: payload,
+      updated_at: new Date().toISOString(),
+    });
 
-export async function readDashboardFromKv() {
-  const cfg = getKvConfig();
-  if (!cfg.available) {
-    return { ok: false, reason: 'unavailable' };
+  if (error) {
+    console.error('[ops-cost-storage] Supabase upsert failed', error);
+    return { ok: false, reason: error.message };
   }
-
-  const result = await callKv(['GET', cfg.key]);
-  if (!result.ok) {
-    return { ok: false, reason: result.reason || 'get_failed' };
-  }
-
-  if (!result.result) {
-    return { ok: false, reason: 'empty' };
-  }
-
-  try {
-    const parsed = typeof result.result === 'string' ? JSON.parse(result.result) : result.result;
-    const shaped = toDashboardShape(parsed);
-    if (!shaped) return { ok: false, reason: 'invalid_payload' };
-    return { ok: true, payload: shaped };
-  } catch {
-    return { ok: false, reason: 'invalid_json' };
-  }
-}
-
-export async function writeDashboardToKv(payload) {
-  const cfg = getKvConfig();
-  if (!cfg.available) {
-    return { ok: false, reason: 'unavailable' };
-  }
-
-  const result = await callKv(['SET', cfg.key, JSON.stringify(payload)]);
-  if (!result.ok) {
-    return { ok: false, reason: result.reason || 'set_failed' };
-  }
-
   return { ok: true };
 }
 
+export async function readDashboardFromSupabase() {
+  const { data, error } = await supabase
+    .from(TABLE)
+    .select('data')
+    .eq('id', ROW_ID)
+    .single();
+
+  if (error || !data) {
+    return { ok: false, reason: error?.message || 'empty' };
+  }
+
+  const shaped = toDashboardShape(data.data);
+  if (!shaped) return { ok: false, reason: 'invalid_payload' };
+  return { ok: true, payload: shaped };
+}
+
 export async function loadDashboardData() {
-  const fromKv = await readDashboardFromKv();
-  if (fromKv.ok) {
+  const fromDb = await readDashboardFromSupabase();
+  if (fromDb.ok) {
     return {
-      data: fromKv.payload,
+      data: fromDb.payload,
       diagnostics: {
-        source: 'kv',
-        generatedAt: fromKv.payload.generatedAt,
+        source: 'supabase',
+        generatedAt: fromDb.payload.generatedAt,
         warning: null,
       },
     };
   }
 
   const filePayload = readBundledDashboardFile();
-  const reason = fromKv.reason === 'empty' ? 'KV has no payload yet.' : `KV unavailable (${fromKv.reason}).`;
+  const reason = fromDb.reason === 'empty' ? 'Supabase has no payload yet.' : `Supabase unavailable (${fromDb.reason}).`;
 
   return {
     data: filePayload,

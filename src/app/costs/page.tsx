@@ -130,7 +130,7 @@ export default async function OpsCostPage({
               <h1 className="mt-2 text-3xl font-bold">Cost Dashboard</h1>
               <p className="mt-2 text-sm text-zinc-400">Generated at {new Date(data.generatedAt).toLocaleString()}</p>
               <p className="mt-1 text-xs text-zinc-500">
-                Source: {diagnostics.source === 'kv' ? 'KV' : 'Bundled file fallback'}
+                Source: {diagnostics.source === 'supabase' ? 'Supabase' : 'Bundled file fallback'}
                 {diagnostics.generatedAt ? ` · generatedAt ${new Date(diagnostics.generatedAt).toLocaleString()}` : ''}
               </p>
             </div>
@@ -160,13 +160,13 @@ export default async function OpsCostPage({
 
           {searchParams?.refreshed === '1' ? (
             <p className="mt-2 rounded-lg border border-emerald-500/40 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-300">
-              Dashboard refreshed successfully and saved to KV.
+              Dashboard refreshed successfully and saved to Supabase.
             </p>
           ) : null}
 
           {searchParams?.refresh_error === '1' ? (
             <p className="mt-2 rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-2 text-sm text-red-300">
-              Refresh failed. Verify KV environment variables and try again.
+              Refresh failed. Check Supabase connection and try again.
             </p>
           ) : null}
 
