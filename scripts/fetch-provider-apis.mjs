@@ -114,7 +114,7 @@ async function fetchCodexUsage() {
       body: JSON.stringify({
         model: 'gpt-5.3-codex',
         instructions: 'Reply with one word.',
-        input: [{ role: 'user', content: 'ping' }],
+        input: [{ role: 'user', content: [{ type: 'input_text', text: 'ping' }] }],
       }),
     });
 
