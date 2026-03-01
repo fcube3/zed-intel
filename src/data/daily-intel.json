@@ -89,32 +89,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "X metals/macro sentiment + Reddit r/Gold + commodity desk chatter",
+      "source": "X metals sentiment (safe-haven + correction chatter) + Reddit r/Gold + metals analyst community",
       "asset": "Gold",
-      "signal": "Bullish but crowded — safe-haven narrative still dominant",
-      "confidence": "81%",
-      "insight": "Across metals-focused X feeds and r/Gold discussion, tone remains risk-off bullish with geopolitical demand still the lead story. The main pushback is positioning risk after the steep run, so sentiment is positive but increasingly wary of sharp pullbacks."
+      "signal": "Bullish but increasingly late-cycle/crowded",
+      "confidence": "82%",
+      "insight": "X and Reddit gold threads remain strongly risk-off bullish, reinforced by higher bank targets and safe-haven flows. At the same time, analyst and trader commentary is increasingly warning about blow-off-top conditions and correction risk after the vertical move, so positioning looks constructive but crowded."
     },
     {
-      "source": "X silver stacker sentiment + Reddit r/Silverbugs + metals analyst community",
+      "source": "X silver momentum discourse + Reddit r/Silverbugs + metals desk/Kitco analyst commentary",
       "asset": "Silver",
-      "signal": "Bullish with volatility warnings",
-      "confidence": "79%",
-      "insight": "Silver sentiment remains strong in stacker circles, with upside narratives tied to momentum and physical-demand themes. Community tone is constructive, but comments are increasingly focused on exchange/liquidity shocks and mean-reversion risk after record-strength moves."
+      "signal": "Bullish momentum with elevated instability risk",
+      "confidence": "80%",
+      "insight": "Social discussion around silver is still upside-biased (shortage, industrial demand, triple-digit targets), but both X and Reddit now repeatedly flag disorderly volatility and potential sharp reversions. Net sentiment is bullish, though confidence is tempered by stress-style price action and liquidity concerns."
     },
     {
-      "source": "Crypto X sentiment + Reddit r/Bitcoin + crypto analyst commentary",
+      "source": "Crypto X flow sentiment + Reddit r/Bitcoin + ETF/market analyst commentary",
       "asset": "Bitcoin",
-      "signal": "Cautious-bearish near term, selectively bullish medium term",
-      "confidence": "83%",
-      "insight": "Crypto social channels still frame BTC as structurally strong, but near-term sentiment is defensive: regulatory timing uncertainty, weak price follow-through, and elevated fear readings are dominating conversation. Dip-buying narratives exist, yet conviction is lower than in prior rebounds."
+      "signal": "Mixed-to-cautious; flow-driven, not conviction-driven",
+      "confidence": "84%",
+      "insight": "BTC conversation is split between rebound optimism and persistent caution: X highlights alternating strong daily ETF inflows with heavy YTD outflows, while Reddit threads lean defensive on downside scenarios. Analyst tone is similarly bifurcated, suggesting tactical rotation dominates over broad risk-on conviction."
     },
     {
-      "source": "Crypto X ETH discourse + Reddit r/ethereum/ethtrader + altcoin analyst community",
+      "source": "Crypto X ETH sentiment + Reddit r/ethereum and broader crypto forums + digital-asset analyst community",
       "asset": "Ethereum",
-      "signal": "Neutral-to-bearish, oversold bounce thesis in play",
-      "confidence": "77%",
-      "insight": "ETH sentiment is weaker than BTC across social channels, with broad focus on underperformance and catalyst scarcity. A tradable oversold-bounce view is common, but most commentary treats it as tactical rather than the start of a high-conviction trend reversal."
+      "signal": "Neutral-to-bearish with tactical rebound interest",
+      "confidence": "78%",
+      "insight": "Recent X sentiment reads for ETH skew softer than prior quarters, with bearish social metrics and underperformance narratives still common. Reddit and analyst discussions keep a medium-term bullish case alive (ecosystem growth, institutional use), but near-term framing is mostly 'tradeable bounce' rather than full trend reversal."
     }
   ],
   "predictions": [
