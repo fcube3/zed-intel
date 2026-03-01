@@ -24,6 +24,17 @@ function formatTime(iso: string) {
   });
 }
 
+function formatResetCountdown(resetsAt: string | null): string | null {
+  if (!resetsAt) return 'Resets: unknown';
+  const target = new Date(resetsAt);
+  const diffMs = target.getTime() - Date.now();
+  if (diffMs <= 0) return 'Resetting now';
+  const h = Math.floor(diffMs / 3600000);
+  const m = Math.floor((diffMs % 3600000) / 60000);
+  const countdown = h > 0 ? `${h}h ${m}m` : `${m}m`;
+  return `Resets in ${countdown}`;
+}
+
 function formatResetLabel(resetsAt: string | null): string | null {
   if (!resetsAt) return 'Resets: unknown';
   const target = new Date(resetsAt);
@@ -37,13 +48,16 @@ function formatResetLabel(resetsAt: string | null): string | null {
   const hh = String(target.getHours()).padStart(2, '0');
   const mm = String(target.getMinutes()).padStart(2, '0');
   const yearSuffix = target.getFullYear() !== new Date().getFullYear() ? ` ${target.getFullYear()}` : '';
-  return `Resets in ${countdown}, on ${mon} ${day}${yearSuffix} ${hh}:${mm}`;
+  return `Resets in ${countdown}, on ${hh}:${mm}, ${mon} ${day}${yearSuffix}`;
 }
 
 function formatResetFromSeconds(seconds: number | null): string | null {
   if (!seconds || seconds <= 0) return 'Resets: unknown';
-  const resetsAt = new Date(Date.now() + seconds * 1000).toISOString();
-  return formatResetLabel(resetsAt);
+  const diffMs = seconds * 1000;
+  const h = Math.floor(diffMs / 3600000);
+  const m = Math.floor((diffMs % 3600000) / 60000);
+  const countdown = h > 0 ? `${h}h ${m}m` : `${m}m`;
+  return `Resets in ${countdown}`;
 }
 
 function formatDuration(seconds: number): string {
@@ -114,7 +128,7 @@ function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
       <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
-      <ProgressBar label="Current session" pct={fiveH} sublabel={formatResetLabel(fiveHReset)} />
+      <ProgressBar label="Current session (5h)" pct={fiveH} sublabel={formatResetCountdown(fiveHReset)} />
       <div className="border-t border-[#3A3A3C]" />
       <ProgressBar label="Weekly — All models" pct={sevenD} sublabel={formatResetLabel(sevenDReset)} />
       {sevenDSonnet != null && (
