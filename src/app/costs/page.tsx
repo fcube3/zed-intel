@@ -60,6 +60,20 @@ function formatResetFromSeconds(seconds: number | null): string | null {
   return `Resets in ${countdown}`;
 }
 
+function formatResetFromSecondsLong(seconds: number | null): string | null {
+  if (!seconds || seconds <= 0) return 'Resets: unknown';
+  const diffMs = seconds * 1000;
+  const h = Math.floor(diffMs / 3600000);
+  const m = Math.floor((diffMs % 3600000) / 60000);
+  const countdown = h > 0 ? `${h}h ${m}m` : `${m}m`;
+  const target = new Date(Date.now() + diffMs);
+  const mon = target.toLocaleString('en-US', { month: 'short' });
+  const day = target.getDate();
+  const hh = String(target.getHours()).padStart(2, '0');
+  const mm = String(target.getMinutes()).padStart(2, '0');
+  return `Resets in ${countdown}, on ${hh}:${mm}, ${mon} ${day}`;
+}
+
 function formatDuration(seconds: number): string {
   if (seconds <= 0) return 'now';
   const h = Math.floor(seconds / 3600);
@@ -127,7 +141,7 @@ function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
   return (
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      <h3 className="text-xs font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <h3 className="text-sm font-semibold text-[#98989D]">{getProviderLabel(snapshot.provider)}</h3>
       <ProgressBar label="Current session (5h)" pct={fiveH} sublabel={formatResetCountdown(fiveHReset)} />
       <div className="border-t border-[#3A3A3C]" />
       <ProgressBar label="Weekly — All models" pct={sevenD} sublabel={formatResetLabel(sevenDReset)} />
@@ -154,10 +168,10 @@ function CodexCard({ snapshot }: { snapshot: UsageSnapshot }) {
   return (
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      <h3 className="text-xs font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <h3 className="text-sm font-semibold text-[#98989D]">{getProviderLabel(snapshot.provider)}</h3>
       <ProgressBar label={`Current session (${primaryLabel})`} pct={primaryPct} sublabel={formatResetFromSeconds(primaryResetSec)} />
       <div className="border-t border-[#3A3A3C]" />
-      <ProgressBar label={secondaryWindowMin === 10080 ? 'Weekly usage' : `${secondaryWindowMin}m window`} pct={secondaryPct} sublabel={formatResetFromSeconds(secondaryResetSec)} />
+      <ProgressBar label={secondaryWindowMin === 10080 ? 'Weekly usage' : `${secondaryWindowMin}m window`} pct={secondaryPct} sublabel={formatResetFromSecondsLong(secondaryResetSec)} />
     </div>
   );
 }
@@ -168,7 +182,7 @@ function OpenRouterCard({ snapshot }: { snapshot: UsageSnapshot }) {
   return (
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-3">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      <h3 className="text-xs font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <h3 className="text-sm font-semibold text-[#98989D]">{getProviderLabel(snapshot.provider)}</h3>
       <div className="flex items-baseline justify-between">
         <span className="text-xs text-[#98989D]">This month</span>
         <span className="text-xl font-semibold text-white">{formatCurrency(snapshot.total_cost_usd)}</span>
@@ -189,7 +203,7 @@ function OpenRouterCard({ snapshot }: { snapshot: UsageSnapshot }) {
 function EmptyCard({ provider }: { provider: string }) {
   return (
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 opacity-60">
-      <h3 className="text-xs font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(provider)}</h3>
+      <h3 className="text-sm font-semibold text-[#98989D]">{getProviderLabel(provider)}</h3>
       <p className="mt-2 text-sm text-[#636366] italic">Awaiting first sync</p>
     </div>
   );
@@ -225,7 +239,7 @@ export default async function CostMonitorPage() {
 
         {/* Resource Utilization */}
         <section className="flex flex-col gap-4">
-          <h2 className="text-xs font-semibold text-[#98989D] uppercase tracking-widest">Resource Utilization</h2>
+          <h2 className="text-xs font-semibold text-[#98989D]">Resource Utilization</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {claudeSnap ? <ClaudeOAuthCard snapshot={claudeSnap} /> : <EmptyCard provider="claude_oauth" />}
             {codexSnap ? <CodexCard snapshot={codexSnap} /> : <EmptyCard provider="codex" />}
@@ -234,7 +248,7 @@ export default async function CostMonitorPage() {
 
         {/* Provider Spend */}
         <section className="flex flex-col gap-4">
-          <h2 className="text-xs font-semibold text-[#98989D] uppercase tracking-widest">Provider Spend</h2>
+          <h2 className="text-xs font-semibold text-[#98989D]">Provider Spend</h2>
           {orSnap ? <OpenRouterCard snapshot={orSnap} /> : <EmptyCard provider="openrouter" />}
         </section>
 
