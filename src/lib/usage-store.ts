@@ -19,9 +19,10 @@ export type UsageSnapshot = {
 const PROVIDER_LABELS: Record<string, string> = {
   openrouter: 'OpenRouter',
   anthropic_api: 'Anthropic API',
-  openai_api: 'OpenAI API',
-  claude_local: 'Claude Max',
-  codex_local: 'Codex',
+  claude_oauth: 'Claude Max',
+  codex: 'Codex',
+  claude_local: 'Claude (Local)',
+  codex_local: 'Codex (Local)',
   other_local: 'Other Local',
 };
 
