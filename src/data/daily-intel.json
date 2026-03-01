@@ -1,48 +1,48 @@
 {
-  "date": "Saturday, February 28, 2026",
+  "date": "Sunday, March 1, 2026",
   "prices": {
-    "gold": 5168.3,
-    "silver": 87.91,
-    "btc": 67972.0,
-    "eth": 2055.06
+    "gold": 5274.0,
+    "silver": 93.66,
+    "btc": 63903.0,
+    "eth": 1859.0
   },
   "news": [
     {
-      "title": "Gold Drops as Traders Brace for US Jobs and Inflation Data",
-      "summary": "Reuters reports gold and silver retreated as the dollar firmed and traders reduced risk ahead of key U.S. labor and inflation releases that could reshape Fed-rate expectations.",
-      "url": "https://www.reuters.com/business/gold-silver-retreat-dollar-ticks-up-2026-02-10/"
+      "title": "Gold Surges Past $5,300 Amid US-Iran Strikes, Posts Best Monthly Close",
+      "summary": "Gold surged through the $5,300 level as US-Israel strikes on Iran drove safe-haven demand. Silver closed February at $93.66 — its highest monthly close on record. YTD: gold +21.5%, silver +30%.",
+      "url": "https://sundayguardianlive.com/business/gold-price-today-28-feb-2026-gold-surges-past-5300-amid-us-iran-strikes-domestic-prices-jump-3160-to-164-lakh10g-check-city-wise-rates-173039/"
     },
     {
-      "title": "Analysts Raise Gold Forecasts as Global Uncertainty Builds",
-      "summary": "Reuters says major banks lifted medium-term gold expectations, citing reserve diversification, geopolitics, and strong investor demand despite sharp two-way volatility.",
-      "url": "https://www.reuters.com/business/finance/analysts-ramp-up-gold-forecasts-global-uncertainties-mount-2026-02-04/"
+      "title": "Crypto Clarity Act March 1 Deadline Passes Without Senate Deal — 'Calm Before Storm' for BTC",
+      "summary": "The White House's self-imposed March 1 deadline for resolving the stablecoin yield dispute passed without agreement. Bitcoin ETF volumes hit a record $23.1B but markets remain in 'wait and see' mode pending Senate markup. JPMorgan sees H2 2026 crypto surge if the Act passes midyear.",
+      "url": "https://defirate.com/clarity-act-fact-sheet/"
     },
     {
-      "title": "Buterin Wallet Flow Adds Pressure as Ethereum Slides",
-      "summary": "CoinDesk reports on-chain monitoring flagged large ETH sales linked to Vitalik Buterin this month while ether remained under pressure, reinforcing weak near-term sentiment in majors.",
-      "url": "https://www.coindesk.com/markets/2026/02/25/vitalik-buterin-sold-17-000-eth-this-month-as-ether-fell-37"
+      "title": "Bitcoin Slides as Gold and Silver Surge — Peter Schiff Calls the Divergence Permanent",
+      "summary": "Bitcoin fell to $63,308 during a weekend risk-off cascade while gold climbed above $5,230 and silver topped $92. Tokenized gold market cap and volume spiked as capital rotated out of crypto. Peter Schiff argued the divergence will continue all year.",
+      "url": "https://bitcoinethereumnews.com/bitcoin/bitcoin-declines-as-gold-gains-peter-schiff-expects-further-divergence/"
     }
   ],
   "institutional": {
     "macro": {
-      "firm": "Kalshi / CME-watch style rate markets",
-      "analyst": "Rates Event-Market Composite",
-      "insight": "March Fed pricing remains skewed to a hold, with smaller odds of 25 bps easing; macro sensitivity to inflation and labor prints remains high.",
-      "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting"
+      "firm": "JPMorgan / White House policy desk",
+      "analyst": "Digital Assets & Policy Strategy",
+      "insight": "JPMorgan predicts crypto markets may surge in H2 2026 if the U.S. Clarity Act passes midyear. March 1 Senate deadline passed without resolution on stablecoin yield dispute — next markup date unclear.",
+      "url": "https://www.ainvest.com/news/clarity-act-stalls-banks-pushback-stablecoin-yield-regulations-2602/"
     },
     "metals": [
       {
-        "firm": "Goldman Sachs / UBS / Bank of America",
-        "analyst": "Commodities Strategy Desks",
-        "insight": "Large-bank metals desks remain constructive on gold through 2026. Reuters coverage highlights UBS target upgrades and persistent safe-haven/central-bank demand narratives.",
-        "url": "https://www.reuters.com/business/finance/goldman-sachs-raises-2026-end-gold-price-forecast-5400oz-2026-01-22/"
+        "firm": "Bank of America / ANZ",
+        "analyst": "Metals Research — Michael Widmer (BofA)",
+        "insight": "BofA's Michael Widmer projects silver could reach $135–$309/oz by end-2026 based on historical ratio analysis. ANZ targets $5,800 gold in 2026, while analysts broadly see $5,000 as the new floor given central bank buying and geopolitical safe-haven demand.",
+        "url": "https://www.thestreet.com/investing/bank-of-america-revamps-silver-stock-price-target-for-2026"
       }
     ],
     "crypto": {
-      "firm": "Standard Chartered / JPMorgan",
+      "firm": "JPMorgan / Standard Chartered",
       "analyst": "Digital Assets Research",
-      "insight": "Standard Chartered reset but retained a bullish 2026 BTC path, while JPMorgan frameworks continue to suggest upside if BTC regains relative footing vs gold volatility-adjusted valuation.",
-      "url": "https://www.coindesk.com/markets/2025/12/09/standard-chartered-throws-in-the-towel-on-bullish-bitcoin-forecast"
+      "insight": "JPMorgan sees a potential H2 2026 crypto rally contingent on Clarity Act passage. Standard Chartered maintains a $150K end-2026 BTC target. Near-term, BTC has lost 27% YTD while gold diverges sharply upward — raising questions about BTC's 'digital gold' narrative.",
+      "url": "https://en.bitcoinsistemi.com/pay-close-attention-to-march-1-for-bitcoin-and-altcoins-critical-for-the-fate-of-cryptocurrencies/"
     }
   },
   "forecasts": [
@@ -52,249 +52,249 @@
       "timeline": "End 2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "Reuters reports GS raised its 2026-end gold projection."
+      "note": "GS raised its 2026-end gold projection; $5,000+ now considered the new price floor by broad consensus."
     },
     {
-      "firm": "UBS",
-      "target": "~$6,200",
+      "firm": "ANZ",
+      "target": "~$5,800",
       "timeline": "2026",
       "sentiment": "Bullish",
       "change": "Raised",
-      "note": "UBS increased 2026 targets amid stronger-than-expected demand."
+      "note": "ANZ diverges from JPMorgan with a more aggressive 2026 gold target, citing sustained central bank demand."
     },
     {
-      "firm": "Bank of America",
-      "target": "~$5,000",
-      "timeline": "2026",
-      "sentiment": "Neutral-Bullish",
-      "change": "Maintained",
-      "note": "Constructive but less aggressive than highest-conviction bull cases."
+      "firm": "Bank of America (Silver)",
+      "target": "$135–$309",
+      "timeline": "End 2026",
+      "sentiment": "Bullish",
+      "change": "Raised",
+      "note": "BofA's Michael Widmer published a wide-range silver forecast based on historical gold-silver ratio extremes."
     },
     {
       "firm": "Standard Chartered (BTC)",
       "target": "$150,000",
       "timeline": "End 2026",
       "sentiment": "Bullish",
-      "change": "Lowered",
-      "note": "Rebased from prior higher path, but still projects cyclical recovery."
+      "change": "Maintained",
+      "note": "Rebased from higher path but retains cyclical recovery thesis; contingent on regulatory clarity."
     },
     {
       "firm": "JPMorgan (BTC)",
-      "target": "~$170,000 (theoretical)",
-      "timeline": "2026",
-      "sentiment": "Bullish",
-      "change": "Maintained",
-      "note": "Volatility-ratio framework vs gold implies upside in normalization regime."
+      "target": "Surge H2 2026",
+      "timeline": "H2 2026",
+      "sentiment": "Conditionally Bullish",
+      "change": "Conditional",
+      "note": "JPMorgan forecasts crypto market surge in H2 2026 contingent on CLARITY Act passage midyear."
     }
   ],
   "social_intelligence": [
     {
-      "source": "X macro/metals sentiment recaps + Reddit r/Gold and r/investing threads + analyst community commentary (Reuters-linked bank desk chatter)",
+      "source": "X metals/macro sentiment + Reuters gold desk coverage + India/Vietnam price aggregators",
       "asset": "Gold",
-      "signal": "Bullish Bias, Crowded-Position Risk Rising",
-      "confidence": "80%",
-      "insight": "Cross-platform tone remains net-bullish on safe-haven demand and higher 2026 bank targets, but newer discussions increasingly flag overextended positioning and sensitivity to stronger dollar/real-yield prints, implying higher pullback risk inside the broader uptrend."
+      "signal": "Strongly Bullish — Geopolitical Premium Dominant",
+      "confidence": "87%",
+      "insight": "Gold cleared $5,300 intraday and is closing its best February on record. The US-Iran strike narrative has fully displaced rate-sensitivity as the primary driver — social tone is near-consensus bullish with minimal bearish pushback. Crowded positioning risk building above $5,300."
     },
     {
-      "source": "X silver-squeeze narratives + Reddit r/Silverbugs threads + commodities analyst community takes (CNBC/desk commentary)",
+      "source": "X silver community + Reddit r/Silverbugs + BofA metals desk commentary",
       "asset": "Silver",
-      "signal": "High-Beta Bullish, Speculative and Two-Way",
-      "confidence": "79%",
-      "insight": "Sentiment is still upside-seeking (industrial demand and squeeze narratives), yet community tone has become more split after sharp swings: experienced participants now emphasize meme-like volatility, fast reversals, and preference for staggered accumulation over momentum chasing."
-    },
-    {
-      "source": "X BTC flow chatter + Reddit r/Bitcoin daily discussions + crypto analyst community (CoinDesk/Glassnode/CryptoQuant-linked commentary)",
-      "asset": "Bitcoin",
-      "signal": "Improving from Risk-Off to Cautious Recovery",
-      "confidence": "84%",
-      "insight": "Social mood shifted from capitulation talk toward stabilization as late-week U.S. spot ETF inflow headlines returned, but conviction is still fragile: users frequently frame this as a relief/rebuild phase with range-trade expectations unless flows stay consistently positive."
-    },
-    {
-      "source": "X ETH market narratives + Reddit r/ethereum discussions + analyst community around ETF flows and on-chain positioning",
-      "asset": "Ethereum",
-      "signal": "Cautious-to-Neutral, Relative Underperformance Persists",
+      "signal": "Very Bullish — Highest Monthly Close Ever",
       "confidence": "82%",
-      "insight": "ETH sentiment remains weaker than BTC in most communities, with recurring concern around ETF outflows and lagging price structure; still, a minority constructive camp is rebuilding on upgrade/valuation arguments, producing a tentative 'bottoming attempt' narrative rather than broad risk-on enthusiasm."
+      "insight": "Silver at $93.66 set its highest monthly close in history. BofA's $135–$309 range forecast ignited significant retail buzz. Industrial demand + silver squeeze community narratives converge. Key risk: sharp reversals historically follow record close events."
+    },
+    {
+      "source": "X BTC flow chatter + Coinpedia/CaptainAltcoin coverage + Clarity Act tracker communities",
+      "asset": "Bitcoin",
+      "signal": "Cautious-Bearish — Down 27% YTD, Regulatory Overhang",
+      "confidence": "80%",
+      "insight": "BTC failed to hold above $65K and dipped to $63,308 in weekend panic. The Clarity Act March 1 deadline miss has deflated near-term sentiment. ETF volumes at record $23.1B but price action doesn't reflect it. Crypto-Twitter split between 'accumulate the dip' bulls and macro bears watching BTC/gold diverge."
+    },
+    {
+      "source": "X ETH narratives + Reddit r/ethereum + technical analysis community",
+      "asset": "Ethereum",
+      "signal": "Oversold — Tentative Bounce Setup, Low Conviction",
+      "confidence": "78%",
+      "insight": "ETH at ~$1,859 with RSI at 37 signals oversold. Technical analysts flag $2,100–$2,200 as a bounce target if support holds. However, broader sentiment remains weak: ETF outflow headlines, underperformance vs BTC, and lack of catalyst keep the bull camp small. Market watching $1,800 support closely."
     }
   ],
   "predictions": [
     {
       "label": "GOLD PRICE",
-      "title": "Gold (XAU) price milestones — 2026 outlook (bank desk consensus, Feb 28)",
+      "title": "Gold (XAU) price milestones — 2026 outlook (bank desk consensus, Mar 1)",
       "url": "https://polymarket.com/event/what-will-gold-gc-hit-by-end-of-february",
-      "nominal": "$8,870,462",
+      "nominal": "est. (analyst consensus)",
       "color": "yellow",
       "outcomes": [
         {
           "name": "↑ $5,500 by Q2",
-          "prob": 0.38,
+          "prob": 0.42,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 5500.0,
-          "prob_pct": "38%"
+          "prob_pct": "42%"
         },
         {
-          "name": "↑ $5,800 by Q3",
-          "prob": 0.22,
+          "name": "↑ $5,800 by Q3 (ANZ target)",
+          "prob": 0.25,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 5800.0,
-          "prob_pct": "22%"
+          "prob_pct": "25%"
         },
         {
           "name": "↑ $6,000 end 2026",
-          "prob": 0.21,
+          "prob": 0.22,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 6000.0,
-          "prob_pct": "21%"
+          "prob_pct": "22%"
         },
         {
           "name": "↑ $7,000 end 2026",
-          "prob": 0.09,
+          "prob": 0.1,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 7000.0,
-          "prob_pct": "9%"
+          "prob_pct": "10%"
         },
         {
-          "name": "Holds $4,800–$5,200",
-          "prob": 0.07,
+          "name": "Holds $5,000–$5,300",
+          "prob": 0.06,
           "vol": 0,
           "vol_fmt": "est.",
-          "price_val": 5000.0,
-          "prob_pct": "7%"
+          "price_val": 5150.0,
+          "prob_pct": "6%"
         },
         {
-          "name": "↓ below $4,500",
-          "prob": 0.03,
+          "name": "↓ below $4,800",
+          "prob": 0.02,
           "vol": 0,
           "vol_fmt": "est.",
-          "price_val": 4500.0,
-          "prob_pct": "3%"
+          "price_val": 4800.0,
+          "prob_pct": "2%"
         }
       ]
     },
     {
       "label": "BTC PRICE",
-      "title": "Bitcoin price milestones — 2026 (Polymarket consensus Feb 28)",
+      "title": "Bitcoin price milestones — 2026 (Polymarket/market consensus Mar 1)",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-2026",
-      "nominal": "$109,240,464",
+      "nominal": "est.",
       "color": "purple",
       "outcomes": [
         {
           "name": "↑ $75,000 by end 2026",
-          "prob": 0.23,
+          "prob": 0.22,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 75000.0,
-          "prob_pct": "23%"
+          "prob_pct": "22%"
         },
         {
           "name": "↑ $100,000 in 2026",
-          "prob": 0.39,
+          "prob": 0.37,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 100000.0,
-          "prob_pct": "39%"
+          "prob_pct": "37%"
         },
         {
           "name": "↑ $150,000 by Dec 31",
-          "prob": 0.12,
+          "prob": 0.11,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 150000.0,
-          "prob_pct": "12%"
+          "prob_pct": "11%"
         },
         {
           "name": "↓ below $55,000",
-          "prob": 0.75,
-          "vol": 5667220,
-          "vol_fmt": "$5,667,220",
+          "prob": 0.77,
+          "vol": 5800000,
+          "vol_fmt": "$5,800,000",
           "price_val": 55000.0,
-          "prob_pct": "75%"
+          "prob_pct": "77%"
         },
         {
           "name": "↓ below $50,000",
-          "prob": 0.62,
-          "vol": 4913158,
-          "vol_fmt": "$4,913,158",
+          "prob": 0.64,
+          "vol": 5100000,
+          "vol_fmt": "$5,100,000",
           "price_val": 50000.0,
-          "prob_pct": "62%"
+          "prob_pct": "64%"
         }
       ]
     },
     {
       "label": "ETH PRICE",
-      "title": "Ethereum price outlook — March–Dec 2026 (market consensus Feb 28)",
+      "title": "Ethereum price outlook — March–Dec 2026 (market consensus Mar 1)",
       "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
-      "nominal": "$34,075,056",
+      "nominal": "est.",
       "color": "blue",
       "outcomes": [
         {
           "name": "Bounces $2,100–$2,200 (Mar)",
-          "prob": 0.42,
+          "prob": 0.4,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 2150.0,
-          "prob_pct": "42%"
+          "prob_pct": "40%"
         },
         {
           "name": "↑ $2,800 (Q2 target)",
-          "prob": 0.16,
+          "prob": 0.15,
           "vol": 2108424,
           "vol_fmt": "$2,108,424",
           "price_val": 2800.0,
-          "prob_pct": "16%"
+          "prob_pct": "15%"
         },
         {
           "name": "↑ $3,500 end 2026",
-          "prob": 0.2,
+          "prob": 0.18,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 3500.0,
-          "prob_pct": "20%"
+          "prob_pct": "18%"
         },
         {
           "name": "New ATH by Dec 31",
-          "prob": 0.35,
+          "prob": 0.32,
           "vol": 1191805,
           "vol_fmt": "$1,191,805",
           "price_val": 0,
-          "prob_pct": "35%"
+          "prob_pct": "32%"
         },
         {
           "name": "↓ below $1,600",
-          "prob": 0.08,
-          "vol": 1753144,
-          "vol_fmt": "$1,753,144",
+          "prob": 0.1,
+          "vol": 1850000,
+          "vol_fmt": "$1,850,000",
           "price_val": 1600.0,
-          "prob_pct": "8%"
+          "prob_pct": "10%"
         }
       ]
     },
     {
       "label": "MACRO / FED",
-      "title": "Kevin Warsh — Senate confirmation as Fed Chair (Polymarket/Reuters, Feb 28)",
+      "title": "Kevin Warsh — Senate confirmation as Fed Chair (Polymarket/Reuters, Mar 1)",
       "url": "https://polymarket.com/event/kevin-warsh-formally-nominated-as-fed-chair-by",
-      "nominal": "$1,681,747",
+      "nominal": "est. (Polymarket)",
       "color": "green",
       "outcomes": [
         {
           "name": "Confirmed (Senate passage)",
-          "prob": 0.82,
+          "prob": 0.81,
           "vol": 95967,
           "vol_fmt": "$95,967",
           "price_val": 0,
-          "prob_pct": "82%"
+          "prob_pct": "81%"
         },
         {
           "name": "Senate hurdles / delay past Jun",
-          "prob": 0.14,
+          "prob": 0.15,
           "vol": 184015,
           "vol_fmt": "$184,015",
           "price_val": 0,
-          "prob_pct": "14%"
+          "prob_pct": "15%"
         },
         {
           "name": "Nomination withdrawn",
@@ -308,26 +308,26 @@
     },
     {
       "label": "MACRO / FED",
-      "title": "How many Fed rate cuts in 2026? (Polymarket, Feb 28)",
+      "title": "How many Fed rate cuts in 2026? (Polymarket, Mar 1)",
       "url": "https://polymarket.com/event/how-many-fed-rate-cuts-in-2026",
       "nominal": "est.",
       "color": "green",
       "outcomes": [
         {
           "name": "2 cuts (50 bps)",
-          "prob": 0.28,
+          "prob": 0.27,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 50,
-          "prob_pct": "28%"
+          "prob_pct": "27%"
         },
         {
           "name": "1 cut (25 bps)",
-          "prob": 0.22,
+          "prob": 0.23,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 25,
-          "prob_pct": "22%"
+          "prob_pct": "23%"
         },
         {
           "name": "3 cuts (75 bps)",
@@ -339,25 +339,25 @@
         },
         {
           "name": "0 cuts",
-          "prob": 0.18,
+          "prob": 0.19,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 0,
-          "prob_pct": "18%"
+          "prob_pct": "19%"
         },
         {
           "name": "4+ cuts (100+ bps)",
-          "prob": 0.12,
+          "prob": 0.11,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 100,
-          "prob_pct": "12%"
+          "prob_pct": "11%"
         }
       ]
     },
     {
       "label": "GEOPOLITICS",
-      "title": "Post-Iran strike: escalation & ceasefire outlook (Polymarket, Feb 28)",
+      "title": "Iran retaliation & Middle East escalation outlook (Polymarket, Mar 1)",
       "url": "https://polymarket.com/event/us-strikes-iran-in-2026",
       "nominal": "$355,000,000+",
       "color": "red",
@@ -372,35 +372,35 @@
         },
         {
           "name": "Iran retaliates (active market)",
-          "prob": 0.68,
+          "prob": 0.71,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "68%"
+          "prob_pct": "71%"
         },
         {
-          "name": "US–Iran diplomatic talks by Feb 28",
-          "prob": 0.08,
+          "name": "US–Iran diplomatic talks by Mar 31",
+          "prob": 0.07,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "8%"
+          "prob_pct": "7%"
         },
         {
           "name": "Russia–Ukraine ceasefire by Mar 31",
-          "prob": 0.03,
+          "prob": 0.04,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "3%"
+          "prob_pct": "4%"
         },
         {
           "name": "Russia–Ukraine ceasefire by end 2026",
-          "prob": 0.38,
+          "prob": 0.37,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "38%"
+          "prob_pct": "37%"
         },
         {
           "name": "China–Taiwan invasion in 2026",
@@ -414,7 +414,7 @@
     },
     {
       "label": "WILDCARD",
-      "title": "Fed March meeting decision (Kalshi + Polymarket consensus, Feb 28)",
+      "title": "Fed March meeting decision (Kalshi + Polymarket consensus, Mar 1)",
       "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting",
       "nominal": "est. (Kalshi/Polymarket cross-platform)",
       "color": "green",
@@ -446,8 +446,49 @@
       ]
     },
     {
+      "label": "CRYPTO REGULATION",
+      "title": "U.S. CLARITY Act — Senate passage odds (Polymarket/Kalshi, Mar 1)",
+      "url": "https://defirate.com/clarity-act-fact-sheet/",
+      "nominal": "est.",
+      "color": "purple",
+      "outcomes": [
+        {
+          "name": "Passes Senate by mid-2026",
+          "prob": 0.58,
+          "vol": 0,
+          "vol_fmt": "est.",
+          "price_val": 0,
+          "prob_pct": "58%"
+        },
+        {
+          "name": "Signed into law by end 2026",
+          "prob": 0.45,
+          "vol": 0,
+          "vol_fmt": "est.",
+          "price_val": 0,
+          "prob_pct": "45%"
+        },
+        {
+          "name": "Stalls in Senate (no vote 2026)",
+          "prob": 0.28,
+          "vol": 0,
+          "vol_fmt": "est.",
+          "price_val": 0,
+          "prob_pct": "28%"
+        },
+        {
+          "name": "March 1 stablecoin deal reached",
+          "prob": 0.05,
+          "vol": 0,
+          "vol_fmt": "est.",
+          "price_val": 0,
+          "prob_pct": "5%"
+        }
+      ]
+    },
+    {
       "label": "TARIFFS",
-      "title": "U.S. tariff rate on China on March 31? (Polymarket, Feb 28)",
+      "title": "U.S. tariff rate on China on March 31? (Polymarket, Mar 1)",
       "url": "https://polymarket.com/event/us-tariff-rate-on-china-on-march-31",
       "nominal": "est.",
       "color": "red",
@@ -462,27 +503,27 @@
         },
         {
           "name": "5%–15% bracket on China",
-          "prob": 0.63,
+          "prob": 0.62,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "63%"
+          "prob_pct": "62%"
         },
         {
           "name": "Above 15% on China (escalation)",
-          "prob": 0.37,
+          "prob": 0.38,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "37%"
+          "prob_pct": "38%"
         },
         {
-          "name": "Tariff refund (IEEPA rollback)",
-          "prob": 0.17,
+          "name": "Tariff rollback (IEEPA reversal)",
+          "prob": 0.16,
           "vol": 98432,
           "vol_fmt": "$98,432",
           "price_val": 0,
-          "prob_pct": "17%"
+          "prob_pct": "16%"
         }
       ]
     }
