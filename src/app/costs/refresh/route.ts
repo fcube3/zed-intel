@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
     const projectRoot = path.resolve(process.cwd());
     const triggerScript = path.join(projectRoot, 'scripts', 'trigger-pull.mjs');
     try {
-      const { stdout, stderr } = await execFileAsync('node', [triggerScript, '--force'], {
+      const { stdout, stderr } = await execFileAsync('node', [triggerScript], {
         cwd: projectRoot,
         timeout: 120000,
       });

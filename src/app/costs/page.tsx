@@ -1,5 +1,6 @@
 import { loadUsageLatest, getProviderLabel, type UsageSnapshot } from '@/lib/usage-store';
 import RefreshButton from './RefreshButton';
+import { execSync } from 'node:child_process';
 
 export const dynamic = 'force-dynamic';
 
@@ -210,6 +211,17 @@ function EmptyCard({ provider }: { provider: string }) {
 }
 
 export default async function CostMonitorPage() {
+  // Pull fresh data on every page load
+  try {
+    execSync('node scripts/trigger-pull.mjs', {
+      cwd: process.cwd(),
+      timeout: 120000,
+      stdio: 'pipe',
+    });
+  } catch (err: any) {
+    console.error('[costs/page] trigger-pull failed:', err.message);
+  }
+
   const { snapshots, error } = await loadUsageLatest();
 
   const snapshotMap = new Map(snapshots.map(s => [s.provider, s]));

@@ -1,23 +1,11 @@
 #!/usr/bin/env node
-// Trigger API usage pull (OpenRouter + provider APIs) with cooldown check
-import { shouldPull, updateLastPull } from './should-pull.mjs';
-import { pathToFileURL } from 'node:url';
+// Trigger API usage pull (OpenRouter + provider APIs) — no cooldown, always runs
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 
-const force = process.argv.includes('--force');
 const scriptsDir = path.dirname(new URL(import.meta.url).pathname);
 
-const check = await shouldPull(force);
-if (!check.should) {
-  console.log(`[trigger-pull] ${check.reason}`);
-  process.exit(0);
-}
-
-console.log(`[trigger-pull] Proceeding — ${check.reason}`);
-
-// Update timestamp BEFORE running (prevents parallel triggers)
-await updateLastPull();
+console.log('[trigger-pull] Running unconditionally');
 
 const scripts = ['fetch-openrouter.mjs', 'fetch-provider-apis.mjs'];
 let hadError = false;
