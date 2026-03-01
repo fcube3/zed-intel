@@ -7,7 +7,7 @@ import { isValidSessionToken } from '@/lib/auth-token';
 
 const COOKIE_NAME = 'ops_cost_auth';
 
-function isAuthed(cookieStore: ReturnType<typeof cookies> extends Promise<infer T> ? T : never): boolean {
+async function isAuthed(cookieStore: ReturnType<typeof cookies> extends Promise<infer T> ? T : never): Promise<boolean> {
   const pw = process.env.COST_DASH_PASSWORD?.trim();
   if (!pw) return false;
   return isValidSessionToken(cookieStore.get(COOKIE_NAME)?.value, pw);
@@ -21,7 +21,7 @@ function deriveRequester(request: NextRequest): string {
 
 export async function POST(request: NextRequest) {
   const cookieStore = await cookies();
-  if (!isAuthed(cookieStore)) {
+  if (!await isAuthed(cookieStore)) {
     return NextResponse.json({ ok: false, message: 'Unauthorized' }, { status: 401 });
   }
 

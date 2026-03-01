@@ -1,32 +1,40 @@
-import { createHmac } from 'node:crypto';
+/**
+ * Auth token helpers using Web Crypto API (Edge-compatible).
+ * Cookie stores HMAC-SHA256(password, context) instead of raw password.
+ */
 
 const CONTEXT = 'ops-session-v1';
+const ENCODER = new TextEncoder();
 
-/**
- * Derive a session token from the dashboard password.
- * The cookie stores this token, not the raw password.
- * Leaking the cookie does not reveal the password,
- * and rotating the password invalidates all existing cookies.
- */
-export function deriveSessionToken(password: string): string {
-  return createHmac('sha256', password).update(CONTEXT).digest('hex');
+async function hmacSha256(secret: string, data: string): Promise<string> {
+  const key = await crypto.subtle.importKey(
+    'raw',
+    ENCODER.encode(secret),
+    { name: 'HMAC', hash: 'SHA-256' },
+    false,
+    ['sign'],
+  );
+  const sig = await crypto.subtle.sign('HMAC', key, ENCODER.encode(data));
+  return Array.from(new Uint8Array(sig))
+    .map((b) => b.toString(16).padStart(2, '0'))
+    .join('');
 }
 
-/**
- * Verify a cookie value against the current password.
- */
-export function isValidSessionToken(cookieValue: string | undefined, password: string): boolean {
+export async function deriveSessionToken(password: string): Promise<string> {
+  return hmacSha256(password, CONTEXT);
+}
+
+export async function isValidSessionToken(
+  cookieValue: string | undefined,
+  password: string,
+): Promise<boolean> {
   if (!cookieValue) return false;
-  const expected = deriveSessionToken(password);
-  // Constant-time comparison
+  const expected = await deriveSessionToken(password);
   if (cookieValue.length !== expected.length) return false;
-  const a = Buffer.from(cookieValue);
-  const b = Buffer.from(expected);
-  return crypto.subtle ? timingSafeEqual(a, b) : a.equals(b);
-}
-
-function timingSafeEqual(a: Buffer, b: Buffer): boolean {
-  // Node's crypto.timingSafeEqual for constant-time compare
-  const { timingSafeEqual: tse } = require('node:crypto') as typeof import('node:crypto');
-  return tse(a, b);
+  // Constant-time compare via XOR
+  let diff = 0;
+  for (let i = 0; i < expected.length; i++) {
+    diff |= cookieValue.charCodeAt(i) ^ expected.charCodeAt(i);
+  }
+  return diff === 0;
 }

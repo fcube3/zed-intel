@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
 
   const target = new URL(nextPath, request.url);
   const response = NextResponse.redirect(target, 303);
-  response.cookies.set(COOKIE_NAME, deriveSessionToken(expectedPassword), {
+  response.cookies.set(COOKIE_NAME, await deriveSessionToken(expectedPassword), {
     httpOnly: true,
     secure: true,
     sameSite: 'lax',

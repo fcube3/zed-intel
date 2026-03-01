@@ -50,7 +50,7 @@ function unauthorizedResponse(realm: string) {
 }
 
 /* ── Middleware ──────────────────────────────────────────────────── */
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   const prefix = Object.keys(ROUTES).find(
@@ -72,13 +72,13 @@ export function middleware(request: NextRequest) {
 
   // Cookie check
   const cookieValue = request.cookies.get(route.cookieName)?.value?.trim();
-  if (isValidSessionToken(cookieValue, expectedPassword)) return NextResponse.next();
+  if (await isValidSessionToken(cookieValue, expectedPassword)) return NextResponse.next();
 
   // Basic auth
   const basicPassword = readBasicPassword(request);
   if (basicPassword && basicPassword === expectedPassword) {
     const response = NextResponse.next();
-    response.cookies.set(route.cookieName, deriveSessionToken(expectedPassword), {
+    response.cookies.set(route.cookieName, await deriveSessionToken(expectedPassword), {
       httpOnly: true, secure: true, sameSite: 'lax',
       path: '/', maxAge: 60 * 60 * 24 * 14,
     });
