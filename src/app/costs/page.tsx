@@ -104,13 +104,13 @@ function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sub
         <span className="text-base font-semibold text-white">{label}</span>
         <span className="text-sm text-white">{pct}% used</span>
       </div>
-      {sublabel && <span className="text-sm text-[#98989D]">{sublabel}</span>}
       <div className="h-2 w-full rounded-full bg-[#3A3A3C]">
         <div
           className="h-2 rounded-full bg-[#3B82F6] transition-all"
           style={{ width: `${clamped}%` }}
         />
       </div>
+      {sublabel && <span className="text-[11px] text-[#98989D]">{sublabel}</span>}
     </div>
   );
 }
