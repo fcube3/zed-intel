@@ -126,28 +126,28 @@
       "color": "yellow",
       "outcomes": [
         {
-          "name": "↑ $5,500 by Q2",
-          "prob": 0.51,
+          "name": "↑ $5,500 by Q2 (current: $5,274 — 4.3% upside)",
+          "prob": 0.54,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 5500.0,
-          "prob_pct": "51%"
+          "prob_pct": "54%"
         },
         {
-          "name": "↑ $5,750+ in 2026 (InvestingHaven / ANZ-range)",
-          "prob": 0.38,
+          "name": "↑ $5,750+ in 2026 (ANZ target range)",
+          "prob": 0.41,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 5750.0,
-          "prob_pct": "38%"
+          "prob_pct": "41%"
         },
         {
-          "name": "↑ $6,300 end 2026 (JPM raised target)",
-          "prob": 0.28,
+          "name": "↑ $6,000 end 2026 (GS revised target)",
+          "prob": 0.30,
           "vol": 0,
           "vol_fmt": "est.",
-          "price_val": 6300.0,
-          "prob_pct": "28%"
+          "price_val": 6000.0,
+          "prob_pct": "30%"
         },
         {
           "name": "↑ $8,000 JPM / InvestingHaven bull case",
@@ -158,15 +158,15 @@
           "prob_pct": "10%"
         },
         {
-          "name": "Holds $5,200–$5,500",
-          "prob": 0.06,
+          "name": "Consolidates $5,100–$5,400 (range after US-Iran safe-haven spike)",
+          "prob": 0.08,
           "vol": 0,
           "vol_fmt": "est.",
-          "price_val": 5350.0,
-          "prob_pct": "6%"
+          "price_val": 5250.0,
+          "prob_pct": "8%"
         },
         {
-          "name": "↓ below $4,800",
+          "name": "↓ below $4,800 (macro reversal / risk-on unwind)",
           "prob": 0.02,
           "vol": 0,
           "vol_fmt": "est.",
@@ -183,7 +183,7 @@
       "color": "purple",
       "outcomes": [
         {
-          "name": "↓ stays below $75K in 2026",
+          "name": "↓ stays below $75K in 2026 (Polymarket frontrunner)",
           "prob": 0.77,
           "vol": 5800000,
           "vol_fmt": "$5,800,000",
@@ -199,7 +199,7 @@
           "prob_pct": "23%"
         },
         {
-          "name": "↑ $100,000 in 2026",
+          "name": "↑ $100,000 in 2026 (Polymarket odds — underestimated per 99Bitcoins)",
           "prob": 0.39,
           "vol": 0,
           "vol_fmt": "est.",
@@ -215,7 +215,7 @@
           "prob_pct": "12%"
         },
         {
-          "name": "↑ $150,000 by June (short-term Polymarket)",
+          "name": "↑ $150,000 by June (Polymarket — short-term)",
           "prob": 0.03,
           "vol": 0,
           "vol_fmt": "est.",
@@ -223,7 +223,7 @@
           "prob_pct": "3%"
         },
         {
-          "name": "↓ below $55,000 (demand zone)",
+          "name": "↓ below $55,000 (demand zone / bear continuation)",
           "prob": 0.38,
           "vol": 3200000,
           "vol_fmt": "$3,200,000",
@@ -235,20 +235,20 @@
     {
       "label": "ETH PRICE",
       "title": "Ethereum price outlook — March–Dec 2026 (market consensus, Mar 1)",
-      "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-february-2026",
+      "url": "https://polymarket.com/event/eth-flipped-in-2026",
       "nominal": "est.",
       "color": "blue",
       "outcomes": [
         {
-          "name": "Mar range $2,020–$2,430 (Changelly consensus)",
-          "prob": 0.40,
+          "name": "Mar range $1,800–$2,200 (Cryptopolitan bounce thesis; current $1,859)",
+          "prob": 0.38,
           "vol": 0,
           "vol_fmt": "est.",
-          "price_val": 2200.0,
-          "prob_pct": "40%"
+          "price_val": 2000.0,
+          "prob_pct": "38%"
         },
         {
-          "name": "↑ $2,800 (Q2 target)",
+          "name": "↑ $2,800 (Q2 recovery target)",
           "prob": 0.22,
           "vol": 2108424,
           "vol_fmt": "$2,108,424",
@@ -256,15 +256,15 @@
           "prob_pct": "22%"
         },
         {
-          "name": "↑ $3,284 avg end 2026 (Cryptopolitan)",
+          "name": "↑ $3,000–$3,500 end 2026 (InvestingHaven consensus)",
           "prob": 0.25,
           "vol": 0,
           "vol_fmt": "est.",
-          "price_val": 3284.0,
+          "price_val": 3250.0,
           "prob_pct": "25%"
         },
         {
-          "name": "New ATH by Dec 31",
+          "name": "New ATH by Dec 31 (Polymarket ~40%)",
           "prob": 0.40,
           "vol": 1191805,
           "vol_fmt": "$1,191,805",
@@ -272,7 +272,7 @@
           "prob_pct": "40%"
         },
         {
-          "name": "↓ below $1,600",
+          "name": "↓ below $1,600 (capitulation / BTC divergence deepens)",
           "prob": 0.10,
           "vol": 1850000,
           "vol_fmt": "$1,850,000",
@@ -289,7 +289,7 @@
       "color": "green",
       "outcomes": [
         {
-          "name": "Formally nominated by Mar 31 (submitted Jan 30)",
+          "name": "Formally nominated by Mar 31 (Polymarket confirmed 72%)",
           "prob": 0.72,
           "vol": 95967,
           "vol_fmt": "$95,967",
@@ -297,23 +297,23 @@
           "prob_pct": "72%"
         },
         {
-          "name": "Sworn in by May 2026 (expected per analysts)",
-          "prob": 0.70,
+          "name": "Sworn in by May 2026 (consensus per analysts)",
+          "prob": 0.68,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "70%"
+          "prob_pct": "68%"
         },
         {
-          "name": "Early Warsh-led rate cuts (hawkish shift reducing odds)",
-          "prob": 0.30,
+          "name": "Early Warsh-led rate cuts (Reuters: odds sliding on hawkish shift)",
+          "prob": 0.22,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "30%"
+          "prob_pct": "22%"
         },
         {
-          "name": "Nomination withdrawn",
+          "name": "Nomination withdrawn / blocked",
           "prob": 0.04,
           "vol": 331816,
           "vol_fmt": "$331,816",
@@ -330,7 +330,7 @@
       "color": "green",
       "outcomes": [
         {
-          "name": "2 cuts (50 bps) — frontrunner",
+          "name": "2 cuts (50 bps) — frontrunner at 27%",
           "prob": 0.27,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -346,7 +346,7 @@
           "prob_pct": "23%"
         },
         {
-          "name": "3 cuts (75 bps)",
+          "name": "3 cuts (75 bps) — second-most likely at 20%",
           "prob": 0.20,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -354,7 +354,7 @@
           "prob_pct": "20%"
         },
         {
-          "name": "0 cuts",
+          "name": "0 cuts (no easing in 2026)",
           "prob": 0.19,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -375,11 +375,11 @@
       "label": "GEOPOLITICS",
       "title": "Iran conflict & global flash points — active markets (Polymarket, Mar 1)",
       "url": "https://polymarket.com/event/us-x-iran-ceasefire-by",
-      "nominal": "$22,000,000+",
+      "nominal": "$50,000,000+",
       "color": "red",
       "outcomes": [
         {
-          "name": "✅ US–Israel strike on Iran (RESOLVED YES)",
+          "name": "✅ US–Israel strike on Iran (RESOLVED YES — $16.2M vol)",
           "prob": 1.0,
           "vol": 16200000,
           "vol_fmt": "$16,200,000",
@@ -387,7 +387,7 @@
           "prob_pct": "100%"
         },
         {
-          "name": "US–Iran ceasefire by Mar 31 (Polymarket live)",
+          "name": "US–Iran ceasefire by Mar 31 (Polymarket live: 64%)",
           "prob": 0.64,
           "vol": 0,
           "vol_fmt": "est.",
@@ -395,28 +395,36 @@
           "prob_pct": "64%"
         },
         {
-          "name": "Khamenei out as Supreme Leader by Mar 31",
-          "prob": 0.28,
-          "vol": 22000000,
-          "vol_fmt": "$22,000,000",
-          "price_val": 0,
-          "prob_pct": "28%"
-        },
-        {
-          "name": "Iran regime change by end 2026",
-          "prob": 0.51,
+          "name": "US–Iran ceasefire by Apr 30 (Polymarket: 77%)",
+          "prob": 0.77,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "51%"
+          "prob_pct": "77%"
         },
         {
-          "name": "Russia–Ukraine ceasefire in 2026 (Polymarket, $10M+ vol)",
-          "prob": 0.36,
+          "name": "Iran successor named by Mar 31 (Polymarket: 81%; Kalshi: 49% abolished)",
+          "prob": 0.81,
+          "vol": 22000000,
+          "vol_fmt": "$22,000,000",
+          "price_val": 0,
+          "prob_pct": "81%"
+        },
+        {
+          "name": "Iran x Israel/US conflict ends by Mar 31 (Polymarket: 68%)",
+          "prob": 0.68,
+          "vol": 0,
+          "vol_fmt": "est.",
+          "price_val": 0,
+          "prob_pct": "68%"
+        },
+        {
+          "name": "Russia–Ukraine ceasefire in 2026 (talks stalled; 3 rounds without breakthrough)",
+          "prob": 0.34,
           "vol": 10000000,
           "vol_fmt": "$10,000,000+",
           "price_val": 0,
-          "prob_pct": "36%"
+          "prob_pct": "34%"
         },
         {
           "name": "China–Taiwan invasion in 2026",
@@ -430,13 +438,13 @@
     },
     {
       "label": "WILDCARD",
-      "title": "Fed March meeting decision (Kalshi + Polymarket consensus, Mar 1)",
+      "title": "Fed March meeting decision (Kalshi + Polymarket cross-platform consensus, Mar 1)",
       "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting",
-      "nominal": "est. (Kalshi/Polymarket cross-platform)",
+      "nominal": "est. (Kalshi/Polymarket: both 96% hold)",
       "color": "green",
       "outcomes": [
         {
-          "name": "No change (hold) — CME FedWatch ~96%",
+          "name": "No change (hold) — Kalshi 96% / Polymarket 96% / CME FedWatch 96%",
           "prob": 0.96,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -444,7 +452,7 @@
           "prob_pct": "96%"
         },
         {
-          "name": "25 bps decrease",
+          "name": "25 bps decrease (CPI softening tail risk)",
           "prob": 0.04,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -465,44 +473,44 @@
       "label": "CRYPTO REGULATION",
       "title": "U.S. CLARITY Act — signed into law in 2026? (Polymarket, Mar 1)",
       "url": "https://polymarket.com/event/clarity-act-signed-into-law-in-2026",
-      "nominal": "$276,000+",
+      "nominal": "$269,600",
       "color": "purple",
       "outcomes": [
         {
-          "name": "Signed into law in 2026 (YES)",
-          "prob": 0.52,
-          "vol": 276000,
-          "vol_fmt": "$276,000",
+          "name": "Signed into law in 2026 (YES — Polymarket ~53%; crashed from 82%)",
+          "prob": 0.53,
+          "vol": 269600,
+          "vol_fmt": "$269,600",
           "price_val": 0,
-          "prob_pct": "52%"
+          "prob_pct": "53%"
         },
         {
           "name": "Stalls / not signed in 2026 (NO)",
-          "prob": 0.48,
-          "vol": 276000,
-          "vol_fmt": "$276,000",
+          "prob": 0.47,
+          "vol": 269600,
+          "vol_fmt": "$269,600",
           "price_val": 0,
-          "prob_pct": "48%"
+          "prob_pct": "47%"
         },
         {
-          "name": "Stablecoin yield dispute resolved Q1",
-          "prob": 0.06,
+          "name": "Stablecoin yield dispute resolved Q1 (Mar 1 deadline passed — very low)",
+          "prob": 0.03,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "6%"
+          "prob_pct": "3%"
         }
       ]
     },
     {
       "label": "TARIFFS",
-      "title": "Post-SCOTUS tariff landscape — Trump 10% Section 122 tariff (Mar 1)",
+      "title": "Post-SCOTUS tariff landscape — Section 232/301 regime (Mar 1)",
       "url": "https://polymarket.com/event/new-10-us-blanket-tariff-goes-into-effect-by-february-28",
       "nominal": "$107,400+",
       "color": "red",
       "outcomes": [
         {
-          "name": "✅ SCOTUS 6-3 struck IEEPA tariffs (Feb 20, RESOLVED)",
+          "name": "✅ SCOTUS struck IEEPA tariffs (Feb 20 — RESOLVED); weighted avg rate now 6.7%",
           "prob": 1.0,
           "vol": 0,
           "vol_fmt": "est.",
@@ -510,36 +518,36 @@
           "prob_pct": "100%"
         },
         {
-          "name": "10% Section 122 tariff holds through July 24",
-          "prob": 0.80,
+          "name": "Section 232/301 tariffs on China hold through 2026 (CFR consensus)",
+          "prob": 0.85,
           "vol": 107400,
           "vol_fmt": "$107,400",
           "price_val": 0,
-          "prob_pct": "80%"
+          "prob_pct": "85%"
         },
         {
-          "name": "Tariff escalates to 15% (Section 122 / 301)",
-          "prob": 0.40,
+          "name": "New tariff escalation (China retaliation / executive Section 122)",
+          "prob": 0.38,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "40%"
+          "prob_pct": "38%"
         },
         {
-          "name": "$175B+ refunds ordered (Penn-Wharton estimate)",
-          "prob": 0.55,
+          "name": "$175B+ IEEPA refunds ordered / trade deal partial rollback",
+          "prob": 0.52,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "55%"
+          "prob_pct": "52%"
         },
         {
-          "name": "Full tariff rollback / executive reversal",
-          "prob": 0.12,
+          "name": "Full tariff rollback (executive reversal)",
+          "prob": 0.10,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "12%"
+          "prob_pct": "10%"
         }
       ]
     }
