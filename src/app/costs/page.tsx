@@ -100,11 +100,14 @@ function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sub
   );
 }
 
-function SectionHeader({ title }: { title: string }) {
+function SectionHeader({ title, accent = 'blue' }: { title: string; accent?: 'blue' | 'green' }) {
+  const colors = accent === 'blue'
+    ? { text: 'text-blue-400/70', line: 'bg-blue-500/20' }
+    : { text: 'text-emerald-400/70', line: 'bg-emerald-500/20' };
   return (
     <div className="flex items-center gap-3">
-      <span className="text-[11px] font-medium uppercase tracking-[0.15em] text-zinc-500">{title}</span>
-      <div className="h-px flex-1 bg-zinc-800" />
+      <span className={`text-[11px] font-medium uppercase tracking-[0.15em] ${colors.text}`}>{title}</span>
+      <div className={`h-px flex-1 ${colors.line}`} />
     </div>
   );
 }
@@ -178,7 +181,10 @@ function CodexCard({ snapshot }: { snapshot: UsageSnapshot }) {
     <div className="rounded-xl border-l-[3px] border-l-blue-500 border border-white/5 bg-zinc-900/80 p-5 flex flex-col gap-3">
       <div className="flex items-start justify-between">
         <div>
-          <span className="text-[10px] font-semibold uppercase tracking-wider text-blue-400">Quota Usage</span>
+          <div className="flex items-center gap-1.5">
+            <span className="text-[10px] font-semibold uppercase tracking-wider text-blue-400">Quota Usage</span>
+            <span className="cursor-help text-zinc-600 text-xs" title="Shows API rate limit usage, not dollar spend. Anthropic/OpenAI tracks usage in rolling time windows.">ⓘ</span>
+          </div>
           <div className="flex items-center gap-2 mt-0.5">
             <h3 className="text-base font-semibold text-zinc-100">{getProviderLabel(snapshot.provider)}</h3>
             {planType && (
@@ -286,7 +292,7 @@ export default async function CostMonitorPage() {
 
         {/* Resource Utilization */}
         <section className="flex flex-col gap-4">
-          <SectionHeader title="Resource Utilization" />
+          <SectionHeader title="Resource Utilization" accent="blue" />
           <div className="grid gap-4 sm:grid-cols-2">
             {claudeSnap ? <ClaudeOAuthCard snapshot={claudeSnap} /> : <EmptyQuotaCard provider="claude_oauth" />}
             {codexSnap ? <CodexCard snapshot={codexSnap} /> : <EmptyQuotaCard provider="codex" />}
@@ -295,7 +301,7 @@ export default async function CostMonitorPage() {
 
         {/* Provider Spend */}
         <section className="flex flex-col gap-4">
-          <SectionHeader title="Provider Spend" />
+          <SectionHeader title="Provider Spend" accent="green" />
           <div className="grid gap-4 sm:grid-cols-2">
             {orSnap ? <OpenRouterCard snapshot={orSnap} /> : <EmptySpendCard provider="openrouter" />}
           </div>
