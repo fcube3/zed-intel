@@ -1,4 +1,5 @@
 import { loadUsageLatest, getProviderLabel, type UsageSnapshot } from '@/lib/usage-store';
+import RefreshButton from './RefreshButton';
 
 export const dynamic = 'force-dynamic';
 
@@ -235,11 +236,14 @@ export default async function CostMonitorPage() {
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-6">
         <header>
           <p className="text-xs uppercase tracking-[0.2em] text-[#DA7756]">Private · Ops</p>
-          <div className="mt-2 flex items-baseline gap-4">
-            <h1 className="text-3xl font-bold">Cost Monitor</h1>
-            {latestFetch && (
-              <span className="text-sm text-zinc-500">Updated {formatTime(latestFetch)}</span>
-            )}
+          <div className="mt-2 flex items-center justify-between">
+            <div className="flex items-baseline gap-4">
+              <h1 className="text-3xl font-bold">Cost Monitor</h1>
+              {latestFetch && (
+                <span className="text-sm text-zinc-500">Updated {formatTime(latestFetch)}</span>
+              )}
+            </div>
+            <RefreshButton />
           </div>
           {error && (
             <p className="mt-3 rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-2 text-sm text-red-300">

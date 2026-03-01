@@ -70,6 +70,15 @@ try {
   `;
   console.log('✓ cost_sync_log');
 
+  await sql`
+    CREATE TABLE IF NOT EXISTS cost_pull_state (
+      key   text PRIMARY KEY,
+      value text,
+      updated_at timestamptz DEFAULT now()
+    )
+  `;
+  console.log('✓ cost_pull_state');
+
   console.log('\nMigration complete.');
 } catch (err) {
   console.error('Migration failed:', err);

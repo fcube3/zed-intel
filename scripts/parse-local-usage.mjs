@@ -129,3 +129,63 @@ try {
 } catch {}
 
 console.log('Local usage parse complete.');
+
+// --- Threshold-triggered pull ---
+// Check if any session exceeded token thresholds
+const CLAUDE_THRESHOLD = 20000;
+const CODEX_THRESHOLD = 50000;
+
+let thresholdExceeded = false;
+
+// Re-scan sessions for per-session totals
+try {
+  const agents = fs.readdirSync(agentsDir, { withFileTypes: true }).filter(d => d.isDirectory());
+  for (const agent of agents) {
+    if (thresholdExceeded) break;
+    const sessionsDir = path.join(agentsDir, agent.name, 'sessions');
+    if (!fs.existsSync(sessionsDir)) continue;
+    const files = fs.readdirSync(sessionsDir).filter(f => f.endsWith('.jsonl'));
+    for (const file of files) {
+      if (thresholdExceeded) break;
+      const filePath = path.join(sessionsDir, file);
+      try {
+        const content = fs.readFileSync(filePath, 'utf8');
+        let sessionTokens = 0;
+        let sessionProvider = null;
+        for (const line of content.split('\n')) {
+          if (!line.trim()) continue;
+          try {
+            const entry = JSON.parse(line);
+            const model = entry.model || '';
+            const input = entry.input_tokens || entry.usage?.input_tokens || 0;
+            const output = entry.output_tokens || entry.usage?.output_tokens || 0;
+            if (!input && !output) continue;
+            if (!sessionProvider) sessionProvider = classifyProvider(model);
+            sessionTokens += input + output;
+          } catch {}
+        }
+        if (sessionProvider === 'claude_local' && sessionTokens >= CLAUDE_THRESHOLD) {
+          console.log(`⚡ Threshold exceeded: Claude session ${file} — ${sessionTokens} tokens`);
+          thresholdExceeded = true;
+        } else if (sessionProvider === 'codex_local' && sessionTokens >= CODEX_THRESHOLD) {
+          console.log(`⚡ Threshold exceeded: Codex session ${file} — ${sessionTokens} tokens`);
+          thresholdExceeded = true;
+        }
+      } catch {}
+    }
+  }
+} catch {}
+
+if (thresholdExceeded) {
+  console.log('[parse-local-usage] Triggering API pull due to threshold...');
+  try {
+    const { execFileSync } = await import('node:child_process');
+    execFileSync('node', [path.join(path.dirname(new URL(import.meta.url).pathname), 'trigger-pull.mjs')], {
+      cwd: process.cwd(),
+      stdio: 'inherit',
+      timeout: 120000,
+    });
+  } catch (err) {
+    console.error('[parse-local-usage] Trigger pull failed:', err.message);
+  }
+}
