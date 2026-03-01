@@ -13,6 +13,7 @@ export type RefreshRequestRow = {
   error_msg: string | null;
   idempotency_key: string | null;
   requested_by: string | null;
+  claimed_at: string | null;
 };
 
 export async function enqueueRefreshRequest(opts?: {
@@ -66,7 +67,7 @@ export async function enqueueRefreshRequest(opts?: {
 export async function getRefreshRequestById(requestId: string) {
   const { data, error } = await supabase
     .from('refresh_requests')
-    .select('request_id,status,source,created_at,started_at,finished_at,error_msg,idempotency_key,requested_by')
+    .select('request_id,status,source,created_at,started_at,finished_at,error_msg,idempotency_key,requested_by,claimed_at')
     .eq('request_id', requestId)
     .maybeSingle();
 

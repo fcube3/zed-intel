@@ -40,5 +40,6 @@ export async function GET(request: NextRequest) {
     startedAt: row.started_at,
     finishedAt: row.finished_at,
     error: row.error_msg,
+    claimedAt: row.claimed_at,
   });
 }

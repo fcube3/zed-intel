@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.kai-intel.worker</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/fengshen/.nvm/versions/node/v24.11.1/bin/node</string>
+        <string>/Users/fengshen/.openclaw/workspace/kai-intel/scripts/worker.mjs</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/fengshen/.openclaw/workspace/kai-intel</string>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/fengshen/Library/Logs/kai-intel-worker.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/fengshen/Library/Logs/kai-intel-worker.log</string>
+</dict>
+</plist>
