@@ -79,6 +79,28 @@ try {
   `;
   console.log('✓ cost_pull_state');
 
+  await sql`
+    CREATE TABLE IF NOT EXISTS refresh_requests (
+      id               bigserial PRIMARY KEY,
+      request_id       text UNIQUE NOT NULL,
+      source           text NOT NULL DEFAULT 'web',
+      status           text NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'running', 'done', 'failed', 'rate_limited')),
+      created_at       timestamptz NOT NULL DEFAULT now(),
+      started_at       timestamptz,
+      finished_at      timestamptz,
+      error_msg        text,
+      idempotency_key  text,
+      requested_by     text
+    )
+  `;
+  console.log('✓ refresh_requests');
+
+  await sql`
+    CREATE INDEX IF NOT EXISTS refresh_requests_status_created_idx
+    ON refresh_requests(status, created_at)
+  `;
+  console.log('✓ refresh_requests_status_created_idx');
+
   console.log('\nMigration complete.');
 } catch (err) {
   console.error('Migration failed:', err);

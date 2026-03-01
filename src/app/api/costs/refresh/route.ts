@@ -24,10 +24,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, message: 'Unauthorized' }, { status: 401 });
   }
 
+  const idempotencyKey = request.headers.get('x-idempotency-key')?.trim() || randomUUID();
+  const requestedBy = deriveRequester(request);
+
   const queued = await enqueueRefreshRequest({
     source: 'web',
-    idempotencyKey: request.headers.get('x-idempotency-key')?.trim() || randomUUID(),
-    requestedBy: deriveRequester(request),
+    idempotencyKey,
+    requestedBy,
     dedupeWindowSeconds: 30,
   });
 
