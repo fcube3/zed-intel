@@ -42,83 +42,37 @@ function formatDuration(seconds: number): string {
   return `${m}m`;
 }
 
-type FreshnessLevel = 'green' | 'amber' | 'red';
-
-function getFreshness(fetchedAt: string | null): { level: FreshnessLevel; label: string } {
-  if (!fetchedAt) return { level: 'red', label: 'No data' };
-  const ageMs = Date.now() - new Date(fetchedAt).getTime();
-  const ageH = ageMs / 3600000;
-  if (ageH < 5) return { level: 'green', label: `${Math.round(ageH * 60)}m ago` };
-  if (ageH < 24) return { level: 'amber', label: `${Math.round(ageH)}h ago` };
-  return { level: 'red', label: 'Stale' };
-}
-
-const freshnessDotColors: Record<FreshnessLevel, string> = {
-  green: 'bg-[#2A9D6E]',
-  amber: 'bg-[#D4800A]',
-  red: 'bg-[#C93C3C]',
-};
-
-function FreshnessDot({ fetchedAt }: { fetchedAt: string | null }) {
-  const f = getFreshness(fetchedAt);
-  return (
-    <div className="flex items-center gap-1.5" title={fetchedAt ? formatTime(fetchedAt) : 'No data'}>
-      <span className={`inline-block h-2 w-2 rounded-full ${freshnessDotColors[f.level]}`} />
-      <span className="text-xs text-[#9C9086]">{f.label}</span>
-    </div>
-  );
-}
-
-function progressBarFill(pct: number): string {
-  if (pct >= 80) return 'bg-[#C93C3C]';
-  if (pct >= 50) return 'bg-[#D4800A]';
-  return 'bg-[#2A9D6E]';
+function formatRelativeTime(iso: string): string {
+  const ageMs = Date.now() - new Date(iso).getTime();
+  const ageMin = Math.round(ageMs / 60000);
+  if (ageMin < 1) return 'less than a minute ago';
+  if (ageMin === 1) return '1 minute ago';
+  if (ageMin < 60) return `${ageMin} minutes ago`;
+  const ageH = Math.round(ageMin / 60);
+  if (ageH === 1) return '1 hour ago';
+  return `${ageH} hours ago`;
 }
 
 function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sublabel?: string | null }) {
   const clamped = Math.max(0, Math.min(100, pct));
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-1.5">
       <div className="flex items-baseline justify-between">
-        <span className="text-xs text-[#9C9086]">{label}</span>
-        <span className="text-2xl font-semibold text-[#1A1410]">{pct}%</span>
+        <span className="text-base font-semibold text-white">{label}</span>
+        <span className="text-sm text-white">{pct}% used</span>
       </div>
-      <div className="h-2 w-full rounded-full bg-[#EEF2FF]">
+      {sublabel && <span className="text-sm text-[#98989D]">{sublabel}</span>}
+      <div className="h-2 w-full rounded-full bg-[#3A3A3C]">
         <div
-          className={`h-2 rounded-full transition-all ${progressBarFill(pct)}`}
+          className="h-2 rounded-full bg-[#3B82F6] transition-all"
           style={{ width: `${clamped}%` }}
         />
       </div>
-      {sublabel && <span className="text-xs text-[#6B6157]">{sublabel}</span>}
     </div>
   );
 }
 
-function SectionHeader({ title, accent = 'blue' }: { title: string; accent?: 'blue' | 'green' }) {
-  const dotColor = accent === 'blue' ? 'bg-[#4F7EF7]' : 'bg-[#2A9D6E]';
-  return (
-    <div className="flex items-center gap-3 border-t border-[#E8E3D9] pt-6">
-      <span className={`h-2 w-2 rounded-full ${dotColor}`} />
-      <span className="text-xs font-semibold uppercase tracking-widest text-[#9C9086]">{title}</span>
-    </div>
-  );
-}
-
-const cardBase = "rounded-xl border border-[#E8E3D9] bg-white p-5 shadow-[0_1px_3px_rgba(26,20,16,0.06)] flex flex-col gap-3";
-
-function EmptyQuotaCard({ provider }: { provider: string }) {
-  return (
-    <div className={`${cardBase} border-l-[3px] border-l-[#4F7EF7] opacity-60`}>
-      <div>
-        <span className="text-xs font-semibold uppercase tracking-wide text-[#4F7EF7]">Quota Usage</span>
-        <h3 className="text-base font-semibold text-[#1A1410] mt-0.5">{getProviderLabel(provider)}</h3>
-      </div>
-      <p className="text-sm text-[#9C9086] italic">Awaiting first sync</p>
-    </div>
-  );
-}
-
-function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
+function ClaudeOAuthSection({ snapshot }: { snapshot: UsageSnapshot }) {
   const mb = (snapshot.model_breakdown ?? {}) as Record<string, unknown>;
   const fiveH = (mb.five_hour_utilization as number) ?? 0;
   const fiveHReset = mb.five_hour_resets_at as string | null ?? null;
@@ -128,114 +82,94 @@ function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
   const sevenDSonnetReset = mb.seven_day_sonnet_resets_at as string | null ?? null;
 
   return (
-    <div className={`${cardBase} border-l-[3px] border-l-[#4F7EF7]`}>
-      <div className="flex items-start justify-between">
-        <div>
-          <div className="flex items-center gap-1.5">
-            <span className="text-xs font-semibold uppercase tracking-wide text-[#4F7EF7]">Quota Usage</span>
-            <span className="cursor-help text-[#9C9086] text-xs hover:text-[#6B6157]" title="Shows API rate limit usage, not dollar spend. Anthropic tracks usage in rolling time windows.">ⓘ</span>
-          </div>
-          <h3 className="text-base font-semibold text-[#1A1410] mt-0.5">{getProviderLabel(snapshot.provider)}</h3>
-        </div>
-        <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      </div>
-      <div className="flex flex-col gap-2.5">
-        <ProgressBar label="5-hour window" pct={fiveH} sublabel={formatResetCountdown(fiveHReset)} />
-        <ProgressBar label="7-day window" pct={sevenD} sublabel={formatResetCountdown(sevenDReset)} />
-        {sevenDSonnet != null && (
-          <ProgressBar label="7-day Sonnet" pct={sevenDSonnet} sublabel={formatResetCountdown(sevenDSonnetReset)} />
-        )}
-      </div>
-      <div className="border-t border-dashed border-[#E8E3D9] pt-2.5">
-        <p className="text-xs text-[#9C9086]">💳 Billing unavailable · Requires admin API key</p>
-      </div>
-    </div>
-  );
-}
-
-function CodexCard({ snapshot }: { snapshot: UsageSnapshot }) {
-  const mb = (snapshot.model_breakdown ?? {}) as Record<string, number | string>;
-  const primaryPct = (mb.primary_used_pct as number) ?? 0;
-  const secondaryPct = (mb.secondary_used_pct as number) ?? 0;
-  const primaryWindowMin = (mb.primary_window_minutes as number) ?? 300;
-  const secondaryWindowMin = (mb.secondary_window_minutes as number) ?? 10080;
-  const primaryResetSec = (mb.primary_reset_after_seconds as number) ?? 0;
-  const secondaryResetSec = (mb.secondary_reset_after_seconds as number) ?? 0;
-  const planType = mb.plan_type as string | undefined;
-
-  const primaryLabel = primaryWindowMin === 300 ? '5h' : `${primaryWindowMin}m`;
-  const secondaryLabel = secondaryWindowMin === 10080 ? 'Weekly' : `${secondaryWindowMin}m`;
-
-  return (
-    <div className={`${cardBase} border-l-[3px] border-l-[#4F7EF7]`}>
-      <div className="flex items-start justify-between">
-        <div>
-          <div className="flex items-center gap-1.5">
-            <span className="text-xs font-semibold uppercase tracking-wide text-[#4F7EF7]">Quota Usage</span>
-            <span className="cursor-help text-[#9C9086] text-xs hover:text-[#6B6157]" title="Shows API rate limit usage, not dollar spend.">ⓘ</span>
-          </div>
-          <div className="flex items-center gap-2 mt-0.5">
-            <h3 className="text-base font-semibold text-[#1A1410]">{getProviderLabel(snapshot.provider)}</h3>
-            {planType && (
-              <span className="rounded-full bg-[#EEF2FF] border border-[#4F7EF7]/30 px-2 py-0.5 text-[10px] font-medium text-[#4F7EF7]">
-                {planType}
-              </span>
-            )}
-          </div>
-        </div>
-        <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      </div>
-      <div className="flex flex-col gap-2.5">
-        <ProgressBar
-          label={`${primaryLabel} window`}
-          pct={primaryPct}
-          sublabel={primaryResetSec > 0 ? `Resets in ${formatDuration(primaryResetSec)}` : null}
-        />
-        <ProgressBar
-          label={`${secondaryLabel} window`}
-          pct={secondaryPct}
-          sublabel={secondaryResetSec > 0 ? `Resets in ${formatDuration(secondaryResetSec)}` : null}
-        />
-      </div>
-    </div>
-  );
-}
-
-function OpenRouterCard({ snapshot }: { snapshot: UsageSnapshot }) {
-  const modelCount = snapshot.model_breakdown ? Object.keys(snapshot.model_breakdown).length : 0;
-
-  return (
-    <div className={`${cardBase} border-l-[3px] border-l-[#2A9D6E]`}>
-      <div className="flex items-start justify-between">
-        <div>
-          <span className="text-xs font-semibold uppercase tracking-wide text-[#2A9D6E]">Spend</span>
-          <h3 className="text-base font-semibold text-[#1A1410] mt-0.5">{getProviderLabel(snapshot.provider)}</h3>
-        </div>
-        <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      </div>
+    <div className="flex flex-col gap-6">
       <div>
-        <p className="text-2xl font-semibold text-[#1A1410]">{formatCurrency(snapshot.total_cost_usd)}</p>
+        <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
       </div>
-      <div className="flex gap-4 text-sm text-[#6B6157]">
-        <span>{formatTokens(snapshot.input_tokens)} in</span>
-        <span>{formatTokens(snapshot.output_tokens)} out</span>
-        {snapshot.cache_read_tokens != null && <span>{formatTokens(snapshot.cache_read_tokens)} cached</span>}
-      </div>
-      {modelCount > 0 && (
-        <p className="text-xs text-[#9C9086]">{modelCount} model{modelCount !== 1 ? 's' : ''}</p>
+      <ProgressBar
+        label="Current session"
+        pct={fiveH}
+        sublabel={formatResetCountdown(fiveHReset)}
+      />
+      <div className="border-t border-[#3A3A3C]" />
+      <ProgressBar
+        label="Weekly limits — All models"
+        pct={sevenD}
+        sublabel={sevenDReset ? `Resets ${formatTime(sevenDReset)}` : null}
+      />
+      {sevenDSonnet != null && (
+        <>
+          <div className="border-t border-[#3A3A3C]" />
+          <ProgressBar
+            label="Weekly limits — Sonnet only"
+            pct={sevenDSonnet}
+            sublabel={sevenDSonnetReset ? `Resets ${formatTime(sevenDSonnetReset)}` : null}
+          />
+        </>
       )}
     </div>
   );
 }
 
-function EmptySpendCard({ provider }: { provider: string }) {
+function CodexSection({ snapshot }: { snapshot: UsageSnapshot }) {
+  const mb = (snapshot.model_breakdown ?? {}) as Record<string, number | string>;
+  const primaryPct = (mb.primary_used_pct as number) ?? 0;
+  const secondaryPct = (mb.secondary_used_pct as number) ?? 0;
+  const primaryWindowMin = (mb.primary_window_minutes as number) ?? 300;
+  const primaryResetSec = (mb.primary_reset_after_seconds as number) ?? 0;
+  const secondaryResetSec = (mb.secondary_reset_after_seconds as number) ?? 0;
+  const secondaryWindowMin = (mb.secondary_window_minutes as number) ?? 10080;
+
+  const primaryLabel = primaryWindowMin === 300 ? '5h' : `${primaryWindowMin}m`;
+
   return (
-    <div className={`${cardBase} border-l-[3px] border-l-[#2A9D6E] opacity-60`}>
+    <div className="flex flex-col gap-6">
       <div>
-        <span className="text-xs font-semibold uppercase tracking-wide text-[#2A9D6E]">Spend</span>
-        <h3 className="text-base font-semibold text-[#1A1410] mt-0.5">{getProviderLabel(provider)}</h3>
+        <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
       </div>
-      <p className="text-sm text-[#9C9086] italic">Awaiting first sync</p>
+      <ProgressBar
+        label={`Current session (${primaryLabel})`}
+        pct={primaryPct}
+        sublabel={primaryResetSec > 0 ? `Resets in ${formatDuration(primaryResetSec)}` : null}
+      />
+      <div className="border-t border-[#3A3A3C]" />
+      <ProgressBar
+        label={secondaryWindowMin === 10080 ? 'Weekly usage' : `${secondaryWindowMin}m window`}
+        pct={secondaryPct}
+        sublabel={secondaryResetSec > 0 ? `Resets in ${formatDuration(secondaryResetSec)}` : null}
+      />
+    </div>
+  );
+}
+
+function OpenRouterSection({ snapshot }: { snapshot: UsageSnapshot }) {
+  const freshness = snapshot.fetched_at ? formatRelativeTime(snapshot.fetched_at) : null;
+
+  return (
+    <div className="flex flex-col gap-3">
+      <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <div className="flex items-baseline justify-between">
+        <span className="text-sm text-[#98989D]">This month</span>
+        <span className="text-base font-semibold text-white">{formatCurrency(snapshot.total_cost_usd)}</span>
+      </div>
+      <div className="flex items-baseline justify-between">
+        <span className="text-sm text-[#98989D]">Tokens used</span>
+        <span className="text-sm text-white">
+          {formatTokens((snapshot.input_tokens ?? 0) + (snapshot.output_tokens ?? 0))}
+        </span>
+      </div>
+      {freshness && (
+        <span className="text-xs text-[#636366]">Last synced {freshness}</span>
+      )}
+    </div>
+  );
+}
+
+function EmptySection({ provider, type }: { provider: string; type: 'quota' | 'spend' }) {
+  return (
+    <div className="flex flex-col gap-2 opacity-60">
+      <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(provider)}</h3>
+      <p className="text-sm text-[#636366] italic">Awaiting first sync</p>
     </div>
   );
 }
@@ -254,45 +188,41 @@ export default async function CostMonitorPage() {
   const orSnap = snapshotMap.get('openrouter');
 
   return (
-    <main className="min-h-screen bg-[#FAF9F5] px-6 py-8">
-      <div className="mx-auto flex w-full max-w-4xl flex-col gap-8">
-        <header>
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-semibold text-[#1A1410]">Cost Monitor</h1>
-              {latestFetch && (
-                <p className="text-sm text-[#9C9086] mt-1">Updated {formatTime(latestFetch)}</p>
-              )}
-            </div>
-            <RefreshButton />
-          </div>
-          {error && (
-            <p className="mt-3 rounded-lg border border-[#C93C3C]/40 bg-[#C93C3C]/10 px-3 py-2 text-sm text-[#C93C3C]">
-              Data source error: {error}
-            </p>
-          )}
+    <main className="min-h-screen bg-[#1C1C1E] px-6 py-8">
+      <div className="mx-auto flex w-full max-w-2xl flex-col gap-8">
+        {/* Header */}
+        <header className="flex items-center justify-between">
+          <h1 className="text-xl font-semibold text-white">Plan Usage</h1>
+          <RefreshButton />
         </header>
 
-        {/* Resource Utilization */}
-        <section className="flex flex-col gap-4">
-          <SectionHeader title="Resource Utilization" accent="blue" />
-          <div className="grid gap-4 sm:grid-cols-2">
-            {claudeSnap ? <ClaudeOAuthCard snapshot={claudeSnap} /> : <EmptyQuotaCard provider="claude_oauth" />}
-            {codexSnap ? <CodexCard snapshot={codexSnap} /> : <EmptyQuotaCard provider="codex" />}
-          </div>
+        {error && (
+          <p className="rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-2 text-sm text-red-400">
+            Data source error: {error}
+          </p>
+        )}
+
+        {/* Plan Usage — Claude + Codex */}
+        <section className="flex flex-col gap-8">
+          {claudeSnap ? <ClaudeOAuthSection snapshot={claudeSnap} /> : <EmptySection provider="claude_oauth" type="quota" />}
+          <div className="border-t border-[#3A3A3C]" />
+          {codexSnap ? <CodexSection snapshot={codexSnap} /> : <EmptySection provider="codex" type="quota" />}
         </section>
+
+        <div className="border-t border-[#3A3A3C]" />
 
         {/* Provider Spend */}
-        <section className="flex flex-col gap-4">
-          <SectionHeader title="Provider Spend" accent="green" />
-          <div className="grid gap-4 sm:grid-cols-2">
-            {orSnap ? <OpenRouterCard snapshot={orSnap} /> : <EmptySpendCard provider="openrouter" />}
-          </div>
+        <section className="flex flex-col gap-6">
+          <h2 className="text-base font-semibold text-white">Provider Spend</h2>
+          {orSnap ? <OpenRouterSection snapshot={orSnap} /> : <EmptySection provider="openrouter" type="spend" />}
         </section>
 
-        <footer className="text-xs text-[#9C9086]">
-          <p>Data pushed by OpenClaw cron jobs. Costs are append-only snapshots from provider APIs and local session logs.</p>
-        </footer>
+        {/* Footer */}
+        {latestFetch && (
+          <footer className="text-xs text-[#636366]">
+            Last updated: {formatRelativeTime(latestFetch)} ↺
+          </footer>
+        )}
       </div>
     </main>
   );

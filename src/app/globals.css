@@ -1,14 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
 :root {
-  --background: #FAF9F5;
-  --foreground: #1A1410;
+  --background: #1C1C1E;
+  --foreground: #FFFFFF;
 }
 
 body {
@@ -20,5 +18,5 @@ body {
 /* Custom Scrollbar */
 .scrollbar-custom::-webkit-scrollbar { width: 4px; }
 .scrollbar-custom::-webkit-scrollbar-track { background: transparent; }
-.scrollbar-custom::-webkit-scrollbar-thumb { background-color: #D4CEC4; border-radius: 4px; }
-.scrollbar-custom::-webkit-scrollbar-thumb:hover { background-color: #D97757; }
+.scrollbar-custom::-webkit-scrollbar-thumb { background-color: #3A3A3C; border-radius: 4px; }
+.scrollbar-custom::-webkit-scrollbar-thumb:hover { background-color: #636366; }
