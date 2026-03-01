@@ -89,32 +89,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "X metals/macro sentiment + Reuters gold desk coverage + India/Vietnam price aggregators",
+      "source": "X metals/macro sentiment + Reddit r/Gold + commodity desk chatter",
       "asset": "Gold",
-      "signal": "Strongly Bullish — Geopolitical Premium Dominant",
-      "confidence": "87%",
-      "insight": "Gold cleared $5,300 intraday and is closing its best February on record. The US-Iran strike narrative has fully displaced rate-sensitivity as the primary driver — social tone is near-consensus bullish with minimal bearish pushback. Crowded positioning risk building above $5,300."
+      "signal": "Bullish but crowded — safe-haven narrative still dominant",
+      "confidence": "81%",
+      "insight": "Across metals-focused X feeds and r/Gold discussion, tone remains risk-off bullish with geopolitical demand still the lead story. The main pushback is positioning risk after the steep run, so sentiment is positive but increasingly wary of sharp pullbacks."
     },
     {
-      "source": "X silver community + Reddit r/Silverbugs + BofA metals desk commentary",
+      "source": "X silver stacker sentiment + Reddit r/Silverbugs + metals analyst community",
       "asset": "Silver",
-      "signal": "Very Bullish — Highest Monthly Close Ever",
-      "confidence": "82%",
-      "insight": "Silver at $93.66 set its highest monthly close in history. BofA's $135–$309 range forecast ignited significant retail buzz. Industrial demand + silver squeeze community narratives converge. Key risk: sharp reversals historically follow record close events."
+      "signal": "Bullish with volatility warnings",
+      "confidence": "79%",
+      "insight": "Silver sentiment remains strong in stacker circles, with upside narratives tied to momentum and physical-demand themes. Community tone is constructive, but comments are increasingly focused on exchange/liquidity shocks and mean-reversion risk after record-strength moves."
     },
     {
-      "source": "X BTC flow chatter + Coinpedia/CaptainAltcoin coverage + Clarity Act tracker communities",
+      "source": "Crypto X sentiment + Reddit r/Bitcoin + crypto analyst commentary",
       "asset": "Bitcoin",
-      "signal": "Cautious-Bearish — Down 27% YTD, Regulatory Overhang",
-      "confidence": "80%",
-      "insight": "BTC failed to hold above $65K and dipped to $63,308 in weekend panic. The Clarity Act March 1 deadline miss has deflated near-term sentiment. ETF volumes at record $23.1B but price action doesn't reflect it. Crypto-Twitter split between 'accumulate the dip' bulls and macro bears watching BTC/gold diverge."
+      "signal": "Cautious-bearish near term, selectively bullish medium term",
+      "confidence": "83%",
+      "insight": "Crypto social channels still frame BTC as structurally strong, but near-term sentiment is defensive: regulatory timing uncertainty, weak price follow-through, and elevated fear readings are dominating conversation. Dip-buying narratives exist, yet conviction is lower than in prior rebounds."
     },
     {
-      "source": "X ETH narratives + Reddit r/ethereum + technical analysis community",
+      "source": "Crypto X ETH discourse + Reddit r/ethereum/ethtrader + altcoin analyst community",
       "asset": "Ethereum",
-      "signal": "Oversold — Tentative Bounce Setup, Low Conviction",
-      "confidence": "78%",
-      "insight": "ETH at ~$1,859 with RSI at 37 signals oversold. Technical analysts flag $2,100–$2,200 as a bounce target if support holds. However, broader sentiment remains weak: ETF outflow headlines, underperformance vs BTC, and lack of catalyst keep the bull camp small. Market watching $1,800 support closely."
+      "signal": "Neutral-to-bearish, oversold bounce thesis in play",
+      "confidence": "77%",
+      "insight": "ETH sentiment is weaker than BTC across social channels, with broad focus on underperformance and catalyst scarcity. A tradable oversold-bounce view is common, but most commentary treats it as tactical rather than the start of a high-conviction trend reversal."
     }
   ],
   "predictions": [
