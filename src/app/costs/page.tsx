@@ -24,14 +24,26 @@ function formatTime(iso: string) {
   });
 }
 
-function formatResetCountdown(resetsAt: string | null): string | null {
-  if (!resetsAt) return null;
-  const diffMs = new Date(resetsAt).getTime() - Date.now();
+function formatResetLabel(resetsAt: string | null): string | null {
+  if (!resetsAt) return 'Resets: unknown';
+  const target = new Date(resetsAt);
+  const diffMs = target.getTime() - Date.now();
   if (diffMs <= 0) return 'Resetting now';
   const h = Math.floor(diffMs / 3600000);
   const m = Math.floor((diffMs % 3600000) / 60000);
-  if (h > 0) return `Resets in ${h}h ${m}m`;
-  return `Resets in ${m}m`;
+  const countdown = h > 0 ? `${h}h ${m}m` : `${m}m`;
+  const mon = target.toLocaleString('en-US', { month: 'short' });
+  const day = target.getDate();
+  const hh = String(target.getHours()).padStart(2, '0');
+  const mm = String(target.getMinutes()).padStart(2, '0');
+  const yearSuffix = target.getFullYear() !== new Date().getFullYear() ? ` ${target.getFullYear()}` : '';
+  return `Resets in ${countdown}, on ${mon} ${day}${yearSuffix} ${hh}:${mm}`;
+}
+
+function formatResetFromSeconds(seconds: number | null): string | null {
+  if (!seconds || seconds <= 0) return 'Resets: unknown';
+  const resetsAt = new Date(Date.now() + seconds * 1000).toISOString();
+  return formatResetLabel(resetsAt);
 }
 
 function formatDuration(seconds: number): string {
@@ -102,13 +114,13 @@ function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
       <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
-      <ProgressBar label="Current session" pct={fiveH} sublabel={formatResetCountdown(fiveHReset)} />
+      <ProgressBar label="Current session" pct={fiveH} sublabel={formatResetLabel(fiveHReset)} />
       <div className="border-t border-[#3A3A3C]" />
-      <ProgressBar label="Weekly — All models" pct={sevenD} sublabel={sevenDReset ? `Resets ${formatTime(sevenDReset)}` : null} />
+      <ProgressBar label="Weekly — All models" pct={sevenD} sublabel={formatResetLabel(sevenDReset)} />
       {sevenDSonnet != null && (
         <>
           <div className="border-t border-[#3A3A3C]" />
-          <ProgressBar label="Weekly — Sonnet" pct={sevenDSonnet} sublabel={sevenDSonnetReset ? `Resets ${formatTime(sevenDSonnetReset)}` : null} />
+          <ProgressBar label="Weekly — Sonnet" pct={sevenDSonnet} sublabel={formatResetLabel(sevenDSonnetReset)} />
         </>
       )}
     </div>
@@ -129,9 +141,9 @@ function CodexCard({ snapshot }: { snapshot: UsageSnapshot }) {
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
       <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
-      <ProgressBar label={`Current session (${primaryLabel})`} pct={primaryPct} sublabel={primaryResetSec > 0 ? `Resets in ${formatDuration(primaryResetSec)}` : null} />
+      <ProgressBar label={`Current session (${primaryLabel})`} pct={primaryPct} sublabel={formatResetFromSeconds(primaryResetSec)} />
       <div className="border-t border-[#3A3A3C]" />
-      <ProgressBar label={secondaryWindowMin === 10080 ? 'Weekly usage' : `${secondaryWindowMin}m window`} pct={secondaryPct} sublabel={secondaryResetSec > 0 ? `Resets in ${formatDuration(secondaryResetSec)}` : null} />
+      <ProgressBar label={secondaryWindowMin === 10080 ? 'Weekly usage' : `${secondaryWindowMin}m window`} pct={secondaryPct} sublabel={formatResetFromSeconds(secondaryResetSec)} />
     </div>
   );
 }
