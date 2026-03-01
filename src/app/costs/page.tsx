@@ -53,6 +53,23 @@ function formatRelativeTime(iso: string): string {
   return `${ageH} hours ago`;
 }
 
+function freshnessDotColor(iso: string | null): string {
+  if (!iso) return 'bg-[#636366]';
+  const ageMin = (Date.now() - new Date(iso).getTime()) / 60000;
+  if (ageMin < 10) return 'bg-green-400';
+  if (ageMin < 60) return 'bg-yellow-400';
+  return 'bg-red-400';
+}
+
+function FreshnessDot({ fetchedAt }: { fetchedAt: string | null }) {
+  return (
+    <span
+      className={`absolute top-4 right-4 h-2.5 w-2.5 rounded-full ${freshnessDotColor(fetchedAt)}`}
+      title={fetchedAt ? `Fetched ${formatRelativeTime(fetchedAt)}` : 'No data'}
+    />
+  );
+}
+
 function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sublabel?: string | null }) {
   const clamped = Math.max(0, Math.min(100, pct));
   return (
@@ -72,7 +89,7 @@ function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sub
   );
 }
 
-function ClaudeOAuthSection({ snapshot }: { snapshot: UsageSnapshot }) {
+function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
   const mb = (snapshot.model_breakdown ?? {}) as Record<string, unknown>;
   const fiveH = (mb.five_hour_utilization as number) ?? 0;
   const fiveHReset = mb.five_hour_resets_at as string | null ?? null;
@@ -82,36 +99,23 @@ function ClaudeOAuthSection({ snapshot }: { snapshot: UsageSnapshot }) {
   const sevenDSonnetReset = mb.seven_day_sonnet_resets_at as string | null ?? null;
 
   return (
-    <div className="flex flex-col gap-6">
-      <div>
-        <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
-      </div>
-      <ProgressBar
-        label="Current session"
-        pct={fiveH}
-        sublabel={formatResetCountdown(fiveHReset)}
-      />
+    <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
+      <FreshnessDot fetchedAt={snapshot.fetched_at} />
+      <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <ProgressBar label="Current session" pct={fiveH} sublabel={formatResetCountdown(fiveHReset)} />
       <div className="border-t border-[#3A3A3C]" />
-      <ProgressBar
-        label="Weekly limits — All models"
-        pct={sevenD}
-        sublabel={sevenDReset ? `Resets ${formatTime(sevenDReset)}` : null}
-      />
+      <ProgressBar label="Weekly — All models" pct={sevenD} sublabel={sevenDReset ? `Resets ${formatTime(sevenDReset)}` : null} />
       {sevenDSonnet != null && (
         <>
           <div className="border-t border-[#3A3A3C]" />
-          <ProgressBar
-            label="Weekly limits — Sonnet only"
-            pct={sevenDSonnet}
-            sublabel={sevenDSonnetReset ? `Resets ${formatTime(sevenDSonnetReset)}` : null}
-          />
+          <ProgressBar label="Weekly — Sonnet" pct={sevenDSonnet} sublabel={sevenDSonnetReset ? `Resets ${formatTime(sevenDSonnetReset)}` : null} />
         </>
       )}
     </div>
   );
 }
 
-function CodexSection({ snapshot }: { snapshot: UsageSnapshot }) {
+function CodexCard({ snapshot }: { snapshot: UsageSnapshot }) {
   const mb = (snapshot.model_breakdown ?? {}) as Record<string, number | string>;
   const primaryPct = (mb.primary_used_pct as number) ?? 0;
   const secondaryPct = (mb.secondary_used_pct as number) ?? 0;
@@ -119,34 +123,25 @@ function CodexSection({ snapshot }: { snapshot: UsageSnapshot }) {
   const primaryResetSec = (mb.primary_reset_after_seconds as number) ?? 0;
   const secondaryResetSec = (mb.secondary_reset_after_seconds as number) ?? 0;
   const secondaryWindowMin = (mb.secondary_window_minutes as number) ?? 10080;
-
   const primaryLabel = primaryWindowMin === 300 ? '5h' : `${primaryWindowMin}m`;
 
   return (
-    <div className="flex flex-col gap-6">
-      <div>
-        <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
-      </div>
-      <ProgressBar
-        label={`Current session (${primaryLabel})`}
-        pct={primaryPct}
-        sublabel={primaryResetSec > 0 ? `Resets in ${formatDuration(primaryResetSec)}` : null}
-      />
+    <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
+      <FreshnessDot fetchedAt={snapshot.fetched_at} />
+      <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <ProgressBar label={`Current session (${primaryLabel})`} pct={primaryPct} sublabel={primaryResetSec > 0 ? `Resets in ${formatDuration(primaryResetSec)}` : null} />
       <div className="border-t border-[#3A3A3C]" />
-      <ProgressBar
-        label={secondaryWindowMin === 10080 ? 'Weekly usage' : `${secondaryWindowMin}m window`}
-        pct={secondaryPct}
-        sublabel={secondaryResetSec > 0 ? `Resets in ${formatDuration(secondaryResetSec)}` : null}
-      />
+      <ProgressBar label={secondaryWindowMin === 10080 ? 'Weekly usage' : `${secondaryWindowMin}m window`} pct={secondaryPct} sublabel={secondaryResetSec > 0 ? `Resets in ${formatDuration(secondaryResetSec)}` : null} />
     </div>
   );
 }
 
-function OpenRouterSection({ snapshot }: { snapshot: UsageSnapshot }) {
+function OpenRouterCard({ snapshot }: { snapshot: UsageSnapshot }) {
   const freshness = snapshot.fetched_at ? formatRelativeTime(snapshot.fetched_at) : null;
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-3">
+      <FreshnessDot fetchedAt={snapshot.fetched_at} />
       <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
       <div className="flex items-baseline justify-between">
         <span className="text-sm text-[#98989D]">This month</span>
@@ -165,11 +160,11 @@ function OpenRouterSection({ snapshot }: { snapshot: UsageSnapshot }) {
   );
 }
 
-function EmptySection({ provider, type }: { provider: string; type: 'quota' | 'spend' }) {
+function EmptyCard({ provider }: { provider: string }) {
   return (
-    <div className="flex flex-col gap-2 opacity-60">
+    <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 opacity-60">
       <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(provider)}</h3>
-      <p className="text-sm text-[#636366] italic">Awaiting first sync</p>
+      <p className="mt-2 text-sm text-[#636366] italic">Awaiting first sync</p>
     </div>
   );
 }
@@ -202,19 +197,19 @@ export default async function CostMonitorPage() {
           </p>
         )}
 
-        {/* Plan Usage — Claude + Codex */}
-        <section className="flex flex-col gap-8">
-          {claudeSnap ? <ClaudeOAuthSection snapshot={claudeSnap} /> : <EmptySection provider="claude_oauth" type="quota" />}
-          <div className="border-t border-[#3A3A3C]" />
-          {codexSnap ? <CodexSection snapshot={codexSnap} /> : <EmptySection provider="codex" type="quota" />}
+        {/* Resource Utilization */}
+        <section className="flex flex-col gap-4">
+          <h2 className="text-xs font-semibold text-[#98989D] uppercase tracking-widest">Resource Utilization</h2>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {claudeSnap ? <ClaudeOAuthCard snapshot={claudeSnap} /> : <EmptyCard provider="claude_oauth" />}
+            {codexSnap ? <CodexCard snapshot={codexSnap} /> : <EmptyCard provider="codex" />}
+          </div>
         </section>
 
-        <div className="border-t border-[#3A3A3C]" />
-
         {/* Provider Spend */}
-        <section className="flex flex-col gap-6">
-          <h2 className="text-base font-semibold text-white">Provider Spend</h2>
-          {orSnap ? <OpenRouterSection snapshot={orSnap} /> : <EmptySection provider="openrouter" type="spend" />}
+        <section className="flex flex-col gap-4">
+          <h2 className="text-xs font-semibold text-[#98989D] uppercase tracking-widest">Provider Spend</h2>
+          {orSnap ? <OpenRouterCard snapshot={orSnap} /> : <EmptyCard provider="openrouter" />}
         </section>
 
         {/* Footer */}

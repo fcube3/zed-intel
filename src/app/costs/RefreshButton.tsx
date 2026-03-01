@@ -32,7 +32,7 @@ export default function RefreshButton() {
     <button
       onClick={handleRefresh}
       disabled={loading}
-      className="text-sm text-[#3B82F6] hover:underline disabled:opacity-50"
+      className="bg-[#3B82F6] text-white text-sm px-3 py-1.5 rounded-lg hover:opacity-90 disabled:opacity-50 transition-opacity"
     >
       {loading ? 'Pulling…' : status === 'ok' ? '✓ Done' : status === 'error' ? '✗ Retry' : 'Refresh ↺'}
     </button>
