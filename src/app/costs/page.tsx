@@ -239,7 +239,6 @@ export default async function CostMonitorPage() {
 
         {/* Resource Utilization */}
         <section className="flex flex-col gap-4">
-          <h2 className="text-xs font-semibold text-[#98989D]">Resource Utilization</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {claudeSnap ? <ClaudeOAuthCard snapshot={claudeSnap} /> : <EmptyCard provider="claude_oauth" />}
             {codexSnap ? <CodexCard snapshot={codexSnap} /> : <EmptyCard provider="codex" />}
@@ -248,7 +247,6 @@ export default async function CostMonitorPage() {
 
         {/* Provider Spend */}
         <section className="flex flex-col gap-4">
-          <h2 className="text-xs font-semibold text-[#98989D]">Provider Spend</h2>
           {orSnap ? <OpenRouterCard snapshot={orSnap} /> : <EmptyCard provider="openrouter" />}
         </section>
 
