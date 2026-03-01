@@ -101,8 +101,8 @@ function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sub
   return (
     <div className="flex flex-col gap-1.5">
       <div className="flex items-baseline justify-between">
-        <span className="text-base font-semibold text-white">{label}</span>
-        <span className="text-sm text-white">{pct}% used</span>
+        <span className="text-sm font-semibold text-white">{label}</span>
+        <span className="text-sm font-normal text-[#98989D]">{pct}% used</span>
       </div>
       <div className="h-2 w-full rounded-full bg-[#3A3A3C]">
         <div
@@ -110,7 +110,7 @@ function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sub
           style={{ width: `${clamped}%` }}
         />
       </div>
-      {sublabel && <span className="text-[11px] text-[#98989D]">{sublabel}</span>}
+      {sublabel && <span className="text-[10px] text-[#636366]">{sublabel}</span>}
     </div>
   );
 }
@@ -127,7 +127,7 @@ function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
   return (
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <h3 className="text-xs font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
       <ProgressBar label="Current session (5h)" pct={fiveH} sublabel={formatResetCountdown(fiveHReset)} />
       <div className="border-t border-[#3A3A3C]" />
       <ProgressBar label="Weekly — All models" pct={sevenD} sublabel={formatResetLabel(sevenDReset)} />
@@ -154,7 +154,7 @@ function CodexCard({ snapshot }: { snapshot: UsageSnapshot }) {
   return (
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-5">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <h3 className="text-xs font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
       <ProgressBar label={`Current session (${primaryLabel})`} pct={primaryPct} sublabel={formatResetFromSeconds(primaryResetSec)} />
       <div className="border-t border-[#3A3A3C]" />
       <ProgressBar label={secondaryWindowMin === 10080 ? 'Weekly usage' : `${secondaryWindowMin}m window`} pct={secondaryPct} sublabel={formatResetFromSeconds(secondaryResetSec)} />
@@ -168,13 +168,13 @@ function OpenRouterCard({ snapshot }: { snapshot: UsageSnapshot }) {
   return (
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 flex flex-col gap-3">
       <FreshnessDot fetchedAt={snapshot.fetched_at} />
-      <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
+      <h3 className="text-xs font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(snapshot.provider)}</h3>
       <div className="flex items-baseline justify-between">
-        <span className="text-sm text-[#98989D]">This month</span>
-        <span className="text-base font-semibold text-white">{formatCurrency(snapshot.total_cost_usd)}</span>
+        <span className="text-xs text-[#98989D]">This month</span>
+        <span className="text-xl font-semibold text-white">{formatCurrency(snapshot.total_cost_usd)}</span>
       </div>
       <div className="flex items-baseline justify-between">
-        <span className="text-sm text-[#98989D]">Tokens used</span>
+        <span className="text-xs text-[#98989D]">Tokens used</span>
         <span className="text-sm text-white">
           {formatTokens((snapshot.input_tokens ?? 0) + (snapshot.output_tokens ?? 0))}
         </span>
@@ -189,7 +189,7 @@ function OpenRouterCard({ snapshot }: { snapshot: UsageSnapshot }) {
 function EmptyCard({ provider }: { provider: string }) {
   return (
     <div className="relative border border-[#3A3A3C] rounded-xl bg-[#242426] p-5 opacity-60">
-      <h3 className="text-sm font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(provider)}</h3>
+      <h3 className="text-xs font-medium text-[#98989D] uppercase tracking-wide">{getProviderLabel(provider)}</h3>
       <p className="mt-2 text-sm text-[#636366] italic">Awaiting first sync</p>
     </div>
   );
@@ -213,7 +213,7 @@ export default async function CostMonitorPage() {
       <div className="mx-auto flex w-full max-w-2xl flex-col gap-8">
         {/* Header */}
         <header className="flex items-center justify-between">
-          <h1 className="text-xl font-semibold text-white">Plan Usage</h1>
+          <h1 className="text-2xl font-semibold text-white">Plan Usage</h1>
           <RefreshButton />
         </header>
 
