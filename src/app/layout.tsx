@@ -24,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nimbus-sans-l" />
       </head>
       <body className="font-sans">
         <LanguageProvider>
