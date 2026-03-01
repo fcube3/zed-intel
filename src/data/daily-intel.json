@@ -89,32 +89,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "X metals sentiment (safe-haven + correction chatter) + Reddit r/Gold + metals analyst community",
+      "source": "X risk-off metals chatter + Reddit r/Gold + metals analyst community (Sprott/Forex/market commentary)",
       "asset": "Gold",
-      "signal": "Bullish but increasingly late-cycle/crowded",
-      "confidence": "82%",
-      "insight": "X and Reddit gold threads remain strongly risk-off bullish, reinforced by higher bank targets and safe-haven flows. At the same time, analyst and trader commentary is increasingly warning about blow-off-top conditions and correction risk after the vertical move, so positioning looks constructive but crowded."
-    },
-    {
-      "source": "X silver momentum discourse + Reddit r/Silverbugs + metals desk/Kitco analyst commentary",
-      "asset": "Silver",
-      "signal": "Bullish momentum with elevated instability risk",
-      "confidence": "80%",
-      "insight": "Social discussion around silver is still upside-biased (shortage, industrial demand, triple-digit targets), but both X and Reddit now repeatedly flag disorderly volatility and potential sharp reversions. Net sentiment is bullish, though confidence is tempered by stress-style price action and liquidity concerns."
-    },
-    {
-      "source": "Crypto X flow sentiment + Reddit r/Bitcoin + ETF/market analyst commentary",
-      "asset": "Bitcoin",
-      "signal": "Mixed-to-cautious; flow-driven, not conviction-driven",
+      "signal": "Bullish but crowded; correction-risk warnings rising",
       "confidence": "84%",
-      "insight": "BTC conversation is split between rebound optimism and persistent caution: X highlights alternating strong daily ETF inflows with heavy YTD outflows, while Reddit threads lean defensive on downside scenarios. Analyst tone is similarly bifurcated, suggesting tactical rotation dominates over broad risk-on conviction."
+      "insight": "Social flow remains strongly safe-haven bullish after the geopolitical bid, and Reddit gold threads still lean upside with frequent $5.5k-$6k targets. Analyst/community commentary is increasingly cautioning that positioning is crowded after a near-vertical run, so sentiment is net bullish but more fragile than earlier in the move."
+    },
+    {
+      "source": "X silver momentum discourse + Reddit r/Silverbugs + metals analyst community (ING/Forex/BofA-linked commentary)",
+      "asset": "Silver",
+      "signal": "Bullish momentum with high volatility expectations",
+      "confidence": "82%",
+      "insight": "Silver sentiment stays upside-biased across social channels, with continued 'silver squeeze' framing and aggressive upside narratives in community threads. At the same time, both trader and analyst discussions repeatedly emphasize instability/reversion risk after extreme gains, keeping confidence high but volatility-adjusted."
+    },
+    {
+      "source": "Crypto X flow sentiment + Reddit r/Bitcoin and r/CryptoCurrency + analyst community (CoinDesk/Grayscale/Pantera/OANDA commentary)",
+      "asset": "Bitcoin",
+      "signal": "Mixed-to-cautious; tactical bullish bursts tied to ETF flows",
+      "confidence": "85%",
+      "insight": "Bitcoin social tone is oscillating between rebound optimism and macro caution: sentiment improves on strong ETF-inflow days, then fades when outflows or risk-off headlines return. Reddit and analyst channels show wide forecast dispersion and lower conviction, indicating a flow-driven market rather than a clean trend-consensus regime."
     },
     {
       "source": "Crypto X ETH sentiment + Reddit r/ethereum and broader crypto forums + digital-asset analyst community",
       "asset": "Ethereum",
-      "signal": "Neutral-to-bearish with tactical rebound interest",
-      "confidence": "78%",
-      "insight": "Recent X sentiment reads for ETH skew softer than prior quarters, with bearish social metrics and underperformance narratives still common. Reddit and analyst discussions keep a medium-term bullish case alive (ecosystem growth, institutional use), but near-term framing is mostly 'tradeable bounce' rather than full trend reversal."
+      "signal": "Neutral-to-bearish near term; constructive long-term narrative",
+      "confidence": "79%",
+      "insight": "ETH social sentiment remains softer than BTC, with persistent underperformance discussion and skepticism around near-term upside follow-through. Community and analyst conversations still preserve a medium-term bullish thesis around roadmap/upgrades and ecosystem durability, but current positioning language is mostly cautious or 'wait for confirmation'."
     }
   ],
   "predictions": [
