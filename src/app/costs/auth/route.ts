@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
     httpOnly: true,
     secure: true,
     sameSite: 'lax',
-    path: '/costs',
+    path: '/',
     maxAge: 60 * 60 * 24 * 14,
   });
 
