@@ -89,32 +89,32 @@
   ],
   "social_intelligence": [
     {
-      "source": "X risk-off metals chatter + Reddit r/Gold + metals analyst community (Sprott/Forex/market commentary)",
+      "source": "X macro-metals sentiment threads + Reddit r/Gold + metals analyst commentary (HSBC/IBTimes/LiteFinance circulation)",
       "asset": "Gold",
-      "signal": "Bullish but crowded; correction-risk warnings rising",
-      "confidence": "84%",
-      "insight": "Social flow remains strongly safe-haven bullish after the geopolitical bid, and Reddit gold threads still lean upside with frequent $5.5k-$6k targets. Analyst/community commentary is increasingly cautioning that positioning is crowded after a near-vertical run, so sentiment is net bullish but more fragile than earlier in the move."
+      "signal": "Bullish but increasingly crowded; pullback chatter rising",
+      "confidence": "86%",
+      "insight": "X and Reddit remain strongly pro-gold on safe-haven momentum, with recurring upside calls beyond current highs. At the same time, analyst/community commentary has shifted from pure upside to 'bullish but stretched,' with more warnings about positioning crowding and correction risk after the vertical move."
     },
     {
-      "source": "X silver momentum discourse + Reddit r/Silverbugs + metals analyst community (ING/Forex/BofA-linked commentary)",
+      "source": "X silver momentum posts + Reddit r/Silverbugs + metals analyst/trader community commentary (BeInCrypto/FinanceMagnates/Yahoo Finance pickup)",
       "asset": "Silver",
-      "signal": "Bullish momentum with high volatility expectations",
-      "confidence": "82%",
-      "insight": "Silver sentiment stays upside-biased across social channels, with continued 'silver squeeze' framing and aggressive upside narratives in community threads. At the same time, both trader and analyst discussions repeatedly emphasize instability/reversion risk after extreme gains, keeping confidence high but volatility-adjusted."
+      "signal": "Bullish momentum with explicit expectation of consolidation volatility",
+      "confidence": "83%",
+      "insight": "Social tone is still decisively bullish, with persistent 'silver squeeze' and breakout narratives across X and Silverbugs. However, both trader and analyst channels repeatedly frame near-term action as likely volatile/consolidative before any next leg higher, so conviction is positive but risk-aware."
     },
     {
-      "source": "Crypto X flow sentiment + Reddit r/Bitcoin and r/CryptoCurrency + analyst community (CoinDesk/Grayscale/Pantera/OANDA commentary)",
+      "source": "Crypto X sentiment flow + Reddit r/Bitcoin and r/CryptoCurrency + crypto analyst community (CoinDesk/IG/FinanceFeeds)",
       "asset": "Bitcoin",
-      "signal": "Mixed-to-cautious; tactical bullish bursts tied to ETF flows",
-      "confidence": "85%",
-      "insight": "Bitcoin social tone is oscillating between rebound optimism and macro caution: sentiment improves on strong ETF-inflow days, then fades when outflows or risk-off headlines return. Reddit and analyst channels show wide forecast dispersion and lower conviction, indicating a flow-driven market rather than a clean trend-consensus regime."
+      "signal": "Mixed-to-cautious; sentiment now highly ETF-flow dependent",
+      "confidence": "87%",
+      "insight": "BTC social mood flips quickly between rebound optimism and macro-risk caution, closely tracking spot ETF inflow/outflow headlines. Reddit and analyst discussions still show large target dispersion and low trend conviction, indicating a tactical, liquidity-driven narrative rather than stable directional consensus."
     },
     {
-      "source": "Crypto X ETH sentiment + Reddit r/ethereum and broader crypto forums + digital-asset analyst community",
+      "source": "Crypto X ETH discourse + Reddit r/ethereum and broader crypto forums + analyst community (BeInCrypto/Yahoo Finance/Fool)",
       "asset": "Ethereum",
-      "signal": "Neutral-to-bearish near term; constructive long-term narrative",
-      "confidence": "79%",
-      "insight": "ETH social sentiment remains softer than BTC, with persistent underperformance discussion and skepticism around near-term upside follow-through. Community and analyst conversations still preserve a medium-term bullish thesis around roadmap/upgrades and ecosystem durability, but current positioning language is mostly cautious or 'wait for confirmation'."
+      "signal": "Near-term cautious to neutral; medium-term constructive",
+      "confidence": "81%",
+      "insight": "ETH sentiment remains softer than BTC in the short run, with frequent underperformance and 'wait-for-confirmation' framing in social channels. Still, both Reddit and analyst communities keep a live medium-term bullish thesis around ecosystem durability and cycle recovery, creating a split tone: cautious now, constructive later."
     }
   ],
   "predictions": [
@@ -224,7 +224,7 @@
         },
         {
           "name": "↓ below $55,000 (demand zone / bear continuation — JPM 35% US recession risk amplifies downside)",
-          "prob": 0.40,
+          "prob": 0.4,
           "vol": 3200000,
           "vol_fmt": "$3,200,000",
           "price_val": 55000.0,
@@ -265,7 +265,7 @@
         },
         {
           "name": "New ATH by Dec 31 (InvestingHaven/Perplexity: ~40% probability; Coinpedia bull case $6,200)",
-          "prob": 0.40,
+          "prob": 0.4,
           "vol": 1191805,
           "vol_fmt": "$1,191,805",
           "price_val": 0,
@@ -347,7 +347,7 @@
         },
         {
           "name": "3 cuts (75 bps) — Polymarket: 20% (requires Iran ceasefire + macro softening)",
-          "prob": 0.20,
+          "prob": 0.2,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 75,
@@ -469,7 +469,7 @@
         },
         {
           "name": "50+ bps decrease (emergency cut — effectively zero probability)",
-          "prob": 0.00,
+          "prob": 0.0,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 50,
@@ -543,7 +543,7 @@
         },
         {
           "name": "New tariff escalation vs China (90-day pause expired Nov 2025; 125% reciprocal rate holding)",
-          "prob": 0.40,
+          "prob": 0.4,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
@@ -551,7 +551,7 @@
         },
         {
           "name": "$175B+ IEEPA refunds ordered / partial rollback via bilateral trade deals",
-          "prob": 0.50,
+          "prob": 0.5,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
