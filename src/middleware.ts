@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { deriveSessionToken, isValidSessionToken } from '@/lib/auth-token';
 
 /* ── Route configs ─────────────────────────────────────────────── */
 type ProtectedRoute = {
@@ -71,15 +72,15 @@ export function middleware(request: NextRequest) {
 
   // Cookie check
   const cookieValue = request.cookies.get(route.cookieName)?.value?.trim();
-  if (cookieValue === expectedPassword) return NextResponse.next();
+  if (isValidSessionToken(cookieValue, expectedPassword)) return NextResponse.next();
 
   // Basic auth
   const basicPassword = readBasicPassword(request);
   if (basicPassword && basicPassword === expectedPassword) {
     const response = NextResponse.next();
-    response.cookies.set(route.cookieName, expectedPassword, {
+    response.cookies.set(route.cookieName, deriveSessionToken(expectedPassword), {
       httpOnly: true, secure: true, sameSite: 'lax',
-      path: prefix, maxAge: 60 * 60 * 24 * 14,
+      path: '/', maxAge: 60 * 60 * 24 * 14,
     });
     return response;
   }

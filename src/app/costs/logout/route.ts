@@ -8,7 +8,7 @@ export async function POST(request: Request) {
     httpOnly: true,
     secure: true,
     sameSite: 'lax',
-    path: '/costs',
+    path: '/',
     maxAge: 0,
   });
   return response;

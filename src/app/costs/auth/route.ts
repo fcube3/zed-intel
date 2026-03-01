@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { deriveSessionToken } from '@/lib/auth-token';
 
 const COOKIE_NAME = 'ops_cost_auth';
 
@@ -31,7 +32,7 @@ export async function POST(request: NextRequest) {
 
   const target = new URL(nextPath, request.url);
   const response = NextResponse.redirect(target, 303);
-  response.cookies.set(COOKIE_NAME, expectedPassword, {
+  response.cookies.set(COOKIE_NAME, deriveSessionToken(expectedPassword), {
     httpOnly: true,
     secure: true,
     sameSite: 'lax',
