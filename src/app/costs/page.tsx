@@ -50,13 +50,13 @@ function getFreshness(fetchedAt: string | null): { level: FreshnessLevel; label:
   const ageH = ageMs / 3600000;
   if (ageH < 5) return { level: 'green', label: `${Math.round(ageH * 60)}m ago` };
   if (ageH < 24) return { level: 'amber', label: `${Math.round(ageH)}h ago` };
-  return { level: 'red', label: `${Math.round(ageH / 24)}d ago` };
+  return { level: 'red', label: 'Stale' };
 }
 
 const freshnessDotColors: Record<FreshnessLevel, string> = {
-  green: 'bg-emerald-400',
-  amber: 'bg-amber-400',
-  red: 'bg-red-400',
+  green: 'bg-[#2A9D6E]',
+  amber: 'bg-[#D4800A]',
+  red: 'bg-[#C93C3C]',
 };
 
 function FreshnessDot({ fetchedAt }: { fetchedAt: string | null }) {
@@ -64,21 +64,15 @@ function FreshnessDot({ fetchedAt }: { fetchedAt: string | null }) {
   return (
     <div className="flex items-center gap-1.5" title={fetchedAt ? formatTime(fetchedAt) : 'No data'}>
       <span className={`inline-block h-2 w-2 rounded-full ${freshnessDotColors[f.level]}`} />
-      <span className="text-[10px] text-zinc-500">{f.label}</span>
+      <span className="text-xs text-[#9C9086]">{f.label}</span>
     </div>
   );
 }
 
-function utilizationColor(pct: number): string {
-  if (pct >= 80) return 'bg-red-500';
-  if (pct >= 50) return 'bg-amber-500';
-  return 'bg-emerald-500';
-}
-
-function utilizationTrackColor(pct: number): string {
-  if (pct >= 80) return 'bg-red-500/15';
-  if (pct >= 50) return 'bg-amber-500/15';
-  return 'bg-emerald-500/15';
+function progressBarFill(pct: number): string {
+  if (pct >= 80) return 'bg-[#C93C3C]';
+  if (pct >= 50) return 'bg-[#D4800A]';
+  return 'bg-[#2A9D6E]';
 }
 
 function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sublabel?: string | null }) {
@@ -86,45 +80,40 @@ function ProgressBar({ label, pct, sublabel }: { label: string; pct: number; sub
   return (
     <div className="flex flex-col gap-1">
       <div className="flex items-baseline justify-between">
-        <span className="text-xs text-zinc-400">{label}</span>
-        <span className="text-sm font-semibold text-zinc-200">{pct}% used</span>
+        <span className="text-xs text-[#9C9086]">{label}</span>
+        <span className="text-2xl font-semibold text-[#1A1410]">{pct}%</span>
       </div>
-      <div className={`h-2 w-full rounded-full ${utilizationTrackColor(pct)}`}>
+      <div className="h-2 w-full rounded-full bg-[#EEF2FF]">
         <div
-          className={`h-2 rounded-full transition-all ${utilizationColor(pct)}`}
+          className={`h-2 rounded-full transition-all ${progressBarFill(pct)}`}
           style={{ width: `${clamped}%` }}
         />
       </div>
-      {sublabel && <span className="text-[10px] text-zinc-500">{sublabel}</span>}
+      {sublabel && <span className="text-xs text-[#6B6157]">{sublabel}</span>}
     </div>
   );
 }
 
 function SectionHeader({ title, accent = 'blue' }: { title: string; accent?: 'blue' | 'green' }) {
-  const colors = accent === 'blue'
-    ? { text: 'text-blue-400/70', line: 'bg-blue-500/20' }
-    : { text: 'text-emerald-400/70', line: 'bg-emerald-500/20' };
+  const dotColor = accent === 'blue' ? 'bg-[#4F7EF7]' : 'bg-[#2A9D6E]';
   return (
-    <div className="flex items-center gap-3">
-      <span className={`text-[11px] font-medium uppercase tracking-[0.15em] ${colors.text}`}>{title}</span>
-      <div className={`h-px flex-1 ${colors.line}`} />
+    <div className="flex items-center gap-3 border-t border-[#E8E3D9] pt-6">
+      <span className={`h-2 w-2 rounded-full ${dotColor}`} />
+      <span className="text-xs font-semibold uppercase tracking-widest text-[#9C9086]">{title}</span>
     </div>
   );
 }
 
+const cardBase = "rounded-xl border border-[#E8E3D9] bg-white p-5 shadow-[0_1px_3px_rgba(26,20,16,0.06)] flex flex-col gap-3";
+
 function EmptyQuotaCard({ provider }: { provider: string }) {
   return (
-    <div className="rounded-xl border-l-[3px] border-l-blue-500/40 border border-white/5 bg-zinc-900/40 p-5 flex flex-col gap-3 opacity-60">
-      <div className="flex items-start justify-between">
-        <div>
-          <span className="text-[10px] font-semibold uppercase tracking-wider text-blue-400/60">Quota Usage</span>
-          <h3 className="text-base font-semibold text-zinc-300 mt-0.5">{getProviderLabel(provider)}</h3>
-        </div>
+    <div className={`${cardBase} border-l-[3px] border-l-[#4F7EF7] opacity-60`}>
+      <div>
+        <span className="text-xs font-semibold uppercase tracking-wide text-[#4F7EF7]">Quota Usage</span>
+        <h3 className="text-base font-semibold text-[#1A1410] mt-0.5">{getProviderLabel(provider)}</h3>
       </div>
-      <div className="flex items-center gap-2 text-sm text-zinc-500">
-        <span className="text-zinc-600">🕐</span>
-        <span>Awaiting first sync</span>
-      </div>
+      <p className="text-sm text-[#9C9086] italic">Awaiting first sync</p>
     </div>
   );
 }
@@ -139,14 +128,14 @@ function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
   const sevenDSonnetReset = mb.seven_day_sonnet_resets_at as string | null ?? null;
 
   return (
-    <div className="rounded-xl border-l-[3px] border-l-blue-500 border border-white/5 bg-zinc-900/80 p-5 flex flex-col gap-3">
+    <div className={`${cardBase} border-l-[3px] border-l-[#4F7EF7]`}>
       <div className="flex items-start justify-between">
         <div>
           <div className="flex items-center gap-1.5">
-            <span className="text-[10px] font-semibold uppercase tracking-wider text-blue-400">Quota Usage</span>
-            <span className="cursor-help text-zinc-600 text-xs" title="Shows API rate limit usage, not dollar spend. Anthropic tracks usage in rolling time windows.">ⓘ</span>
+            <span className="text-xs font-semibold uppercase tracking-wide text-[#4F7EF7]">Quota Usage</span>
+            <span className="cursor-help text-[#9C9086] text-xs hover:text-[#6B6157]" title="Shows API rate limit usage, not dollar spend. Anthropic tracks usage in rolling time windows.">ⓘ</span>
           </div>
-          <h3 className="text-base font-semibold text-zinc-100 mt-0.5">{getProviderLabel(snapshot.provider)}</h3>
+          <h3 className="text-base font-semibold text-[#1A1410] mt-0.5">{getProviderLabel(snapshot.provider)}</h3>
         </div>
         <FreshnessDot fetchedAt={snapshot.fetched_at} />
       </div>
@@ -157,8 +146,8 @@ function ClaudeOAuthCard({ snapshot }: { snapshot: UsageSnapshot }) {
           <ProgressBar label="7-day Sonnet" pct={sevenDSonnet} sublabel={formatResetCountdown(sevenDSonnetReset)} />
         )}
       </div>
-      <div className="border-t border-dashed border-zinc-800 pt-2.5">
-        <p className="text-[11px] text-zinc-600">💳 Billing unavailable · Requires admin API key</p>
+      <div className="border-t border-dashed border-[#E8E3D9] pt-2.5">
+        <p className="text-xs text-[#9C9086]">💳 Billing unavailable · Requires admin API key</p>
       </div>
     </div>
   );
@@ -178,17 +167,17 @@ function CodexCard({ snapshot }: { snapshot: UsageSnapshot }) {
   const secondaryLabel = secondaryWindowMin === 10080 ? 'Weekly' : `${secondaryWindowMin}m`;
 
   return (
-    <div className="rounded-xl border-l-[3px] border-l-blue-500 border border-white/5 bg-zinc-900/80 p-5 flex flex-col gap-3">
+    <div className={`${cardBase} border-l-[3px] border-l-[#4F7EF7]`}>
       <div className="flex items-start justify-between">
         <div>
           <div className="flex items-center gap-1.5">
-            <span className="text-[10px] font-semibold uppercase tracking-wider text-blue-400">Quota Usage</span>
-            <span className="cursor-help text-zinc-600 text-xs" title="Shows API rate limit usage, not dollar spend. Anthropic/OpenAI tracks usage in rolling time windows.">ⓘ</span>
+            <span className="text-xs font-semibold uppercase tracking-wide text-[#4F7EF7]">Quota Usage</span>
+            <span className="cursor-help text-[#9C9086] text-xs hover:text-[#6B6157]" title="Shows API rate limit usage, not dollar spend.">ⓘ</span>
           </div>
           <div className="flex items-center gap-2 mt-0.5">
-            <h3 className="text-base font-semibold text-zinc-100">{getProviderLabel(snapshot.provider)}</h3>
+            <h3 className="text-base font-semibold text-[#1A1410]">{getProviderLabel(snapshot.provider)}</h3>
             {planType && (
-              <span className="rounded-full bg-blue-500/10 border border-blue-500/30 px-2 py-0.5 text-[10px] font-medium text-blue-300">
+              <span className="rounded-full bg-[#EEF2FF] border border-[#4F7EF7]/30 px-2 py-0.5 text-[10px] font-medium text-[#4F7EF7]">
                 {planType}
               </span>
             )}
@@ -216,24 +205,24 @@ function OpenRouterCard({ snapshot }: { snapshot: UsageSnapshot }) {
   const modelCount = snapshot.model_breakdown ? Object.keys(snapshot.model_breakdown).length : 0;
 
   return (
-    <div className="rounded-xl border-l-[3px] border-l-emerald-500 border border-white/5 bg-zinc-900/80 p-5 flex flex-col gap-3">
+    <div className={`${cardBase} border-l-[3px] border-l-[#2A9D6E]`}>
       <div className="flex items-start justify-between">
         <div>
-          <span className="text-[10px] font-semibold uppercase tracking-wider text-emerald-400">Spend</span>
-          <h3 className="text-base font-semibold text-zinc-100 mt-0.5">{getProviderLabel(snapshot.provider)}</h3>
+          <span className="text-xs font-semibold uppercase tracking-wide text-[#2A9D6E]">Spend</span>
+          <h3 className="text-base font-semibold text-[#1A1410] mt-0.5">{getProviderLabel(snapshot.provider)}</h3>
         </div>
         <FreshnessDot fetchedAt={snapshot.fetched_at} />
       </div>
       <div>
-        <p className="text-2xl font-bold text-zinc-100">{formatCurrency(snapshot.total_cost_usd)}</p>
+        <p className="text-2xl font-semibold text-[#1A1410]">{formatCurrency(snapshot.total_cost_usd)}</p>
       </div>
-      <div className="flex gap-4 text-xs text-zinc-400">
+      <div className="flex gap-4 text-sm text-[#6B6157]">
         <span>{formatTokens(snapshot.input_tokens)} in</span>
         <span>{formatTokens(snapshot.output_tokens)} out</span>
         {snapshot.cache_read_tokens != null && <span>{formatTokens(snapshot.cache_read_tokens)} cached</span>}
       </div>
       {modelCount > 0 && (
-        <p className="text-[11px] text-zinc-500">{modelCount} model{modelCount !== 1 ? 's' : ''}</p>
+        <p className="text-xs text-[#9C9086]">{modelCount} model{modelCount !== 1 ? 's' : ''}</p>
       )}
     </div>
   );
@@ -241,17 +230,12 @@ function OpenRouterCard({ snapshot }: { snapshot: UsageSnapshot }) {
 
 function EmptySpendCard({ provider }: { provider: string }) {
   return (
-    <div className="rounded-xl border-l-[3px] border-l-emerald-500/40 border border-white/5 bg-zinc-900/40 p-5 flex flex-col gap-3 opacity-60">
-      <div className="flex items-start justify-between">
-        <div>
-          <span className="text-[10px] font-semibold uppercase tracking-wider text-emerald-400/60">Spend</span>
-          <h3 className="text-base font-semibold text-zinc-300 mt-0.5">{getProviderLabel(provider)}</h3>
-        </div>
+    <div className={`${cardBase} border-l-[3px] border-l-[#2A9D6E] opacity-60`}>
+      <div>
+        <span className="text-xs font-semibold uppercase tracking-wide text-[#2A9D6E]">Spend</span>
+        <h3 className="text-base font-semibold text-[#1A1410] mt-0.5">{getProviderLabel(provider)}</h3>
       </div>
-      <div className="flex items-center gap-2 text-sm text-zinc-500">
-        <span className="text-zinc-600">🕐</span>
-        <span>Awaiting first sync</span>
-      </div>
+      <p className="text-sm text-[#9C9086] italic">Awaiting first sync</p>
     </div>
   );
 }
@@ -270,21 +254,20 @@ export default async function CostMonitorPage() {
   const orSnap = snapshotMap.get('openrouter');
 
   return (
-    <main className="min-h-screen bg-zinc-950 px-6 py-10 text-zinc-100">
-      <div className="mx-auto flex w-full max-w-5xl flex-col gap-8">
+    <main className="min-h-screen bg-[#FAF9F5] px-6 py-8">
+      <div className="mx-auto flex w-full max-w-4xl flex-col gap-8">
         <header>
-          <p className="text-xs uppercase tracking-[0.2em] text-[#DA7756]">Private · Ops</p>
-          <div className="mt-2 flex items-center justify-between">
-            <div className="flex items-baseline gap-4">
-              <h1 className="text-3xl font-bold">Cost Monitor</h1>
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-2xl font-semibold text-[#1A1410]">Cost Monitor</h1>
               {latestFetch && (
-                <span className="text-sm text-zinc-500">Updated {formatTime(latestFetch)}</span>
+                <p className="text-sm text-[#9C9086] mt-1">Updated {formatTime(latestFetch)}</p>
               )}
             </div>
             <RefreshButton />
           </div>
           {error && (
-            <p className="mt-3 rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-2 text-sm text-red-300">
+            <p className="mt-3 rounded-lg border border-[#C93C3C]/40 bg-[#C93C3C]/10 px-3 py-2 text-sm text-[#C93C3C]">
               Data source error: {error}
             </p>
           )}
@@ -307,7 +290,7 @@ export default async function CostMonitorPage() {
           </div>
         </section>
 
-        <footer className="text-xs text-zinc-600">
+        <footer className="text-xs text-[#9C9086]">
           <p>Data pushed by OpenClaw cron jobs. Costs are append-only snapshots from provider APIs and local session logs.</p>
         </footer>
       </div>
