@@ -126,15 +126,15 @@
       "color": "yellow",
       "outcomes": [
         {
-          "name": "↑ $5,500 by Q2 (current: $5,274 — geopolitical bid after Khamenei death driving upside)",
-          "prob": 0.58,
+          "name": "↑ $5,500 by Q2 (current: $5,274 — LongForecast sees $5,255 by end-March; geopolitical Iran bid sustains)",
+          "prob": 0.56,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 5500.0,
-          "prob_pct": "58%"
+          "prob_pct": "56%"
         },
         {
-          "name": "↑ $5,750+ in 2026 (ANZ target; Iran crisis re-accelerates safe-haven demand)",
+          "name": "↑ $5,750+ in 2026 (ANZ $5,800 target; Iran crisis & central bank buying underpin safe-haven demand)",
           "prob": 0.44,
           "vol": 0,
           "vol_fmt": "est.",
@@ -142,15 +142,15 @@
           "prob_pct": "44%"
         },
         {
-          "name": "↑ $6,000 end 2026 (GS/LiteFinance consensus range $4,935–$7,408)",
-          "prob": 0.33,
+          "name": "↑ $6,000 end 2026 (GS/LiteFinance range $4,935–$7,408; Iran regime change adds upside tail)",
+          "prob": 0.35,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 6000.0,
-          "prob_pct": "33%"
+          "prob_pct": "35%"
         },
         {
-          "name": "↑ $8,000 JPM / InvestingHaven bull case",
+          "name": "↑ $8,000 JPM / InvestingHaven bull case (extreme risk-off / dollar collapse scenario)",
           "prob": 0.12,
           "vol": 0,
           "vol_fmt": "est.",
@@ -158,15 +158,15 @@
           "prob_pct": "12%"
         },
         {
-          "name": "Consolidates $5,100–$5,400 (short-term pullback after vertical run)",
-          "prob": 0.06,
+          "name": "Consolidates $5,100–$5,400 (short-term pullback after vertical run; crowded positioning risk)",
+          "prob": 0.08,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 5250.0,
-          "prob_pct": "6%"
+          "prob_pct": "8%"
         },
         {
-          "name": "↓ below $4,800 (macro reversal / risk-on unwind — very low given Iran escalation)",
+          "name": "↓ below $4,800 (macro reversal / risk-on unwind — very low given Iran war escalation)",
           "prob": 0.01,
           "vol": 0,
           "vol_fmt": "est.",
@@ -177,29 +177,29 @@
     },
     {
       "label": "BTC PRICE",
-      "title": "Bitcoin price milestones — 2026 (Polymarket, Mar 1)",
-      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-2026",
+      "title": "Bitcoin price milestones — 2026 (Polymarket, Mar 1 PM)",
+      "url": "https://polymarket.com/event/will-bitcoin-hit-60k-or-80k-first-965",
       "nominal": "est. (Polymarket live)",
       "color": "purple",
       "outcomes": [
         {
-          "name": "↓ stays below $75K in 2026 (Polymarket: 77% — unchanged, BTC -27% YTD vs gold)",
-          "prob": 0.77,
-          "vol": 5800000,
-          "vol_fmt": "$5,800,000",
-          "price_val": 75000.0,
-          "prob_pct": "77%"
-        },
-        {
-          "name": "↑ reclaims $75K+ in 2026 (Polymarket: 23%)",
-          "prob": 0.23,
+          "name": "↓ hits $60K before $80K (Polymarket: 61% — risk-off rotation to gold deepens BTC weakness)",
+          "prob": 0.61,
           "vol": 0,
           "vol_fmt": "est.",
-          "price_val": 75000.0,
-          "prob_pct": "23%"
+          "price_val": 60000.0,
+          "prob_pct": "61%"
         },
         {
-          "name": "↑ $100,000 in 2026 (Polymarket ~39%; 99Bitcoins argues underestimated)",
+          "name": "↑ hits $80K before $60K (Polymarket: 39% — ETF inflow revival + CLARITY Act optimism needed)",
+          "prob": 0.39,
+          "vol": 0,
+          "vol_fmt": "est.",
+          "price_val": 80000.0,
+          "prob_pct": "39%"
+        },
+        {
+          "name": "↑ $100,000 in 2026 (Polymarket ~39%; contingent on CLARITY Act + macro stabilization)",
           "prob": 0.39,
           "vol": 0,
           "vol_fmt": "est.",
@@ -207,7 +207,7 @@
           "prob_pct": "39%"
         },
         {
-          "name": "↑ $150,000 by Dec 31 (StanChart target — contingent on CLARITY Act)",
+          "name": "↑ $150,000 by Dec 31 (StanChart target; Polymarket: ~12% — CLARITY Act must pass)",
           "prob": 0.12,
           "vol": 0,
           "vol_fmt": "est.",
@@ -215,7 +215,7 @@
           "prob_pct": "12%"
         },
         {
-          "name": "↑ $150,000 by June (Polymarket: 3% — Motley Fool coverage confirms)",
+          "name": "↑ $150,000 by June (Polymarket: 3% — extremely unlikely near-term)",
           "prob": 0.03,
           "vol": 0,
           "vol_fmt": "est.",
@@ -223,12 +223,12 @@
           "prob_pct": "3%"
         },
         {
-          "name": "↓ below $55,000 (demand zone / bear continuation — risk-off crypto rotation to gold)",
-          "prob": 0.38,
+          "name": "↓ below $55,000 (demand zone / bear continuation — JPM 35% US recession risk amplifies downside)",
+          "prob": 0.40,
           "vol": 3200000,
           "vol_fmt": "$3,200,000",
           "price_val": 55000.0,
-          "prob_pct": "38%"
+          "prob_pct": "40%"
         }
       ]
     },
@@ -240,15 +240,15 @@
       "color": "blue",
       "outcomes": [
         {
-          "name": "Mar support $1,800–$1,900 (Cryptopolitan key support zone; current $1,859)",
-          "prob": 0.38,
+          "name": "Mar range $1,800–$1,900 (Changelly: $1,859 avg — support zone holds near-term; current $1,859)",
+          "prob": 0.36,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 2000.0,
-          "prob_pct": "38%"
+          "prob_pct": "36%"
         },
         {
-          "name": "↑ $2,800 (Q2 recovery target — CoinDCX sees $2,100 resistance as key hurdle)",
+          "name": "↑ $2,800 (Q2 recovery target — Changelly sees $2,325–$2,431 Mar peak; $2,100 key resistance)",
           "prob": 0.22,
           "vol": 2108424,
           "vol_fmt": "$2,108,424",
@@ -256,15 +256,15 @@
           "prob_pct": "22%"
         },
         {
-          "name": "↑ $3,000–$3,500 end 2026 (InvestingHaven / Perplexity AI base case)",
-          "prob": 0.25,
+          "name": "↑ $3,000–$3,500 end 2026 (Cryptopolitan avg $3,285; InvestingHaven/Perplexity AI base case)",
+          "prob": 0.28,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 3250.0,
-          "prob_pct": "25%"
+          "prob_pct": "28%"
         },
         {
-          "name": "New ATH by Dec 31 (InvestingHaven/Perplexity: ~40% probability)",
+          "name": "New ATH by Dec 31 (InvestingHaven/Perplexity: ~40% probability; Coinpedia bull case $6,200)",
           "prob": 0.40,
           "vol": 1191805,
           "vol_fmt": "$1,191,805",
@@ -272,12 +272,12 @@
           "prob_pct": "40%"
         },
         {
-          "name": "↓ below $1,600 (capitulation / BTC divergence deepens — Iran risk-off pressure)",
-          "prob": 0.12,
+          "name": "↓ below $1,600 (capitulation / BTC divergence deepens — Iran war risk-off & JPM recession risk)",
+          "prob": 0.14,
           "vol": 1850000,
           "vol_fmt": "$1,850,000",
           "price_val": 1600.0,
-          "prob_pct": "12%"
+          "prob_pct": "14%"
         }
       ]
     },
@@ -297,7 +297,7 @@
           "prob_pct": "72%"
         },
         {
-          "name": "Sworn in by May 2026 (consensus; Senate Banking markup pending)",
+          "name": "Sworn in by May 2026 (consensus; Senate Banking confirmation hearings & bond volatility expected)",
           "prob": 0.68,
           "vol": 0,
           "vol_fmt": "est.",
@@ -305,12 +305,12 @@
           "prob_pct": "68%"
         },
         {
-          "name": "Early Warsh-led rate cuts (Reuters: odds sliding — hawkish 'sound money' pivot)",
-          "prob": 0.18,
+          "name": "Early Warsh-led rate cuts (odds sliding — hawkish 'sound money' + MBS active-selling pivot)",
+          "prob": 0.15,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "18%"
+          "prob_pct": "15%"
         },
         {
           "name": "Nomination withdrawn / blocked",
@@ -330,7 +330,7 @@
       "color": "green",
       "outcomes": [
         {
-          "name": "2 cuts (50 bps) — Polymarket frontrunner: 27%",
+          "name": "2 cuts (50 bps) — Polymarket frontrunner: 27% (Warsh hawkish lean compresses cut path)",
           "prob": 0.27,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -338,15 +338,7 @@
           "prob_pct": "27%"
         },
         {
-          "name": "3 cuts (75 bps) — Polymarket: 20% (second-most likely)",
-          "prob": 0.20,
-          "vol": 0,
-          "vol_fmt": "N/A",
-          "price_val": 75,
-          "prob_pct": "20%"
-        },
-        {
-          "name": "1 cut (25 bps) — Polymarket: 23%",
+          "name": "1 cut (25 bps) — Polymarket: 23% (sticky inflation + Warsh 'sound money' scenario)",
           "prob": 0.23,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -354,7 +346,15 @@
           "prob_pct": "23%"
         },
         {
-          "name": "0 cuts (no easing in 2026) — 19%; Warsh hawkish shift raises tail risk",
+          "name": "3 cuts (75 bps) — Polymarket: 20% (requires Iran ceasefire + macro softening)",
+          "prob": 0.20,
+          "vol": 0,
+          "vol_fmt": "N/A",
+          "price_val": 75,
+          "prob_pct": "20%"
+        },
+        {
+          "name": "0 cuts (no easing in 2026) — 19%; Warsh hawkish MBS-sell shift raises tail risk",
           "prob": 0.19,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -362,7 +362,7 @@
           "prob_pct": "19%"
         },
         {
-          "name": "4+ cuts (100+ bps) — 11%",
+          "name": "4+ cuts (100+ bps) — 11% (requires hard landing; JPM puts US recession risk at 35%)",
           "prob": 0.11,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -373,7 +373,7 @@
     },
     {
       "label": "GEOPOLITICS",
-      "title": "Iran conflict & global flash points — active markets (Polymarket, Mar 1)",
+      "title": "Iran conflict & global flash points — active markets (Polymarket, Mar 1 PM)",
       "url": "https://polymarket.com/event/us-x-iran-ceasefire-by",
       "nominal": "$529,000,000+",
       "color": "red",
@@ -387,7 +387,7 @@
           "prob_pct": "100%"
         },
         {
-          "name": "Iran successor named by Mar 31 (Polymarket: 81%; Khamenei dead — successor race active)",
+          "name": "Iran successor named by Mar 31 (Polymarket: 81%; Khamenei dead — successor race accelerating)",
           "prob": 0.81,
           "vol": 22000000,
           "vol_fmt": "$22,000,000",
@@ -395,7 +395,7 @@
           "prob_pct": "81%"
         },
         {
-          "name": "Iran regime toppled by end of 2026 (Polymarket: 51%; up sharply post-Khamenei death)",
+          "name": "Iran regime toppled by end of 2026 (Polymarket: 51%; post-Khamenei power vacuum deepens)",
           "prob": 0.51,
           "vol": 0,
           "vol_fmt": "est.",
@@ -403,15 +403,15 @@
           "prob_pct": "51%"
         },
         {
-          "name": "US–Iran ceasefire by Mar 31 (Polymarket: 64% — Israel launched new wave of strikes Mar 1)",
-          "prob": 0.64,
+          "name": "US–Iran ceasefire by Mar 31 (Polymarket: 65% — up from 61% early Mar 1; new strikes ongoing)",
+          "prob": 0.65,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "64%"
+          "prob_pct": "65%"
         },
         {
-          "name": "US–Iran ceasefire by Apr 30 (Polymarket: 77%)",
+          "name": "US–Iran ceasefire by Apr 30 (Polymarket: 77%; leading resolution outcome)",
           "prob": 0.77,
           "vol": 0,
           "vol_fmt": "est.",
@@ -419,15 +419,15 @@
           "prob_pct": "77%"
         },
         {
-          "name": "Iran x Israel/US conflict ends by Mar 31 (Polymarket: 68%)",
-          "prob": 0.68,
+          "name": "Iran x Israel/US conflict ends by Mar 31 (Polymarket: 63%; slightly down as strikes continue)",
+          "prob": 0.63,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "68%"
+          "prob_pct": "63%"
         },
         {
-          "name": "Russia–Ukraine ceasefire by Mar 31 (Polymarket: 3%; $10M+ vol — talks stalled)",
+          "name": "Russia–Ukraine ceasefire by Mar 31 (Polymarket: 3%; $10M+ vol — talks stalled; Musk-Starlink drama)",
           "prob": 0.03,
           "vol": 10000000,
           "vol_fmt": "$10,000,000+",
@@ -435,7 +435,7 @@
           "prob_pct": "3%"
         },
         {
-          "name": "Russia–Ukraine ceasefire in 2026 (Polymarket: 36%; down from 50% in Dec)",
+          "name": "Russia–Ukraine ceasefire in 2026 (Polymarket: 36%; down from 50% in Dec — Iran dominating agenda)",
           "prob": 0.36,
           "vol": 10000000,
           "vol_fmt": "$10,000,000+",
@@ -446,29 +446,29 @@
     },
     {
       "label": "WILDCARD",
-      "title": "Fed March meeting decision (Kalshi + Polymarket cross-platform consensus, Mar 1)",
+      "title": "Fed March meeting decision (Kalshi + CME FedWatch cross-platform consensus, Mar 1)",
       "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting",
-      "nominal": "est. (Kalshi/Polymarket: both 96% hold; CME FedWatch 97%+)",
+      "nominal": "est. (Kalshi/Polymarket: both 96% hold; CME FedWatch 96%+)",
       "color": "green",
       "outcomes": [
         {
-          "name": "No change (hold) — Kalshi 96% / Polymarket 96% / CME FedWatch 97%+",
-          "prob": 0.97,
+          "name": "No change (hold) — Kalshi 96% / CME FedWatch 96% / Polymarket 96% (unanimous consensus)",
+          "prob": 0.96,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 0,
-          "prob_pct": "97%"
+          "prob_pct": "96%"
         },
         {
-          "name": "25 bps decrease (CPI softening tail risk)",
-          "prob": 0.03,
+          "name": "25 bps decrease (CPI softening or Iran war growth shock tail risk)",
+          "prob": 0.04,
           "vol": 0,
           "vol_fmt": "N/A",
           "price_val": 25,
-          "prob_pct": "3%"
+          "prob_pct": "4%"
         },
         {
-          "name": "50+ bps decrease",
+          "name": "50+ bps decrease (emergency cut — effectively zero probability)",
           "prob": 0.00,
           "vol": 0,
           "vol_fmt": "N/A",
@@ -485,23 +485,23 @@
       "color": "purple",
       "outcomes": [
         {
-          "name": "Signed into law in 2026 (Polymarket: ~52%; fell from 82%; a16z briefing Republicans)",
-          "prob": 0.52,
+          "name": "Signed into law in 2026 (Polymarket: ~53%; crashed from 82% as tariffs rattle markets)",
+          "prob": 0.53,
           "vol": 269600,
           "vol_fmt": "$269,600",
           "price_val": 0,
-          "prob_pct": "52%"
+          "prob_pct": "53%"
         },
         {
-          "name": "Stalls / not signed in 2026 (Polymarket: ~48%; DeFiRate puts Kalshi at ~32% skeptical)",
-          "prob": 0.48,
+          "name": "Stalls / not signed in 2026 (Polymarket: ~47%; Senate stablecoin yield dispute unresolved post-Mar 1)",
+          "prob": 0.47,
           "vol": 269600,
           "vol_fmt": "$269,600",
           "price_val": 0,
-          "prob_pct": "48%"
+          "prob_pct": "47%"
         },
         {
-          "name": "Stablecoin yield dispute resolved Q1 (Mar 1 deadline passed — effectively 0%)",
+          "name": "Stablecoin yield dispute resolved Q1 (Mar 1 Senate deadline passed without deal — effectively 0%)",
           "prob": 0.01,
           "vol": 0,
           "vol_fmt": "est.",
@@ -512,7 +512,7 @@
     },
     {
       "label": "TARIFFS",
-      "title": "US trade policy & tariff escalation — 2026 landscape (Polymarket/Tax Foundation, Mar 1)",
+      "title": "US trade policy & tariff escalation — 2026 landscape (Polymarket/Tax Foundation/JPM, Mar 1)",
       "url": "https://polymarket.com/event/new-10-us-blanket-tariff-goes-into-effect-by-february-28",
       "nominal": "$107,400+",
       "color": "red",
@@ -534,23 +534,31 @@
           "prob_pct": "85%"
         },
         {
-          "name": "New tariff escalation vs China (90-day pause on reciprocal tariffs expires; reescalation risk)",
-          "prob": 0.42,
+          "name": "US recession in 2026 from tariff shock (JPMorgan research: 35% probability — up from prior est.)",
+          "prob": 0.35,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "42%"
+          "prob_pct": "35%"
         },
         {
-          "name": "$175B+ IEEPA refunds ordered / partial rollback via trade deals",
-          "prob": 0.52,
+          "name": "New tariff escalation vs China (90-day pause expired Nov 2025; 125% reciprocal rate holding)",
+          "prob": 0.40,
           "vol": 0,
           "vol_fmt": "est.",
           "price_val": 0,
-          "prob_pct": "52%"
+          "prob_pct": "40%"
         },
         {
-          "name": "Full tariff rollback (executive reversal — very unlikely with Iran conflict dominating agenda)",
+          "name": "$175B+ IEEPA refunds ordered / partial rollback via bilateral trade deals",
+          "prob": 0.50,
+          "vol": 0,
+          "vol_fmt": "est.",
+          "price_val": 0,
+          "prob_pct": "50%"
+        },
+        {
+          "name": "Full tariff rollback (executive reversal — very unlikely; Iran conflict dominating policy agenda)",
           "prob": 0.07,
           "vol": 0,
           "vol_fmt": "est.",
