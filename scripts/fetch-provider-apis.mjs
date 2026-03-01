@@ -36,48 +36,6 @@ if (!SUPABASE_URL || !SUPABASE_KEY) {
 }
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
-// --- Anthropic ---
-async function fetchAnthropic() {
-  const key = readEnv('ANTHROPIC_ADMIN_KEY');
-  if (!key) { console.log('⊘ ANTHROPIC_ADMIN_KEY not found, skipping Anthropic'); return; }
-
-  const start = Date.now();
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/organization/usage', {
-      headers: {
-        'x-api-key': key,
-        'anthropic-version': '2023-06-01',
-      },
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error?.message || `HTTP ${res.status}`);
-
-    const row = {
-      provider: 'anthropic_api',
-      source: 'admin_api',
-      total_cost_usd: data.total_cost ?? null,
-      input_tokens: data.input_tokens ?? null,
-      output_tokens: data.output_tokens ?? null,
-      total_tokens: (data.input_tokens || 0) + (data.output_tokens || 0) || null,
-      model_breakdown: data.by_model ?? null,
-      raw_response: data,
-    };
-
-    const { error } = await supabase.from('usage_snapshots').insert(row);
-    if (error) throw new Error(`Supabase insert: ${error.message}`);
-
-    await supabase.from('cost_sync_log').insert({
-      provider: 'anthropic_api', status: 'ok', duration_ms: Date.now() - start,
-    });
-    console.log(`✓ Anthropic API: fetched`);
-  } catch (err) {
-    try { await supabase.from('cost_sync_log').insert({
-      provider: 'anthropic_api', status: 'error', error_msg: err.message, duration_ms: Date.now() - start,
-    }); } catch {}
-    console.error(`✗ Anthropic API: ${err.message}`);
-  }
-}
-
 // --- Codex (OAuth header approach) ---
 // Usage is NOT available via admin API — it's in response headers from Codex backend calls.
 // Flow: refresh token → POST /backend-api/codex/responses/compact → parse x-codex-* headers
@@ -313,8 +271,11 @@ async function fetchClaudeOAuthUsage() {
 
     const usageSnapshot = {
       five_hour_utilization: data.five_hour?.utilization ?? null,
+      five_hour_resets_at: data.five_hour?.resets_at ?? null,
       seven_day_utilization: data.seven_day?.utilization ?? null,
+      seven_day_resets_at: data.seven_day?.resets_at ?? null,
       seven_day_sonnet_utilization: data.seven_day_sonnet?.utilization ?? null,
+      seven_day_sonnet_resets_at: data.seven_day_sonnet?.resets_at ?? null,
     };
 
     const row = {
@@ -343,7 +304,6 @@ async function fetchClaudeOAuthUsage() {
   }
 }
 
-await fetchAnthropic();
 await fetchClaudeOAuthUsage();
 await fetchCodexUsage();
 console.log('Provider API fetch complete.');
