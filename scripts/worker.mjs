@@ -83,12 +83,12 @@ async function claimJobFallback() {
   if (e1) { console.error('[worker] fallback claim pending error:', e1.message); return null; }
   if (pending) return pending;
 
-  // Try stale running jobs
+  // Try stale running jobs (including those with NULL claimed_at)
   const { data: stale, error: e2 } = await supabase
     .from('refresh_requests')
     .update({ status: 'running', started_at: now, claimed_at: now })
     .eq('status', 'running')
-    .lt('claimed_at', staleThreshold)
+    .or(`claimed_at.is.null,claimed_at.lt.${staleThreshold}`)
     .order('created_at', { ascending: true })
     .limit(1)
     .select()

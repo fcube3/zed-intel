@@ -7,8 +7,7 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/fengshen/.nvm/versions/node/v24.11.1/bin/node</string>
-        <string>/Users/fengshen/.openclaw/workspace/kai-intel/scripts/worker.mjs</string>
+        <string>/Users/fengshen/.openclaw/workspace/kai-intel/scripts/run-worker.sh</string>
     </array>
 
     <key>WorkingDirectory</key>
